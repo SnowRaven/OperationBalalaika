@@ -1,0 +1,976 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [74]
+                [75] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [75]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 1.7278759594744,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 117365.23584578,
+                                            ["speed"] = 0,
+                                            ["x"] = 379470.50829308,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "LiAZ Bus",
+                                        ["unitId"] = 1,
+                                        ["rate"] = 3,
+                                        ["y"] = 117365.23584578,
+                                        ["x"] = 379470.50829308,
+                                        ["name"] = "Static Bus LiAZ-677-1-1",
+                                        ["heading"] = 1.7278759594744,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 117365.23584578,
+                                ["x"] = 379470.50829308,
+                                ["name"] = "Static Bus LiAZ-677-1",
+                                ["dead"] = true,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 4.8694686130642,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 117651.34199135,
+                                            ["speed"] = 0,
+                                            ["x"] = 378979.6925754,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "LAZ Bus",
+                                        ["unitId"] = 3,
+                                        ["rate"] = 3,
+                                        ["y"] = 117651.34199135,
+                                        ["x"] = 378979.6925754,
+                                        ["name"] = "Static Bus LAZ-695-1",
+                                        ["heading"] = 4.8694686130642,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 117651.34199135,
+                                ["x"] = 378979.6925754,
+                                ["name"] = "Static Bus LAZ-695-1",
+                                ["dead"] = true,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 2.0943951023932,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 116951.40668717,
+                                            ["speed"] = 0,
+                                            ["x"] = 378861.54924513,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "LiAZ Bus",
+                                        ["unitId"] = 6,
+                                        ["rate"] = 3,
+                                        ["y"] = 116951.40668717,
+                                        ["x"] = 378861.54924513,
+                                        ["name"] = "Static Bus LiAZ-677-2",
+                                        ["heading"] = 2.0943951023932,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 116951.40668717,
+                                ["x"] = 378861.54924513,
+                                ["name"] = "Static Bus LiAZ-677-2",
+                                ["dead"] = true,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 3.3161255787892,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 117702.27852327,
+                                            ["speed"] = 0,
+                                            ["x"] = 379214.84874625,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "LAZ Bus",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 3,
+                                        ["y"] = 117702.27852327,
+                                        ["x"] = 379214.84874625,
+                                        ["name"] = "Static Bus LAZ-695-2-1",
+                                        ["heading"] = 3.3161255787892,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 117702.27852327,
+                                ["x"] = 379214.84874625,
+                                ["name"] = "Static Bus LAZ-695-2",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 117554.5649627,
+                                                ["x"] = 379160.38679623,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 117554.44680507,
+                                                ["x"] = 379160.50495387,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2221,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 117560.51782402,
+                                            ["x"] = 379175.11141245,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Stinger comm",
+                                        ["unitId"] = 12,
+                                        ["y"] = 117560.51782402,
+                                        ["x"] = 379175.11141245,
+                                        ["name"] = "Ground-1-6",
+                                        ["heading"] = 3.9269908169872,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 11,
+                                        ["y"] = 117562.18948113,
+                                        ["x"] = 379174.2755839,
+                                        ["name"] = "Ground-1-5",
+                                        ["heading"] = 3.9269908169872,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 10,
+                                        ["y"] = 117604.68015098,
+                                        ["x"] = 379180.25075569,
+                                        ["name"] = "Ground-1-4",
+                                        ["heading"] = 1.0821041362365,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 9,
+                                        ["y"] = 117504.45852319,
+                                        ["x"] = 379130.22625612,
+                                        ["name"] = "Ground-1-3",
+                                        ["heading"] = 1.0646508437165,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["y"] = 117560.51782402,
+                                ["x"] = 379175.11141245,
+                                ["name"] = "Rayen Ambush Extra AA defence group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 117556.91603859,
+                                                ["x"] = 379160.60241636,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 117556.7582061,
+                                                ["x"] = 379160.6692043,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2221,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 117566.8469295,
+                                            ["x"] = 379142.71631739,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 18,
+                                        ["y"] = 117566.8469295,
+                                        ["x"] = 379142.71631739,
+                                        ["name"] = "Rayen Ambush Extra AA defence group-1-5",
+                                        ["heading"] = 2.6354471705114,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 27,
+                                        ["y"] = 117534.25342441,
+                                        ["x"] = 379145.93163051,
+                                        ["name"] = "Rayen Ambush Extra AA defence group-1-9",
+                                        ["heading"] = 1.0821041362365,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 26,
+                                        ["y"] = 117570.56800707,
+                                        ["x"] = 379164.39729763,
+                                        ["name"] = "Rayen Ambush Extra AA defence group-1-8",
+                                        ["heading"] = 1.0821041362365,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 28,
+                                        ["y"] = 117589.20022203,
+                                        ["x"] = 379173.26978094,
+                                        ["name"] = "Rayen Ambush Extra AA defence group-1-10",
+                                        ["heading"] = 1.1344640137963,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 25,
+                                        ["y"] = 117546.11469999,
+                                        ["x"] = 379150.57277022,
+                                        ["name"] = "Rayen Ambush Extra AA defence group-1-7",
+                                        ["heading"] = 1.1344640137963,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 24,
+                                        ["y"] = 117524.80503729,
+                                        ["x"] = 379137.9314449,
+                                        ["name"] = "Rayen Ambush Extra AA defence group-1-6",
+                                        ["heading"] = 1.4835298641952,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 17,
+                                        ["y"] = 117551.48988935,
+                                        ["x"] = 379172.64908163,
+                                        ["name"] = "Rayen Ambush Extra AA defence group-1-4",
+                                        ["heading"] = 5.532693728822,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "rapier_fsa_launcher",
+                                        ["unitId"] = 15,
+                                        ["y"] = 117560.53956302,
+                                        ["x"] = 379154.79201028,
+                                        ["name"] = "Rayen Ambush Extra AA defence group-1-2",
+                                        ["heading"] = 2.5656340004317,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "rapier_fsa_optical_tracker_unit",
+                                        ["unitId"] = 14,
+                                        ["y"] = 117555.54690568,
+                                        ["x"] = 379162.72890168,
+                                        ["name"] = "Rayen Ambush Extra AA defence group-1-1",
+                                        ["heading"] = 5.1126976832754,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                }, -- end of ["units"]
+                                ["y"] = 117566.8469295,
+                                ["x"] = 379142.71631739,
+                                ["name"] = "PRIMARY DESTROY Reyan Forest Convoy Ambush",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [6]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                }, -- end of [4]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "rayenforestambush",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Our VDV forces learned of a fleeing Iranian convoy that was due to arrive in the city of Rayen.  The VDV successfully trapped the convoy inside Rayen's forest with roadblocks improvised from commandeered buses, however our troops were not equipped to deal with the accompanying armor. The last message the VDV were able to send revealed that the convoy is transporting a partial Rapier system as well as supplies. \
+\
+Its is imperative that the convoy does not break free of the trap and rejoin with the main Iranian army.\
+\
+Any Damage to the Rayen Castle historical site nearby is unacceptable.\
+\
+PRIMARY OBJECTIVE: Destroy the rapier system and supply trucks.\
+\
+Secondary: None",
+} -- end of staticTemplate

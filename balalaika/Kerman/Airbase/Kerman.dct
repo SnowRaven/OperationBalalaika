@@ -1,0 +1,31 @@
+objtype = "airbase"
+name = "Kerman"
+coalition = 1
+subordinates = {
+	"27",
+	"176",
+	"831",
+	"80",
+	"90",
+	"100",
+	"234",
+	"344",
+	"393rd",
+	"47"
+}
+players = {
+	"344 TsBPPAA - 1",
+	"344 TsBPPAA - 2",
+	"344 TsBPPAA - 3",
+	"344 TsBPPAA - 4",
+	"234 GvIAP - 1",
+	"234 GvIAP - 2",
+	"47 OSAE - 1",
+	"47 OSAE - 2",
+	"47 OSAE - 3",
+	"47 OSAE - 4"
+}
+desc = "Kerman Airbase"
+recoverytype = "land"
+takeofftype = "runway"
+spawnalways = true
