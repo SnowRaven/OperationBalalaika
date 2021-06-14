@@ -2,6 +2,775 @@ staticTemplate =
 {
     ["coalition"] = 
     {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 34,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["enabled"] = true,
+                                        ["auto"] = false,
+                                        ["id"] = "FireAtPoint",
+                                        ["name"] = "BRM-21 Jiroft 1",
+                                        ["number"] = 1,
+                                        ["params"] = 
+                                        {
+                                            ["y"] = 147139.47648541,
+                                            ["expendQtyEnabled"] = false,
+                                            ["expendQty"] = 1,
+                                            ["alt_type"] = 1,
+                                            ["x"] = 279644.59021281,
+                                            ["templateId"] = "",
+                                            ["weaponType"] = 1073741822,
+                                            ["zoneRadius"] = 304.8,
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 644,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 158475.55844104,
+                                            ["x"] = 267272.38746657,
+                                            ["ETA_locked"] = false,
+                                            ["speed"] = 5.5555555555556,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Excellent",
+                                        ["type"] = "Grad-URAL",
+                                        ["unitId"] = 11,
+                                        ["y"] = 158475.55844104,
+                                        ["x"] = 267272.38746657,
+                                        ["name"] = "Ground-1-11",
+                                        ["heading"] = 0.68067840827779,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 158475.55844104,
+                                ["x"] = 267272.38746657,
+                                ["name"] = "PRIMARY DESTROYED Jiroft counter attack BM-21 Battery",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["number"] = 1,
+                                        ["name"] = "BRM-21 Jiroft 2",
+                                        ["id"] = "FireAtPoint",
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["params"] = 
+                                        {
+                                            ["y"] = 143803.23731514,
+                                            ["expendQtyEnabled"] = false,
+                                            ["expendQty"] = 1,
+                                            ["alt_type"] = 1,
+                                            ["x"] = 279018.86189007,
+                                            ["templateId"] = "",
+                                            ["weaponType"] = 1073741822,
+                                            ["zoneRadius"] = 304.8,
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 644,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 158474.81385632,
+                                            ["x"] = 267241.92085164,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 5.5555555555556,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Excellent",
+                                        ["type"] = "Grad-URAL",
+                                        ["unitId"] = 26,
+                                        ["y"] = 158474.81385632,
+                                        ["x"] = 267241.92085164,
+                                        ["name"] = "Jiroft counter attack BM-21 Battery-1-1",
+                                        ["heading"] = 0.66322511575785,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 158474.81385632,
+                                ["x"] = 267241.92085164,
+                                ["name"] = "PRIMARY DESTROYED Jiroft counter attack BM-21 Battery-1",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["number"] = 1,
+                                        ["name"] = "BM-21 Jiroft 3",
+                                        ["id"] = "FireAtPoint",
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["params"] = 
+                                        {
+                                            ["y"] = 146562.25102702,
+                                            ["expendQtyEnabled"] = false,
+                                            ["expendQty"] = 1,
+                                            ["alt_type"] = 1,
+                                            ["x"] = 276537.99709317,
+                                            ["templateId"] = "",
+                                            ["weaponType"] = 1073741822,
+                                            ["zoneRadius"] = 304.8,
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 158437.50626248,
+                                                ["x"] = 267244.58652803,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 158437.99066268,
+                                                ["x"] = 267245.31312833,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 644,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 158435.97291996,
+                                            ["x"] = 267245.9688359,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 5.5555555555556,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Excellent",
+                                        ["type"] = "Grad-URAL",
+                                        ["unitId"] = 27,
+                                        ["y"] = 158435.97291996,
+                                        ["x"] = 267245.9688359,
+                                        ["name"] = "Jiroft counter attack BM-21 Battery-2-1",
+                                        ["heading"] = 0.58800260353832,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 158435.97291996,
+                                ["x"] = 267245.9688359,
+                                ["name"] = "PRIMARY DESTROYED Jiroft counter attack BM-21 Battery-2",
+                                ["start_time"] = 0,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["number"] = 1,
+                                        ["name"] = "BM-21 Jiroft 4",
+                                        ["id"] = "FireAtPoint",
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["params"] = 
+                                        {
+                                            ["y"] = 150935.16692133,
+                                            ["expendQtyEnabled"] = false,
+                                            ["expendQty"] = 1,
+                                            ["alt_type"] = 1,
+                                            ["x"] = 276754.01600892,
+                                            ["templateId"] = "",
+                                            ["weaponType"] = 1073741822,
+                                            ["zoneRadius"] = 304.8,
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 643,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 158441.80371542,
+                                            ["x"] = 267211.32062167,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 5.5555555555556,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Excellent",
+                                        ["type"] = "Grad-URAL",
+                                        ["unitId"] = 28,
+                                        ["y"] = 158441.80371542,
+                                        ["x"] = 267211.32062167,
+                                        ["name"] = "Jiroft counter attack BM-21 Battery-3-1",
+                                        ["heading"] = 0.66322511575785,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 158441.80371542,
+                                ["x"] = 267211.32062167,
+                                ["name"] = "PRIMARY DESTROYED Jiroft counter attack BM-21 Battery-3",
+                                ["start_time"] = 0,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["number"] = 1,
+                                        ["auto"] = false,
+                                        ["id"] = "FireAtPoint",
+                                        ["enabled"] = true,
+                                        ["name"] = "BM-21 Jiroft 5",
+                                        ["params"] = 
+                                        {
+                                            ["y"] = 143401.29898559,
+                                            ["expendQtyEnabled"] = false,
+                                            ["expendQty"] = 1,
+                                            ["alt_type"] = 1,
+                                            ["x"] = 277736.5346714,
+                                            ["templateId"] = "",
+                                            ["weaponType"] = 1073741822,
+                                            ["zoneRadius"] = 304.8,
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 643,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 158404.69674149,
+                                            ["x"] = 267209.97983913,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 5.5555555555556,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Excellent",
+                                        ["type"] = "Grad-URAL",
+                                        ["unitId"] = 29,
+                                        ["y"] = 158404.69674149,
+                                        ["x"] = 267209.97983913,
+                                        ["name"] = "Jiroft counter attack BM-21 Battery-4-1",
+                                        ["heading"] = 0.66322511575785,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 158404.69674149,
+                                ["x"] = 267209.97983913,
+                                ["name"] = "PRIMARY DESTROYED Jiroft counter attack BM-21 Battery-4",
+                                ["start_time"] = 0,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["number"] = 1,
+                                        ["name"] = "BM-21 Jiroft 6",
+                                        ["id"] = "FireAtPoint",
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["params"] = 
+                                        {
+                                            ["y"] = 146038.07580992,
+                                            ["expendQtyEnabled"] = false,
+                                            ["expendQty"] = 1,
+                                            ["alt_type"] = 1,
+                                            ["x"] = 271739.91125335,
+                                            ["templateId"] = "",
+                                            ["weaponType"] = 1073741822,
+                                            ["zoneRadius"] = 304.8,
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 643,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 158407.13727733,
+                                            ["x"] = 267176.2101984,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 5.5555555555556,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Excellent",
+                                        ["type"] = "Grad-URAL",
+                                        ["unitId"] = 30,
+                                        ["y"] = 158407.13727733,
+                                        ["x"] = 267176.2101984,
+                                        ["name"] = "Jiroft counter attack BM-21 Battery-5-1",
+                                        ["heading"] = 0.66322511575785,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 158407.13727733,
+                                ["x"] = 267176.2101984,
+                                ["name"] = "PRIMARY DESTROYED Jiroft counter attack BM-21 Battery-5",
+                                ["start_time"] = 0,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 158459.4984518,
+                                                ["x"] = 267200.25347759,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 158460.36448972,
+                                                ["x"] = 267199.54846795,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 643,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 158390.19089565,
+                                            ["x"] = 267261.56234178,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 5.5555555555556,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 31,
+                                        ["y"] = 158390.19089565,
+                                        ["x"] = 267261.56234178,
+                                        ["name"] = "Jiroft counter attack BM-21 Battery Air Defences-1-1",
+                                        ["heading"] = 2.2540537831404,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 158390.19089565,
+                                ["x"] = 267261.56234178,
+                                ["name"] = "Jiroft counter attack BM-21 Battery Supply Truck",
+                                ["start_time"] = 0,
+                            }, -- end of [7]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "Iran",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 150679.28013489,
+                                                ["x"] = 238004.77719253,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 150679.76567445,
+                                                ["x"] = 238106.71935078,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 646,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 158516.2124381,
+                                            ["x"] = 267382.09454889,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 17,
+                                        ["y"] = 158516.2124381,
+                                        ["x"] = 267382.09454889,
+                                        ["name"] = "Jiroft counter attack BM-21 Battery-1-6",
+                                        ["heading"] = 0.0047628567127107,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 16,
+                                        ["y"] = 158279.18421365,
+                                        ["x"] = 267355.75807951,
+                                        ["name"] = "Jiroft counter attack BM-21 Battery-1-5",
+                                        ["heading"] = 0.0047628567127107,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "M48 Chaparral",
+                                        ["unitId"] = 13,
+                                        ["y"] = 158413.08163047,
+                                        ["x"] = 267137.07875647,
+                                        ["name"] = "Jiroft counter attack BM-21 Battery-1-2",
+                                        ["heading"] = 0.0047628567127107,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["y"] = 158516.2124381,
+                                ["x"] = 267382.09454889,
+                                ["name"] = "Jiroft counter attack BM-21 Battery Air Defences",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [6]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
         ["neutrals"] = 
         {
             ["name"] = "neutrals",
@@ -384,775 +1153,6 @@ staticTemplate =
                 }, -- end of [75]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
-        ["blue"] = 
-        {
-            ["name"] = "blue",
-            ["country"] = 
-            {
-                [1] = 
-                {
-                    ["id"] = 34,
-                    ["vehicle"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["enabled"] = true,
-                                        ["auto"] = false,
-                                        ["id"] = "FireAtPoint",
-                                        ["name"] = "BRM-21 Jiroft 1",
-                                        ["number"] = 1,
-                                        ["params"] = 
-                                        {
-                                            ["y"] = 147139.47648541,
-                                            ["expendQtyEnabled"] = false,
-                                            ["expendQty"] = 1,
-                                            ["alt_type"] = 1,
-                                            ["x"] = 279644.59021281,
-                                            ["templateId"] = "",
-                                            ["weaponType"] = 1073741822,
-                                            ["zoneRadius"] = 304.8,
-                                        }, -- end of ["params"]
-                                    }, -- end of [1]
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 644,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 158474.49454716,
-                                            ["x"] = 267272.30322547,
-                                            ["ETA_locked"] = false,
-                                            ["speed"] = 5.5555555555556,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 1,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
-                                        ["type"] = "Grad-URAL",
-                                        ["unitId"] = 11,
-                                        ["y"] = 158474.49454716,
-                                        ["x"] = 267272.30322547,
-                                        ["name"] = "Ground-1-11",
-                                        ["heading"] = 0.68067840827779,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 158474.49454716,
-                                ["x"] = 267272.30322547,
-                                ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery",
-                                ["start_time"] = 0,
-                            }, -- end of [1]
-                            [2] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["number"] = 1,
-                                        ["name"] = "BRM-21 Jiroft 2",
-                                        ["id"] = "FireAtPoint",
-                                        ["auto"] = false,
-                                        ["enabled"] = true,
-                                        ["params"] = 
-                                        {
-                                            ["y"] = 143803.23731514,
-                                            ["expendQtyEnabled"] = false,
-                                            ["expendQty"] = 1,
-                                            ["alt_type"] = 1,
-                                            ["x"] = 279018.86189007,
-                                            ["templateId"] = "",
-                                            ["weaponType"] = 1073741822,
-                                            ["zoneRadius"] = 304.8,
-                                        }, -- end of ["params"]
-                                    }, -- end of [1]
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 644,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 158474.81385632,
-                                            ["x"] = 267241.92085164,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 5.5555555555556,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 10,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
-                                        ["type"] = "Grad-URAL",
-                                        ["unitId"] = 26,
-                                        ["y"] = 158474.81385632,
-                                        ["x"] = 267241.92085164,
-                                        ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-1-1",
-                                        ["heading"] = 0.66322511575785,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 158474.81385632,
-                                ["x"] = 267241.92085164,
-                                ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-1",
-                                ["start_time"] = 0,
-                            }, -- end of [2]
-                            [3] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["number"] = 1,
-                                        ["name"] = "BM-21 Jiroft 3",
-                                        ["id"] = "FireAtPoint",
-                                        ["auto"] = false,
-                                        ["enabled"] = true,
-                                        ["params"] = 
-                                        {
-                                            ["y"] = 146562.25102702,
-                                            ["expendQtyEnabled"] = false,
-                                            ["expendQty"] = 1,
-                                            ["alt_type"] = 1,
-                                            ["x"] = 276537.99709317,
-                                            ["templateId"] = "",
-                                            ["weaponType"] = 1073741822,
-                                            ["zoneRadius"] = 304.8,
-                                        }, -- end of ["params"]
-                                    }, -- end of [1]
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            [1] = 
-                                            {
-                                                ["y"] = 158437.50626248,
-                                                ["x"] = 267244.58652803,
-                                            }, -- end of [1]
-                                            [2] = 
-                                            {
-                                                ["y"] = 158437.99066268,
-                                                ["x"] = 267245.31312833,
-                                            }, -- end of [2]
-                                        }, -- end of [1]
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 644,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 158435.97291996,
-                                            ["x"] = 267245.9688359,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 5.5555555555556,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 11,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
-                                        ["type"] = "Grad-URAL",
-                                        ["unitId"] = 27,
-                                        ["y"] = 158435.97291996,
-                                        ["x"] = 267245.9688359,
-                                        ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-2-1",
-                                        ["heading"] = 0.58800260353832,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 158435.97291996,
-                                ["x"] = 267245.9688359,
-                                ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-2",
-                                ["start_time"] = 0,
-                            }, -- end of [3]
-                            [4] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["number"] = 1,
-                                        ["name"] = "BM-21 Jiroft 4",
-                                        ["id"] = "FireAtPoint",
-                                        ["auto"] = false,
-                                        ["enabled"] = true,
-                                        ["params"] = 
-                                        {
-                                            ["y"] = 150935.16692133,
-                                            ["expendQtyEnabled"] = false,
-                                            ["expendQty"] = 1,
-                                            ["alt_type"] = 1,
-                                            ["x"] = 276754.01600892,
-                                            ["templateId"] = "",
-                                            ["weaponType"] = 1073741822,
-                                            ["zoneRadius"] = 304.8,
-                                        }, -- end of ["params"]
-                                    }, -- end of [1]
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 643,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 158441.80371542,
-                                            ["x"] = 267211.32062167,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 5.5555555555556,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 12,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
-                                        ["type"] = "Grad-URAL",
-                                        ["unitId"] = 28,
-                                        ["y"] = 158441.80371542,
-                                        ["x"] = 267211.32062167,
-                                        ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-3-1",
-                                        ["heading"] = 0.66322511575785,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 158441.80371542,
-                                ["x"] = 267211.32062167,
-                                ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-3",
-                                ["start_time"] = 0,
-                            }, -- end of [4]
-                            [5] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["number"] = 1,
-                                        ["auto"] = false,
-                                        ["id"] = "FireAtPoint",
-                                        ["enabled"] = true,
-                                        ["name"] = "BM-21 Jiroft 5",
-                                        ["params"] = 
-                                        {
-                                            ["y"] = 143401.29898559,
-                                            ["expendQtyEnabled"] = false,
-                                            ["expendQty"] = 1,
-                                            ["alt_type"] = 1,
-                                            ["x"] = 277736.5346714,
-                                            ["templateId"] = "",
-                                            ["weaponType"] = 1073741822,
-                                            ["zoneRadius"] = 304.8,
-                                        }, -- end of ["params"]
-                                    }, -- end of [1]
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 643,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 158404.69674149,
-                                            ["x"] = 267209.97983913,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 5.5555555555556,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 13,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
-                                        ["type"] = "Grad-URAL",
-                                        ["unitId"] = 29,
-                                        ["y"] = 158404.69674149,
-                                        ["x"] = 267209.97983913,
-                                        ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-4-1",
-                                        ["heading"] = 0.66322511575785,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 158404.69674149,
-                                ["x"] = 267209.97983913,
-                                ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-4",
-                                ["start_time"] = 0,
-                            }, -- end of [5]
-                            [6] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["number"] = 1,
-                                        ["name"] = "BM-21 Jiroft 6",
-                                        ["id"] = "FireAtPoint",
-                                        ["auto"] = false,
-                                        ["enabled"] = true,
-                                        ["params"] = 
-                                        {
-                                            ["y"] = 146038.07580992,
-                                            ["expendQtyEnabled"] = false,
-                                            ["expendQty"] = 1,
-                                            ["alt_type"] = 1,
-                                            ["x"] = 271739.91125335,
-                                            ["templateId"] = "",
-                                            ["weaponType"] = 1073741822,
-                                            ["zoneRadius"] = 304.8,
-                                        }, -- end of ["params"]
-                                    }, -- end of [1]
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 643,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 158407.13727733,
-                                            ["x"] = 267176.2101984,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 5.5555555555556,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 14,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
-                                        ["type"] = "Grad-URAL",
-                                        ["unitId"] = 30,
-                                        ["y"] = 158407.13727733,
-                                        ["x"] = 267176.2101984,
-                                        ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-5-1",
-                                        ["heading"] = 0.66322511575785,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 158407.13727733,
-                                ["x"] = 267176.2101984,
-                                ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-5",
-                                ["start_time"] = 0,
-                            }, -- end of [6]
-                            [7] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            [1] = 
-                                            {
-                                                ["y"] = 158459.4984518,
-                                                ["x"] = 267200.25347759,
-                                            }, -- end of [1]
-                                            [2] = 
-                                            {
-                                                ["y"] = 158460.36448972,
-                                                ["x"] = 267199.54846795,
-                                            }, -- end of [2]
-                                        }, -- end of [1]
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 643,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 158390.19089565,
-                                            ["x"] = 267261.56234178,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 5.5555555555556,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 15,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 31,
-                                        ["y"] = 158390.19089565,
-                                        ["x"] = 267261.56234178,
-                                        ["name"] = "Jiroft counter attack BM-21 Battery Air Defences-1-1",
-                                        ["heading"] = 2.2540537831404,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 158390.19089565,
-                                ["x"] = 267261.56234178,
-                                ["name"] = "Jiroft counter attack BM-21 Battery Supply Truck",
-                                ["start_time"] = 0,
-                            }, -- end of [7]
-                        }, -- end of ["group"]
-                    }, -- end of ["vehicle"]
-                    ["name"] = "Iran",
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 80,
-                    ["vehicle"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            [1] = 
-                                            {
-                                                ["y"] = 150679.28013489,
-                                                ["x"] = 238004.77719253,
-                                            }, -- end of [1]
-                                            [2] = 
-                                            {
-                                                ["y"] = 150679.76567445,
-                                                ["x"] = 238106.71935078,
-                                            }, -- end of [2]
-                                        }, -- end of [1]
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 646,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 158516.2124381,
-                                            ["x"] = 267382.09454889,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 0,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 2,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 17,
-                                        ["y"] = 158516.2124381,
-                                        ["x"] = 267382.09454889,
-                                        ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-1-6",
-                                        ["heading"] = 0.0047628567127107,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 16,
-                                        ["y"] = 158279.18421365,
-                                        ["x"] = 267355.75807951,
-                                        ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-1-5",
-                                        ["heading"] = 0.0047628567127107,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [2]
-                                    [3] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
-                                        ["type"] = "M48 Chaparral",
-                                        ["unitId"] = 13,
-                                        ["y"] = 158413.08163047,
-                                        ["x"] = 267137.07875647,
-                                        ["name"] = "PRIMARY DESTROY Jiroft counter attack BM-21 Battery-1-2",
-                                        ["heading"] = 0.0047628567127107,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [3]
-                                }, -- end of ["units"]
-                                ["y"] = 158516.2124381,
-                                ["x"] = 267382.09454889,
-                                ["name"] = "Jiroft counter attack BM-21 Battery Air Defences",
-                                ["start_time"] = 0,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["vehicle"]
-                    ["name"] = "CJTF Blue",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
-                }, -- end of [5]
-                [6] = 
-                {
-                    ["id"] = 2,
-                    ["name"] = "USA",
-                }, -- end of [6]
-            }, -- end of ["country"]
-        }, -- end of ["blue"]
         ["red"] = 
         {
             ["name"] = "red",
@@ -1181,7 +1181,7 @@ staticTemplate =
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "JiroftBM21battery",
+    ["name"] = "jiroftBM21battery",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]

@@ -428,13 +428,13 @@ staticTemplate =
                                         ["rate"] = 5,
                                         ["y"] = 241669.72295067,
                                         ["x"] = 309006.81021456,
-                                        ["name"] = "PRIMARY DESTROY Mujahideen Checkpoint",
+                                        ["name"] = "PRIMARY DESTROYED Mujahideen Checkpoint",
                                         ["heading"] = 4.3633231299858,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 241669.72295067,
                                 ["x"] = 309006.81021456,
-                                ["name"] = "PRIMARY DESTROY Mujahideen Checkpoint",
+                                ["name"] = "PRIMARY DESTROYED Mujahideen Checkpoint",
                                 ["dead"] = false,
                             }, -- end of [1]
                             [2] = 
@@ -468,13 +468,13 @@ staticTemplate =
                                         ["rate"] = 5,
                                         ["y"] = 241653.6785729,
                                         ["x"] = 308980.2122169,
-                                        ["name"] = "Static Road outpost-1-1",
+                                        ["name"] = "PRIMARY DESTROYED baravat checkpoint westbound",
                                         ["heading"] = 1.2740903539559,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 241653.6785729,
                                 ["x"] = 308980.2122169,
-                                ["name"] = "Static Road outpost-1",
+                                ["name"] = "PRIMARY DESTROYED baravat checkpoint westbound",
                                 ["dead"] = false,
                             }, -- end of [2]
                         }, -- end of ["group"]
@@ -577,7 +577,7 @@ staticTemplate =
                                 }, -- end of ["units"]
                                 ["y"] = 241682.1320949,
                                 ["x"] = 309032.93491944,
-                                ["name"] = "PRIMARY DESTROY Mujahideen Bam Checkpoint Vehicles",
+                                ["name"] = "PRIMARY DESTROYED Mujahideen Bam Checkpoint Vehicles",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                             [2] = 
@@ -650,7 +650,7 @@ staticTemplate =
                                         ["unitId"] = 10,
                                         ["y"] = 241654.25874925,
                                         ["x"] = 309010.70466783,
-                                        ["name"] = "PRIMARY DESTROY Mujahideen Bam Checkpoint Vehicles-1-2",
+                                        ["name"] = "Mujahideen Bam Checkpoint Vehicles-1-2",
                                         ["heading"] = 3.6302848441482,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
@@ -695,7 +695,7 @@ staticTemplate =
                                         ["unitId"] = 9,
                                         ["y"] = 241660.10291599,
                                         ["x"] = 308994.96526423,
-                                        ["name"] = "PRIMARY DESTROY Mujahideen Bam Checkpoint Vehicles-1-1",
+                                        ["name"] = "Mujahideen Bam Checkpoint Vehicles-1-1",
                                         ["heading"] = 4.9567350756639,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -763,7 +763,7 @@ staticTemplate =
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "easternplainsmujahideencheckpoint",
+    ["name"] = "baravatcheckpointmujahideen",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]

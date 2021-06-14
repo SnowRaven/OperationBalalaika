@@ -429,13 +429,13 @@ staticTemplate =
                                         ["rate"] = 50,
                                         ["y"] = 89275.233075642,
                                         ["x"] = 506754.41420655,
-                                        ["name"] = "Static FARP Tent-1-1",
+                                        ["name"] = "PRIMARY DESTROYED active tank camp tent 8",
                                         ["heading"] = 4.7123889803847,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89275.233075642,
                                 ["x"] = 506754.41420655,
-                                ["name"] = "Static FARP Tent-1",
+                                ["name"] = "PRIMARY DESTROYED active tank camp tent 8",
                                 ["dead"] = false,
                             }, -- end of [1]
                             [2] = 
@@ -470,13 +470,13 @@ staticTemplate =
                                         ["rate"] = 50,
                                         ["y"] = 89284.94621401,
                                         ["x"] = 506777.80502956,
-                                        ["name"] = "Static FARP Tent-2-1",
+                                        ["name"] = "PRIMARY DESTROYED active tank camp tent 7",
                                         ["heading"] = 5.3756140961425,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89284.94621401,
                                 ["x"] = 506777.80502956,
-                                ["name"] = "Static FARP Tent-2",
+                                ["name"] = "PRIMARY DESTROYED active tank camp tent 7",
                                 ["dead"] = false,
                             }, -- end of [2]
                             [3] = 
@@ -511,13 +511,13 @@ staticTemplate =
                                         ["rate"] = 50,
                                         ["y"] = 89312.69803792,
                                         ["x"] = 506789.30221375,
-                                        ["name"] = "Static FARP Tent-3-1",
+                                        ["name"] = "PRIMARY DESTROYED active tank camp tent 1",
                                         ["heading"] = 0,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89312.69803792,
                                 ["x"] = 506789.30221375,
-                                ["name"] = "Static FARP Tent-3",
+                                ["name"] = "PRIMARY DESTROYED active tank camp tent 1",
                                 ["dead"] = false,
                             }, -- end of [3]
                             [4] = 
@@ -552,13 +552,13 @@ staticTemplate =
                                         ["rate"] = 50,
                                         ["y"] = 89343.026816907,
                                         ["x"] = 506780.77843926,
-                                        ["name"] = "Static FARP Tent-4-1",
+                                        ["name"] = "PRIMARY DESTROYED active tank camp tent 2",
                                         ["heading"] = 0.69813170079773,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89343.026816907,
                                 ["x"] = 506780.77843926,
-                                ["name"] = "Static FARP Tent-4",
+                                ["name"] = "PRIMARY DESTROYED active tank camp tent 2",
                                 ["dead"] = false,
                             }, -- end of [4]
                             [5] = 
@@ -593,13 +593,13 @@ staticTemplate =
                                         ["rate"] = 50,
                                         ["y"] = 89351.35236408,
                                         ["x"] = 506755.2071158,
-                                        ["name"] = "Static FARP Tent-5-1",
+                                        ["name"] = "PRIMARY DESTROYED active tank camp tent 3",
                                         ["heading"] = 1.5707963267949,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89351.35236408,
                                 ["x"] = 506755.2071158,
-                                ["name"] = "Static FARP Tent-5",
+                                ["name"] = "PRIMARY DESTROYED active tank camp tent 3",
                                 ["dead"] = false,
                             }, -- end of [5]
                             [6] = 
@@ -634,13 +634,13 @@ staticTemplate =
                                         ["rate"] = 50,
                                         ["y"] = 89342.828589594,
                                         ["x"] = 506728.24820115,
-                                        ["name"] = "Static FARP Tent-6-1",
+                                        ["name"] = "PRIMARY DESTROYED active tank camp tent 4",
                                         ["heading"] = 5.3756140961425,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89342.828589594,
                                 ["x"] = 506728.24820115,
-                                ["name"] = "Static FARP Tent-6",
+                                ["name"] = "PRIMARY DESTROYED active tank camp tent 4",
                                 ["dead"] = false,
                             }, -- end of [6]
                             [7] = 
@@ -675,13 +675,13 @@ staticTemplate =
                                         ["rate"] = 50,
                                         ["y"] = 89283.022001654,
                                         ["x"] = 506728.71518505,
-                                        ["name"] = "Static FARP Tent-7-1",
+                                        ["name"] = "PRIMARY DESTROYED active tank camp tent 6",
                                         ["heading"] = 0.83775804095728,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89283.022001654,
                                 ["x"] = 506728.71518505,
-                                ["name"] = "Static FARP Tent-7",
+                                ["name"] = "PRIMARY DESTROYED active tank camp tent 6",
                                 ["dead"] = false,
                             }, -- end of [7]
                             [8] = 
@@ -716,13 +716,13 @@ staticTemplate =
                                         ["rate"] = 50,
                                         ["y"] = 89313.490947175,
                                         ["x"] = 506717.3456989,
-                                        ["name"] = "Static FARP Tent-8-1",
+                                        ["name"] = "PRIMARY DESTROYED active tank camp tent 5",
                                         ["heading"] = 0,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89313.490947175,
                                 ["x"] = 506717.3456989,
-                                ["name"] = "Static FARP Tent-8",
+                                ["name"] = "PRIMARY DESTROYED active tank camp tent 5",
                                 ["dead"] = false,
                             }, -- end of [8]
                             [9] = 
@@ -1005,13 +1005,13 @@ staticTemplate =
                                         ["rate"] = 100,
                                         ["y"] = 89308.735746235,
                                         ["x"] = 506779.02526854,
-                                        ["name"] = "PRIMARY DESTROY Ammo 2 eicn",
+                                        ["name"] = "Ammo 2 eicn-1",
                                         ["heading"] = 0.41887902047864,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89308.735746235,
                                 ["x"] = 506779.02526854,
-                                ["name"] = "PRIMARY DESTROY Ammo 2 eicn",
+                                ["name"] = "Ammo 2 eicn",
                                 ["dead"] = false,
                             }, -- end of [15]
                             [16] = 
@@ -1048,13 +1048,13 @@ staticTemplate =
                                         ["rate"] = 100,
                                         ["y"] = 89307.878603378,
                                         ["x"] = 506779.45383997,
-                                        ["name"] = "PRIMARY DESTROY Ammo 1 eicn",
+                                        ["name"] = "Ammo 1 eicn-1",
                                         ["heading"] = 0.43633231299858,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89307.878603378,
                                 ["x"] = 506779.45383997,
-                                ["name"] = "PRIMARY DESTROY Ammo 1 eicn",
+                                ["name"] = "Ammo 1 eicn",
                                 ["dead"] = false,
                             }, -- end of [16]
                             [17] = 
@@ -1091,13 +1091,13 @@ staticTemplate =
                                         ["rate"] = 100,
                                         ["y"] = 89309.878603378,
                                         ["x"] = 506774.82526854,
-                                        ["name"] = "PRIMARY DESTROY Bombs eicn 2",
+                                        ["name"] = "Bombs eicn 2-1",
                                         ["heading"] = 0.36651914291881,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89309.878603378,
                                 ["x"] = 506774.82526854,
-                                ["name"] = "PRIMARY DESTROY Bombs eicn 2",
+                                ["name"] = "Bombs eicn 2",
                                 ["dead"] = false,
                             }, -- end of [17]
                             [18] = 
@@ -1134,13 +1134,13 @@ staticTemplate =
                                         ["rate"] = 100,
                                         ["y"] = 89308.821460521,
                                         ["x"] = 506775.19669711,
-                                        ["name"] = "PRIMARY DESTROY Bombs eicn 1",
+                                        ["name"] = "Bombs eicn 1",
                                         ["heading"] = 0.36651914291881,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89308.821460521,
                                 ["x"] = 506775.19669711,
-                                ["name"] = "PRIMARY DESTROY Bombs eicn 1",
+                                ["name"] = "Bombs eicn 1",
                                 ["dead"] = false,
                             }, -- end of [18]
                             [19] = 
@@ -1177,13 +1177,13 @@ staticTemplate =
                                         ["rate"] = 100,
                                         ["y"] = 89316.878603378,
                                         ["x"] = 506779.45383997,
-                                        ["name"] = "PRIMARY DESTROY Fuel 1 eicn",
+                                        ["name"] = "Fuel 1 eicn",
                                         ["heading"] = 7.7737053494203e-08,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 89316.878603378,
                                 ["x"] = 506779.45383997,
-                                ["name"] = "PRIMARY DESTROY Fuel 1 eicn",
+                                ["name"] = "Fuel 1 eicn",
                                 ["dead"] = false,
                             }, -- end of [19]
                         }, -- end of ["group"]
@@ -1273,21 +1273,6 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 24,
-                                        ["y"] = 89378.225884824,
-                                        ["x"] = 506820.62527796,
-                                        ["name"] = "Ground-1-9",
-                                        ["heading"] = 0.017453292519943,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [2]
-                                    [3] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 23,
                                         ["y"] = 89313.574468486,
@@ -1295,23 +1280,8 @@ staticTemplate =
                                         ["name"] = "Ground-1-8",
                                         ["heading"] = 1.9547687622336,
                                         ["playerCanDrive"] = false,
-                                    }, -- end of [3]
-                                    [4] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "2B11 mortar",
-                                        ["unitId"] = 20,
-                                        ["y"] = 89300.175106997,
-                                        ["x"] = 506744.02825421,
-                                        ["name"] = "Ground-1-5",
-                                        ["heading"] = 3.1939525311496,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [4]
-                                    [5] = 
+                                    }, -- end of [2]
+                                    [3] = 
                                     {
                                         ["transportable"] = 
                                         {
@@ -1323,29 +1293,14 @@ staticTemplate =
                                         ["unitId"] = 42,
                                         ["y"] = 88271.312273127,
                                         ["x"] = 506642.05783067,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1",
+                                        ["name"] = "Early insurgent camp north-1",
                                         ["heading"] = 4.2411500823462,
                                         ["playerCanDrive"] = true,
-                                    }, -- end of [5]
-                                    [6] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 16,
-                                        ["y"] = 89251.156662374,
-                                        ["x"] = 506820.25130945,
-                                        ["name"] = "Ground-1-1",
-                                        ["heading"] = 0.05235987755983,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [6]
+                                    }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["y"] = 89311.966041389,
                                 ["x"] = 506777.62192244,
-                                ["name"] = "PRIMARY DESTROY Early insurgent camp north",
+                                ["name"] = "PRIMARY DESTROYED Early insurgent camp north",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                         }, -- end of ["group"]
@@ -1428,7 +1383,7 @@ staticTemplate =
                                         ["unitId"] = 52,
                                         ["y"] = 89308.899585207,
                                         ["x"] = 506772.73481694,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-10",
+                                        ["name"] = "Early insurgent camp north-1-10",
                                         ["heading"] = 0.31415926535898,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
@@ -1443,7 +1398,7 @@ staticTemplate =
                                         ["unitId"] = 51,
                                         ["y"] = 89307.455070307,
                                         ["x"] = 506780.90616163,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-9",
+                                        ["name"] = "Early insurgent camp north-1-9",
                                         ["heading"] = 2.6878070480713,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
@@ -1458,7 +1413,7 @@ staticTemplate =
                                         ["unitId"] = 50,
                                         ["y"] = 89316.924796255,
                                         ["x"] = 506778.4173234,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-8",
+                                        ["name"] = "Early insurgent camp north-1-8",
                                         ["heading"] = 0.017453292519943,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]
@@ -1473,7 +1428,7 @@ staticTemplate =
                                         ["unitId"] = 49,
                                         ["y"] = 89754.70382485,
                                         ["x"] = 504484.37219842,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-7",
+                                        ["name"] = "Early insurgent camp north-1-7",
                                         ["heading"] = 3.1590459461097,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -1488,7 +1443,7 @@ staticTemplate =
                                         ["unitId"] = 48,
                                         ["y"] = 89342.623621418,
                                         ["x"] = 506755.42761683,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-6",
+                                        ["name"] = "Early insurgent camp north-1-6",
                                         ["heading"] = 4.6774823953448,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
@@ -1503,7 +1458,7 @@ staticTemplate =
                                         ["unitId"] = 47,
                                         ["y"] = 89284.217252105,
                                         ["x"] = 506753.42839069,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-5",
+                                        ["name"] = "Early insurgent camp north-1-5",
                                         ["heading"] = 6.0562925044203,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [6]
@@ -1518,7 +1473,7 @@ staticTemplate =
                                         ["unitId"] = 46,
                                         ["y"] = 89284.281769916,
                                         ["x"] = 506755.48623285,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-4",
+                                        ["name"] = "Early insurgent camp north-1-4",
                                         ["heading"] = 3.2986722862693,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [7]
@@ -1533,7 +1488,7 @@ staticTemplate =
                                         ["unitId"] = 57,
                                         ["y"] = 88271.47503649,
                                         ["x"] = 506639.72306685,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-14",
+                                        ["name"] = "Early insurgent camp north-1-14",
                                         ["heading"] = 5.4279739737024,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [8]
@@ -1548,7 +1503,7 @@ staticTemplate =
                                         ["unitId"] = 56,
                                         ["y"] = 88274.506037229,
                                         ["x"] = 506643.60653654,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-13",
+                                        ["name"] = "Early insurgent camp north-1-13",
                                         ["heading"] = 4.2236967898263,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [9]
@@ -1563,7 +1518,7 @@ staticTemplate =
                                         ["unitId"] = 55,
                                         ["y"] = 88269.675379801,
                                         ["x"] = 506638.8232385,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-12",
+                                        ["name"] = "Early insurgent camp north-1-12",
                                         ["heading"] = 4.2062434973063,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [10]
@@ -1578,7 +1533,7 @@ staticTemplate =
                                         ["unitId"] = 54,
                                         ["y"] = 89299.608632631,
                                         ["x"] = 506744.90755667,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-11",
+                                        ["name"] = "Early insurgent camp north-1-11",
                                         ["heading"] = 2.460914245312,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [11]
@@ -1593,7 +1548,7 @@ staticTemplate =
                                         ["unitId"] = 45,
                                         ["y"] = 89317.630067231,
                                         ["x"] = 506749.50404886,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-3",
+                                        ["name"] = "Early insurgent camp north-1-3",
                                         ["heading"] = 4.9541538475982,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [12]
@@ -1608,7 +1563,7 @@ staticTemplate =
                                         ["unitId"] = 44,
                                         ["y"] = 89767.563533729,
                                         ["x"] = 504485.10703892,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-2",
+                                        ["name"] = "Early insurgent camp north-1-2",
                                         ["heading"] = 3.0368728984701,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [13]
@@ -1623,7 +1578,7 @@ staticTemplate =
                                         ["unitId"] = 43,
                                         ["y"] = 89741.844115971,
                                         ["x"] = 504485.47445918,
-                                        ["name"] = "PRIMARY DESTROY Early insurgent camp north-1-1",
+                                        ["name"] = "Early insurgent camp north-1-1",
                                         ["heading"] = 3.2637657012294,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [14]
@@ -1703,7 +1658,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "We have been informed by the 362nd Guards Motor Rifle Regiment that a T-55 main battle tank has gone missing from inventory. The tank's track marks were followed to a Mujahideen camp to the north of Kerman. Our troops managed to recon the camp without being noticed and found that the rebels were amassing weapons and munitions to mount an attack. Truck-mounted AAA guns as well as at least one MANPAD were sighted at the camp.\
+    ["desc"] = "We have been informed by the 362nd Guards Motor Rifle Regiment that a T-55 main battle tank has gone missing from inventory. The tank's track marks were followed to an insurgent camp to the north of Kerman. Our troops managed to recon the camp without being noticed and found that the insurgents were amassing weapons and munitions to mount an attack. Truck-mounted AAA guns as well as at least one MANPAD were sighted at the camp.\
 \
-Your orders are to eliminate the camp along with any rebels, munitions, and vehicles. You are to leave the stolen T-55 intact for recovery if at all possible. If it appears to be crewed, destroy it.",
+Your orders are to eliminate the camp by destroying their tents and supply vehicles. You are to leave the stolen T-55 intact for recovery if at all possible. If it appears to be crewed, destroy it.",
 } -- end of staticTemplate

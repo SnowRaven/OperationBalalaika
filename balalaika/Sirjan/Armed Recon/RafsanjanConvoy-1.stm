@@ -2,471 +2,6 @@ staticTemplate =
 {
     ["coalition"] = 
     {
-        ["blue"] = 
-        {
-            ["name"] = "blue",
-            ["country"] = 
-            {
-                [1] = 
-                {
-                    ["name"] = "Iran",
-                    ["id"] = 34,
-                    ["static"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["heading"] = 2.0071286397935,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = -38537.375638071,
-                                            ["speed"] = 0,
-                                            ["x"] = 466643.79905135,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 4,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Unarmed",
-                                        ["type"] = "KrAZ6322",
-                                        ["unitId"] = 4,
-                                        ["rate"] = 5,
-                                        ["y"] = -38537.375638071,
-                                        ["x"] = 466643.79905135,
-                                        ["name"] = "Static Truck KrAZ-6322 6x6-1",
-                                        ["heading"] = 2.0071286397935,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = -38537.375638071,
-                                ["x"] = 466643.79905135,
-                                ["name"] = "Static Truck KrAZ-6322 6x6-1",
-                                ["dead"] = true,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["static"]
-                    ["vehicle"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            [1] = 
-                                            {
-                                                ["y"] = -38553.744870438,
-                                                ["x"] = 466652.70061187,
-                                            }, -- end of [1]
-                                            [2] = 
-                                            {
-                                                ["y"] = -38553.550511385,
-                                                ["x"] = 466653.28368903,
-                                            }, -- end of [2]
-                                        }, -- end of [1]
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 1481,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = -38551.356561776,
-                                            ["x"] = 466652.92321821,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 4,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 6,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 15,
-                                        ["y"] = -38551.356561776,
-                                        ["x"] = 466652.92321821,
-                                        ["name"] = "Ground-1-10",
-                                        ["heading"] = 1.6580627893946,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 14,
-                                        ["y"] = -38564.481845595,
-                                        ["x"] = 466657.44035977,
-                                        ["name"] = "Ground-1-9",
-                                        ["heading"] = 2.0769418098733,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [2]
-                                    [3] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 13,
-                                        ["y"] = -38577.19760539,
-                                        ["x"] = 466663.58978459,
-                                        ["name"] = "Ground-1-8",
-                                        ["heading"] = 1.7802358370342,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [3]
-                                    [4] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 12,
-                                        ["y"] = -38587.099221624,
-                                        ["x"] = 466668.69693401,
-                                        ["name"] = "Ground-1-7",
-                                        ["heading"] = 2.2514747350727,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [4]
-                                    [5] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 11,
-                                        ["y"] = -38597.105065397,
-                                        ["x"] = 466673.49140082,
-                                        ["name"] = "Ground-1-6",
-                                        ["heading"] = 2.0071286397935,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [5]
-                                    [6] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 10,
-                                        ["y"] = -38604.505220688,
-                                        ["x"] = 466675.68017914,
-                                        ["name"] = "Ground-1-5",
-                                        ["heading"] = 2.8972465583106,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [6]
-                                    [7] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 9,
-                                        ["y"] = -38614.719519539,
-                                        ["x"] = 466682.03805904,
-                                        ["name"] = "Ground-1-4",
-                                        ["heading"] = 2.0420352248334,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [7]
-                                    [8] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 8,
-                                        ["y"] = -38624.775883871,
-                                        ["x"] = 466687.80274008,
-                                        ["name"] = "Ground-1-3",
-                                        ["heading"] = 2.0420352248334,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [8]
-                                    [9] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 16,
-                                        ["y"] = -38603.884189098,
-                                        ["x"] = 466681.0016916,
-                                        ["name"] = "Ground-1-11",
-                                        ["heading"] = 2.0594885173533,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [9]
-                                    [10] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 7,
-                                        ["y"] = -38645.98778133,
-                                        ["x"] = 466697.46373486,
-                                        ["name"] = "Ground-1-2",
-                                        ["heading"] = 2.0594885173533,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [10]
-                                    [11] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 6,
-                                        ["y"] = -38633.746422649,
-                                        ["x"] = 466691.66697217,
-                                        ["name"] = "Ground-1-1",
-                                        ["heading"] = 2.0420352248334,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [11]
-                                }, -- end of ["units"]
-                                ["y"] = -38551.356561776,
-                                ["x"] = 466652.92321821,
-                                ["name"] = "PRIMARY DESTROYED Ambushed Convoy 1",
-                                ["start_time"] = 0,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["vehicle"]
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 80,
-                    ["vehicle"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            [1] = 
-                                            {
-                                                ["y"] = -38581.358933933,
-                                                ["x"] = 466680.13616514,
-                                            }, -- end of [1]
-                                            [2] = 
-                                            {
-                                                ["y"] = -38581.30279468,
-                                                ["x"] = 466680.12736662,
-                                            }, -- end of [2]
-                                        }, -- end of [1]
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 1481,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = -38593.280497298,
-                                            ["x"] = 466691.80412194,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 4,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 8,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Stinger comm",
-                                        ["unitId"] = 27,
-                                        ["y"] = -38593.280497298,
-                                        ["x"] = 466691.80412194,
-                                        ["name"] = "PRIMARY DESTROYED Ambushed Convoy 1-1-2",
-                                        ["heading"] = 1.9722220547536,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 30,
-                                        ["y"] = -38528.554409972,
-                                        ["x"] = 466644.31163017,
-                                        ["name"] = "PRIMARY DESTROYED Ambushed Convoy 1-1-5",
-                                        ["heading"] = 1.9373154697137,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [2]
-                                    [3] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 29,
-                                        ["y"] = -38529.033636149,
-                                        ["x"] = 466638.41665751,
-                                        ["name"] = "PRIMARY DESTROYED Ambushed Convoy 1-1-4",
-                                        ["heading"] = 2.6703537555513,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [3]
-                                    [4] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 28,
-                                        ["y"] = -38546.8528868,
-                                        ["x"] = 466648.27411531,
-                                        ["name"] = "PRIMARY DESTROYED Ambushed Convoy 1-1-3",
-                                        ["heading"] = 1.9373154697137,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [4]
-                                    [5] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Soldier stinger",
-                                        ["unitId"] = 26,
-                                        ["y"] = -38592.317465932,
-                                        ["x"] = 466694.39226873,
-                                        ["name"] = "PRIMARY DESTROYED Ambushed Convoy 1-1-1",
-                                        ["heading"] = 1.9373154697137,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [5]
-                                }, -- end of ["units"]
-                                ["y"] = -38593.280497298,
-                                ["x"] = 466691.80412194,
-                                ["name"] = "Convoyambush3022550554824infantrygroup",
-                                ["start_time"] = 0,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["vehicle"]
-                    ["name"] = "CJTF Blue",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
-                }, -- end of [5]
-                [6] = 
-                {
-                    ["id"] = 2,
-                    ["name"] = "USA",
-                }, -- end of [6]
-            }, -- end of ["country"]
-        }, -- end of ["blue"]
         ["neutrals"] = 
         {
             ["name"] = "neutrals",
@@ -849,6 +384,471 @@ staticTemplate =
                 }, -- end of [75]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -38581.358933933,
+                                                ["x"] = 466680.13616514,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -38581.30279468,
+                                                ["x"] = 466680.12736662,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1481,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -38593.280497298,
+                                            ["x"] = 466691.80412194,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 4,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Stinger comm",
+                                        ["unitId"] = 3,
+                                        ["y"] = -38593.280497298,
+                                        ["x"] = 466691.80412194,
+                                        ["name"] = "Convoyambush3022550554824infantrygroup-1",
+                                        ["heading"] = 1.9722220547536,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 1,
+                                        ["y"] = -38528.554409972,
+                                        ["x"] = 466644.31163017,
+                                        ["name"] = "Convoyambush3022550554824infantrygroup-2",
+                                        ["heading"] = 1.9373154697137,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 2,
+                                        ["y"] = -38529.033636149,
+                                        ["x"] = 466638.41665751,
+                                        ["name"] = "Convoyambush3022550554824infantrygroup-3",
+                                        ["heading"] = 2.6703537555513,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 4,
+                                        ["y"] = -38546.8528868,
+                                        ["x"] = 466648.27411531,
+                                        ["name"] = "Convoyambush3022550554824infantrygroup-4",
+                                        ["heading"] = 1.9373154697137,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 5,
+                                        ["y"] = -38592.317465932,
+                                        ["x"] = 466694.39226873,
+                                        ["name"] = "Convoyambush3022550554824infantrygroup-5",
+                                        ["heading"] = 1.9373154697137,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                }, -- end of ["units"]
+                                ["y"] = -38593.280497298,
+                                ["x"] = 466691.80412194,
+                                ["name"] = "Convoyambush3022550554824infantrygroup",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 34,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -38553.744870438,
+                                                ["x"] = 466652.70061187,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -38553.550511385,
+                                                ["x"] = 466653.28368903,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1481,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -38551.356561776,
+                                            ["x"] = 466652.92321821,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 4,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 7,
+                                        ["y"] = -38551.356561776,
+                                        ["x"] = 466652.92321821,
+                                        ["name"] = "Ambushed Convoy 1-1",
+                                        ["heading"] = 1.6580627893946,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 8,
+                                        ["y"] = -38565.714356513,
+                                        ["x"] = 466657.57253265,
+                                        ["name"] = "Ambushed Convoy 1-2",
+                                        ["heading"] = 2.0769418098733,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 14,
+                                        ["y"] = -38578.348728504,
+                                        ["x"] = 466664.11267815,
+                                        ["name"] = "Ambushed Convoy 1-3",
+                                        ["heading"] = 1.7802358370342,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 9,
+                                        ["y"] = -38587.099221624,
+                                        ["x"] = 466668.69693401,
+                                        ["name"] = "Ambushed Convoy 1-4",
+                                        ["heading"] = 2.2514747350727,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 12,
+                                        ["y"] = -38597.105065397,
+                                        ["x"] = 466673.49140082,
+                                        ["name"] = "Ambushed Convoy 1-5",
+                                        ["heading"] = 2.0071286397935,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 15,
+                                        ["y"] = -38604.505220688,
+                                        ["x"] = 466675.68017914,
+                                        ["name"] = "Ambushed Convoy 1-6",
+                                        ["heading"] = 2.8972465583106,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 6,
+                                        ["y"] = -38614.719519539,
+                                        ["x"] = 466682.03805904,
+                                        ["name"] = "Ambushed Convoy 1-7",
+                                        ["heading"] = 2.0420352248334,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 10,
+                                        ["y"] = -38624.775883871,
+                                        ["x"] = 466687.80274008,
+                                        ["name"] = "Ambushed Convoy 1-8",
+                                        ["heading"] = 2.0420352248334,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 11,
+                                        ["y"] = -38603.884189098,
+                                        ["x"] = 466681.0016916,
+                                        ["name"] = "Ambushed Convoy 1-9",
+                                        ["heading"] = 2.0594885173533,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 13,
+                                        ["y"] = -38645.98778133,
+                                        ["x"] = 466697.46373486,
+                                        ["name"] = "Ambushed Convoy 1-10",
+                                        ["heading"] = 2.0594885173533,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 16,
+                                        ["y"] = -38633.746422649,
+                                        ["x"] = 466691.66697217,
+                                        ["name"] = "Ambushed Convoy 1-11",
+                                        ["heading"] = 2.0420352248334,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [11]
+                                }, -- end of ["units"]
+                                ["y"] = -38551.356561776,
+                                ["x"] = 466652.92321821,
+                                ["name"] = "PRIMARY DESTROYED Ambushed Convoy 1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "Iran",
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 2.0071286397935,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38537.375638071,
+                                            ["speed"] = 0,
+                                            ["x"] = 466643.79905135,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "KrAZ6322",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 5,
+                                        ["y"] = -38537.375638071,
+                                        ["x"] = 466643.79905135,
+                                        ["name"] = "Static Truck KrAZ-6322 6x6-1-1",
+                                        ["heading"] = 2.0071286397935,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38537.375638071,
+                                ["x"] = 466643.79905135,
+                                ["name"] = "Static Truck KrAZ-6322 6x6-1",
+                                ["dead"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [6]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
         ["red"] = 
         {
             ["name"] = "red",
@@ -877,7 +877,7 @@ staticTemplate =
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "convoyambush3022554824",
+    ["name"] = "convoyambusheastofrafsanjan",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]
@@ -893,7 +893,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "A spetsnaz team has successfully trapped an Iranian army convoy evacuating south near Rafsanjan. The commander has requested an airstrike to take it out as they are short on ammunition.\
+    ["desc"] = "A Spetsnaz team has successfully trapped an Iranian army convoy evacuating south near Rafsanjan. The area around the road has been mined, but it's only a matter of time before Iranian sappers carve a way out. The commander has requested an airstrike to take it out as they are short on ammunition.\
 \
-The area around the road has been mined, but it's only a matter of time before Iranian sappers carve a way out. Destroy the convoy as soon as possible before that happens.",
+Destroy the convoy as soon as possible before that happens.",
 } -- end of staticTemplate

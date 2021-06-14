@@ -887,7 +887,7 @@ staticTemplate =
                                 }, -- end of ["units"]
                                 ["y"] = 117566.8469295,
                                 ["x"] = 379142.71631739,
-                                ["name"] = "PRIMARY DESTROY Reyan Forest Convoy Ambush",
+                                ["name"] = "PRIMARY DESTROYED Reyan Forest Convoy Ambush",
                                 ["start_time"] = 0,
                             }, -- end of [2]
                         }, -- end of ["group"]
@@ -970,7 +970,5 @@ Its is imperative that the convoy does not break free of the trap and rejoin wit
 \
 Any Damage to the Rayen Castle historical site nearby is unacceptable.\
 \
-PRIMARY OBJECTIVE: Destroy the rapier system and supply trucks.\
-\
-Secondary: None",
+Your orders are to destroy the rapier system and supply trucks.",
 } -- end of staticTemplate

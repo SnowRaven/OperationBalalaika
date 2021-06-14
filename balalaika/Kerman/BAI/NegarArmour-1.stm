@@ -2,433 +2,6 @@ staticTemplate =
 {
     ["coalition"] = 
     {
-        ["blue"] = 
-        {
-            ["name"] = "blue",
-            ["country"] = 
-            {
-                [1] = 
-                {
-                    ["id"] = 80,
-                    ["vehicle"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 2110,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 52062.775783559,
-                                            ["x"] = 395476.73609748,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 0,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 1,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "M-60",
-                                        ["unitId"] = 4,
-                                        ["y"] = 52062.775783559,
-                                        ["x"] = 395476.73609748,
-                                        ["name"] = "Ground-1-4",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "M-60",
-                                        ["unitId"] = 3,
-                                        ["y"] = 52043.773959498,
-                                        ["x"] = 395485.28173847,
-                                        ["name"] = "Ground-1-3",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [2]
-                                    [3] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "M-60",
-                                        ["unitId"] = 2,
-                                        ["y"] = 52091.399296768,
-                                        ["x"] = 395447.06437108,
-                                        ["name"] = "Ground-1-2",
-                                        ["heading"] = 1.6580627893946,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [3]
-                                    [4] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
-                                        ["type"] = "KrAZ6322",
-                                        ["unitId"] = 8,
-                                        ["y"] = 52007.896989555,
-                                        ["x"] = 395449.05245614,
-                                        ["name"] = "Ground-1-8",
-                                        ["heading"] = 0.05235987755983,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [4]
-                                    [5] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert - camo",
-                                        ["skill"] = "Average",
-                                        ["type"] = "KrAZ6322",
-                                        ["unitId"] = 7,
-                                        ["y"] = 52053.771695166,
-                                        ["x"] = 395422.92935989,
-                                        ["name"] = "Ground-1-7",
-                                        ["heading"] = 1.2566370614359,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [5]
-                                    [6] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Good",
-                                        ["type"] = "Vulcan",
-                                        ["unitId"] = 6,
-                                        ["y"] = 52023.198851661,
-                                        ["x"] = 395432.33676631,
-                                        ["name"] = "Ground-1-6",
-                                        ["heading"] = 0.90757121103705,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [6]
-                                    [7] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Good",
-                                        ["type"] = "Vulcan",
-                                        ["unitId"] = 5,
-                                        ["y"] = 52031.932516862,
-                                        ["x"] = 395422.04579009,
-                                        ["name"] = "Ground-1-5",
-                                        ["heading"] = 0.92502450355699,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [7]
-                                    [8] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 15,
-                                        ["y"] = 52039.383336719,
-                                        ["x"] = 395469.38007366,
-                                        ["name"] = "Overeageriranaintankplatoon1-6",
-                                        ["heading"] = 4.6949356878647,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [8]
-                                    [9] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 14,
-                                        ["y"] = 52038.221122739,
-                                        ["x"] = 395469.38577561,
-                                        ["name"] = "Overeageriranaintankplatoon1-5",
-                                        ["heading"] = 1.6406094968747,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [9]
-                                    [10] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 13,
-                                        ["y"] = 52090.1773442,
-                                        ["x"] = 395468.79331217,
-                                        ["name"] = "Overeageriranaintankplatoon1-4",
-                                        ["heading"] = 0.85521133347722,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [10]
-                                    [11] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Soldier RPG",
-                                        ["unitId"] = 12,
-                                        ["y"] = 52090.94041666,
-                                        ["x"] = 395467.93359444,
-                                        ["name"] = "Overeageriranaintankplatoon1-3",
-                                        ["heading"] = 0.75049157835756,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [11]
-                                    [12] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 11,
-                                        ["y"] = 52099.166259709,
-                                        ["x"] = 395428.08944007,
-                                        ["name"] = "Overeageriranaintankplatoon1-2",
-                                        ["heading"] = 0.15707963267949,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [12]
-                                    [13] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Stinger comm dsr",
-                                        ["unitId"] = 18,
-                                        ["y"] = 52047.828281477,
-                                        ["x"] = 395424.27962786,
-                                        ["name"] = "Overeageriranaintankplatoon1-7",
-                                        ["heading"] = 0.71558499331767,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [13]
-                                    [14] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Soldier stinger",
-                                        ["unitId"] = 10,
-                                        ["y"] = 52048.593194465,
-                                        ["x"] = 395423.95126348,
-                                        ["name"] = "Overeageriranaintankplatoon1-1",
-                                        ["heading"] = 0.71558499331767,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [14]
-                                    [15] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "M-60",
-                                        ["unitId"] = 19,
-                                        ["y"] = 52080.581829077,
-                                        ["x"] = 395462.30842576,
-                                        ["name"] = "Overeageriranaintankplatoon1-8",
-                                        ["heading"] = 0.92502450355699,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [15]
-                                    [16] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "M-60",
-                                        ["unitId"] = 1,
-                                        ["y"] = 52102.776757489,
-                                        ["x"] = 395430.39000491,
-                                        ["name"] = "Ground-1-1",
-                                        ["heading"] = 1.6406094968747,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [16]
-                                }, -- end of ["units"]
-                                ["y"] = 52062.775783559,
-                                ["x"] = 395476.73609748,
-                                ["name"] = "PRIMARY DESTROY Overeageriranaintankplatoon1",
-                                ["start_time"] = 0,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["vehicle"]
-                    ["name"] = "CJTF Blue",
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 34,
-                    ["static"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["heading"] = 5.532693728822,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 52030.360384894,
-                                            ["speed"] = 0,
-                                            ["x"] = 395398.49803274,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 3,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "PalatkaB",
-                                        ["type"] = "FARP Tent",
-                                        ["unitId"] = 16,
-                                        ["rate"] = 50,
-                                        ["y"] = 52030.360384894,
-                                        ["x"] = 395398.49803274,
-                                        ["name"] = "Static FARP Tent-1-1",
-                                        ["heading"] = 5.532693728822,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 52030.360384894,
-                                ["x"] = 395398.49803274,
-                                ["name"] = "Static FARP Tent-1",
-                                ["dead"] = false,
-                            }, -- end of [1]
-                            [2] = 
-                            {
-                                ["heading"] = 5.550147021342,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 52021.942938302,
-                                            ["speed"] = 0,
-                                            ["x"] = 395390.63646251,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 4,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "PalatkaB",
-                                        ["type"] = "FARP Tent",
-                                        ["unitId"] = 17,
-                                        ["rate"] = 50,
-                                        ["y"] = 52021.942938302,
-                                        ["x"] = 395390.63646251,
-                                        ["name"] = "Static FARP Tent-2-1",
-                                        ["heading"] = 5.550147021342,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 52021.942938302,
-                                ["x"] = 395390.63646251,
-                                ["name"] = "Static FARP Tent-2",
-                                ["dead"] = false,
-                            }, -- end of [2]
-                        }, -- end of ["group"]
-                    }, -- end of ["static"]
-                    ["name"] = "Iran",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
-                }, -- end of [5]
-                [6] = 
-                {
-                    ["id"] = 2,
-                    ["name"] = "USA",
-                }, -- end of [6]
-            }, -- end of ["country"]
-        }, -- end of ["blue"]
         ["neutrals"] = 
         {
             ["name"] = "neutrals",
@@ -811,6 +384,498 @@ staticTemplate =
                 }, -- end of [75]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2110,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 52062.775783559,
+                                            ["x"] = 395476.73609748,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 4,
+                                        ["y"] = 52062.775783559,
+                                        ["x"] = 395476.73609748,
+                                        ["name"] = "Ground-1-4",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 3,
+                                        ["y"] = 52043.773959498,
+                                        ["x"] = 395485.28173847,
+                                        ["name"] = "Ground-1-3",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 2,
+                                        ["y"] = 52091.399296768,
+                                        ["x"] = 395447.06437108,
+                                        ["name"] = "Ground-1-2",
+                                        ["heading"] = 1.6580627893946,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 19,
+                                        ["y"] = 52080.581829077,
+                                        ["x"] = 395462.30842576,
+                                        ["name"] = "Overeageriranaintankplatoon1-8",
+                                        ["heading"] = 0.92502450355699,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 1,
+                                        ["y"] = 52102.776757489,
+                                        ["x"] = 395430.39000491,
+                                        ["name"] = "Ground-1-1",
+                                        ["heading"] = 1.6406094968747,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                }, -- end of ["units"]
+                                ["y"] = 52062.775783559,
+                                ["x"] = 395476.73609748,
+                                ["name"] = "PRIMARY DESTROYED Overeageriranaintankplatoon1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2111,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 52043.442839243,
+                                            ["x"] = 395428.14778034,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                        ["groupId"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 26,
+                                        ["y"] = 52043.442839243,
+                                        ["x"] = 395428.14778034,
+                                        ["name"] = "Overeageriranaintankplatoon1-1 infantry-1-2",
+                                        ["heading"] = 0.83775804095728,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 25,
+                                        ["y"] = 52030.927400293,
+                                        ["x"] = 395442.72450542,
+                                        ["name"] = "Overeageriranaintankplatoon1-1 infantry-1-1",
+                                        ["heading"] = 0.83775804095728,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = 52043.442839243,
+                                ["x"] = 395428.14778034,
+                                ["name"] = "Overeageriranaintankplatoon1-1 Vulcans",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["name"] = "Iran",
+                    ["id"] = 34,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 5.532693728822,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 52030.360384894,
+                                            ["speed"] = 0,
+                                            ["x"] = 395398.49803274,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 50,
+                                        ["y"] = 52030.360384894,
+                                        ["x"] = 395398.49803274,
+                                        ["name"] = "Static FARP Tent-1-1",
+                                        ["heading"] = 5.532693728822,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 52030.360384894,
+                                ["x"] = 395398.49803274,
+                                ["name"] = "Static FARP Tent-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 5.550147021342,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 52021.942938302,
+                                            ["speed"] = 0,
+                                            ["x"] = 395390.63646251,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 50,
+                                        ["y"] = 52021.942938302,
+                                        ["x"] = 395390.63646251,
+                                        ["name"] = "Static FARP Tent-2-1",
+                                        ["heading"] = 5.550147021342,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 52021.942938302,
+                                ["x"] = 395390.63646251,
+                                ["name"] = "Static FARP Tent-2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2111,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 52025.756796935,
+                                            ["x"] = 395449.09319553,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 4,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 24,
+                                        ["y"] = 52025.756796935,
+                                        ["x"] = 395449.09319553,
+                                        ["name"] = "Overeageriranaintankplatoon1-1 infantry-5",
+                                        ["heading"] = 2.5656340004317,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 23,
+                                        ["y"] = 52092.714261218,
+                                        ["x"] = 395464.97902074,
+                                        ["name"] = "Overeageriranaintankplatoon1-1 infantry-4",
+                                        ["heading"] = 0.83775804095728,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 22,
+                                        ["y"] = 52091.973750486,
+                                        ["x"] = 395465.41098534,
+                                        ["name"] = "Overeageriranaintankplatoon1-1 infantry-3",
+                                        ["heading"] = 0.83775804095728,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 21,
+                                        ["y"] = 52102.312221806,
+                                        ["x"] = 395428.09716651,
+                                        ["name"] = "Overeageriranaintankplatoon1-1 infantry-2",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 20,
+                                        ["y"] = 52026.511895957,
+                                        ["x"] = 395448.37936771,
+                                        ["name"] = "Overeageriranaintankplatoon1-1 infantry-1",
+                                        ["heading"] = 5.5676003138619,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                }, -- end of ["units"]
+                                ["y"] = 52025.756796935,
+                                ["x"] = 395449.09319553,
+                                ["name"] = "Overeageriranaintankplatoon1-1 infantry",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [6]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
         ["red"] = 
         {
             ["name"] = "red",
@@ -857,7 +922,6 @@ staticTemplate =
     ["theatre"] = "PersianGulf",
     ["desc"] = "Our ELINT efforts have intercepted a request for fuel from an Iranian tank commander that out stripped his supply lines.  Our intelligence officers were able to glean enough information to learn that the stranded platoon is somewhere south of the farmlands near Negar.  The tank commander described white sand and a large intersection but did not list exact coordinates.\
 \
-PRIMARY OBJECTIVE:  Locate and Destroy the Iranian tank platoon, troops, anti-air, and accompanying support vehicles.\
-\
-SECONDARY OBJECTIVE: None",
+Your Orders are to destroy the enemy tanks before their requested supplies arrive.\
+",
 } -- end of staticTemplate
