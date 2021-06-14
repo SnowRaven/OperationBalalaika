@@ -1,5 +1,5 @@
 --fuel tanks and generator variant
-objtype = "FACILITY"
+objtype = "OCA"
 intel = 2
 cost = 4
 exclusion = "SirjanLakebed"
