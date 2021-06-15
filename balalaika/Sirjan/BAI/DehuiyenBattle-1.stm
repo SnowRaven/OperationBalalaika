@@ -1333,7 +1333,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "An enemy company-sized force clashed with forward elements of our 304th Guards Tank Regiment at the mountain pass at Dehuiyen and was pushed back after sustaining heavy casualties. Their retreat has been stalled by broken terrain and they have been forced to dig in on the open field to the west. The local field commander has called in a strike to eliminate the enemy before they can break out of their position. The enemy's formation consists of Chieftain tanks, BMP-1 IFVs and infantry from the Iranian Army's 37th Armored Brigade. They are protected by several self-propelled anti-aircraft guns and MANPADS.\
+    ["desc"] = "An enemy company-sized force clashed with forward elements of our 304th Guards Tank Regiment at the mountain pass at Dehuiyen and was pushed back after sustaining heavy casualties. Their retreat has been stalled by broken terrain and they have been forced to dig in on the open field to the west. The local field commander has called in a strike to eliminate the enemy before they can break out of their position. The enemy's formation consists of Chieftain tanks, BMP-1 IFVs and infantry from the Iranian Army's 92nd Armored Division. They are protected by several self-propelled anti-aircraft guns and MANPADS.\
 \
 You are to strike the enemy and inflict as much damage to them as possible before they can continue their retreat. Destroy all enemy tanks, APCs and IFVs at the target.",
 } -- end of staticTemplate
