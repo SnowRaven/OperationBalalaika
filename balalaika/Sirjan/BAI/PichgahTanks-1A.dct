@@ -1,0 +1,4 @@
+objtype = "LOGISTICS"
+intel = 1
+cost = 4
+exclusion = "PichgahTanks"
