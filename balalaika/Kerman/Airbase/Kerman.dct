@@ -11,7 +11,8 @@ subordinates = {
 	"234",
 	"344",
 	"393rd",
-	"47"
+	"47",
+	"116"
 }
 players = {
 	"344 TsBPPAA - 1",
@@ -23,7 +24,15 @@ players = {
 	"47 OSAE - 1",
 	"47 OSAE - 2",
 	"47 OSAE - 3",
-	"47 OSAE - 4"
+	"47 OSAE - 4",
+	"47 OSAE - 5",
+	"47 OSAE - 6",
+	"47 OSAE - 7",
+	"47 OSAE - 8",
+	"116 OVTAE - 1",
+	"116 OVTAE - 2",
+	"116 OVTAE - 3",
+	"116 OVTAE - 4",
 }
 desc = "Kerman Airbase"
 recoverytype = "land"
