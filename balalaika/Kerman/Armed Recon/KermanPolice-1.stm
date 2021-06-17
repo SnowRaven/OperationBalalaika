@@ -1,0 +1,928 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 5.8817595792209,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 78955.101834371,
+                                            ["speed"] = 0,
+                                            ["x"] = 454648.63315308,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "LiAZ Bus",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 3,
+                                        ["y"] = 78955.101834371,
+                                        ["x"] = 454648.63315308,
+                                        ["name"] = "Static Bus LiAZ-677-1",
+                                        ["heading"] = 5.8817595792209,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 78955.101834371,
+                                ["x"] = 454648.63315308,
+                                ["name"] = "Static Bus LiAZ-677-1",
+                                ["dead"] = true,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0.75049157835756,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 79025.644533728,
+                                            ["speed"] = 0,
+                                            ["x"] = 454641.48322561,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "LiAZ Bus",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 3,
+                                        ["y"] = 79025.644533728,
+                                        ["x"] = 454641.48322561,
+                                        ["name"] = "Static Bus LiAZ-677-1-1",
+                                        ["heading"] = 0.75049157835756,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 79025.644533728,
+                                ["x"] = 454641.48322561,
+                                ["name"] = "Static Bus LiAZ-677-2",
+                                ["dead"] = true,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 1.0995574287564,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 79035.745261186,
+                                            ["speed"] = 0,
+                                            ["x"] = 454651.86392002,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["effectPreset"] = "1",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "M 818",
+                                        ["effectTransparency"] = 1,
+                                        ["unitId"] = 18,
+                                        ["rate"] = 5,
+                                        ["y"] = 79035.745261186,
+                                        ["x"] = 454651.86392002,
+                                        ["name"] = "Static Truck M939 Heavy-1",
+                                        ["heading"] = 1.0995574287564,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 79035.745261186,
+                                ["x"] = 454651.86392002,
+                                ["name"] = "Static Truck M939 Heavy-1",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["name"] = "Iran",
+                    ["id"] = 34,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0.019190897446562,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 79026.025770139,
+                                            ["speed"] = 0,
+                                            ["x"] = 454642.08794444,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["effectPreset"] = 5,
+                                        ["category"] = "Effects",
+                                        ["type"] = "big_smoke",
+                                        ["unitId"] = 19,
+                                        ["y"] = 79026.025770139,
+                                        ["x"] = 454642.08794444,
+                                        ["name"] = "Static Big smoke-2-1",
+                                        ["effectTransparency"] = 1,
+                                        ["heading"] = 0.019190897446562,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 79026.025770139,
+                                ["x"] = 454642.08794444,
+                                ["name"] = "Static Big smoke-2",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0.019190897446562,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 78955.218637485,
+                                            ["speed"] = 0,
+                                            ["x"] = 454648.64631363,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["effectPreset"] = 1,
+                                        ["category"] = "Effects",
+                                        ["type"] = "big_smoke",
+                                        ["unitId"] = 20,
+                                        ["y"] = 78955.218637485,
+                                        ["x"] = 454648.64631363,
+                                        ["name"] = "Static Big smoke-2-1-1",
+                                        ["effectTransparency"] = 1,
+                                        ["heading"] = 0.019190897446562,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 78955.218637485,
+                                ["x"] = 454648.64631363,
+                                ["name"] = "Static Big smoke-1",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1756,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 78925.206725111,
+                                            ["x"] = 454788.74163745,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 2,
+                                        ["y"] = 78925.206725111,
+                                        ["x"] = 454788.74163745,
+                                        ["name"] = "PRIMARY DESTROYED Police-1",
+                                        ["heading"] = 2.775073510671,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 1,
+                                        ["y"] = 78945.788256934,
+                                        ["x"] = 454798.42222924,
+                                        ["name"] = "PRIMARY DESTROYED Police",
+                                        ["heading"] = 2.775073510671,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 4,
+                                        ["y"] = 78932.872476751,
+                                        ["x"] = 454791.00880006,
+                                        ["name"] = "PRIMARY DESTROYED Police-3",
+                                        ["heading"] = 2.775073510671,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 3,
+                                        ["y"] = 78940.468536534,
+                                        ["x"] = 454795.09171254,
+                                        ["name"] = "PRIMARY DESTROYED Police-2",
+                                        ["heading"] = 2.775073510671,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 5,
+                                        ["y"] = 78920.116422443,
+                                        ["x"] = 454795.91681336,
+                                        ["name"] = "PRIMARY DESTROYED Police-4",
+                                        ["heading"] = 3.2637657012294,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "Light Green spring",
+                                        ["skill"] = "Average",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 9,
+                                        ["y"] = 78962.289874435,
+                                        ["x"] = 454637.33517477,
+                                        ["name"] = "PRIMARY DESTROYED Police-8",
+                                        ["heading"] = 3.1415926535898,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 13,
+                                        ["y"] = 79035.161477735,
+                                        ["x"] = 454657.7662448,
+                                        ["name"] = "PRIMARY DESTROYED Police-12",
+                                        ["heading"] = 2.8099800957109,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 12,
+                                        ["y"] = 79030.91589359,
+                                        ["x"] = 454656.72373508,
+                                        ["name"] = "PRIMARY DESTROYED Police-11",
+                                        ["heading"] = 4.9741883681838,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 11,
+                                        ["y"] = 79038.184555723,
+                                        ["x"] = 454657.88515971,
+                                        ["name"] = "PRIMARY DESTROYED Police-10",
+                                        ["heading"] = 3.4382986264288,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 14,
+                                        ["y"] = 78966.230851893,
+                                        ["x"] = 454639.87678741,
+                                        ["name"] = "PRIMARY DESTROYED Police-13",
+                                        ["heading"] = 3.9618974020271,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 15,
+                                        ["y"] = 78967.655208341,
+                                        ["x"] = 454637.47011617,
+                                        ["name"] = "PRIMARY DESTROYED Police-14",
+                                        ["heading"] = 4.2586033748662,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 10,
+                                        ["y"] = 79028.902626777,
+                                        ["x"] = 454653.95042896,
+                                        ["name"] = "PRIMARY DESTROYED Police-9",
+                                        ["heading"] = 2.3561944901923,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                }, -- end of ["units"]
+                                ["y"] = 78925.206725111,
+                                ["x"] = 454788.74163745,
+                                ["name"] = "Police",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [7]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [74]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [4]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "KermanPolice-1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "We have received a distress call from a KGB team in Kerman. The city's Chief of Police and his men have used yesterday evening's meeting as an opportunity to ambush the KGB officers in charge of coordinating public security. While our friends were allowed to leave alive, this was on the condition that they surrender their weapons, their BTR and send a negotiator before the end of today to hear their list of demands on behalf of the local police. While the KGB has requested a chance to negotiate a settlement, HQ has deemed this unacceptable, to avoid setting a precedent. A new chief of police has already been selected, while your crew has been appointed as our \"negotiators\".\
+\
+The rogue policemen have erected roadblocks on the SW/NE highway by the station. After take-off, intercept it along the southern end of the Kerman runway and fly eastwards for 8km. Equipment lost by the KGB team include AKMs, RPGs and a BTR. The station is a tall blue building in a largely green lot, but it is surrounded by residential buildings so be conservative when engaging.\
+\
+Eliminate the police officers manning the roadblocks and taking guard on top of the police station, and destroy the BTR. After your attack, a VDV team will be inserted via helicopter to retrieve the chief or his body, whichever they find.",
+} -- end of staticTemplate

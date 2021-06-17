@@ -1,0 +1,4 @@
+--inactive tank variant
+objtype = "SPECIALFORCES"
+intel = 3
+cost = 4

@@ -33,6 +33,10 @@ players = {
 	"116 OVTAE - 2",
 	"116 OVTAE - 3",
 	"116 OVTAE - 4",
+	"116 OVTAE - 5",
+	"116 OVTAE - 6",
+	"116 OVTAE - 7",
+	"116 OVTAE - 8",
 }
 desc = "Kerman Airbase"
 recoverytype = "land"
