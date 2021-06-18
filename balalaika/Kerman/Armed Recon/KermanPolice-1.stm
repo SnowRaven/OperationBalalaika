@@ -16,86 +16,6 @@ staticTemplate =
                         {
                             [1] = 
                             {
-                                ["heading"] = 5.8817595792209,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 78955.101834371,
-                                            ["speed"] = 0,
-                                            ["x"] = 454648.63315308,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 2,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Unarmed",
-                                        ["type"] = "LiAZ Bus",
-                                        ["unitId"] = 16,
-                                        ["rate"] = 3,
-                                        ["y"] = 78955.101834371,
-                                        ["x"] = 454648.63315308,
-                                        ["name"] = "Static Bus LiAZ-677-1",
-                                        ["heading"] = 5.8817595792209,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 78955.101834371,
-                                ["x"] = 454648.63315308,
-                                ["name"] = "Static Bus LiAZ-677-1",
-                                ["dead"] = true,
-                            }, -- end of [1]
-                            [2] = 
-                            {
-                                ["heading"] = 0.75049157835756,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 79025.644533728,
-                                            ["speed"] = 0,
-                                            ["x"] = 454641.48322561,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 3,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Unarmed",
-                                        ["type"] = "LiAZ Bus",
-                                        ["unitId"] = 17,
-                                        ["rate"] = 3,
-                                        ["y"] = 79025.644533728,
-                                        ["x"] = 454641.48322561,
-                                        ["name"] = "Static Bus LiAZ-677-1-1",
-                                        ["heading"] = 0.75049157835756,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 79025.644533728,
-                                ["x"] = 454641.48322561,
-                                ["name"] = "Static Bus LiAZ-677-2",
-                                ["dead"] = true,
-                            }, -- end of [2]
-                            [3] = 
-                            {
                                 ["heading"] = 1.0995574287564,
                                 ["route"] = 
                                 {
@@ -135,103 +55,14 @@ staticTemplate =
                                 ["x"] = 454651.86392002,
                                 ["name"] = "Static Truck M939 Heavy-1",
                                 ["dead"] = false,
-                            }, -- end of [3]
+                            }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["name"] = "CJTF Blue",
                 }, -- end of [1]
                 [2] = 
                 {
-                    ["name"] = "Iran",
                     ["id"] = 34,
-                    ["static"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["heading"] = 0.019190897446562,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 79026.025770139,
-                                            ["speed"] = 0,
-                                            ["x"] = 454642.08794444,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 5,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["effectPreset"] = 5,
-                                        ["category"] = "Effects",
-                                        ["type"] = "big_smoke",
-                                        ["unitId"] = 19,
-                                        ["y"] = 79026.025770139,
-                                        ["x"] = 454642.08794444,
-                                        ["name"] = "Static Big smoke-2-1",
-                                        ["effectTransparency"] = 1,
-                                        ["heading"] = 0.019190897446562,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 79026.025770139,
-                                ["x"] = 454642.08794444,
-                                ["name"] = "Static Big smoke-2",
-                                ["dead"] = false,
-                            }, -- end of [1]
-                            [2] = 
-                            {
-                                ["heading"] = 0.019190897446562,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 78955.218637485,
-                                            ["speed"] = 0,
-                                            ["x"] = 454648.64631363,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 6,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["effectPreset"] = 1,
-                                        ["category"] = "Effects",
-                                        ["type"] = "big_smoke",
-                                        ["unitId"] = 20,
-                                        ["y"] = 78955.218637485,
-                                        ["x"] = 454648.64631363,
-                                        ["name"] = "Static Big smoke-2-1-1",
-                                        ["effectTransparency"] = 1,
-                                        ["heading"] = 0.019190897446562,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 78955.218637485,
-                                ["x"] = 454648.64631363,
-                                ["name"] = "Static Big smoke-1",
-                                ["dead"] = false,
-                            }, -- end of [2]
-                        }, -- end of ["group"]
-                    }, -- end of ["static"]
                     ["vehicle"] = 
                     {
                         ["group"] = 
@@ -471,6 +302,7 @@ staticTemplate =
                             }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
+                    ["name"] = "Iran",
                 }, -- end of [2]
                 [3] = 
                 {
