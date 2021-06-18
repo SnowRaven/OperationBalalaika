@@ -2,6 +2,256 @@ staticTemplate =
 {
     ["coalition"] = 
     {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 17,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1232,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 124380.42035573,
+                                            ["x"] = 282049.09953668,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "2B11 mortar",
+                                        ["unitId"] = 2,
+                                        ["y"] = 124380.42035573,
+                                        ["x"] = 282049.09953668,
+                                        ["name"] = "PRIMARY DESTROYED mortar1-1",
+                                        ["heading"] = 1.0122909661567,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "2B11 mortar",
+                                        ["unitId"] = 3,
+                                        ["y"] = 124383.48534258,
+                                        ["x"] = 282041.35017279,
+                                        ["name"] = "PRIMARY DESTROYED mortar1-2",
+                                        ["heading"] = 1.1344640137963,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 9,
+                                        ["y"] = 124391.07527517,
+                                        ["x"] = 282053.34547592,
+                                        ["name"] = "mortar1-3",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 4,
+                                        ["y"] = 124366.85881744,
+                                        ["x"] = 282079.70327226,
+                                        ["name"] = "mortar1-4",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 7,
+                                        ["y"] = 124369.59139519,
+                                        ["x"] = 282033.5962945,
+                                        ["name"] = "mortar1-5",
+                                        ["heading"] = 2.4085543677522,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 10,
+                                        ["y"] = 124350.44809673,
+                                        ["x"] = 282061.99719022,
+                                        ["name"] = "mortar1-6",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 1,
+                                        ["y"] = 124403.31570279,
+                                        ["x"] = 282038.67066411,
+                                        ["name"] = "mortar1-7",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 5,
+                                        ["y"] = 127170.51083574,
+                                        ["x"] = 283055.05653838,
+                                        ["name"] = "mortar1-8",
+                                        ["heading"] = 1.2915436464758,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 6,
+                                        ["y"] = 127149.1475863,
+                                        ["x"] = 283084.97496786,
+                                        ["name"] = "mortar1-9",
+                                        ["heading"] = 0.59341194567807,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 8,
+                                        ["y"] = 127196.67153857,
+                                        ["x"] = 283025.48856719,
+                                        ["name"] = "mortar1-10",
+                                        ["heading"] = 1.2042771838761,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                }, -- end of ["units"]
+                                ["y"] = 124380.42035573,
+                                ["x"] = 282049.09953668,
+                                ["name"] = "mortar1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "Insurgents",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 80,
+                    ["name"] = "CJTF Blue",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [7]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
         ["neutrals"] = 
         {
             ["name"] = "neutrals",
@@ -379,256 +629,6 @@ staticTemplate =
                 }, -- end of [74]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
-        ["blue"] = 
-        {
-            ["name"] = "blue",
-            ["country"] = 
-            {
-                [1] = 
-                {
-                    ["id"] = 17,
-                    ["vehicle"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 1275,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 125788.78786596,
-                                            ["x"] = 275987.95276801,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 0,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 1,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "2B11 mortar",
-                                        ["unitId"] = 2,
-                                        ["y"] = 125788.78786596,
-                                        ["x"] = 275987.95276801,
-                                        ["name"] = "PRIMARY DESTROYED mortar1-1",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "2B11 mortar",
-                                        ["unitId"] = 3,
-                                        ["y"] = 125789.77789732,
-                                        ["x"] = 275976.41476397,
-                                        ["name"] = "PRIMARY DESTROYED mortar1-2",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [2]
-                                    [3] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Soldier AK",
-                                        ["unitId"] = 9,
-                                        ["y"] = 125799.4427854,
-                                        ["x"] = 275992.19870725,
-                                        ["name"] = "mortar1-3",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [3]
-                                    [4] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Soldier AK",
-                                        ["unitId"] = 4,
-                                        ["y"] = 125775.22632767,
-                                        ["x"] = 276018.55650359,
-                                        ["name"] = "mortar1-4",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [4]
-                                    [5] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 7,
-                                        ["y"] = 125777.95890542,
-                                        ["x"] = 275972.44952583,
-                                        ["name"] = "mortar1-5",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [5]
-                                    [6] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Soldier stinger",
-                                        ["unitId"] = 10,
-                                        ["y"] = 125758.81560696,
-                                        ["x"] = 276000.85042155,
-                                        ["name"] = "mortar1-6",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [6]
-                                    [7] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Soldier AK",
-                                        ["unitId"] = 1,
-                                        ["y"] = 125811.68321302,
-                                        ["x"] = 275977.52389544,
-                                        ["name"] = "mortar1-7",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [7]
-                                    [8] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Soldier stinger",
-                                        ["unitId"] = 5,
-                                        ["y"] = 129559.24144965,
-                                        ["x"] = 282846.25607076,
-                                        ["name"] = "mortar1-8",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [8]
-                                    [9] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Soldier AK",
-                                        ["unitId"] = 6,
-                                        ["y"] = 129523.65727785,
-                                        ["x"] = 282968.65971451,
-                                        ["name"] = "mortar1-9",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [9]
-                                    [10] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 8,
-                                        ["y"] = 129676.6779929,
-                                        ["x"] = 282871.83245139,
-                                        ["name"] = "mortar1-10",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [10]
-                                }, -- end of ["units"]
-                                ["y"] = 125788.78786596,
-                                ["x"] = 275987.95276801,
-                                ["name"] = "mortar1",
-                                ["start_time"] = 0,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["vehicle"]
-                    ["name"] = "Insurgents",
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 80,
-                    ["name"] = "CJTF Blue",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["id"] = 34,
-                    ["name"] = "Iran",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 42,
-                    ["name"] = "Saudi Arabia",
-                }, -- end of [5]
-                [6] = 
-                {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
-                }, -- end of [6]
-                [7] = 
-                {
-                    ["id"] = 2,
-                    ["name"] = "USA",
-                }, -- end of [7]
-            }, -- end of ["country"]
-        }, -- end of ["blue"]
         ["red"] = 
         {
             ["name"] = "red",

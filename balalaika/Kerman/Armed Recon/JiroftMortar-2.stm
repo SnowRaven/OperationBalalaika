@@ -185,12 +185,12 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "Soldier stinger",
+                                        ["type"] = "Infantry AK Ins",
                                         ["unitId"] = 5,
-                                        ["y"] = 151741.41227002,
-                                        ["x"] = 294410.52125086,
+                                        ["y"] = 152166.07458132,
+                                        ["x"] = 297819.94601385,
                                         ["name"] = "mortar2-8",
-                                        ["heading"] = 3.1198053431253,
+                                        ["heading"] = 3.8397243543875,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [8]
                                     [9] = 
@@ -202,10 +202,10 @@ staticTemplate =
                                         ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
                                         ["unitId"] = 6,
-                                        ["y"] = 151740.43688746,
-                                        ["x"] = 294400.03478912,
+                                        ["y"] = 152302.43883554,
+                                        ["x"] = 297797.13306766,
                                         ["name"] = "mortar2-9",
-                                        ["heading"] = 3.1198053431253,
+                                        ["heading"] = 2.6354471705114,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [9]
                                     [10] = 
@@ -217,10 +217,10 @@ staticTemplate =
                                         ["skill"] = "Average",
                                         ["type"] = "Soldier RPG",
                                         ["unitId"] = 8,
-                                        ["y"] = 151720.0882262,
-                                        ["x"] = 294400.67068479,
+                                        ["y"] = 152113.78025778,
+                                        ["x"] = 297850.73051026,
                                         ["name"] = "mortar2-10",
-                                        ["heading"] = 3.1198053431253,
+                                        ["heading"] = 4.1887902047864,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [10]
                                 }, -- end of ["units"]
