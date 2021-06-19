@@ -1,0 +1,4 @@
+objtype = "SAM"
+intel = 3
+cost = 4
+ignore = true

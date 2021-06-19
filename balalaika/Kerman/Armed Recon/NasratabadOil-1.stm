@@ -1,0 +1,882 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [74]
+                [75] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [75]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 34,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 3.1415926535898,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 371764.08758448,
+                                            ["speed"] = 0,
+                                            ["x"] = 394910.09796131,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "tech",
+                                        ["type"] = "Repair workshop",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 100,
+                                        ["y"] = 371764.08758448,
+                                        ["x"] = 394910.09796131,
+                                        ["name"] = "Static Repair workshop-1-1",
+                                        ["heading"] = 3.1415926535898,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 371764.08758448,
+                                ["x"] = 394910.09796131,
+                                ["name"] = "Static Repair workshop-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "Iran",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 17,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 371803.63865022,
+                                            ["speed"] = 0,
+                                            ["x"] = 395010.21957019,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "nasos",
+                                        ["type"] = "Pump station",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 100,
+                                        ["y"] = 371803.63865022,
+                                        ["x"] = 395010.21957019,
+                                        ["name"] = "PRIMARY DESTROYED Hidden Mujahideen Oil Operation Pump",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 371803.63865022,
+                                ["x"] = 395010.21957019,
+                                ["name"] = "Hidden Mujahideen Oil Operation Pump",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 371721.23442217,
+                                            ["speed"] = 0,
+                                            ["x"] = 395011.29324092,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "neftevyshka",
+                                        ["type"] = "Oil derrick",
+                                        ["unitId"] = 1,
+                                        ["rate"] = 100,
+                                        ["y"] = 371721.23442217,
+                                        ["x"] = 395011.29324092,
+                                        ["name"] = "PRIMARY DESTROYED Hidden Mujahideen Oil Operation Oil Derrick",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 371721.23442217,
+                                ["x"] = 395011.29324092,
+                                ["name"] = "Hidden Mujahideen Oil Operation",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "Insurgents",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0.29670597283904,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 371818.1116644,
+                                            ["speed"] = 0,
+                                            ["x"] = 395068.29103056,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 3,
+                                        ["y"] = 371818.1116644,
+                                        ["x"] = 395068.29103056,
+                                        ["name"] = "Static Refueler ATZ-10-1",
+                                        ["heading"] = 0.29670597283904,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 371818.1116644,
+                                ["x"] = 395068.29103056,
+                                ["name"] = "Static Refueler ATZ-10-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 5.6723200689816,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 371749.34278396,
+                                            ["speed"] = 0,
+                                            ["x"] = 394951.47125338,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 3,
+                                        ["y"] = 371749.34278396,
+                                        ["x"] = 394951.47125338,
+                                        ["name"] = "Static Refueler ATZ-10-2-1",
+                                        ["heading"] = 5.6723200689816,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 371749.34278396,
+                                ["x"] = 394951.47125338,
+                                ["name"] = "Static Refueler ATZ-10-2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 371765.96064586,
+                                            ["speed"] = 0,
+                                            ["x"] = 395023.66179353,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "MAZ-6303",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 3,
+                                        ["y"] = 371765.96064586,
+                                        ["x"] = 395023.66179353,
+                                        ["name"] = "Static Truck MAZ-6303-1-1",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 371765.96064586,
+                                ["x"] = 395023.66179353,
+                                ["name"] = "Static Truck MAZ-6303-1",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1576,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 371655.14579544,
+                                            ["x"] = 395094.83594215,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 11,
+                                        ["y"] = 371655.14579544,
+                                        ["x"] = 395094.83594215,
+                                        ["name"] = "Mujahideen hidden oil operation defences-6",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 10,
+                                        ["y"] = 371915.60833031,
+                                        ["x"] = 395100.74608058,
+                                        ["name"] = "Mujahideen hidden oil operation defences-5",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 9,
+                                        ["y"] = 371765.68308329,
+                                        ["x"] = 394948.74572547,
+                                        ["name"] = "Mujahideen hidden oil operation defences-4",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 8,
+                                        ["y"] = 371902.62928672,
+                                        ["x"] = 394898.72444557,
+                                        ["name"] = "Mujahideen hidden oil operation defences-3",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 7,
+                                        ["y"] = 371762.45099885,
+                                        ["x"] = 395153.65987896,
+                                        ["name"] = "Mujahideen hidden oil operation defences-2",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 6,
+                                        ["y"] = 371647.56286487,
+                                        ["x"] = 394902.11028303,
+                                        ["name"] = "Mujahideen hidden oil operation defences-1",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = 371655.14579544,
+                                ["x"] = 395094.83594215,
+                                ["name"] = "Mujahideen hidden oil operation defences",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [6]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [4]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "hiddenmujahideenoiloperation",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "A farmer from the village of Nasratabad has responded to our bounty on information leading to Mujahideen encampments. They claim that there is an old oil well south of Nasratabd that the Mujahideen, likely members of the Sepha-e-Pasdaran, managed to bring back online, and are using to pump crude oil for sale on the black market. The farmer says the Mujahideen's activity has disturbed the earth and surrounded the site with white sand. Such an operation would be highly important to the Mujahideen's funding, so the site is likely to be heavily defended. The village of Nasratabad is approximately 295 kilometres from Kerman along radial 098.\
+\
+You are to fly to Nasratabad and investigate the farmer's claims. If they turn out to be true, you are to destroy the oil derrick and pump that the farmer says he saw. Any other buildings or vehicles in the area are of secondary importance.",
+} -- end of staticTemplate

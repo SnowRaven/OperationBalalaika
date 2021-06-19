@@ -1,0 +1,1147 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [74]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1046,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -130327.57874888,
+                                            ["x"] = 74632.377468499,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["number"] = 1,
+                                                            ["params"] = 
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "1L13 EWR",
+                                        ["unitId"] = 1,
+                                        ["y"] = -130327.57874888,
+                                        ["x"] = 74632.377468499,
+                                        ["name"] = "PRIMARY DESTROYED EWR-1",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -130327.57874888,
+                                ["x"] = 74632.377468499,
+                                ["name"] = "EWR",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1043,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -130119.75050676,
+                                            ["x"] = 74739.424662653,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 22,
+                                        ["y"] = -130119.75050676,
+                                        ["x"] = 74739.424662653,
+                                        ["name"] = "Ground-4-3",
+                                        ["heading"] = 1.5707963267949,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 21,
+                                        ["y"] = -130377.27136361,
+                                        ["x"] = 74574.987163072,
+                                        ["name"] = "Ground-4-2",
+                                        ["heading"] = 3.2637657012294,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "M48 Chaparral",
+                                        ["unitId"] = 10,
+                                        ["y"] = -130220.55175561,
+                                        ["x"] = 74670.235761026,
+                                        ["name"] = "Ground-4-1",
+                                        ["heading"] = 4.8520153205442,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["y"] = -130119.75050676,
+                                ["x"] = 74739.424662653,
+                                ["name"] = "Ground-4",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["name"] = "Iran",
+                    ["id"] = 34,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 1.7104226669544,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -130091.20203833,
+                                            ["speed"] = 0,
+                                            ["x"] = 74683.151520107,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["type"] = "outpost_road",
+                                        ["unitId"] = 11,
+                                        ["rate"] = 5,
+                                        ["y"] = -130091.20203833,
+                                        ["x"] = 74683.151520107,
+                                        ["name"] = "Static Road outpost-1-1",
+                                        ["heading"] = 1.7104226669544,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -130091.20203833,
+                                ["x"] = 74683.151520107,
+                                ["name"] = "Static Road outpost-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 4.8171087355043,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -130106.75497309,
+                                            ["speed"] = 0,
+                                            ["x"] = 74675.711915362,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_109_S3",
+                                        ["unitId"] = 12,
+                                        ["rate"] = 3,
+                                        ["y"] = -130106.75497309,
+                                        ["x"] = 74675.711915362,
+                                        ["name"] = "Static LUV Land Rover 109-1-1",
+                                        ["heading"] = 4.8171087355043,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -130106.75497309,
+                                ["x"] = 74675.711915362,
+                                ["name"] = "Static LUV Land Rover 109-1",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 4.5553093477052,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -130442.58269607,
+                                            ["speed"] = 0,
+                                            ["x"] = 74634.719209722,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "ceh_ang_a",
+                                        ["type"] = "Tech hangar A",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 100,
+                                        ["y"] = -130442.58269607,
+                                        ["x"] = 74634.719209722,
+                                        ["name"] = "Static Tech hangar A-1",
+                                        ["heading"] = 4.5553093477052,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -130442.58269607,
+                                ["x"] = 74634.719209722,
+                                ["name"] = "Static Tech hangar A-1",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 6.14355896702,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -130329.66357318,
+                                            ["speed"] = 0,
+                                            ["x"] = 74717.098949477,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["type"] = "house1arm",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 5,
+                                        ["y"] = -130329.66357318,
+                                        ["x"] = 74717.098949477,
+                                        ["name"] = "Static Barracks armed-1",
+                                        ["heading"] = 6.14355896702,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -130329.66357318,
+                                ["x"] = 74717.098949477,
+                                ["name"] = "Static Barracks armed-1",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -130301.4532279,
+                                            ["speed"] = 0,
+                                            ["x"] = 74639.983585973,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "GeneratorF",
+                                        ["type"] = "GeneratorF",
+                                        ["unitId"] = 25,
+                                        ["rate"] = 100,
+                                        ["y"] = -130301.4532279,
+                                        ["x"] = 74639.983585973,
+                                        ["name"] = "Static GeneratorF-1",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -130301.4532279,
+                                ["x"] = 74639.983585973,
+                                ["name"] = "Static GeneratorF-1",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1050,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -130305.02025426,
+                                            ["x"] = 74717.361908606,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 4,
+                                        ["y"] = -130305.02025426,
+                                        ["x"] = 74717.361908606,
+                                        ["name"] = "Ground-2-2",
+                                        ["heading"] = 2.9496064358704,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 3,
+                                        ["y"] = -130299.17954081,
+                                        ["x"] = 74717.861975175,
+                                        ["name"] = "Ground-2-1",
+                                        ["heading"] = 3.1415926535898,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = -130305.02025426,
+                                ["x"] = 74717.361908606,
+                                ["name"] = "Ground-2",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1039,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -130455.81059033,
+                                            ["x"] = 74691.639477093,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 8,
+                                        ["y"] = -130455.81059033,
+                                        ["x"] = 74691.639477093,
+                                        ["name"] = "Ground-3-4",
+                                        ["heading"] = 5.7421332390613,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 7,
+                                        ["y"] = -130121.31973393,
+                                        ["x"] = 74758.3259453,
+                                        ["name"] = "Ground-3-3",
+                                        ["heading"] = 1.0471975511966,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 6,
+                                        ["y"] = -130430.73819681,
+                                        ["x"] = 74583.231566072,
+                                        ["name"] = "Ground-3-2",
+                                        ["heading"] = 3.8397243543875,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 5,
+                                        ["y"] = -130144.78581298,
+                                        ["x"] = 74609.90989903,
+                                        ["name"] = "Ground-3-1",
+                                        ["heading"] = 2.4434609527921,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["y"] = -130455.81059033,
+                                ["x"] = 74691.639477093,
+                                ["name"] = "Ground-3",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1042,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -130078.22231529,
+                                            ["x"] = 74689.90109857,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 16,
+                                        ["y"] = -130078.22231529,
+                                        ["x"] = 74689.90109857,
+                                        ["name"] = "Ground-5-2",
+                                        ["heading"] = 1.7453292519943,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 15,
+                                        ["y"] = -130080.00233902,
+                                        ["x"] = 74671.826998675,
+                                        ["name"] = "Ground-5-1",
+                                        ["heading"] = 0.68067840827779,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = -130078.22231529,
+                                ["x"] = 74689.90109857,
+                                ["name"] = "Ground-5",
+                                ["start_time"] = 0,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [7]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [4]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "KampirEWR-1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Intelligence has identified the presence of an Iranian early warning radar operating on the large ridge line at Kuh-e Kampir, approximately 30 kilometers north of Bandar Lengeh. This radar is of a smaller type purchased from the Americans by the Shah's regime prior to the revolution. As part of our efforts to incapacitate Iran's air defense network, this radar must be neutralized. Our last photographs of the site show that it is primarily defended by anti-aircraft artillery consisting of several 57 and 23mm gun emplacements.\
+\
+Your orders are simple: find the early warning radar and destroy it.",
+} -- end of staticTemplate
