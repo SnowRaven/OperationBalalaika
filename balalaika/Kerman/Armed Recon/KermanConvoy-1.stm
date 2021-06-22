@@ -453,7 +453,7 @@ staticTemplate =
                                         ["unitId"] = 10,
                                         ["y"] = 22385.727710374,
                                         ["x"] = 536244.38357845,
-                                        ["name"] = "PRIMARY DESTROYED Stranded Mujahideen Convoy 1",
+                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy 1",
                                         ["heading"] = 2.164208272473,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
@@ -468,7 +468,7 @@ staticTemplate =
                                         ["unitId"] = 9,
                                         ["y"] = 22357.884433616,
                                         ["x"] = 536261.75587934,
-                                        ["name"] = "PRIMARY DESTROYED Stranded Mujahideen Convoy 2",
+                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy 2",
                                         ["heading"] = 2.1293016874331,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
@@ -483,7 +483,7 @@ staticTemplate =
                                         ["unitId"] = 8,
                                         ["y"] = 22326.016803864,
                                         ["x"] = 536280.03006441,
-                                        ["name"] = "PRIMARY DESTROYED Stranded Mujahideen Convoy 3",
+                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy 3",
                                         ["heading"] = 2.1118483949131,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]
@@ -498,7 +498,7 @@ staticTemplate =
                                         ["unitId"] = 7,
                                         ["y"] = 22247.94440614,
                                         ["x"] = 536324.46242784,
-                                        ["name"] = "PRIMARY DESTROYED Stranded Mujahideen Convoy 6",
+                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy 6",
                                         ["heading"] = 2.0943951023932,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -513,7 +513,7 @@ staticTemplate =
                                         ["unitId"] = 6,
                                         ["y"] = 22268.72785807,
                                         ["x"] = 536312.49927014,
-                                        ["name"] = "PRIMARY DESTROYED Stranded Mujahideen Convoy 5",
+                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy 5",
                                         ["heading"] = 2.1293016874331,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
@@ -533,14 +533,14 @@ staticTemplate =
                                         ["unitId"] = 5,
                                         ["y"] = 22294.308343945,
                                         ["x"] = 536297.02247149,
-                                        ["name"] = "PRIMARY DESTROYED Stranded Mujahideen Convoy 4",
+                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy 4",
                                         ["heading"] = 2.0943951023932,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [6]
                                 }, -- end of ["units"]
                                 ["y"] = 22385.727710374,
                                 ["x"] = 536244.38357845,
-                                ["name"] = "Stranded Mujahideen Convoy",
+                                ["name"] = "Stranded mujahideen Convoy",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                         }, -- end of ["group"]
@@ -612,7 +612,7 @@ staticTemplate =
                                         ["unitId"] = 4,
                                         ["y"] = 22419.817506237,
                                         ["x"] = 536218.17371079,
-                                        ["name"] = "Stranded Mujahideen Convoy Defences-3",
+                                        ["name"] = "Stranded mujahideen Convoy Defences-3",
                                         ["heading"] = 2.3387411976724,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [1]
@@ -627,7 +627,7 @@ staticTemplate =
                                         ["unitId"] = 12,
                                         ["y"] = 22405.298946466,
                                         ["x"] = 536247.41595018,
-                                        ["name"] = "Stranded Mujahideen Convoy Defences-4",
+                                        ["name"] = "Stranded mujahideen Convoy Defences-4",
                                         ["heading"] = 2.1816615649929,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
@@ -642,7 +642,7 @@ staticTemplate =
                                         ["unitId"] = 11,
                                         ["y"] = 22332.450367609,
                                         ["x"] = 536290.68764935,
-                                        ["name"] = "Stranded Mujahideen Convoy Defences-1",
+                                        ["name"] = "Stranded mujahideen Convoy Defences-1",
                                         ["heading"] = 1.9547687622336,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [3]
@@ -657,14 +657,14 @@ staticTemplate =
                                         ["unitId"] = 3,
                                         ["y"] = 22509.784872823,
                                         ["x"] = 536085.07765816,
-                                        ["name"] = "Stranded Mujahideen Convoy Defences-2",
+                                        ["name"] = "Stranded mujahideen Convoy Defences-2",
                                         ["heading"] = 2.6703537555513,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["y"] = 22419.817506237,
                                 ["x"] = 536218.17371079,
-                                ["name"] = "Stranded Mujahideen Convoy Defences",
+                                ["name"] = "Stranded mujahideen Convoy Defences",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                         }, -- end of ["group"]
@@ -737,7 +737,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "A Mujahideen defector has informed us that an arms convoy has been stranded to the northwest of Kerman following our offensive. The convoy is getting desperate due to a lack of water and is organizing for a last ditch push through our lines. We need to find and destroy them before they can get on the move and find shelter in a populated area. You are to go to the three-way crossroads at bearing 323 for 87 kilometers from Kerman, then patrol up the road running north. The convoy is lightly defended but you should prepare for threats from anti-aircraft guns and MANPADS.\
+    ["desc"] = "A mujahideen defector has informed us that an arms convoy has been stranded to the northwest of Kerman following our offensive. The convoy is getting desperate due to a lack of water and is organizing for a last ditch push through our lines. We need to find and destroy them before they can get on the move and find shelter in a populated area. You are to go to the three-way crossroads at bearing 323 for 87 kilometers from Kerman, then patrol up the road running north. The convoy is lightly defended but you should prepare for threats from anti-aircraft guns and MANPADS.\
 \
 Find the convoy and destroy any cars and transport vehicles present.",
 } -- end of staticTemplate

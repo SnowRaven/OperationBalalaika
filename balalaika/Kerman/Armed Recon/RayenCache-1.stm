@@ -658,7 +658,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "An informant has learned of a Mujahideen weapons and drug cache north of the city of Rayen.  The building is a domed roof white hanger formerly used to house agricultural equipment.  We have a contingent of soldiers from the 367th Guards on standby to destroy the contents of the hanger so that it can be returned to the local farmers, so its destruction is not necessary.\
+    ["desc"] = "An informant has learned of a mujahideen weapons and drug cache north of the city of Rayen.  The building is a domed roof white hanger formerly used to house agricultural equipment.  We have a contingent of soldiers from the 367th Guards on standby to destroy the contents of the hanger so that it can be returned to the local farmers, so its destruction is not necessary.\
 \
-Your orders are to clear out the small group of Mujahideen regulars guarding the hanger.",
+Your orders are to clear out the small group of mujahideen regulars guarding the hanger.",
 } -- end of staticTemplate

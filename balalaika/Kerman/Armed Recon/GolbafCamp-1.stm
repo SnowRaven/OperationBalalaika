@@ -428,13 +428,13 @@ staticTemplate =
                                         ["rate"] = 50,
                                         ["y"] = 151178.48121989,
                                         ["x"] = 409605.02604058,
-                                        ["name"] = "PRIMARY DESTROYED Mujahideen ambush camp tent 3",
+                                        ["name"] = "PRIMARY DESTROYED mujahideen ambush camp tent 3",
                                         ["heading"] = 0.36651914291881,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 151178.48121989,
                                 ["x"] = 409605.02604058,
-                                ["name"] = "PRIMARY DESTROYED Mujahideen ambush camp tent 3",
+                                ["name"] = "PRIMARY DESTROYED mujahideen ambush camp tent 3",
                                 ["dead"] = false,
                             }, -- end of [1]
                             [2] = 
@@ -469,13 +469,13 @@ staticTemplate =
                                         ["rate"] = 50,
                                         ["y"] = 151193.01196525,
                                         ["x"] = 409588.22469199,
-                                        ["name"] = "PRIMARY DESTROYED Mujahideen ambush camp tent 2",
+                                        ["name"] = "PRIMARY DESTROYED mujahideen ambush camp tent 2",
                                         ["heading"] = 1.6406094968747,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 151193.01196525,
                                 ["x"] = 409588.22469199,
-                                ["name"] = "PRIMARY DESTROYED Mujahideen ambush camp tent 2",
+                                ["name"] = "PRIMARY DESTROYED mujahideen ambush camp tent 2",
                                 ["dead"] = false,
                             }, -- end of [2]
                             [3] = 
@@ -510,13 +510,13 @@ staticTemplate =
                                         ["rate"] = 50,
                                         ["y"] = 151203.24958249,
                                         ["x"] = 409608.07313357,
-                                        ["name"] = "PRIMARY DESTROYED Mujahideen Ambush Camp Tent 1",
+                                        ["name"] = "PRIMARY DESTROYED mujahideen Ambush Camp Tent 1",
                                         ["heading"] = 5.6548667764616,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 151203.24958249,
                                 ["x"] = 409608.07313357,
-                                ["name"] = "PRIMARY DESTROYED Mujahideen Ambush Camp Tent 1",
+                                ["name"] = "PRIMARY DESTROYED mujahideen Ambush Camp Tent 1",
                                 ["dead"] = false,
                             }, -- end of [3]
                         }, -- end of ["group"]
@@ -802,7 +802,7 @@ staticTemplate =
                                 }, -- end of ["units"]
                                 ["y"] = 151108.7867551,
                                 ["x"] = 409527.71029676,
-                                ["name"] = "Mujahideen ambush camp infantry ",
+                                ["name"] = "mujahideen ambush camp infantry ",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                             [2] = 
@@ -869,7 +869,7 @@ staticTemplate =
                                 }, -- end of ["units"]
                                 ["y"] = 151175.90952827,
                                 ["x"] = 409718.57975226,
-                                ["name"] = "PRIMARY DESTROYED Mujahideen ambush camp jeep 2",
+                                ["name"] = "PRIMARY DESTROYED mujahideen ambush camp jeep 2",
                                 ["start_time"] = 0,
                             }, -- end of [2]
                             [3] = 
@@ -936,7 +936,7 @@ staticTemplate =
                                 }, -- end of ["units"]
                                 ["y"] = 151188.55141411,
                                 ["x"] = 409719.43274488,
-                                ["name"] = "PRIMARY DESTROYED Mujahideen ambush camp car 1",
+                                ["name"] = "PRIMARY DESTROYED mujahideen ambush camp car 1",
                                 ["start_time"] = 0,
                             }, -- end of [3]
                             [4] = 
@@ -1016,7 +1016,7 @@ staticTemplate =
                                 }, -- end of ["units"]
                                 ["y"] = 151200.36838287,
                                 ["x"] = 409720.1961769,
-                                ["name"] = "PRIMARY DESTROYED Mujahideen ambush camp jeep 1",
+                                ["name"] = "PRIMARY DESTROYED mujahideen ambush camp jeep 1",
                                 ["start_time"] = 0,
                             }, -- end of [4]
                         }, -- end of ["group"]
@@ -1178,5 +1178,5 @@ staticTemplate =
     ["theatre"] = "PersianGulf",
     ["desc"] = "One of the 328th's patrols has returned to Kerman heavily damaged. They came under fire between the villages of Kam Kalaghu and Zamanabad. The surviving troops say that the attack came from the east while they were marching north along the road, just before they reached Golbaf.\
 \
-Head to the location of the ambush, find and eliminate the Mujahideen camp. Destroy any enemy tents and vehicles you find.",
+Head to the location of the ambush, find and eliminate the mujahideen camp. Destroy any enemy tents and vehicles you find.",
 } -- end of staticTemplate

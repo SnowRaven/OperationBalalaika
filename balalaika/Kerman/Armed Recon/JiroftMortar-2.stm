@@ -686,7 +686,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "The 337th Guards Airborne Regiment's positions around Jiroft are coming under intermittent mortar fire. The shots have been traced to the mountains to the north-north-east of the airfield, past the roads and the dry rivers. We believe the attackers might be fighters belonging to the Sepha-e-Pasdaran, an Iranian-backed Mujahideen group known to be operating in those mountains.\
+    ["desc"] = "The 337th Guards Airborne Regiment's positions around Jiroft are coming under intermittent mortar fire. The shots have been traced to the mountains to the north-north-east of the airfield, past the roads and the dry rivers. We believe the attackers might be fighters belonging to the Sepha-e-Pasdaran, an Iranian-backed mujahideen group known to be operating in those mountains.\
 \
 Your are to find the enemy's mortars and eliminate them.",
 } -- end of staticTemplate

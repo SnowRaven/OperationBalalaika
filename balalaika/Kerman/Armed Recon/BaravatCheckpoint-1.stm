@@ -428,13 +428,13 @@ staticTemplate =
                                         ["rate"] = 5,
                                         ["y"] = 241669.72295067,
                                         ["x"] = 309006.81021456,
-                                        ["name"] = "PRIMARY DESTROYED Mujahideen Checkpoint",
+                                        ["name"] = "PRIMARY DESTROYED mujahideen Checkpoint",
                                         ["heading"] = 4.3633231299858,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 241669.72295067,
                                 ["x"] = 309006.81021456,
-                                ["name"] = "PRIMARY DESTROYED Mujahideen Checkpoint",
+                                ["name"] = "PRIMARY DESTROYED mujahideen Checkpoint",
                                 ["dead"] = false,
                             }, -- end of [1]
                             [2] = 
@@ -577,7 +577,7 @@ staticTemplate =
                                 }, -- end of ["units"]
                                 ["y"] = 241682.1320949,
                                 ["x"] = 309032.93491944,
-                                ["name"] = "PRIMARY DESTROYED Mujahideen Bam Checkpoint Vehicles",
+                                ["name"] = "PRIMARY DESTROYED mujahideen Bam Checkpoint Vehicles",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                             [2] = 
@@ -650,7 +650,7 @@ staticTemplate =
                                         ["unitId"] = 10,
                                         ["y"] = 241654.25874925,
                                         ["x"] = 309010.70466783,
-                                        ["name"] = "Mujahideen Bam Checkpoint Vehicles-1-2",
+                                        ["name"] = "mujahideen Bam Checkpoint Vehicles-1-2",
                                         ["heading"] = 3.6302848441482,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
@@ -665,7 +665,7 @@ staticTemplate =
                                         ["unitId"] = 13,
                                         ["y"] = 241663.72099243,
                                         ["x"] = 308991.78889497,
-                                        ["name"] = "Mujahideen Bam Checkpoint Infantry-2",
+                                        ["name"] = "mujahideen Bam Checkpoint Infantry-2",
                                         ["heading"] = 1.9722220547536,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
@@ -680,7 +680,7 @@ staticTemplate =
                                         ["unitId"] = 12,
                                         ["y"] = 241669.02115829,
                                         ["x"] = 308975.46996323,
-                                        ["name"] = "Mujahideen Bam Checkpoint Infantry-1",
+                                        ["name"] = "mujahideen Bam Checkpoint Infantry-1",
                                         ["heading"] = 0.61086523819802,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]
@@ -695,14 +695,14 @@ staticTemplate =
                                         ["unitId"] = 9,
                                         ["y"] = 241660.10291599,
                                         ["x"] = 308994.96526423,
-                                        ["name"] = "Mujahideen Bam Checkpoint Vehicles-1-1",
+                                        ["name"] = "mujahideen Bam Checkpoint Vehicles-1-1",
                                         ["heading"] = 4.9567350756639,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["y"] = 241654.25874925,
                                 ["x"] = 309010.70466783,
-                                ["name"] = "Mujahideen Bam Checkpoint Infantry",
+                                ["name"] = "mujahideen Bam Checkpoint Infantry",
                                 ["start_time"] = 0,
                             }, -- end of [2]
                         }, -- end of ["group"]
@@ -779,7 +779,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "Our VDV contingent holding Jiroft has received complaints from the local population about a Mujahideen checkpoint blocking the main road leading east out of Baravat, a city over the mountains to the east of Jiroft. The Mujahideen are exacting heavy tolls from passing traders trying to use the road. The checkpoint is positioned just before a large intersection, making it difficult to bypass.\
+    ["desc"] = "Our VDV contingent holding Jiroft has received complaints from the local population about a mujahideen checkpoint blocking the main road leading east out of Baravat, a city over the mountains to the east of Jiroft. The mujahideen are exacting heavy tolls from passing traders trying to use the road. The checkpoint is positioned just before a large intersection, making it difficult to bypass.\
 \
-You are to patrol the road east of Baravat and eliminate all Mujahideen vehicles and any checkpoint buildings they may have constructed.",
+You are to patrol the road east of Baravat and eliminate all mujahideen vehicles and any checkpoint buildings they may have constructed.",
 } -- end of staticTemplate

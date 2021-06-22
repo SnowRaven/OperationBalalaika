@@ -480,13 +480,13 @@ staticTemplate =
                                         ["rate"] = 100,
                                         ["y"] = 371803.63865022,
                                         ["x"] = 395010.21957019,
-                                        ["name"] = "PRIMARY DESTROYED Hidden Mujahideen Oil Operation Pump",
+                                        ["name"] = "PRIMARY DESTROYED Hidden mujahideen Oil Operation Pump",
                                         ["heading"] = 0,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 371803.63865022,
                                 ["x"] = 395010.21957019,
-                                ["name"] = "Hidden Mujahideen Oil Operation Pump",
+                                ["name"] = "Hidden mujahideen Oil Operation Pump",
                                 ["dead"] = false,
                             }, -- end of [1]
                             [2] = 
@@ -521,13 +521,13 @@ staticTemplate =
                                         ["rate"] = 100,
                                         ["y"] = 371721.23442217,
                                         ["x"] = 395011.29324092,
-                                        ["name"] = "PRIMARY DESTROYED Hidden Mujahideen Oil Operation Oil Derrick",
+                                        ["name"] = "PRIMARY DESTROYED Hidden mujahideen Oil Operation Oil Derrick",
                                         ["heading"] = 0,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 371721.23442217,
                                 ["x"] = 395011.29324092,
-                                ["name"] = "Hidden Mujahideen Oil Operation",
+                                ["name"] = "Hidden mujahideen Oil Operation",
                                 ["dead"] = false,
                             }, -- end of [2]
                         }, -- end of ["group"]
@@ -727,7 +727,7 @@ staticTemplate =
                                         ["unitId"] = 11,
                                         ["y"] = 371655.14579544,
                                         ["x"] = 395094.83594215,
-                                        ["name"] = "Mujahideen hidden oil operation defences-6",
+                                        ["name"] = "mujahideen hidden oil operation defences-6",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [1]
@@ -742,7 +742,7 @@ staticTemplate =
                                         ["unitId"] = 10,
                                         ["y"] = 371915.60833031,
                                         ["x"] = 395100.74608058,
-                                        ["name"] = "Mujahideen hidden oil operation defences-5",
+                                        ["name"] = "mujahideen hidden oil operation defences-5",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [2]
@@ -757,7 +757,7 @@ staticTemplate =
                                         ["unitId"] = 9,
                                         ["y"] = 371765.68308329,
                                         ["x"] = 394948.74572547,
-                                        ["name"] = "Mujahideen hidden oil operation defences-4",
+                                        ["name"] = "mujahideen hidden oil operation defences-4",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [3]
@@ -772,7 +772,7 @@ staticTemplate =
                                         ["unitId"] = 8,
                                         ["y"] = 371902.62928672,
                                         ["x"] = 394898.72444557,
-                                        ["name"] = "Mujahideen hidden oil operation defences-3",
+                                        ["name"] = "mujahideen hidden oil operation defences-3",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [4]
@@ -787,7 +787,7 @@ staticTemplate =
                                         ["unitId"] = 7,
                                         ["y"] = 371762.45099885,
                                         ["x"] = 395153.65987896,
-                                        ["name"] = "Mujahideen hidden oil operation defences-2",
+                                        ["name"] = "mujahideen hidden oil operation defences-2",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [5]
@@ -802,14 +802,14 @@ staticTemplate =
                                         ["unitId"] = 6,
                                         ["y"] = 371647.56286487,
                                         ["x"] = 394902.11028303,
-                                        ["name"] = "Mujahideen hidden oil operation defences-1",
+                                        ["name"] = "mujahideen hidden oil operation defences-1",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [6]
                                 }, -- end of ["units"]
                                 ["y"] = 371655.14579544,
                                 ["x"] = 395094.83594215,
-                                ["name"] = "Mujahideen hidden oil operation defences",
+                                ["name"] = "mujahideen hidden oil operation defences",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                         }, -- end of ["group"]
@@ -876,7 +876,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "A farmer from the village of Nasratabad has responded to our bounty on information leading to Mujahideen encampments. They claim that there is an old oil well south of Nasratabd that the Mujahideen, likely members of the Sepha-e-Pasdaran, managed to bring back online, and are using to pump crude oil for sale on the black market. The farmer says the Mujahideen's activity has disturbed the earth and surrounded the site with white sand. Such an operation would be highly important to the Mujahideen's funding, so the site is likely to be heavily defended. The village of Nasratabad is approximately 295 kilometres from Kerman along radial 098.\
+    ["desc"] = "A farmer from the village of Nasratabad has responded to our bounty on information leading to mujahideen encampments. They claim that there is an old oil well south of Nasratabd that the mujahideen, likely members of the Sepha-e-Pasdaran, managed to bring back online, and are using to pump crude oil for sale on the black market. The farmer says the mujahideen's activity has disturbed the earth and surrounded the site with white sand. Such an operation would be highly important to the mujahideen's funding, so the site is likely to be heavily defended. The village of Nasratabad is approximately 295 kilometres from Kerman along radial 098.\
 \
 You are to fly to Nasratabad and investigate the farmer's claims. If they turn out to be true, you are to destroy the oil derrick and pump that the farmer says he saw. Any other buildings or vehicles in the area are of secondary importance.",
 } -- end of staticTemplate
