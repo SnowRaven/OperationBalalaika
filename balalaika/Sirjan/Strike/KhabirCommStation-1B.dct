@@ -1,4 +1,4 @@
---fuel tanks and generator variant
+--high intel variant
 objtype = "C2"
 intel = 3
 cost = 4
