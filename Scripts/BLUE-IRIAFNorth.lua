@@ -301,6 +301,42 @@ local flights = {{
                                         {
                                             ["pylons"] = 
                                             {
+                                                [1] = 
+                                                {
+                                                    ["CLSID"] = "{7B4B122D-C12C-4DB4-834E-4D8BB4D863A8}",
+                                                }, -- end of [1]
+                                                [2] = 
+                                                {
+                                                    ["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
+                                                }, -- end of [2]
+                                                [3] = 
+                                                {
+                                                    ["CLSID"] = "{AIM-7E}",
+                                                }, -- end of [3]
+                                                [4] = 
+                                                {
+                                                    ["CLSID"] = "{AIM-7E}",
+                                                }, -- end of [4]
+                                                [5] = 
+                                                {
+                                                    ["CLSID"] = "{8B9E3FD0-F034-4A07-B6CE-C269884CC71B}",
+                                                }, -- end of [5]
+                                                [6] = 
+                                                {
+                                                    ["CLSID"] = "{AIM-7E}",
+                                                }, -- end of [6]
+                                                [7] = 
+                                                {
+                                                    ["CLSID"] = "{AIM-7E}",
+                                                }, -- end of [7]
+                                                [8] = 
+                                                {
+                                                    ["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
+                                                }, -- end of [8]
+                                                [9] = 
+                                                {
+                                                    ["CLSID"] = "{7B4B122D-C12C-4DB4-834E-4D8BB4D863A8}",
+                                                }, -- end of [9]
                                             }, -- end of ["pylons"]
                                             ["fuel"] = "4864",
                                             ["flare"] = 30,
@@ -676,14 +712,14 @@ local function resetFlag()
         end
 		spawnedGroup:destroy()
     end
-    trigger.action.setUserFlag("REPRESENTATIVEFLAGNAME", 0)
+    trigger.action.setUserFlag("IRIAFNorth", 0)
 end
 
-if trigger.misc.getUserFlag("REPRESENTATIVEFLAGNAME") == 1
+if trigger.misc.getUserFlag("IRIAFNorth") == 1
 	then
 		return
 	else
 	spawnedGroup = coalition.addGroup(34, Group.Category.AIRPLANE, flights[math.random(1, #flights)])
-	trigger.action.setUserFlag("REPRESENTATIVEFLAGNAME", 1)
+	trigger.action.setUserFlag("IRIAFNorth", 1)
 	timer.scheduleFunction(resetFlag, nil, timer.getTime() + 900)
 end

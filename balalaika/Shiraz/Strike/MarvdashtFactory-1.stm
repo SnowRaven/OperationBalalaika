@@ -438,7 +438,7 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 5,
+                                ["groupId"] = 3,
                                 ["hidden"] = false,
                                 ["units"] = 
                                 {
@@ -454,10 +454,10 @@ staticTemplate =
                                             ["Branches"] = false,
                                         }, -- end of ["AddPropVehicle"]
                                         ["type"] = "ZSU_57_2",
-                                        ["unitId"] = 6,
+                                        ["unitId"] = 11,
                                         ["y"] = -330893.92135668,
                                         ["x"] = 418381.34656109,
-                                        ["name"] = "Marvdasht Factory Defence Group-1",
+                                        ["name"] = "Marvdasht Factory Defence Group 1",
                                         ["heading"] = 2.2514747350727,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [1]
@@ -473,10 +473,10 @@ staticTemplate =
                                             ["Branches"] = false,
                                         }, -- end of ["AddPropVehicle"]
                                         ["type"] = "ZSU_57_2",
-                                        ["unitId"] = 7,
+                                        ["unitId"] = 10,
                                         ["y"] = -330987.80023047,
                                         ["x"] = 418272.6256506,
-                                        ["name"] = "Marvdasht Factory Defence Group-2",
+                                        ["name"] = "Marvdasht Factory Defence Group 2",
                                         ["heading"] = 2.1991148575129,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [2]
@@ -488,10 +488,10 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "Soldier stinger",
-                                        ["unitId"] = 12,
+                                        ["unitId"] = 13,
                                         ["y"] = -330985.93822649,
                                         ["x"] = 418348.36670152,
-                                        ["name"] = "Marvdasht Factory Defence Group-3",
+                                        ["name"] = "Marvdasht Factory Defence Group 3",
                                         ["heading"] = 2.1991148575129,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [3]
@@ -503,10 +503,10 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "ZU-23 Insurgent",
-                                        ["unitId"] = 8,
-                                        ["y"] = -330945.35772867,
-                                        ["x"] = 418355.57501213,
-                                        ["name"] = "Marvdasht Factory Defence Group-4",
+                                        ["unitId"] = 9,
+                                        ["y"] = -330944.59906998,
+                                        ["x"] = 418356.66991912,
+                                        ["name"] = "Marvdasht Factory Defence Group 4",
                                         ["heading"] = 2.1991148575129,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [4]
@@ -518,10 +518,10 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "ZU-23 Insurgent",
-                                        ["unitId"] = 11,
-                                        ["y"] = -331141.10928859,
-                                        ["x"] = 418376.85423831,
-                                        ["name"] = "Marvdasht Factory Defence Group-5",
+                                        ["unitId"] = 8,
+                                        ["y"] = -331142.9872959,
+                                        ["x"] = 418380.78657755,
+                                        ["name"] = "Marvdasht Factory Defence Group 5",
                                         ["heading"] = 2.2514747350727,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [5]
@@ -533,10 +533,10 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "ZU-23 Insurgent",
-                                        ["unitId"] = 13,
-                                        ["y"] = -331026.92323144,
-                                        ["x"] = 418487.5598669,
-                                        ["name"] = "Marvdasht Factory Defence Group-6",
+                                        ["unitId"] = 7,
+                                        ["y"] = -331029.15805425,
+                                        ["x"] = 418488.89871413,
+                                        ["name"] = "Marvdasht Factory Defence Group 6",
                                         ["heading"] = 2.2863813201126,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [6]
@@ -548,10 +548,10 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "Vulcan",
-                                        ["unitId"] = 5,
+                                        ["unitId"] = 6,
                                         ["y"] = -330878.43308654,
                                         ["x"] = 418296.70998704,
-                                        ["name"] = "Marvdasht Factory Defence Group-7",
+                                        ["name"] = "Marvdasht Factory Defence Group 7",
                                         ["heading"] = 2.146754979953,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [7]
@@ -563,10 +563,10 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 9,
+                                        ["unitId"] = 5,
                                         ["y"] = -330890.12197591,
                                         ["x"] = 418276.2962997,
-                                        ["name"] = "Marvdasht Factory Defence Group-8",
+                                        ["name"] = "Marvdasht Factory Defence Group 8",
                                         ["heading"] = 1.2566370614359,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [8]
@@ -578,10 +578,10 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "ZU-23 Insurgent",
-                                        ["unitId"] = 10,
+                                        ["unitId"] = 3,
                                         ["y"] = -330979.15293589,
                                         ["x"] = 418312.44165555,
-                                        ["name"] = "Marvdasht Factory Defence Group-9",
+                                        ["name"] = "Marvdasht Factory Defence Group 9",
                                         ["heading"] = 2.2340214425527,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [9]
@@ -596,11 +596,6 @@ staticTemplate =
                     ["name"] = "CJTF Blue",
                 }, -- end of [1]
                 [2] = 
-                {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
-                }, -- end of [2]
-                [3] = 
                 {
                     ["id"] = 34,
                     ["static"] = 
@@ -639,13 +634,13 @@ staticTemplate =
                                         ["rate"] = 100,
                                         ["y"] = -330997.22412756,
                                         ["x"] = 418419.57497912,
-                                        ["name"] = "Marvdasht Factory-1",
+                                        ["name"] = "PRIMARY DESTROYED Marvdasht Factory",
                                         ["heading"] = 5.3407075111026,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = -330997.22412756,
                                 ["x"] = 418419.57497912,
-                                ["name"] = "Marvdasht Factory",
+                                ["name"] = "PRIMARY DESTROYED Marvdasht Factory",
                                 ["dead"] = false,
                             }, -- end of [1]
                             [2] = 
@@ -680,30 +675,20 @@ staticTemplate =
                                         ["rate"] = 100,
                                         ["y"] = -331047.22572505,
                                         ["x"] = 418345.11607851,
-                                        ["name"] = "Marvdasht Tech Combine-1",
+                                        ["name"] = "PRIMARY DESTROYED Marvdasht Tech Combine",
                                         ["heading"] = 0.66322511575785,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = -331047.22572505,
                                 ["x"] = 418345.11607851,
-                                ["name"] = "Marvdasht Tech Combine",
+                                ["name"] = "PRIMARY DESTROYED Marvdasht Tech Combine",
                                 ["dead"] = false,
                             }, -- end of [2]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["name"] = "Iran",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
-                }, -- end of [5]
-                [6] = 
+                }, -- end of [2]
+                [3] = 
                 {
                     ["id"] = 2,
                     ["static"] = 
@@ -730,7 +715,7 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 3,
+                                ["groupId"] = 4,
                                 ["units"] = 
                                 {
                                     [1] = 
@@ -738,11 +723,11 @@ staticTemplate =
                                         ["category"] = "Fortifications",
                                         ["shape_name"] = "ceh_ang_a",
                                         ["type"] = "Tech hangar A",
-                                        ["unitId"] = 3,
+                                        ["unitId"] = 4,
                                         ["rate"] = 100,
                                         ["y"] = -331076.59788376,
                                         ["x"] = 418423.4732968,
-                                        ["name"] = "Marvdasht Factory Storage-1",
+                                        ["name"] = "Marvdasht Factory Storage",
                                         ["heading"] = 0.62831853071796,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
@@ -771,18 +756,18 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 4,
+                                ["groupId"] = 5,
                                 ["units"] = 
                                 {
                                     [1] = 
                                     {
                                         ["category"] = "Fortifications",
                                         ["type"] = "outpost_road",
-                                        ["unitId"] = 4,
+                                        ["unitId"] = 12,
                                         ["rate"] = 5,
                                         ["y"] = -330896.05374811,
                                         ["x"] = 418291.09646965,
-                                        ["name"] = "Marvdasht Factory Road Outpost-1",
+                                        ["name"] = "Marvdasht Factory Road Outpost",
                                         ["heading"] = 2.1816615649929,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
@@ -794,6 +779,21 @@ staticTemplate =
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["name"] = "USA",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
                 }, -- end of [6]
             }, -- end of ["country"]
         }, -- end of ["blue"]
@@ -825,7 +825,7 @@ staticTemplate =
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "Marvdasht-factory",
+    ["name"] = "marvdasht-factory",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]

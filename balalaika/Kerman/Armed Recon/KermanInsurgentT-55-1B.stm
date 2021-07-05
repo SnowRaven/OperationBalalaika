@@ -1660,5 +1660,5 @@ staticTemplate =
     ["theatre"] = "PersianGulf",
     ["desc"] = "We have been informed by the 362nd Guards Motor Rifle Regiment that a T-55 main battle tank has gone missing from inventory. The tank's track marks were followed to an insurgent camp to the north of Kerman. Our troops managed to recon the camp without being noticed and found that the insurgents were amassing weapons and munitions to mount an attack. Truck-mounted AAA guns as well as at least one MANPADS were sighted at the camp.\
 \
-Your orders are to eliminate the camp along with any insurgents, munitions, and vehicles. You are to leave the stolen T-55 intact for recovery if at all possible. If it appears to be crewed, destroy it.",
+Your orders are to eliminate the camp and any vehicles present. You are to leave the stolen T-55 intact for recovery if at all possible. If it appears to be crewed, destroy it.",
 } -- end of staticTemplate

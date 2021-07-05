@@ -1,0 +1,5 @@
+--up-road variant
+objtype = "SPECIALFORCES"
+intel = 1
+cost = 4
+exclusion = "HoseynabadAmbush"

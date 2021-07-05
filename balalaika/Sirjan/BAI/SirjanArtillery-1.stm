@@ -409,18 +409,307 @@ staticTemplate =
                                 {
                                     ["spans"] = 
                                     {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -51666.329643084,
+                                                ["x"] = 360430.33606071,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -51665.77010883,
+                                                ["x"] = 360429.67860584,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
                                     }, -- end of ["spans"]
                                     ["points"] = 
                                     {
                                         [1] = 
                                         {
-                                            ["alt"] = 52,
+                                            ["alt"] = 1731,
                                             ["type"] = "Turning Point",
                                             ["ETA"] = 0,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["y"] = 85998.911446196,
-                                            ["x"] = 108969.83295083,
+                                            ["y"] = -51656.284172083,
+                                            ["x"] = 360510.71560833,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["number"] = 1,
+                                                            ["auto"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                        ["groupId"] = 2,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 15,
+                                        ["y"] = -51656.284172083,
+                                        ["x"] = 360510.71560833,
+                                        ["name"] = "Sirjan Paladin Defences 1",
+                                        ["heading"] = 2.4783675378319,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 14,
+                                        ["y"] = -51595.558937532,
+                                        ["x"] = 360501.75754164,
+                                        ["name"] = "Sirjan Paladin Defences 2",
+                                        ["heading"] = 2.4364829033139,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 13,
+                                        ["y"] = -51754.730112024,
+                                        ["x"] = 360410.0588996,
+                                        ["name"] = "Sirjan Paladin Defences 3",
+                                        ["heading"] = 2.5830872929516,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 12,
+                                        ["y"] = -51699.776076898,
+                                        ["x"] = 360428.74673242,
+                                        ["name"] = "Sirjan Paladin Defences 4",
+                                        ["heading"] = 2.4364829033139,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 16,
+                                        ["y"] = -51635.559579823,
+                                        ["x"] = 360518.66044599,
+                                        ["name"] = "Sirjan Paladin Defences 5",
+                                        ["heading"] = 2.5481807079117,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ATZ-5",
+                                        ["unitId"] = 11,
+                                        ["y"] = -51707.207513555,
+                                        ["x"] = 360452.02228411,
+                                        ["name"] = "Sirjan Paladin Defences 6",
+                                        ["heading"] = 3.7524578917878,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = -51656.284172083,
+                                ["x"] = 360510.71560833,
+                                ["name"] = "Sirjan Paladin Defences",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["name"] = "Iran",
+                    ["id"] = 34,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 5.6548667764616,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -51636.072813116,
+                                            ["speed"] = 0,
+                                            ["x"] = 360530.63832129,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 9,
+                                        ["rate"] = 50,
+                                        ["y"] = -51636.072813116,
+                                        ["x"] = 360530.63832129,
+                                        ["name"] = "Paladin Battalion Tent 2",
+                                        ["heading"] = 5.6548667764616,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -51636.072813116,
+                                ["x"] = 360530.63832129,
+                                ["name"] = "Paladin Battalion Tent 2",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 5.6723200689816,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -51647.006649754,
+                                            ["speed"] = 0,
+                                            ["x"] = 360523.03921928,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 50,
+                                        ["y"] = -51647.006649754,
+                                        ["x"] = 360523.03921928,
+                                        ["name"] = "Paladin Battalion Tent 1",
+                                        ["heading"] = 5.6723200689816,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -51647.006649754,
+                                ["x"] = 360523.03921928,
+                                ["name"] = "Paladin Battalion Tent 1",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -51779.047794043,
+                                                ["x"] = 362771.49907586,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -51779.071559512,
+                                                ["x"] = 362771.53093048,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1731,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -51665.765150106,
+                                            ["x"] = 360468.28853182,
                                             ["ETA_locked"] = true,
                                             ["speed"] = 0,
                                             ["action"] = "Off Road",
@@ -457,7 +746,7 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 2,
+                                ["groupId"] = 1,
                                 ["hidden"] = false,
                                 ["units"] = 
                                 {
@@ -467,13 +756,14 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
                                         ["skill"] = "Average",
-                                        ["type"] = "M48 Chaparral",
-                                        ["unitId"] = 10,
-                                        ["y"] = 85998.911446196,
-                                        ["x"] = 108969.83295083,
-                                        ["name"] = "Minab Water Plant Defence Group 1",
-                                        ["heading"] = 5.1661745859032,
+                                        ["type"] = "M-109",
+                                        ["unitId"] = 6,
+                                        ["y"] = -51665.765150106,
+                                        ["x"] = 360468.28853182,
+                                        ["name"] = "PRIMARY DESTROYED Sirjan Paladin Battalion 1",
+                                        ["heading"] = 2.5830872929516,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [1]
                                     [2] = 
@@ -482,13 +772,14 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
                                         ["skill"] = "Average",
-                                        ["type"] = "S-60_Type59_Artillery",
-                                        ["unitId"] = 9,
-                                        ["y"] = 86215.889157448,
-                                        ["x"] = 109110.44420505,
-                                        ["name"] = "Minab Water Plant Defence Group 2",
-                                        ["heading"] = 1.6580627893946,
+                                        ["type"] = "M-109",
+                                        ["unitId"] = 5,
+                                        ["y"] = -51682.565950424,
+                                        ["x"] = 360459.17623335,
+                                        ["name"] = "PRIMARY DESTROYED Sirjan Paladin Battalion 2",
+                                        ["heading"] = 2.5830872929516,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [2]
                                     [3] = 
@@ -497,13 +788,14 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
                                         ["skill"] = "Average",
-                                        ["type"] = "S-60_Type59_Artillery",
-                                        ["unitId"] = 8,
-                                        ["y"] = 86180.736343894,
-                                        ["x"] = 109141.96052065,
-                                        ["name"] = "Minab Water Plant Defence Group 3",
-                                        ["heading"] = 0.017453292519943,
+                                        ["type"] = "M-109",
+                                        ["unitId"] = 4,
+                                        ["y"] = -51700.317353836,
+                                        ["x"] = 360449.86459101,
+                                        ["name"] = "PRIMARY DESTROYED Sirjan Paladin Battalion 3",
+                                        ["heading"] = 2.6354471705114,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [3]
                                     [4] = 
@@ -512,13 +804,14 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
                                         ["skill"] = "Average",
-                                        ["type"] = "Vulcan",
-                                        ["unitId"] = 7,
-                                        ["y"] = 85937.021546189,
-                                        ["x"] = 109027.26958557,
-                                        ["name"] = "Minab Water Plant Defence Group 4",
-                                        ["heading"] = 5.7421332390613,
+                                        ["type"] = "M-109",
+                                        ["unitId"] = 3,
+                                        ["y"] = -51691.985016367,
+                                        ["x"] = 360433.49749955,
+                                        ["name"] = "PRIMARY DESTROYED Sirjan Paladin Battalion 4",
+                                        ["heading"] = 2.5830872929516,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [4]
                                     [5] = 
@@ -527,14 +820,15 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
                                         ["skill"] = "Average",
-                                        ["type"] = "Vulcan",
-                                        ["unitId"] = 6,
-                                        ["y"] = 85917.98254403,
-                                        ["x"] = 109019.90330497,
-                                        ["name"] = "Minab Water Plant Defence Group 5",
-                                        ["heading"] = 5.9341194567807,
-                                        ["playerCanDrive"] = false,
+                                        ["type"] = "M-109",
+                                        ["unitId"] = 2,
+                                        ["y"] = -51672.790881843,
+                                        ["x"] = 360442.72258747,
+                                        ["name"] = "PRIMARY DESTROYED Sirjan Paladin Battalion 5",
+                                        ["heading"] = 2.6005405854716,
+                                        ["playerCanDrive"] = true,
                                     }, -- end of [5]
                                     [6] = 
                                     {
@@ -542,151 +836,24 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
                                         ["skill"] = "Average",
-                                        ["type"] = "ZU-23 Insurgent",
-                                        ["unitId"] = 13,
-                                        ["y"] = 86194.293941226,
-                                        ["x"] = 108925.1685141,
-                                        ["name"] = "Minab Water Plant Defence Group-2",
-                                        ["heading"] = 4.6600291028249,
-                                        ["playerCanDrive"] = false,
+                                        ["type"] = "M-109",
+                                        ["unitId"] = 1,
+                                        ["y"] = -51657.16774909,
+                                        ["x"] = 360453.881968,
+                                        ["name"] = "PRIMARY DESTROYED Sirjan Paladin Battalion 6",
+                                        ["heading"] = 2.5307274153918,
+                                        ["playerCanDrive"] = true,
                                     }, -- end of [6]
-                                    [7] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "ZU-23 Insurgent",
-                                        ["unitId"] = 12,
-                                        ["y"] = 86063.840870824,
-                                        ["x"] = 108916.66707805,
-                                        ["name"] = "Minab Water Plant Defence Group-1",
-                                        ["heading"] = 4.6600291028249,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [7]
-                                    [8] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 5,
-                                        ["y"] = 86143.462239866,
-                                        ["x"] = 108950.43829507,
-                                        ["name"] = "Minab Water Plant Defence Group 6",
-                                        ["heading"] = 4.6600291028249,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [8]
-                                    [9] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "M48 Chaparral",
-                                        ["unitId"] = 4,
-                                        ["y"] = 86237.10206218,
-                                        ["x"] = 108976.49986374,
-                                        ["name"] = "Minab Water Plant Defence Group 7",
-                                        ["heading"] = 1.7278759594744,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [9]
-                                    [10] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "S-60_Type59_Artillery",
-                                        ["unitId"] = 3,
-                                        ["y"] = 86144.67440585,
-                                        ["x"] = 109113.47462001,
-                                        ["name"] = "Minab Water Plant Defence Group 8",
-                                        ["heading"] = 4.6774823953448,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [10]
-                                    [11] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "S-60_Type59_Artillery",
-                                        ["unitId"] = 2,
-                                        ["y"] = 86180.433302397,
-                                        ["x"] = 109079.23093094,
-                                        ["name"] = "Minab Water Plant Defence Group 9",
-                                        ["heading"] = 3.1066860685499,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [11]
                                 }, -- end of ["units"]
-                                ["y"] = 85998.911446196,
-                                ["x"] = 108969.83295083,
-                                ["name"] = "Minab Water Plant Defence Group",
+                                ["y"] = -51665.765150106,
+                                ["x"] = 360468.28853182,
+                                ["name"] = "Sirjan Paladin Battalion",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
-                    ["name"] = "CJTF Blue",
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 34,
-                    ["static"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["heading"] = 4.625122517785,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 86125.066603137,
-                                            ["speed"] = 0,
-                                            ["x"] = 108988.42304711,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 1,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "tec_a",
-                                        ["type"] = "Workshop A",
-                                        ["unitId"] = 1,
-                                        ["rate"] = 100,
-                                        ["y"] = 86125.066603137,
-                                        ["x"] = 108988.42304711,
-                                        ["name"] = "PRIMARY DESTROYED Minab Water Production Plant",
-                                        ["heading"] = 4.625122517785,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 86125.066603137,
-                                ["x"] = 108988.42304711,
-                                ["name"] = "PRIMARY DESTROYED Minab Water Production Plant",
-                                ["dead"] = false,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["static"]
-                    ["name"] = "Iran",
                 }, -- end of [2]
                 [3] = 
                 {
@@ -738,7 +905,7 @@ staticTemplate =
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "minab-water-production-plant",
+    ["name"] = "sirjan-paladin-battalion",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]
@@ -754,7 +921,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "A recon flight over the Bandar Abbas area has brought back photos showing a heavily guarded facility southwest of the dam at Minab. Given the vicinity to the Minab River and reservoir, we believe that the facility is a water purification plant that has been taken over by the Iranian military. Striking this facility should severely disrupt the Iranian army's ability to supply its forces on the front line. The plant is located at bearing 178° for 345km from Kerman.\
+    ["desc"] = "One of our recon squads in the Sirjan area has observed an M109 self-propelled artillery battery of the 92nd Armored Division enter the city. We believe that the guns will soon be moved into position to shell the mountain passes with the aid of spotters. According to the reports, the battery has several anti-air guns in escort as well as MANPADS, this of course is in addition to the emplaced defences already present at the city. The company is stopped at the southern end of the city, in a clearing near a large turning circle.\
 \
-Your orders are to destroy the water purification plant. Avoid any damage to the dam as its destruction could have catastrophic effects on civilian areas downstream.",
+Your objective is to destroy the M109 battery before it can leave the city.",
 } -- end of staticTemplate

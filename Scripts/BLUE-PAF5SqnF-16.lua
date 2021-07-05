@@ -137,10 +137,10 @@ local flights = {{
                                                             ["enabled"] = true,
                                                             ["params"] = 
                                                             {
-                                                                ["speedEdited"] = true,
+                                                                ["altitude"] = 7620,
                                                                 ["pattern"] = "Race-Track",
                                                                 ["speed"] = 218.40277777778,
-                                                                ["altitude"] = 7620,
+                                                                ["speedEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
                                                     }, -- end of ["tasks"]
@@ -213,7 +213,7 @@ local flights = {{
                                     {
                                         ["alt"] = 7620,
                                         ["alt_type"] = "BARO",
-                                        ["livery_id"] = "PAF_No.5_Falcons",
+                                        ["livery_id"] = "paf_no.5_falcons",
                                         ["skill"] = "Random",
                                         ["speed"] = 218.51663552233,
                                         ["AddPropAircraft"] = 
@@ -224,7 +224,7 @@ local flights = {{
                                         ["psi"] = 1.5553123054878,
                                         ["y"] = 420168.5407549,
                                         ["x"] = -76474.818605986,
-                                        ["name"] = "9 Squadron - F-16A-1",
+                                        ["name"] = "5 Squadron - F-16A-1",
                                         ["payload"] = 
                                         {
                                             ["pylons"] = 
@@ -286,18 +286,18 @@ local flights = {{
                                     {
                                         ["alt"] = 7620,
                                         ["alt_type"] = "BARO",
-                                        ["livery_id"] = "PAF_No.5_Falcons",
+                                        ["livery_id"] = "paf_no.5_falcons",
                                         ["skill"] = "Random",
                                         ["speed"] = 218.51663552233,
                                         ["AddPropAircraft"] = 
                                         {
                                         }, -- end of ["AddPropAircraft"]
                                         ["type"] = "F-16C_50",
-                                        ["unitId"] = 3,
+                                        ["unitId"] = 2,
                                         ["psi"] = 1.5553123054878,
                                         ["y"] = 420208.5407549,
                                         ["x"] = -76514.818605986,
-                                        ["name"] = "9 Squadron - F-16A-2",
+                                        ["name"] = "5 Squadron - F-16A-2",
                                         ["payload"] = 
                                         {
                                             ["pylons"] = 
@@ -358,7 +358,7 @@ local flights = {{
                                 }, -- end of ["units"]
                                 ["y"] = 420168.5407549,
                                 ["x"] = -76474.818605986,
-                                ["name"] = "9 Squadron - F-16A",
+                                ["name"] = "5 Squadron - F-16A",
                                 ["communication"] = true,
                                 ["start_time"] = 0,
                                 ["frequency"] = 305,
@@ -375,14 +375,14 @@ local function resetFlag()
         end
 		spawnedGroup:destroy()
     end
-    trigger.action.setUserFlag("REPRESENTATIVEFLAGNAME", 0)
+    trigger.action.setUserFlag("PAF5Sqn", 0)
 end
 
-if trigger.misc.getUserFlag("REPRESENTATIVEFLAGNAME") == 1
+if trigger.misc.getUserFlag("PAF5Sqn") == 1
 	then
 		return
 	else
 	spawnedGroup = coalition.addGroup(39, Group.Category.AIRPLANE, flights[math.random(1, #flights)])
-	trigger.action.setUserFlag("REPRESENTATIVEFLAGNAME", 1)
+	trigger.action.setUserFlag("PAF5Sqn", 1)
 	timer.scheduleFunction(resetFlag, nil, timer.getTime() + 900)
 end

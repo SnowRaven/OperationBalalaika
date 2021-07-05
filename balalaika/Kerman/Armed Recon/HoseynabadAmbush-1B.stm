@@ -259,129 +259,124 @@ staticTemplate =
                 }, -- end of [50]
                 [51] = 
                 {
-                    ["id"] = 42,
-                    ["name"] = "Saudi Arabia",
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
                 }, -- end of [51]
                 [52] = 
                 {
-                    ["id"] = 43,
-                    ["name"] = "Serbia",
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
                 }, -- end of [52]
                 [53] = 
                 {
-                    ["id"] = 44,
-                    ["name"] = "Slovakia",
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
                 }, -- end of [53]
                 [54] = 
                 {
-                    ["id"] = 85,
-                    ["name"] = "Slovenia",
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
                 }, -- end of [54]
                 [55] = 
                 {
-                    ["id"] = 75,
-                    ["name"] = "South Africa",
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
                 }, -- end of [55]
                 [56] = 
                 {
-                    ["id"] = 45,
-                    ["name"] = "South Korea",
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
                 }, -- end of [56]
                 [57] = 
                 {
-                    ["id"] = 19,
-                    ["name"] = "South Ossetia",
+                    ["id"] = 9,
+                    ["name"] = "Spain",
                 }, -- end of [57]
                 [58] = 
                 {
-                    ["id"] = 9,
-                    ["name"] = "Spain",
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
                 }, -- end of [58]
                 [59] = 
                 {
-                    ["id"] = 53,
-                    ["name"] = "Sudan",
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
                 }, -- end of [59]
                 [60] = 
                 {
-                    ["id"] = 46,
-                    ["name"] = "Sweden",
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
                 }, -- end of [60]
                 [61] = 
                 {
-                    ["id"] = 22,
-                    ["name"] = "Switzerland",
+                    ["id"] = 47,
+                    ["name"] = "Syria",
                 }, -- end of [61]
                 [62] = 
                 {
-                    ["id"] = 47,
-                    ["name"] = "Syria",
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
                 }, -- end of [62]
                 [63] = 
                 {
-                    ["id"] = 52,
-                    ["name"] = "Thailand",
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
                 }, -- end of [63]
                 [64] = 
                 {
-                    ["id"] = 10,
-                    ["name"] = "The Netherlands",
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
                 }, -- end of [64]
                 [65] = 
                 {
-                    ["id"] = 66,
-                    ["name"] = "Third Reich",
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
                 }, -- end of [65]
                 [66] = 
                 {
-                    ["id"] = 51,
-                    ["name"] = "Tunisia",
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
                 }, -- end of [66]
                 [67] = 
                 {
-                    ["id"] = 3,
-                    ["name"] = "Turkey",
+                    ["id"] = 4,
+                    ["name"] = "UK",
                 }, -- end of [67]
                 [68] = 
                 {
-                    ["id"] = 4,
-                    ["name"] = "UK",
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
                 }, -- end of [68]
                 [69] = 
                 {
-                    ["id"] = 1,
-                    ["name"] = "Ukraine",
+                    ["id"] = 82,
+                    ["name"] = "UN",
                 }, -- end of [69]
                 [70] = 
                 {
-                    ["id"] = 82,
-                    ["name"] = "UN",
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
                 }, -- end of [70]
                 [71] = 
                 {
-                    ["id"] = 7,
-                    ["name"] = "USAF Aggressors",
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
                 }, -- end of [71]
                 [72] = 
                 {
-                    ["id"] = 50,
-                    ["name"] = "Venezuela",
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
                 }, -- end of [72]
                 [73] = 
                 {
-                    ["id"] = 49,
-                    ["name"] = "Vietnam",
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
                 }, -- end of [73]
                 [74] = 
                 {
-                    ["id"] = 48,
-                    ["name"] = "Yemen",
-                }, -- end of [74]
-                [75] = 
-                {
                     ["id"] = 67,
                     ["name"] = "Yugoslavia",
-                }, -- end of [75]
+                }, -- end of [74]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
         ["blue"] = 
@@ -409,18 +404,31 @@ staticTemplate =
                                 {
                                     ["spans"] = 
                                     {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 122155.31954922,
+                                                ["x"] = 350889.58067171,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 122108.92674129,
+                                                ["x"] = 350731.76460183,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
                                     }, -- end of ["spans"]
                                     ["points"] = 
                                     {
                                         [1] = 
                                         {
-                                            ["alt"] = 52,
+                                            ["alt"] = 2505,
                                             ["type"] = "Turning Point",
                                             ["ETA"] = 0,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["y"] = 85998.911446196,
-                                            ["x"] = 108969.83295083,
+                                            ["y"] = 125033.7190277,
+                                            ["x"] = 347644.79490793,
                                             ["ETA_locked"] = true,
                                             ["speed"] = 0,
                                             ["action"] = "Off Road",
@@ -431,25 +439,6 @@ staticTemplate =
                                                 {
                                                     ["tasks"] = 
                                                     {
-                                                        [1] = 
-                                                        {
-                                                            ["number"] = 1,
-                                                            ["auto"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["enabled"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                                ["action"] = 
-                                                                {
-                                                                    ["id"] = "EPLRS",
-                                                                    ["params"] = 
-                                                                    {
-                                                                        ["value"] = true,
-                                                                        ["groupId"] = 1,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -457,7 +446,7 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 2,
+                                ["groupId"] = 3,
                                 ["hidden"] = false,
                                 ["units"] = 
                                 {
@@ -468,13 +457,13 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "M48 Chaparral",
-                                        ["unitId"] = 10,
-                                        ["y"] = 85998.911446196,
-                                        ["x"] = 108969.83295083,
-                                        ["name"] = "Minab Water Plant Defence Group 1",
-                                        ["heading"] = 5.1661745859032,
-                                        ["playerCanDrive"] = true,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 11,
+                                        ["y"] = 125033.7190277,
+                                        ["x"] = 347644.79490793,
+                                        ["name"] = "Kamaz Caravan Insurgent Group-1",
+                                        ["heading"] = 4.0666171571468,
+                                        ["playerCanDrive"] = false,
                                     }, -- end of [1]
                                     [2] = 
                                     {
@@ -483,13 +472,13 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "S-60_Type59_Artillery",
-                                        ["unitId"] = 9,
-                                        ["y"] = 86215.889157448,
-                                        ["x"] = 109110.44420505,
-                                        ["name"] = "Minab Water Plant Defence Group 2",
-                                        ["heading"] = 1.6580627893946,
-                                        ["playerCanDrive"] = true,
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 12,
+                                        ["y"] = 124992.41810256,
+                                        ["x"] = 347648.31501884,
+                                        ["name"] = "Kamaz Caravan Insurgent Group-2",
+                                        ["heading"] = 4.2236967898263,
+                                        ["playerCanDrive"] = false,
                                     }, -- end of [2]
                                     [3] = 
                                     {
@@ -498,13 +487,13 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "S-60_Type59_Artillery",
-                                        ["unitId"] = 8,
-                                        ["y"] = 86180.736343894,
-                                        ["x"] = 109141.96052065,
-                                        ["name"] = "Minab Water Plant Defence Group 3",
-                                        ["heading"] = 0.017453292519943,
-                                        ["playerCanDrive"] = true,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 17,
+                                        ["y"] = 125017.48735541,
+                                        ["x"] = 347615.22360509,
+                                        ["name"] = "Kamaz Caravan Insurgent Group-3",
+                                        ["heading"] = 1.1693705988362,
+                                        ["playerCanDrive"] = false,
                                     }, -- end of [3]
                                     [4] = 
                                     {
@@ -513,12 +502,12 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "Vulcan",
-                                        ["unitId"] = 7,
-                                        ["y"] = 85937.021546189,
-                                        ["x"] = 109027.26958557,
-                                        ["name"] = "Minab Water Plant Defence Group 4",
-                                        ["heading"] = 5.7421332390613,
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 13,
+                                        ["y"] = 124987.40425199,
+                                        ["x"] = 347655.8357947,
+                                        ["name"] = "PRIMARY DESTROYED Kamaz Caravan Insurgent Group-4",
+                                        ["heading"] = 1.0297442586767,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [4]
                                     [5] = 
@@ -528,12 +517,12 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "Vulcan",
-                                        ["unitId"] = 6,
-                                        ["y"] = 85917.98254403,
-                                        ["x"] = 109019.90330497,
-                                        ["name"] = "Minab Water Plant Defence Group 5",
-                                        ["heading"] = 5.9341194567807,
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 16,
+                                        ["y"] = 124993.39507298,
+                                        ["x"] = 347618.72089578,
+                                        ["name"] = "PRIMARY DESTROYEDKamaz Caravan Insurgent Group-5",
+                                        ["heading"] = 1.0297442586767,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
                                     [6] = 
@@ -543,12 +532,12 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "ZU-23 Insurgent",
-                                        ["unitId"] = 13,
-                                        ["y"] = 86194.293941226,
-                                        ["x"] = 108925.1685141,
-                                        ["name"] = "Minab Water Plant Defence Group-2",
-                                        ["heading"] = 4.6600291028249,
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 18,
+                                        ["y"] = 125034.53444734,
+                                        ["x"] = 347597.6751281,
+                                        ["name"] = "PRIMARY DESTROYED Kamaz Caravan Insurgent Group-6",
+                                        ["heading"] = 1.0297442586767,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [6]
                                     [7] = 
@@ -558,12 +547,12 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "ZU-23 Insurgent",
-                                        ["unitId"] = 12,
-                                        ["y"] = 86063.840870824,
-                                        ["x"] = 108916.66707805,
-                                        ["name"] = "Minab Water Plant Defence Group-1",
-                                        ["heading"] = 4.6600291028249,
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 10,
+                                        ["y"] = 124957.29965331,
+                                        ["x"] = 347603.33137576,
+                                        ["name"] = "Kamaz Caravan Insurgent Group-7",
+                                        ["heading"] = 4.0491638646268,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [7]
                                     [8] = 
@@ -573,12 +562,12 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 5,
-                                        ["y"] = 86143.462239866,
-                                        ["x"] = 108950.43829507,
-                                        ["name"] = "Minab Water Plant Defence Group 6",
-                                        ["heading"] = 4.6600291028249,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 14,
+                                        ["y"] = 124995.4264129,
+                                        ["x"] = 347636.53247001,
+                                        ["name"] = "Kamaz Caravan Insurgent Group-8",
+                                        ["heading"] = 4.5378560551853,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [8]
                                     [9] = 
@@ -588,48 +577,18 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "M48 Chaparral",
-                                        ["unitId"] = 4,
-                                        ["y"] = 86237.10206218,
-                                        ["x"] = 108976.49986374,
-                                        ["name"] = "Minab Water Plant Defence Group 7",
-                                        ["heading"] = 1.7278759594744,
-                                        ["playerCanDrive"] = true,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 15,
+                                        ["y"] = 125019.24220311,
+                                        ["x"] = 347631.26792691,
+                                        ["name"] = "Kamaz Caravan Insurgent Group-9",
+                                        ["heading"] = 4.2236967898263,
+                                        ["playerCanDrive"] = false,
                                     }, -- end of [9]
-                                    [10] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "S-60_Type59_Artillery",
-                                        ["unitId"] = 3,
-                                        ["y"] = 86144.67440585,
-                                        ["x"] = 109113.47462001,
-                                        ["name"] = "Minab Water Plant Defence Group 8",
-                                        ["heading"] = 4.6774823953448,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [10]
-                                    [11] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "S-60_Type59_Artillery",
-                                        ["unitId"] = 2,
-                                        ["y"] = 86180.433302397,
-                                        ["x"] = 109079.23093094,
-                                        ["name"] = "Minab Water Plant Defence Group 9",
-                                        ["heading"] = 3.1066860685499,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [11]
                                 }, -- end of ["units"]
-                                ["y"] = 85998.911446196,
-                                ["x"] = 108969.83295083,
-                                ["name"] = "Minab Water Plant Defence Group",
+                                ["y"] = 125033.7190277,
+                                ["x"] = 347644.79490793,
+                                ["name"] = "Kamaz Caravan Insurgent Group",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                         }, -- end of ["group"]
@@ -638,60 +597,13 @@ staticTemplate =
                 }, -- end of [1]
                 [2] = 
                 {
-                    ["id"] = 34,
-                    ["static"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["heading"] = 4.625122517785,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 86125.066603137,
-                                            ["speed"] = 0,
-                                            ["x"] = 108988.42304711,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 1,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "tec_a",
-                                        ["type"] = "Workshop A",
-                                        ["unitId"] = 1,
-                                        ["rate"] = 100,
-                                        ["y"] = 86125.066603137,
-                                        ["x"] = 108988.42304711,
-                                        ["name"] = "PRIMARY DESTROYED Minab Water Production Plant",
-                                        ["heading"] = 4.625122517785,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 86125.066603137,
-                                ["x"] = 108988.42304711,
-                                ["name"] = "PRIMARY DESTROYED Minab Water Production Plant",
-                                ["dead"] = false,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["static"]
-                    ["name"] = "Iran",
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
                 }, -- end of [2]
                 [3] = 
                 {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
+                    ["id"] = 34,
+                    ["name"] = "Iran",
                 }, -- end of [3]
                 [4] = 
                 {
@@ -700,14 +612,19 @@ staticTemplate =
                 }, -- end of [4]
                 [5] = 
                 {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
                 }, -- end of [5]
                 [6] = 
                 {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [6]
+                [7] = 
+                {
                     ["id"] = 2,
                     ["name"] = "USA",
-                }, -- end of [6]
+                }, -- end of [7]
             }, -- end of ["country"]
         }, -- end of ["blue"]
         ["red"] = 
@@ -738,7 +655,7 @@ staticTemplate =
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "minab-water-production-plant",
+    ["name"] = "HoseynabadAmbush-1B",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]
@@ -754,7 +671,9 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "A recon flight over the Bandar Abbas area has brought back photos showing a heavily guarded facility southwest of the dam at Minab. Given the vicinity to the Minab River and reservoir, we believe that the facility is a water purification plant that has been taken over by the Iranian military. Striking this facility should severely disrupt the Iranian army's ability to supply its forces on the front line. The plant is located at bearing 178° for 345km from Kerman.\
+    ["desc"] = "A convoy of the 59th Material Support Brigade making a supply run to Jiroft has made an emergency request for support. The convoy was about to pass over a bridge located just south of a village called Hoseynabad Bala, at true bearing 154 for 111km from Kerman, when they were ambushed by the mujahideen. The convoy commander did his duty admirably and managed to make a retreat back down the road into an open area north of the village and contact was broken with the attackers.  \
 \
-Your orders are to destroy the water purification plant. Avoid any damage to the dam as its destruction could have catastrophic effects on civilian areas downstream.",
+The commander believes the rebels may have either taken up an ambush position in the dry river bed under the bridge or fallen back to regroup with other rebels for another ambush. In the chaos of the attack various members of the convoy spotted ZSU-23s mounted on the back of cargo trucks as well as RPGs and even MANPADS, so caution is advised.\
+\
+Your orders are to investigate the bridge and the road leading to the south. Any hostile units lying in wait for the convoy are to be eliminated so that the convoy can proceed to Jiroft.",
 } -- end of staticTemplate
