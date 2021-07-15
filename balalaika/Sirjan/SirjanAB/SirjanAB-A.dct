@@ -1,0 +1,5 @@
+-- Sirjan airstrip
+objtype = "OCA"
+intel = 1
+cost = 4
+ignore = true
