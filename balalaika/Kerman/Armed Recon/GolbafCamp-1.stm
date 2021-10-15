@@ -1178,5 +1178,5 @@ staticTemplate =
     ["theatre"] = "PersianGulf",
     ["desc"] = "One of the 328th's patrols has returned to Kerman heavily damaged. They came under fire between the villages of Kam Kalaghu and Zamanabad. The surviving troops say that the attack came from the east while they were marching north along the road, just before they reached Golbaf.\
 \
-Head to the location of the ambush, find and eliminate the mujahideen camp. Destroy any enemy tents and vehicles you find.",
+Head to the location of the ambush, find and eliminate the mujahideen camp. Destroy any enemy encampments and vehicles you find.",
 } -- end of staticTemplate

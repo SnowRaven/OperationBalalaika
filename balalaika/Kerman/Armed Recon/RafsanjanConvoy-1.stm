@@ -895,5 +895,5 @@ staticTemplate =
     ["theatre"] = "PersianGulf",
     ["desc"] = "A Spetsnaz team has successfully trapped an Iranian army convoy evacuating south near Rafsanjan. The area around the road has been mined, but it's only a matter of time before Iranian sappers carve a way out. The commander has requested an airstrike to take it out as they are short on ammunition.\
 \
-Destroy the convoy as soon as possible before that happens.",
+Find the convoy and destroy it before the enemy can escape.",
 } -- end of staticTemplate

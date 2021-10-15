@@ -1,5 +1,10 @@
 --bridge variant
 objtype = "SPECIALFORCES"
-intel = 1
+intel = 4
 cost = 4
 exclusion = "HoseynabadAmbush"
+
+location = {
+	x = 351603,
+	z = 121801
+}

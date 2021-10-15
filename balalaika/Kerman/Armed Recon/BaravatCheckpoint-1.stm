@@ -781,5 +781,5 @@ staticTemplate =
     ["theatre"] = "PersianGulf",
     ["desc"] = "Our VDV contingent holding Jiroft has received complaints from the local population about a mujahideen checkpoint blocking the main road leading east out of Baravat, a city over the mountains to the east of Jiroft. The mujahideen are exacting heavy tolls from passing traders trying to use the road. The checkpoint is positioned just before a large intersection, making it difficult to bypass.\
 \
-You are to patrol the road east of Baravat and eliminate all mujahideen vehicles and any checkpoint buildings they may have constructed.",
+You are to patrol the main road east of Baravat and eliminate all mujahideen vehicles and any checkpoint buildings they may have constructed. Once you have ensured the road is clear for the next 30 kilometers, you may return to base. The start and end points of your patrol have been marked on the map.",
 } -- end of staticTemplate

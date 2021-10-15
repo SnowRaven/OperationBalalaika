@@ -1,3 +1,16 @@
 objtype = "SPECIALFORCES"
-intel = 1
+intel = 4
 cost = 4
+
+location = {
+	x = 317651,
+	z = 220810
+}
+
+extramarks = {
+	{
+		label = "%TARGET%: End Patrol",
+		x = 311231,
+		z = 249515
+	}
+}
