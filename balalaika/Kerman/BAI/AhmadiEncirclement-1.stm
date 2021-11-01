@@ -1,0 +1,1469 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [74]
+                [75] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [78]
+                [79] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [79]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0.062446571056276,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 35202.477416549,
+                                            ["speed"] = 0,
+                                            ["x"] = 198908.37135188,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 65,
+                                        ["rate"] = 6,
+                                        ["y"] = 35202.477416549,
+                                        ["x"] = 198908.37135188,
+                                        ["name"] = "Static SPAAA ZU-23-2 Insurgent Mounted Ural-375 encirclement static 2",
+                                        ["heading"] = 0.062446571056276,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 35202.477416549,
+                                ["x"] = 198908.37135188,
+                                ["name"] = "Static SPAAA ZU-23-2 Insurgent Mounted Ural-375-1",
+                                ["dead"] = true,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0.73303828583762,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 34865.866359499,
+                                            ["speed"] = 0,
+                                            ["x"] = 198929.94898374,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 66,
+                                        ["rate"] = 6,
+                                        ["y"] = 34865.866359499,
+                                        ["x"] = 198929.94898374,
+                                        ["name"] = "Static SPAAA ZU-23-2 Insurgent Mounted Ural-375 encirclement static",
+                                        ["heading"] = 0.73303828583762,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 34865.866359499,
+                                ["x"] = 198929.94898374,
+                                ["name"] = "Static SPAAA ZU-23-2 Insurgent Mounted Ural-375-2",
+                                ["dead"] = true,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 2.2514747350727,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 34557.790703908,
+                                            ["speed"] = 0,
+                                            ["x"] = 200958.56140192,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 67,
+                                        ["rate"] = 10,
+                                        ["y"] = 34557.790703908,
+                                        ["x"] = 200958.56140192,
+                                        ["name"] = "Static APC BTR encirclement static",
+                                        ["heading"] = 2.2514747350727,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 34557.790703908,
+                                ["x"] = 200958.56140192,
+                                ["name"] = "Static APC BTR-80-1",
+                                ["dead"] = true,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 4.4854961776254,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 36248.524558329,
+                                            ["speed"] = 0,
+                                            ["x"] = 200005.29429358,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 22,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Artillery",
+                                        ["type"] = "2B11 mortar",
+                                        ["unitId"] = 73,
+                                        ["rate"] = 5,
+                                        ["y"] = 36248.524558329,
+                                        ["x"] = 200005.29429358,
+                                        ["name"] = "Encirclement Mortar Team Mortar",
+                                        ["heading"] = 4.4854961776254,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 36248.524558329,
+                                ["x"] = 200005.29429358,
+                                ["name"] = "Encirclement Mortar Team Mortar",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1568,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 33693.41736782,
+                                            ["x"] = 199041.0982582,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 32,
+                                        ["y"] = 33693.41736782,
+                                        ["x"] = 199041.0982582,
+                                        ["name"] = "Encirclement Mountain Infantry Group 1 and 2 1",
+                                        ["heading"] = 0.6457718232379,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 31,
+                                        ["y"] = 33722.247234309,
+                                        ["x"] = 199026.68332496,
+                                        ["name"] = "Encirclement Mountain Infantry Group 1 and 2 2",
+                                        ["heading"] = 0.94247779607694,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 30,
+                                        ["y"] = 33754.111823586,
+                                        ["x"] = 198998.61213917,
+                                        ["name"] = "Encirclement Mountain Infantry Group 1 and 2 3",
+                                        ["heading"] = 0.83775804095728,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 29,
+                                        ["y"] = 35450.982508071,
+                                        ["x"] = 201383.10819032,
+                                        ["name"] = "Encirclement Mountain Infantry Group 1 and 2 4",
+                                        ["heading"] = 3.682644721708,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 28,
+                                        ["y"] = 35468.929029285,
+                                        ["x"] = 201375.38663048,
+                                        ["name"] = "Encirclement Mountain Infantry Group 1 and 2 6",
+                                        ["heading"] = 3.5604716740684,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 26,
+                                        ["y"] = 35492.482379495,
+                                        ["x"] = 201369.17120123,
+                                        ["name"] = "Encirclement Mountain Infantry Group 1 and 2 7",
+                                        ["heading"] = 3.6128315516283,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = 33693.41736782,
+                                ["x"] = 199041.0982582,
+                                ["name"] = "Encirclement Mountain Infantry Group 1 and 2",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1044,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 36153.984733026,
+                                            ["x"] = 197191.80287799,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Chieftain_mk3",
+                                        ["unitId"] = 44,
+                                        ["y"] = 36153.984733026,
+                                        ["x"] = 197191.80287799,
+                                        ["name"] = "Encirclement Southern Tank Group 1",
+                                        ["heading"] = 5.8119464091411,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M48 Chaparral",
+                                        ["unitId"] = 47,
+                                        ["y"] = 36348.018295928,
+                                        ["x"] = 197071.76860426,
+                                        ["name"] = "Encirclement Southern Tank Group 2",
+                                        ["heading"] = 5.8992128717408,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 49,
+                                        ["y"] = 36183.941462983,
+                                        ["x"] = 197130.79624538,
+                                        ["name"] = "Encirclement Southern Tank Group 3",
+                                        ["heading"] = 5.9690260418206,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 48,
+                                        ["y"] = 36276.985032885,
+                                        ["x"] = 197147.80420977,
+                                        ["name"] = "Encirclement Southern Tank Group 4",
+                                        ["heading"] = 5.6025068989018,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 46,
+                                        ["y"] = 36088.896956094,
+                                        ["x"] = 197098.78125359,
+                                        ["name"] = "Encirclement Southern Tank Group 5",
+                                        ["heading"] = 6.2308254296198,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M48 Chaparral",
+                                        ["unitId"] = 45,
+                                        ["y"] = 36040.874468403,
+                                        ["x"] = 197009.73955766,
+                                        ["name"] = "Encirclement Southern Tank Group 6",
+                                        ["heading"] = 6.0562925044203,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Chieftain_mk3",
+                                        ["unitId"] = 43,
+                                        ["y"] = 36295.488005208,
+                                        ["x"] = 197279.60310109,
+                                        ["name"] = "Encirclement Southern Tank Group 7",
+                                        ["heading"] = 5.1138147083434,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Chieftain_mk3",
+                                        ["unitId"] = 42,
+                                        ["y"] = 35891.436493075,
+                                        ["x"] = 197180.72129643,
+                                        ["name"] = "Encirclement Southern Tank Group 8",
+                                        ["heading"] = 0.43633231299858,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Chieftain_mk3",
+                                        ["unitId"] = 41,
+                                        ["y"] = 36246.89953223,
+                                        ["x"] = 197221.63790526,
+                                        ["name"] = "Encirclement Southern Tank Group 9",
+                                        ["heading"] = 5.3756140961425,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Chieftain_mk3",
+                                        ["unitId"] = 40,
+                                        ["y"] = 36022.71061305,
+                                        ["x"] = 197183.27858449,
+                                        ["name"] = "Encirclement Southern Tank Group 10",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                }, -- end of ["units"]
+                                ["y"] = 36153.984733026,
+                                ["x"] = 197191.80287799,
+                                ["name"] = "Encirclement Southern Tank Group ",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1096,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 33896.428648232,
+                                            ["x"] = 202335.59513767,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 39,
+                                        ["y"] = 33896.428648232,
+                                        ["x"] = 202335.59513767,
+                                        ["name"] = "PRIMARY DESTROYED Encirclement breakout target group 1",
+                                        ["heading"] = 2.5656340004317,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 38,
+                                        ["y"] = 33814.484747794,
+                                        ["x"] = 202426.39783815,
+                                        ["name"] = "PRIMARY DESTROYED Encirclement breakout target group 2",
+                                        ["heading"] = 2.5656340004317,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 37,
+                                        ["y"] = 33969.513748624,
+                                        ["x"] = 202464.04773835,
+                                        ["name"] = "PRIMARY DESTROYED Encirclement breakout target group 3",
+                                        ["heading"] = 2.5656340004317,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 36,
+                                        ["y"] = 33696.975680901,
+                                        ["x"] = 202301.51057026,
+                                        ["name"] = "PRIMARY DESTROYED Encirclement breakout target group 4",
+                                        ["heading"] = 2.5656340004317,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 35,
+                                        ["y"] = 33606.302946678,
+                                        ["x"] = 202198.28373693,
+                                        ["name"] = "PRIMARY DESTROYED Encirclement breakout target group 5",
+                                        ["heading"] = 2.5656340004317,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 34,
+                                        ["y"] = 34075.819349193,
+                                        ["x"] = 202439.68603822,
+                                        ["name"] = "PRIMARY DESTROYED Encirclement breakout target group 6",
+                                        ["heading"] = 2.5656340004317,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = 33896.428648232,
+                                ["x"] = 202335.59513767,
+                                ["name"] = "Encirclement breakout target group",
+                                ["start_time"] = 0,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1309,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 36249.965105427,
+                                            ["x"] = 200004.40119559,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 20,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 71,
+                                        ["y"] = 36249.965105427,
+                                        ["x"] = 200004.40119559,
+                                        ["name"] = "Encirclement Mortar Team 1",
+                                        ["heading"] = 4.4505895925855,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 70,
+                                        ["y"] = 36258.003615911,
+                                        ["x"] = 200017.37371515,
+                                        ["name"] = "Encirclement Mortar Team 2",
+                                        ["heading"] = 5.1138147083434,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 69,
+                                        ["y"] = 36255.441425075,
+                                        ["x"] = 199996.18671612,
+                                        ["name"] = "Encirclement Mortar Team 3",
+                                        ["heading"] = 4.3807764225058,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 68,
+                                        ["y"] = 36250.340078066,
+                                        ["x"] = 200006.82802076,
+                                        ["name"] = "Encirclement Mortar Team 4",
+                                        ["heading"] = 4.1364303272266,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["y"] = 36249.965105427,
+                                ["x"] = 200004.40119559,
+                                ["name"] = "Encirclement Mortar Team",
+                                ["start_time"] = 0,
+                            }, -- end of [4]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 34,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1098,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 33958.713930276,
+                                            ["x"] = 202405.66487267,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 63,
+                                        ["y"] = 33958.713930276,
+                                        ["x"] = 202405.66487267,
+                                        ["name"] = "Encirclement breakout infantry decoration group-9",
+                                        ["heading"] = 2.5132741228718,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 62,
+                                        ["y"] = 33781.840896729,
+                                        ["x"] = 202331.77124976,
+                                        ["name"] = "Encirclement breakout infantry decoration group-8",
+                                        ["heading"] = 2.775073510671,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 61,
+                                        ["y"] = 33822.718220038,
+                                        ["x"] = 202434.7506604,
+                                        ["name"] = "Encirclement breakout infantry decoration group-7",
+                                        ["heading"] = 4.1364303272266,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 60,
+                                        ["y"] = 33884.820307372,
+                                        ["x"] = 202333.3434545,
+                                        ["name"] = "Encirclement breakout infantry decoration group-6",
+                                        ["heading"] = 2.5830872929516,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Good",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 59,
+                                        ["y"] = 33850.231803034,
+                                        ["x"] = 202382.08180153,
+                                        ["name"] = "Encirclement breakout infantry decoration group-5",
+                                        ["heading"] = 2.6354471705114,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 58,
+                                        ["y"] = 36123.918186562,
+                                        ["x"] = 197148.71028037,
+                                        ["name"] = "Encirclement breakout infantry decoration group-4",
+                                        ["heading"] = 5.8992128717408,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 57,
+                                        ["y"] = 36232.723253062,
+                                        ["x"] = 197174.0137842,
+                                        ["name"] = "Encirclement breakout infantry decoration group-3",
+                                        ["heading"] = 5.8992128717408,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 56,
+                                        ["y"] = 36178.320719812,
+                                        ["x"] = 197129.73265249,
+                                        ["name"] = "Encirclement breakout infantry decoration group-2",
+                                        ["heading"] = 5.8992128717408,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 55,
+                                        ["y"] = 36037.886273515,
+                                        ["x"] = 197170.21825863,
+                                        ["name"] = "Encirclement breakout infantry decoration group-1",
+                                        ["heading"] = 6.16101225954,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 54,
+                                        ["y"] = 33862.092365859,
+                                        ["x"] = 202386.05360668,
+                                        ["name"] = "Encirclement breakout infantry decoration group 123",
+                                        ["heading"] = 2.5830872929516,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                }, -- end of ["units"]
+                                ["y"] = 33958.713930276,
+                                ["x"] = 202405.66487267,
+                                ["name"] = "Encirclement breakout infantry decoration group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "Iran",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [6]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [4]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "recon-group-encirclement",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "We have received an urgent call for air support from the 328th Guards Airborne Regiment. Their recon company has been forced down due to a fuel pump failure in one of their helicopters, landing next to a lake in a valley approximately 20 kilometers west of Pur Ahmadi. The aircrew was in the middle of attempting repairs when they were ambushed by Iranian army forces. Our forces repelled the initial assault, however the enemy regrouped and encircled them before they were able to escape. Mechanized units have moved into position at the mouths of the valley, blocking the way to the north and south, and Iranian infantry has been spotted on the mountaintops surrounding the lake, likely equipped with MANPADS.\
+\
+Your mission is to provide our forces in the valley with close air support as they prepare to break out. Our troops will mark the position of the enemy's mechanized group at the northern end of the valley with red smoke; you are to locate and destroy it. After you have confirmed the destruction of the northern group, continue engaging enemy forces as the situation permits. Be careful to avoid firing at friendly positions in the valley.",
+} -- end of staticTemplate
