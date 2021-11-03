@@ -1,3 +1,4 @@
 objtype = "LOGISTICS"
 intel = 2
 cost = 4
+nocull = true
