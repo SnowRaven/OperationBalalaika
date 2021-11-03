@@ -2,6 +2,454 @@ staticTemplate =
 {
     ["coalition"] = 
     {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 34,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 3.1415926535898,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 371764.08758448,
+                                            ["speed"] = 0,
+                                            ["x"] = 394910.09796131,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "tech",
+                                        ["type"] = "Repair workshop",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 100,
+                                        ["y"] = 371764.08758448,
+                                        ["x"] = 394910.09796131,
+                                        ["name"] = "Static Repair workshop-1-1",
+                                        ["heading"] = 3.1415926535898,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 371764.08758448,
+                                ["x"] = 394910.09796131,
+                                ["name"] = "Static Repair workshop-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "Iran",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 17,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 371803.63865022,
+                                            ["speed"] = 0,
+                                            ["x"] = 395010.21957019,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "neftevyshka",
+                                        ["type"] = "Oil derrick",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 100,
+                                        ["y"] = 371803.63865022,
+                                        ["x"] = 395010.21957019,
+                                        ["name"] = "PRIMARY DESTROYED Hidden Mujahideen Oil Operation Oil Derrick 1",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 371803.63865022,
+                                ["x"] = 395010.21957019,
+                                ["name"] = "Hidden Mujahideen Oil Operation Oil Derrick 1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 371722.73628077,
+                                            ["speed"] = 0,
+                                            ["x"] = 395011.98591089,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "neftevyshka",
+                                        ["type"] = "Oil derrick",
+                                        ["unitId"] = 1,
+                                        ["rate"] = 100,
+                                        ["y"] = 371722.73628077,
+                                        ["x"] = 395011.98591089,
+                                        ["name"] = "PRIMARY DESTROYED Hidden Mujahideen Oil Operation Oil Derrick 2",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 371722.73628077,
+                                ["x"] = 395011.98591089,
+                                ["name"] = "Hidden Mujahideen Oil Operation Oil Derrick 2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "Insurgents",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0.29670597283904,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 371818.1116644,
+                                            ["speed"] = 0,
+                                            ["x"] = 395068.29103056,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 3,
+                                        ["y"] = 371818.1116644,
+                                        ["x"] = 395068.29103056,
+                                        ["name"] = "Static Refueler ATZ-10-1",
+                                        ["heading"] = 0.29670597283904,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 371818.1116644,
+                                ["x"] = 395068.29103056,
+                                ["name"] = "Static Refueler ATZ-10-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 5.6723200689816,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 371749.34278396,
+                                            ["speed"] = 0,
+                                            ["x"] = 394951.47125338,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 3,
+                                        ["y"] = 371749.34278396,
+                                        ["x"] = 394951.47125338,
+                                        ["name"] = "Static Refueler ATZ-10-2-1",
+                                        ["heading"] = 5.6723200689816,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 371749.34278396,
+                                ["x"] = 394951.47125338,
+                                ["name"] = "Static Refueler ATZ-10-2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 371765.96064586,
+                                            ["speed"] = 0,
+                                            ["x"] = 395023.66179353,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "MAZ-6303",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 3,
+                                        ["y"] = 371765.96064586,
+                                        ["x"] = 395023.66179353,
+                                        ["name"] = "Static Truck MAZ-6303-1-1",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 371765.96064586,
+                                ["x"] = 395023.66179353,
+                                ["name"] = "Static Truck MAZ-6303-1",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1576,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 371655.14579544,
+                                            ["x"] = 395094.83594215,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 11,
+                                        ["y"] = 371655.14579544,
+                                        ["x"] = 395094.83594215,
+                                        ["name"] = "Mujahideen hidden oil operation defences-6",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 10,
+                                        ["y"] = 371915.60833031,
+                                        ["x"] = 395100.74608058,
+                                        ["name"] = "Mujahideen hidden oil operation defences-5",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 9,
+                                        ["y"] = 371765.68308329,
+                                        ["x"] = 394948.74572547,
+                                        ["name"] = "Mujahideen hidden oil operation defences-4",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 8,
+                                        ["y"] = 371902.62928672,
+                                        ["x"] = 394898.72444557,
+                                        ["name"] = "Mujahideen hidden oil operation defences-3",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 7,
+                                        ["y"] = 371762.45099885,
+                                        ["x"] = 395153.65987896,
+                                        ["name"] = "Mujahideen hidden oil operation defences-2",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 6,
+                                        ["y"] = 371647.56286487,
+                                        ["x"] = 394902.11028303,
+                                        ["name"] = "Mujahideen hidden oil operation defences-1",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = 371655.14579544,
+                                ["x"] = 395094.83594215,
+                                ["name"] = "Mujahideen hidden oil operation defences",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [6]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
         ["neutrals"] = 
         {
             ["name"] = "neutrals",
@@ -382,456 +830,28 @@ staticTemplate =
                     ["id"] = 67,
                     ["name"] = "Yugoslavia",
                 }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [78]
+                [79] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [79]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
-        ["blue"] = 
-        {
-            ["name"] = "blue",
-            ["country"] = 
-            {
-                [1] = 
-                {
-                    ["id"] = 34,
-                    ["static"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["heading"] = 3.1415926535898,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 371764.08758448,
-                                            ["speed"] = 0,
-                                            ["x"] = 394910.09796131,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 5,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "tech",
-                                        ["type"] = "Repair workshop",
-                                        ["unitId"] = 5,
-                                        ["rate"] = 100,
-                                        ["y"] = 371764.08758448,
-                                        ["x"] = 394910.09796131,
-                                        ["name"] = "Static Repair workshop-1-1",
-                                        ["heading"] = 3.1415926535898,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 371764.08758448,
-                                ["x"] = 394910.09796131,
-                                ["name"] = "Static Repair workshop-1",
-                                ["dead"] = false,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["static"]
-                    ["name"] = "Iran",
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 17,
-                    ["static"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["heading"] = 0,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 371803.63865022,
-                                            ["speed"] = 0,
-                                            ["x"] = 395010.21957019,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 2,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "nasos",
-                                        ["type"] = "Pump station",
-                                        ["unitId"] = 2,
-                                        ["rate"] = 100,
-                                        ["y"] = 371803.63865022,
-                                        ["x"] = 395010.21957019,
-                                        ["name"] = "PRIMARY DESTROYED Hidden mujahideen Oil Operation Pump",
-                                        ["heading"] = 0,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 371803.63865022,
-                                ["x"] = 395010.21957019,
-                                ["name"] = "Hidden mujahideen Oil Operation Pump",
-                                ["dead"] = false,
-                            }, -- end of [1]
-                            [2] = 
-                            {
-                                ["heading"] = 0,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 371721.23442217,
-                                            ["speed"] = 0,
-                                            ["x"] = 395011.29324092,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 1,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "neftevyshka",
-                                        ["type"] = "Oil derrick",
-                                        ["unitId"] = 1,
-                                        ["rate"] = 100,
-                                        ["y"] = 371721.23442217,
-                                        ["x"] = 395011.29324092,
-                                        ["name"] = "PRIMARY DESTROYED Hidden mujahideen Oil Operation Oil Derrick",
-                                        ["heading"] = 0,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 371721.23442217,
-                                ["x"] = 395011.29324092,
-                                ["name"] = "Hidden mujahideen Oil Operation",
-                                ["dead"] = false,
-                            }, -- end of [2]
-                        }, -- end of ["group"]
-                    }, -- end of ["static"]
-                    ["name"] = "Insurgents",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["name"] = "CJTF Blue",
-                    ["id"] = 80,
-                    ["static"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["heading"] = 0.29670597283904,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 371818.1116644,
-                                            ["speed"] = 0,
-                                            ["x"] = 395068.29103056,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 8,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["livery_id"] = "desert",
-                                        ["category"] = "Unarmed",
-                                        ["type"] = "ATZ-10",
-                                        ["unitId"] = 13,
-                                        ["rate"] = 3,
-                                        ["y"] = 371818.1116644,
-                                        ["x"] = 395068.29103056,
-                                        ["name"] = "Static Refueler ATZ-10-1",
-                                        ["heading"] = 0.29670597283904,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 371818.1116644,
-                                ["x"] = 395068.29103056,
-                                ["name"] = "Static Refueler ATZ-10-1",
-                                ["dead"] = false,
-                            }, -- end of [1]
-                            [2] = 
-                            {
-                                ["heading"] = 5.6723200689816,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 371749.34278396,
-                                            ["speed"] = 0,
-                                            ["x"] = 394951.47125338,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 9,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["livery_id"] = "desert",
-                                        ["category"] = "Unarmed",
-                                        ["type"] = "ATZ-10",
-                                        ["unitId"] = 14,
-                                        ["rate"] = 3,
-                                        ["y"] = 371749.34278396,
-                                        ["x"] = 394951.47125338,
-                                        ["name"] = "Static Refueler ATZ-10-2-1",
-                                        ["heading"] = 5.6723200689816,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 371749.34278396,
-                                ["x"] = 394951.47125338,
-                                ["name"] = "Static Refueler ATZ-10-2",
-                                ["dead"] = false,
-                            }, -- end of [2]
-                            [3] = 
-                            {
-                                ["heading"] = 0,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 371765.96064586,
-                                            ["speed"] = 0,
-                                            ["x"] = 395023.66179353,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 10,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Unarmed",
-                                        ["type"] = "MAZ-6303",
-                                        ["unitId"] = 15,
-                                        ["rate"] = 3,
-                                        ["y"] = 371765.96064586,
-                                        ["x"] = 395023.66179353,
-                                        ["name"] = "Static Truck MAZ-6303-1-1",
-                                        ["heading"] = 0,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 371765.96064586,
-                                ["x"] = 395023.66179353,
-                                ["name"] = "Static Truck MAZ-6303-1",
-                                ["dead"] = false,
-                            }, -- end of [3]
-                        }, -- end of ["group"]
-                    }, -- end of ["static"]
-                    ["vehicle"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 1576,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 371655.14579544,
-                                            ["x"] = 395094.83594215,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 0,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 6,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "ZU-23 Insurgent",
-                                        ["unitId"] = 11,
-                                        ["y"] = 371655.14579544,
-                                        ["x"] = 395094.83594215,
-                                        ["name"] = "mujahideen hidden oil operation defences-6",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "ZU-23 Insurgent",
-                                        ["unitId"] = 10,
-                                        ["y"] = 371915.60833031,
-                                        ["x"] = 395100.74608058,
-                                        ["name"] = "mujahideen hidden oil operation defences-5",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [2]
-                                    [3] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Soldier stinger",
-                                        ["unitId"] = 9,
-                                        ["y"] = 371765.68308329,
-                                        ["x"] = 394948.74572547,
-                                        ["name"] = "mujahideen hidden oil operation defences-4",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [3]
-                                    [4] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "ZU-23 Insurgent",
-                                        ["unitId"] = 8,
-                                        ["y"] = 371902.62928672,
-                                        ["x"] = 394898.72444557,
-                                        ["name"] = "mujahideen hidden oil operation defences-3",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [4]
-                                    [5] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Soldier stinger",
-                                        ["unitId"] = 7,
-                                        ["y"] = 371762.45099885,
-                                        ["x"] = 395153.65987896,
-                                        ["name"] = "mujahideen hidden oil operation defences-2",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [5]
-                                    [6] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "ZU-23 Insurgent",
-                                        ["unitId"] = 6,
-                                        ["y"] = 371647.56286487,
-                                        ["x"] = 394902.11028303,
-                                        ["name"] = "mujahideen hidden oil operation defences-1",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [6]
-                                }, -- end of ["units"]
-                                ["y"] = 371655.14579544,
-                                ["x"] = 395094.83594215,
-                                ["name"] = "mujahideen hidden oil operation defences",
-                                ["start_time"] = 0,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["vehicle"]
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
-                }, -- end of [5]
-                [6] = 
-                {
-                    ["id"] = 2,
-                    ["name"] = "USA",
-                }, -- end of [6]
-            }, -- end of ["country"]
-        }, -- end of ["blue"]
         ["red"] = 
         {
             ["name"] = "red",
@@ -839,28 +859,28 @@ staticTemplate =
             {
                 [1] = 
                 {
-                    ["id"] = 68,
-                    ["name"] = "USSR",
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
                 }, -- end of [1]
                 [2] = 
                 {
-                    ["id"] = 81,
-                    ["name"] = "CJTF Red",
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
                 }, -- end of [2]
                 [3] = 
                 {
-                    ["id"] = 35,
-                    ["name"] = "Iraq",
+                    ["id"] = 0,
+                    ["name"] = "Russia",
                 }, -- end of [3]
                 [4] = 
                 {
-                    ["id"] = 0,
-                    ["name"] = "Russia",
+                    ["id"] = 68,
+                    ["name"] = "USSR",
                 }, -- end of [4]
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "hiddenmujahideenoiloperation",
+    ["name"] = "NasratabadOil-1",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]
