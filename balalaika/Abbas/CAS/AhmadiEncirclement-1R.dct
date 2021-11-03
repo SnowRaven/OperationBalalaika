@@ -1,4 +1,3 @@
-objtype = "LOGISTICS"
+objtype = "FRONTLINE"
 intel = 2
 cost = 4
-nocull = true
