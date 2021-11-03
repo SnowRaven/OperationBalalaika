@@ -1,4 +1,4 @@
-objtype = "SAM"
+objtype = "SHORAD"
 intel = 1
 cost = 4
 ignore = true
