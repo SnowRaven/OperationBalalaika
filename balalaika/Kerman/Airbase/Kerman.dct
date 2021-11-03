@@ -14,30 +14,6 @@ subordinates = {
 	"47",
 	"116"
 }
-players = {
-	"344 TsBPPAA - 1",
-	"344 TsBPPAA - 2",
-	"344 TsBPPAA - 3",
-	"344 TsBPPAA - 4",
-	"234 GvIAP - 1",
-	"234 GvIAP - 2",
-	"47 OSAE - 1",
-	"47 OSAE - 2",
-	"47 OSAE - 3",
-	"47 OSAE - 4",
-	"47 OSAE - 5",
-	"47 OSAE - 6",
-	"47 OSAE - 7",
-	"47 OSAE - 8",
-	"116 OVTAE - 1",
-	"116 OVTAE - 2",
-	"116 OVTAE - 3",
-	"116 OVTAE - 4",
-	"116 OVTAE - 5",
-	"116 OVTAE - 6",
-	"116 OVTAE - 7",
-	"116 OVTAE - 8",
-}
 desc = "Kerman Airbase"
 recoverytype = "land"
 takeofftype = "runway"

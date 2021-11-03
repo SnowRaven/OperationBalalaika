@@ -1,0 +1,8 @@
+objtype = "airbase"
+name = "FARP Skala"
+coalition = 1
+subordinates = {}
+desc = "FARP Skala"
+recoverytype = "land"
+takeofftype = "runway"
+spawnalways = true
