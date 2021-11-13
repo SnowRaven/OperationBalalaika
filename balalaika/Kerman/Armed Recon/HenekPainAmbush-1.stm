@@ -806,46 +806,6 @@ staticTemplate =
                             }, -- end of [1]
                             [2] = 
                             {
-                                ["heading"] = 2.4085543677522,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 125114.15780675,
-                                            ["speed"] = 0,
-                                            ["x"] = 406821.64763049,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 2,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Armor",
-                                        ["type"] = "BRDM-2",
-                                        ["unitId"] = 2,
-                                        ["rate"] = 8,
-                                        ["y"] = 125114.15780675,
-                                        ["x"] = 406821.64763049,
-                                        ["name"] = "Static Scout BRDM-2-1",
-                                        ["heading"] = 2.4085543677522,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 125114.15780675,
-                                ["x"] = 406821.64763049,
-                                ["name"] = "Static Scout BRDM-2-1",
-                                ["dead"] = true,
-                            }, -- end of [2]
-                            [3] = 
-                            {
                                 ["heading"] = 3.4906585039887,
                                 ["route"] = 
                                 {
@@ -883,8 +843,8 @@ staticTemplate =
                                 ["x"] = 407382.01089373,
                                 ["name"] = "Static IFV BMP-1-2",
                                 ["dead"] = false,
-                            }, -- end of [3]
-                            [4] = 
+                            }, -- end of [2]
+                            [3] = 
                             {
                                 ["heading"] = 2.5830872929516,
                                 ["route"] = 
@@ -923,8 +883,8 @@ staticTemplate =
                                 ["x"] = 407461.62165046,
                                 ["name"] = "Static Truck Ural-375 Mobile C2-1",
                                 ["dead"] = false,
-                            }, -- end of [4]
-                            [5] = 
+                            }, -- end of [3]
+                            [4] = 
                             {
                                 ["heading"] = 2.460914245312,
                                 ["route"] = 
@@ -963,8 +923,8 @@ staticTemplate =
                                 ["x"] = 407436.85685957,
                                 ["name"] = "Static Refueler ATZ-5-1",
                                 ["dead"] = false,
-                            }, -- end of [5]
-                            [6] = 
+                            }, -- end of [4]
+                            [5] = 
                             {
                                 ["heading"] = 2.1991148575129,
                                 ["route"] = 
@@ -1003,8 +963,8 @@ staticTemplate =
                                 ["x"] = 407412.40410944,
                                 ["name"] = "Static Refueler ATZ-5-2",
                                 ["dead"] = false,
-                            }, -- end of [6]
-                            [7] = 
+                            }, -- end of [5]
+                            [6] = 
                             {
                                 ["heading"] = 2.460914245312,
                                 ["route"] = 
@@ -1043,8 +1003,8 @@ staticTemplate =
                                 ["x"] = 407381.28242747,
                                 ["name"] = "Static Refueler ATZ-5-3",
                                 ["dead"] = false,
-                            }, -- end of [7]
-                            [8] = 
+                            }, -- end of [6]
+                            [7] = 
                             {
                                 ["heading"] = 2.6529004630314,
                                 ["route"] = 
@@ -1083,8 +1043,8 @@ staticTemplate =
                                 ["x"] = 407345.14342853,
                                 ["name"] = "Static Refueler ATZ-5-4",
                                 ["dead"] = false,
-                            }, -- end of [8]
-                            [9] = 
+                            }, -- end of [7]
+                            [8] = 
                             {
                                 ["heading"] = 2.5830872929516,
                                 ["route"] = 
@@ -1123,8 +1083,8 @@ staticTemplate =
                                 ["x"] = 407307.94201739,
                                 ["name"] = "Static Truck Ural-375-1",
                                 ["dead"] = false,
-                            }, -- end of [9]
-                            [10] = 
+                            }, -- end of [8]
+                            [9] = 
                             {
                                 ["heading"] = 2.4260076602721,
                                 ["route"] = 
@@ -1163,8 +1123,8 @@ staticTemplate =
                                 ["x"] = 407318.29422236,
                                 ["name"] = "Static Truck Ural-375-2",
                                 ["dead"] = false,
-                            }, -- end of [10]
-                            [11] = 
+                            }, -- end of [9]
+                            [10] = 
                             {
                                 ["heading"] = 2.8797932657906,
                                 ["route"] = 
@@ -1203,7 +1163,7 @@ staticTemplate =
                                 ["x"] = 407275.96520648,
                                 ["name"] = "Static IFV BMP-1-3",
                                 ["dead"] = false,
-                            }, -- end of [11]
+                            }, -- end of [10]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["name"] = "USSR",
