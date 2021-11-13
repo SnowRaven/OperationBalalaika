@@ -259,129 +259,144 @@ staticTemplate =
                 }, -- end of [50]
                 [51] = 
                 {
-                    ["id"] = 42,
-                    ["name"] = "Saudi Arabia",
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
                 }, -- end of [51]
                 [52] = 
                 {
-                    ["id"] = 43,
-                    ["name"] = "Serbia",
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
                 }, -- end of [52]
                 [53] = 
                 {
-                    ["id"] = 44,
-                    ["name"] = "Slovakia",
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
                 }, -- end of [53]
                 [54] = 
                 {
-                    ["id"] = 85,
-                    ["name"] = "Slovenia",
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
                 }, -- end of [54]
                 [55] = 
                 {
-                    ["id"] = 75,
-                    ["name"] = "South Africa",
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
                 }, -- end of [55]
                 [56] = 
                 {
-                    ["id"] = 45,
-                    ["name"] = "South Korea",
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
                 }, -- end of [56]
                 [57] = 
                 {
-                    ["id"] = 19,
-                    ["name"] = "South Ossetia",
+                    ["id"] = 9,
+                    ["name"] = "Spain",
                 }, -- end of [57]
                 [58] = 
                 {
-                    ["id"] = 9,
-                    ["name"] = "Spain",
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
                 }, -- end of [58]
                 [59] = 
                 {
-                    ["id"] = 53,
-                    ["name"] = "Sudan",
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
                 }, -- end of [59]
                 [60] = 
                 {
-                    ["id"] = 46,
-                    ["name"] = "Sweden",
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
                 }, -- end of [60]
                 [61] = 
                 {
-                    ["id"] = 22,
-                    ["name"] = "Switzerland",
+                    ["id"] = 47,
+                    ["name"] = "Syria",
                 }, -- end of [61]
                 [62] = 
                 {
-                    ["id"] = 47,
-                    ["name"] = "Syria",
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
                 }, -- end of [62]
                 [63] = 
                 {
-                    ["id"] = 52,
-                    ["name"] = "Thailand",
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
                 }, -- end of [63]
                 [64] = 
                 {
-                    ["id"] = 10,
-                    ["name"] = "The Netherlands",
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
                 }, -- end of [64]
                 [65] = 
                 {
-                    ["id"] = 66,
-                    ["name"] = "Third Reich",
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
                 }, -- end of [65]
                 [66] = 
                 {
-                    ["id"] = 51,
-                    ["name"] = "Tunisia",
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
                 }, -- end of [66]
                 [67] = 
                 {
-                    ["id"] = 3,
-                    ["name"] = "Turkey",
+                    ["id"] = 4,
+                    ["name"] = "UK",
                 }, -- end of [67]
                 [68] = 
                 {
-                    ["id"] = 4,
-                    ["name"] = "UK",
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
                 }, -- end of [68]
                 [69] = 
                 {
-                    ["id"] = 1,
-                    ["name"] = "Ukraine",
+                    ["id"] = 82,
+                    ["name"] = "UN",
                 }, -- end of [69]
                 [70] = 
                 {
-                    ["id"] = 82,
-                    ["name"] = "UN",
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
                 }, -- end of [70]
                 [71] = 
                 {
-                    ["id"] = 7,
-                    ["name"] = "USAF Aggressors",
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
                 }, -- end of [71]
                 [72] = 
                 {
-                    ["id"] = 50,
-                    ["name"] = "Venezuela",
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
                 }, -- end of [72]
                 [73] = 
                 {
-                    ["id"] = 49,
-                    ["name"] = "Vietnam",
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
                 }, -- end of [73]
                 [74] = 
                 {
-                    ["id"] = 48,
-                    ["name"] = "Yemen",
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
                 }, -- end of [74]
                 [75] = 
                 {
-                    ["id"] = 67,
-                    ["name"] = "Yugoslavia",
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
                 }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [78]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
         ["blue"] = 
@@ -391,585 +406,12 @@ staticTemplate =
             {
                 [1] = 
                 {
-                    ["name"] = "CJTF Blue",
                     ["id"] = 80,
                     ["static"] = 
                     {
                         ["group"] = 
                         {
                             [1] = 
-                            {
-                                ["heading"] = 4.3458698374659,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152615.80727739,
-                                            ["speed"] = 0,
-                                            ["x"] = -59266.638240177,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 4,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Warehouses",
-                                        ["shape_name"] = "sklad",
-                                        ["type"] = "Warehouse",
-                                        ["unitId"] = 4,
-                                        ["rate"] = 100,
-                                        ["y"] = 152615.80727739,
-                                        ["x"] = -59266.638240177,
-                                        ["name"] = "JASK EWR Decoration Building 4",
-                                        ["heading"] = 4.3458698374659,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152615.80727739,
-                                ["x"] = -59266.638240177,
-                                ["name"] = "JASK EWR Decoration Building 4",
-                                ["dead"] = false,
-                            }, -- end of [1]
-                            [2] = 
-                            {
-                                ["heading"] = 0.028634037459951,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152581.45656447,
-                                            ["speed"] = 0,
-                                            ["x"] = -59269.63236622,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 5,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "him_bak_a",
-                                        ["type"] = "Chemical tank A",
-                                        ["unitId"] = 5,
-                                        ["rate"] = 100,
-                                        ["y"] = 152581.45656447,
-                                        ["x"] = -59269.63236622,
-                                        ["name"] = "JASK EWR Decoration Building 6",
-                                        ["heading"] = 0.028634037459951,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152581.45656447,
-                                ["x"] = -59269.63236622,
-                                ["name"] = "JASK EWR Decoration Building 6",
-                                ["dead"] = false,
-                            }, -- end of [2]
-                            [3] = 
-                            {
-                                ["heading"] = 0.028634037459951,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152588.96748038,
-                                            ["speed"] = 0,
-                                            ["x"] = -59288.096701183,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 6,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "him_bak_a",
-                                        ["type"] = "Chemical tank A",
-                                        ["unitId"] = 6,
-                                        ["rate"] = 100,
-                                        ["y"] = 152588.96748038,
-                                        ["x"] = -59288.096701183,
-                                        ["name"] = "JASK EWR Decoration Building 5",
-                                        ["heading"] = 0.028634037459951,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152588.96748038,
-                                ["x"] = -59288.096701183,
-                                ["name"] = "JASK EWR Decoration Building 5",
-                                ["dead"] = false,
-                            }, -- end of [3]
-                            [4] = 
-                            {
-                                ["heading"] = 2.6703537555513,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152706.58637337,
-                                            ["speed"] = 0,
-                                            ["x"] = -59215.753768921,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 7,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "garagh-small-a",
-                                        ["type"] = "Garage small A",
-                                        ["unitId"] = 7,
-                                        ["rate"] = 100,
-                                        ["y"] = 152706.58637337,
-                                        ["x"] = -59215.753768921,
-                                        ["name"] = "JASK EWR Decoration Building 2",
-                                        ["heading"] = 2.6703537555513,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152706.58637337,
-                                ["x"] = -59215.753768921,
-                                ["name"] = "JASK EWR Decoration Building 2",
-                                ["dead"] = false,
-                            }, -- end of [4]
-                            [5] = 
-                            {
-                                ["heading"] = 0.029243272299525,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152614.75991414,
-                                            ["speed"] = 0,
-                                            ["x"] = -59237.039726755,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 9,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Warehouses",
-                                        ["shape_name"] = "airbase_tbilisi_tank_02",
-                                        ["type"] = "Tank 3",
-                                        ["unitId"] = 12,
-                                        ["rate"] = 100,
-                                        ["y"] = 152614.75991414,
-                                        ["x"] = -59237.039726755,
-                                        ["name"] = "JASK EWR Decoration Building 9",
-                                        ["heading"] = 0.029243272299525,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152614.75991414,
-                                ["x"] = -59237.039726755,
-                                ["name"] = "JASK EWR Decoration Building 9",
-                                ["dead"] = false,
-                            }, -- end of [5]
-                            [6] = 
-                            {
-                                ["heading"] = 0.00051039138568396,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152600.59711659,
-                                            ["speed"] = 0,
-                                            ["x"] = -59239.965420703,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 10,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Warehouses",
-                                        ["shape_name"] = "airbase_tbilisi_tank_02",
-                                        ["type"] = "Tank 3",
-                                        ["unitId"] = 13,
-                                        ["rate"] = 100,
-                                        ["y"] = 152600.59711659,
-                                        ["x"] = -59239.965420703,
-                                        ["name"] = "JASK EWR Decoration Building 8",
-                                        ["heading"] = 0.00051039138568396,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152600.59711659,
-                                ["x"] = -59239.965420703,
-                                ["name"] = "JASK EWR Decoration Building 8",
-                                ["dead"] = false,
-                            }, -- end of [6]
-                            [7] = 
-                            {
-                                ["heading"] = 0.00049975823181554,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152574.41570218,
-                                            ["speed"] = 0,
-                                            ["x"] = -59282.910495932,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 11,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Warehouses",
-                                        ["shape_name"] = "airbase_tbilisi_tank_02",
-                                        ["type"] = "Tank 3",
-                                        ["unitId"] = 14,
-                                        ["rate"] = 100,
-                                        ["y"] = 152574.41570218,
-                                        ["x"] = -59282.910495932,
-                                        ["name"] = "JASK EWR Decoration Building 7",
-                                        ["heading"] = 0.00049975823181554,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152574.41570218,
-                                ["x"] = -59282.910495932,
-                                ["name"] = "JASK EWR Decoration Building 7",
-                                ["dead"] = false,
-                            }, -- end of [7]
-                            [8] = 
-                            {
-                                ["heading"] = 2.6529004630314,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152718.59025505,
-                                            ["speed"] = 0,
-                                            ["x"] = -59242.275650539,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 12,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "garage_a",
-                                        ["type"] = "Garage A",
-                                        ["unitId"] = 15,
-                                        ["rate"] = 100,
-                                        ["y"] = 152718.59025505,
-                                        ["x"] = -59242.275650539,
-                                        ["name"] = "JASK EWR Decoration Building 3",
-                                        ["heading"] = 2.6529004630314,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152718.59025505,
-                                ["x"] = -59242.275650539,
-                                ["name"] = "JASK EWR Decoration Building 3",
-                                ["dead"] = false,
-                            }, -- end of [8]
-                            [9] = 
-                            {
-                                ["heading"] = 2.1991148575129,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152636.01872944,
-                                            ["speed"] = 0,
-                                            ["x"] = -59080.992232118,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 13,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "ceh_ang_a",
-                                        ["type"] = "Tech hangar A",
-                                        ["unitId"] = 16,
-                                        ["rate"] = 100,
-                                        ["y"] = 152636.01872944,
-                                        ["x"] = -59080.992232118,
-                                        ["name"] = "JASK EWR Decoration Building 11",
-                                        ["heading"] = 2.1991148575129,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152636.01872944,
-                                ["x"] = -59080.992232118,
-                                ["name"] = "JASK EWR Decoration Building 11",
-                                ["dead"] = false,
-                            }, -- end of [9]
-                            [10] = 
-                            {
-                                ["heading"] = 4.0840704496667,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152536.27233868,
-                                            ["speed"] = 0,
-                                            ["x"] = -59056.484944424,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 15,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "r_vok_sd",
-                                        ["type"] = "Railway station",
-                                        ["unitId"] = 18,
-                                        ["rate"] = 100,
-                                        ["y"] = 152536.27233868,
-                                        ["x"] = -59056.484944424,
-                                        ["name"] = "JASK EWR Decoration Building 12",
-                                        ["heading"] = 4.0840704496667,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152536.27233868,
-                                ["x"] = -59056.484944424,
-                                ["name"] = "JASK EWR Decoration Building 12",
-                                ["dead"] = false,
-                            }, -- end of [10]
-                            [11] = 
-                            {
-                                ["heading"] = 4.6373452120401e-11,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152549.93947175,
-                                            ["speed"] = 0,
-                                            ["x"] = -59040.041797226,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 16,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Warehouses",
-                                        ["shape_name"] = "airbase_tbilisi_tank_02",
-                                        ["type"] = "Tank 3",
-                                        ["unitId"] = 19,
-                                        ["rate"] = 100,
-                                        ["y"] = 152549.93947175,
-                                        ["x"] = -59040.041797226,
-                                        ["name"] = "JASK EWR Decoration Building 13",
-                                        ["heading"] = 4.6373452120401e-11,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152549.93947175,
-                                ["x"] = -59040.041797226,
-                                ["name"] = "JASK EWR Decoration Building 13",
-                                ["dead"] = false,
-                            }, -- end of [11]
-                            [12] = 
-                            {
-                                ["heading"] = 1.0821041362365,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152726.36716406,
-                                            ["speed"] = 0,
-                                            ["x"] = -59120.374883105,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 17,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "garage_b",
-                                        ["type"] = "Garage B",
-                                        ["unitId"] = 20,
-                                        ["rate"] = 100,
-                                        ["y"] = 152726.36716406,
-                                        ["x"] = -59120.374883105,
-                                        ["name"] = "JASK EWR Decoration Building 10",
-                                        ["heading"] = 1.0821041362365,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152726.36716406,
-                                ["x"] = -59120.374883105,
-                                ["name"] = "JASK EWR Decoration Building 10",
-                                ["dead"] = false,
-                            }, -- end of [12]
-                            [13] = 
-                            {
-                                ["heading"] = 1.0646508437165,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152926.5596077,
-                                            ["speed"] = 0,
-                                            ["x"] = -59109.732605855,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 19,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["type"] = "outpost_road",
-                                        ["unitId"] = 24,
-                                        ["rate"] = 5,
-                                        ["y"] = 152926.5596077,
-                                        ["x"] = -59109.732605855,
-                                        ["name"] = "JASK EWR Road outpost",
-                                        ["heading"] = 1.0646508437165,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152926.5596077,
-                                ["x"] = -59109.732605855,
-                                ["name"] = "JASK EWR Road outpost",
-                                ["dead"] = false,
-                            }, -- end of [13]
-                            [14] = 
-                            {
-                                ["heading"] = 1.0646508437165,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152928.71520366,
-                                            ["speed"] = 0,
-                                            ["x"] = -59101.084795311,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 20,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["type"] = "house2arm",
-                                        ["unitId"] = 25,
-                                        ["rate"] = 10,
-                                        ["y"] = 152928.71520366,
-                                        ["x"] = -59101.084795311,
-                                        ["name"] = "JASK EWR Watchtower 1",
-                                        ["heading"] = 1.0646508437165,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152928.71520366,
-                                ["x"] = -59101.084795311,
-                                ["name"] = "JASK EWR Watchtower 1",
-                                ["dead"] = false,
-                            }, -- end of [14]
-                            [15] = 
                             {
                                 ["heading"] = 0.018581662606989,
                                 ["route"] = 
@@ -989,18 +431,18 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 21,
+                                ["groupId"] = 17,
                                 ["units"] = 
                                 {
                                     [1] = 
                                     {
                                         ["category"] = "Air Defence",
                                         ["type"] = "55G6 EWR",
-                                        ["unitId"] = 28,
+                                        ["unitId"] = 21,
                                         ["rate"] = 100,
                                         ["y"] = 152548.26600538,
                                         ["x"] = -59128.250944679,
-                                        ["name"] = "PRIMARY DESTROYED Jask Objective Group 2",
+                                        ["name"] = "PRIMARY DESTROYED Jask Objective Group 2-1",
                                         ["heading"] = 0.018581662606989,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
@@ -1008,8 +450,8 @@ staticTemplate =
                                 ["x"] = -59128.250944679,
                                 ["name"] = "PRIMARY DESTROYED Jask Objective Group 2",
                                 ["dead"] = false,
-                            }, -- end of [15]
-                            [16] = 
+                            }, -- end of [1]
+                            [2] = 
                             {
                                 ["heading"] = 0.018581662606989,
                                 ["route"] = 
@@ -1029,18 +471,18 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 22,
+                                ["groupId"] = 18,
                                 ["units"] = 
                                 {
                                     [1] = 
                                     {
                                         ["category"] = "Air Defence",
                                         ["type"] = "55G6 EWR",
-                                        ["unitId"] = 29,
+                                        ["unitId"] = 22,
                                         ["rate"] = 100,
                                         ["y"] = 152621.30208324,
                                         ["x"] = -59167.494210394,
-                                        ["name"] = "PRIMARY DESTROYED Jask Objective Group 1",
+                                        ["name"] = "PRIMARY DESTROYED Jask Objective Group 1-1",
                                         ["heading"] = 0.018581662606989,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
@@ -1048,215 +490,41 @@ staticTemplate =
                                 ["x"] = -59167.494210394,
                                 ["name"] = "PRIMARY DESTROYED Jask Objective Group 1",
                                 ["dead"] = false,
-                            }, -- end of [16]
+                            }, -- end of [2]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
-                    ["vehicle"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 2,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 152743.57862177,
-                                            ["x"] = -59182.353056696,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 0,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 18,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 23,
-                                        ["y"] = 152743.57862177,
-                                        ["x"] = -59182.353056696,
-                                        ["name"] = "Jask EWR Defence Group 1",
-                                        ["heading"] = 1.6406094968747,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 22,
-                                        ["y"] = 152760.22727055,
-                                        ["x"] = -59213.866653248,
-                                        ["name"] = "Jask EWR Defence Group 2",
-                                        ["heading"] = 0.59341194567807,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [2]
-                                    [3] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 27,
-                                        ["y"] = 152942.76933727,
-                                        ["x"] = -59111.527223191,
-                                        ["name"] = "Jask EWR Defence Group-2",
-                                        ["heading"] = 0.43633231299858,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [3]
-                                    [4] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 26,
-                                        ["y"] = 152934.60091795,
-                                        ["x"] = -59096.741938168,
-                                        ["name"] = "Jask EWR Defence Group-1",
-                                        ["heading"] = 1.7453292519943,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [4]
-                                    [5] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "Soldier stinger",
-                                        ["unitId"] = 21,
-                                        ["y"] = 152743.92952398,
-                                        ["x"] = -59217.874873052,
-                                        ["name"] = "Jask EWR Defence Group 3",
-                                        ["heading"] = 1.0122909661567,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [5]
-                                }, -- end of ["units"]
-                                ["y"] = 152743.57862177,
-                                ["x"] = -59182.353056696,
-                                ["name"] = "Jask EWR Defence Group",
-                                ["start_time"] = 0,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
                 }, -- end of [1]
                 [2] = 
                 {
-                    ["id"] = 2,
-                    ["static"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["heading"] = 5.8119464091411,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152701.47227534,
-                                            ["speed"] = 0,
-                                            ["x"] = -59205.525572852,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 1,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "ferma_a",
-                                        ["type"] = "Farm A",
-                                        ["unitId"] = 1,
-                                        ["rate"] = 100,
-                                        ["y"] = 152701.47227534,
-                                        ["x"] = -59205.525572852,
-                                        ["name"] = "JASK EWR Decoration Building 1",
-                                        ["heading"] = 5.8119464091411,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152701.47227534,
-                                ["x"] = -59205.525572852,
-                                ["name"] = "JASK EWR Decoration Building 1",
-                                ["dead"] = false,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["static"]
-                    ["name"] = "USA",
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
                 }, -- end of [2]
                 [3] = 
                 {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
+                    ["id"] = 34,
+                    ["name"] = "Iran",
                 }, -- end of [3]
                 [4] = 
                 {
-                    ["id"] = 34,
-                    ["name"] = "Iran",
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
                 }, -- end of [4]
                 [5] = 
                 {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
                 }, -- end of [5]
                 [6] = 
                 {
                     ["id"] = 74,
                     ["name"] = "United Arab Emirates",
                 }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [7]
             }, -- end of ["country"]
         }, -- end of ["blue"]
         ["red"] = 

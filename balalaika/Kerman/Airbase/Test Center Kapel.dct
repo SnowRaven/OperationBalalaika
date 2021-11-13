@@ -1,0 +1,8 @@
+objtype = "airbase"
+name = "Test Center Kapel"
+coalition = 1
+subordinates = {}
+desc = "Test Center Kapel"
+recoverytype = "land"
+takeofftype = "runway"
+spawnalways = true
