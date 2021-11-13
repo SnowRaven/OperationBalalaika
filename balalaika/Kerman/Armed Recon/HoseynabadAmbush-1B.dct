@@ -2,6 +2,7 @@
 objtype = "SPECIALFORCES"
 intel = 4
 cost = 4
+coalition = 2
 exclusion = "HoseynabadAmbush"
 
 location = {

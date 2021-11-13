@@ -377,6 +377,26 @@ staticTemplate =
                     ["id"] = 67,
                     ["name"] = "Yugoslavia",
                 }, -- end of [74]
+                [75] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [78]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
         ["blue"] = 
@@ -446,7 +466,7 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 3,
+                                ["groupId"] = 1,
                                 ["hidden"] = false,
                                 ["units"] = 
                                 {
@@ -458,7 +478,7 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 11,
+                                        ["unitId"] = 2,
                                         ["y"] = 125033.7190277,
                                         ["x"] = 347644.79490793,
                                         ["name"] = "Kamaz Caravan Insurgent Group-1",
@@ -473,7 +493,7 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "Soldier RPG",
-                                        ["unitId"] = 12,
+                                        ["unitId"] = 3,
                                         ["y"] = 124992.41810256,
                                         ["x"] = 347648.31501884,
                                         ["name"] = "Kamaz Caravan Insurgent Group-2",
@@ -488,7 +508,7 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "Soldier stinger",
-                                        ["unitId"] = 17,
+                                        ["unitId"] = 8,
                                         ["y"] = 125017.48735541,
                                         ["x"] = 347615.22360509,
                                         ["name"] = "Kamaz Caravan Insurgent Group-3",
@@ -503,7 +523,7 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 13,
+                                        ["unitId"] = 4,
                                         ["y"] = 124987.40425199,
                                         ["x"] = 347655.8357947,
                                         ["name"] = "PRIMARY DESTROYED Kamaz Caravan Insurgent Group-4",
@@ -518,10 +538,10 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 16,
+                                        ["unitId"] = 7,
                                         ["y"] = 124993.39507298,
                                         ["x"] = 347618.72089578,
-                                        ["name"] = "PRIMARY DESTROYEDKamaz Caravan Insurgent Group-5",
+                                        ["name"] = "PRIMARY DESTROYED Kamaz Caravan Insurgent Group-5",
                                         ["heading"] = 1.0297442586767,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
@@ -533,7 +553,7 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 18,
+                                        ["unitId"] = 9,
                                         ["y"] = 125034.53444734,
                                         ["x"] = 347597.6751281,
                                         ["name"] = "PRIMARY DESTROYED Kamaz Caravan Insurgent Group-6",
@@ -548,7 +568,7 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "Soldier RPG",
-                                        ["unitId"] = 10,
+                                        ["unitId"] = 1,
                                         ["y"] = 124957.29965331,
                                         ["x"] = 347603.33137576,
                                         ["name"] = "Kamaz Caravan Insurgent Group-7",
@@ -563,7 +583,7 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 14,
+                                        ["unitId"] = 5,
                                         ["y"] = 124995.4264129,
                                         ["x"] = 347636.53247001,
                                         ["name"] = "Kamaz Caravan Insurgent Group-8",
@@ -578,7 +598,7 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 15,
+                                        ["unitId"] = 6,
                                         ["y"] = 125019.24220311,
                                         ["x"] = 347631.26792691,
                                         ["name"] = "Kamaz Caravan Insurgent Group-9",
@@ -650,6 +670,170 @@ staticTemplate =
                 [4] = 
                 {
                     ["id"] = 68,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2333,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 121228.45196023,
+                                            ["x"] = 356116.69219101,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "BMP-2",
+                                        ["unitId"] = 13,
+                                        ["y"] = 121228.45196023,
+                                        ["x"] = 356116.69219101,
+                                        ["name"] = "KAMAZ Caravan Soviet Convoy-1",
+                                        ["heading"] = 3.5081117965086,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 11,
+                                        ["y"] = 121236.9051641,
+                                        ["x"] = 356139.29548991,
+                                        ["name"] = "KAMAZ Caravan Soviet Convoy-2",
+                                        ["heading"] = 3.5081117965086,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 12,
+                                        ["y"] = 121243.11905802,
+                                        ["x"] = 356155.37850948,
+                                        ["name"] = "KAMAZ Caravan Soviet Convoy-3",
+                                        ["heading"] = 3.4906585039887,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 14,
+                                        ["y"] = 121249.52897948,
+                                        ["x"] = 356172.39533928,
+                                        ["name"] = "KAMAZ Caravan Soviet Convoy-4",
+                                        ["heading"] = 3.4906585039887,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 15,
+                                        ["y"] = 121255.35703768,
+                                        ["x"] = 356188.705381,
+                                        ["name"] = "KAMAZ Caravan Soviet Convoy-5",
+                                        ["heading"] = 3.4557519189488,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 10,
+                                        ["y"] = 121261.93986628,
+                                        ["x"] = 356205.83810391,
+                                        ["name"] = "KAMAZ Caravan Soviet Convoy-6",
+                                        ["heading"] = 3.5081117965086,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["type"] = "BMP-2",
+                                        ["unitId"] = 16,
+                                        ["y"] = 121268.66857059,
+                                        ["x"] = 356223.59724949,
+                                        ["name"] = "KAMAZ Caravan Soviet Convoy-7",
+                                        ["heading"] = 3.5255650890285,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [7]
+                                }, -- end of ["units"]
+                                ["y"] = 121228.45196023,
+                                ["x"] = 356116.69219101,
+                                ["name"] = "KAMAZ Caravan Soviet Convoy",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
                     ["name"] = "USSR",
                 }, -- end of [4]
             }, -- end of ["country"]
