@@ -1,6 +1,7 @@
 objtype = "SPECIALFORCES"
 intel = 3
 cost = 4
+coalition = 2
 
 location = {
 	x = 407308,
