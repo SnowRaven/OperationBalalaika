@@ -2,6 +2,180 @@ staticTemplate =
 {
     ["coalition"] = 
     {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 2.3212879051525,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -53923.694227528,
+                                            ["speed"] = 0,
+                                            ["x"] = 375159.09742134,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 103,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 145,
+                                        ["rate"] = 100,
+                                        ["y"] = -53923.694227528,
+                                        ["x"] = 375159.09742134,
+                                        ["name"] = "PRIMARY DESTROYED Tank-1",
+                                        ["heading"] = 2.3212879051525,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -53923.694227528,
+                                ["x"] = 375159.09742134,
+                                ["name"] = "PRIMARY DESTROYED Tank-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 2.3212879051525,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -53901.232898058,
+                                            ["speed"] = 0,
+                                            ["x"] = 375139.03301904,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 104,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 146,
+                                        ["rate"] = 100,
+                                        ["y"] = -53901.232898058,
+                                        ["x"] = 375139.03301904,
+                                        ["name"] = "PRIMARY DESTROYED Tank-2",
+                                        ["heading"] = 2.3212879051525,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -53901.232898058,
+                                ["x"] = 375139.03301904,
+                                ["name"] = "PRIMARY DESTROYED Tank-2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 2.3212879051525,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -53879.492309793,
+                                            ["speed"] = 0,
+                                            ["x"] = 375120.574029,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 105,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 147,
+                                        ["rate"] = 100,
+                                        ["y"] = -53879.492309793,
+                                        ["x"] = 375120.574029,
+                                        ["name"] = "PRIMARY DESTROYED Tank-3",
+                                        ["heading"] = 2.3212879051525,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -53879.492309793,
+                                ["x"] = 375120.574029,
+                                ["name"] = "PRIMARY DESTROYED Tank-3",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [7]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
         ["neutrals"] = 
         {
             ["name"] = "neutrals",
@@ -377,160 +551,8 @@ staticTemplate =
                     ["id"] = 67,
                     ["name"] = "Yugoslavia",
                 }, -- end of [74]
-                [75] = 
-                {
-                    ["id"] = 86,
-                    ["name"] = "Bolivia",
-                }, -- end of [75]
-                [76] = 
-                {
-                    ["id"] = 87,
-                    ["name"] = "Ghana",
-                }, -- end of [76]
-                [77] = 
-                {
-                    ["id"] = 88,
-                    ["name"] = "Nigeria",
-                }, -- end of [77]
-                [78] = 
-                {
-                    ["id"] = 89,
-                    ["name"] = "Peru",
-                }, -- end of [78]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
-        ["blue"] = 
-        {
-            ["name"] = "blue",
-            ["country"] = 
-            {
-                [1] = 
-                {
-                    ["id"] = 80,
-                    ["static"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["heading"] = 2.3212879051525,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = -53912.956985512,
-                                            ["speed"] = 0,
-                                            ["x"] = 375149.43733309,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 1,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "toplivo-bak",
-                                        ["type"] = "Fuel tank",
-                                        ["unitId"] = 1,
-                                        ["rate"] = 100,
-                                        ["y"] = -53912.956985512,
-                                        ["x"] = 375149.43733309,
-                                        ["name"] = "PRIMARY DESTROYED Tank-1-1",
-                                        ["heading"] = 2.3212879051525,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = -53912.956985512,
-                                ["x"] = 375149.43733309,
-                                ["name"] = "PRIMARY DESTROYED Tank-1",
-                                ["dead"] = false,
-                            }, -- end of [1]
-                            [2] = 
-                            {
-                                ["heading"] = 2.3212879051525,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = -53891.544066998,
-                                            ["speed"] = 0,
-                                            ["x"] = 375131.22404608,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 3,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "toplivo-bak",
-                                        ["type"] = "Fuel tank",
-                                        ["unitId"] = 3,
-                                        ["rate"] = 100,
-                                        ["y"] = -53891.544066998,
-                                        ["x"] = 375131.22404608,
-                                        ["name"] = "PRIMARY DESTROYED Tank-3-1",
-                                        ["heading"] = 2.3212879051525,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = -53891.544066998,
-                                ["x"] = 375131.22404608,
-                                ["name"] = "PRIMARY DESTROYED Tank-3",
-                                ["dead"] = false,
-                            }, -- end of [2]
-                        }, -- end of ["group"]
-                    }, -- end of ["static"]
-                    ["name"] = "CJTF Blue",
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["id"] = 34,
-                    ["name"] = "Iran",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 42,
-                    ["name"] = "Saudi Arabia",
-                }, -- end of [5]
-                [6] = 
-                {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
-                }, -- end of [6]
-                [7] = 
-                {
-                    ["id"] = 2,
-                    ["name"] = "USA",
-                }, -- end of [7]
-            }, -- end of ["country"]
-        }, -- end of ["blue"]
         ["red"] = 
         {
             ["name"] = "red",
@@ -575,7 +597,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "We have been ordered by 40th Army HQ to strike and eliminate the Sirjan airstrip once and for all. Analysis of recon photographs has concluded that the majority of fuel for aircraft and trucks being used to deliver supplies to and from the airstrip is being held in a storage area near the center of the airstrip. We have identified two large fuel tanks buried in the earth, as well as storage for numerous fuel drums. Destroying the fuel supplies should permanently disable the Iranian military's ability to operate the airstrip and strike a devastating blow to the 92nd Armored Division's supply lines.\
+    ["desc"] = "We have been ordered by 40th Army HQ to strike and eliminate the Sirjan airstrip once and for all. Analysis of recon photographs has concluded that the majority of fuel for aircraft and trucks being used to deliver supplies to and from the airstrip is being held in a storage area near the center of the airstrip. We have identified three large fuel tanks buried in the earth, as well as storage for numerous fuel drums. Destroying the fuel supplies should permanently disable the Iranian military's ability to operate the airstrip and strike a devastating blow to the 92nd Armored Division's supply lines.\
 \
 The airstrip's air defenses may have been degraded by previous strikes but you should be on your guard. Previous reconaissance has shown several anti-aircraft artillery batteries deployed to the site in addition to Chaparral short-range surface-to-air missile systems. The city of Sirjan to the south is also heavily defended by anti-aircraft batteries. You can find the airstrip at true bearing 238° for 148 kilometers from Kerman.\
 \
