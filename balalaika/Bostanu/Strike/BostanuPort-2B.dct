@@ -1,0 +1,6 @@
+-- Red-decked ship
+objtype = "PORT"
+intel = 3
+cost = 4
+priority = 2
+exclusion = "BostanuShips"

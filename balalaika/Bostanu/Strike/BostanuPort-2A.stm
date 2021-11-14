@@ -1,0 +1,1704 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [74]
+                [75] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [78]
+                [79] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [79]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["ship"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -26229.891536385,
+                                            ["x"] = 97383.439936158,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Turning Point",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 24,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Dry-cargo ship-2",
+                                        ["unitId"] = 33,
+                                        ["y"] = -26229.891536385,
+                                        ["x"] = 97383.439936158,
+                                        ["name"] = "PRIMARY DESTROYED Iranian sneaky small cargo ship 1-1",
+                                        ["heading"] = 3.1241393610699,
+                                        ["modulation"] = 0,
+                                        ["frequency"] = 127500000,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ELNYA",
+                                        ["unitId"] = 34,
+                                        ["y"] = -26227.738492036,
+                                        ["x"] = 97255.913463173,
+                                        ["name"] = "PRIMARY DESTROYED Iranian sneaky small cargo ship 1-2",
+                                        ["heading"] = 3.1241393610699,
+                                        ["modulation"] = 0,
+                                        ["frequency"] = 127500000,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = -26229.891536385,
+                                ["x"] = 97383.439936158,
+                                ["name"] = "Iranian sneaky cargo ship 1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["ship"]
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -26249.366174041,
+                                            ["x"] = 97199.487105622,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 7,
+                                        ["y"] = -26249.366174041,
+                                        ["x"] = 97199.487105622,
+                                        ["name"] = "Sneaky Ships Minor Defense Group 1",
+                                        ["heading"] = 2.4783675378319,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 8,
+                                        ["y"] = -26282.007424972,
+                                        ["x"] = 97430.943248587,
+                                        ["name"] = "Sneaky Ships Minor Defense Group-1",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 6,
+                                        ["y"] = -26250.849867265,
+                                        ["x"] = 97429.954119771,
+                                        ["name"] = "Sneaky Ships Minor Defense Group 3",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 5,
+                                        ["y"] = -26282.996553788,
+                                        ["x"] = 97199.98167003,
+                                        ["name"] = "Sneaky Ships Minor Defense Group 4",
+                                        ["heading"] = 3.5430183815485,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["y"] = -26249.366174041,
+                                ["x"] = 97199.487105622,
+                                ["name"] = "Sneaky Ships Minor Defense Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -26274.305683187,
+                                            ["x"] = 97270.034931297,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 23,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ATZ-5",
+                                        ["unitId"] = 32,
+                                        ["y"] = -26274.305683187,
+                                        ["x"] = 97270.034931297,
+                                        ["name"] = "Sneaky Ships Cargo Trucks 1-4",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 31,
+                                        ["y"] = -26259.700781433,
+                                        ["x"] = 97298.176083457,
+                                        ["name"] = "Sneaky Ships Cargo Trucks 1-3",
+                                        ["heading"] = 0.62831853071796,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 39,
+                                        ["y"] = -26269.272765477,
+                                        ["x"] = 97269.282918283,
+                                        ["name"] = "Sneaky Ships Cargo Trucks 1-9",
+                                        ["heading"] = 4.4854961776254,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 38,
+                                        ["y"] = -26272.818478727,
+                                        ["x"] = 97266.00288688,
+                                        ["name"] = "Sneaky Ships Cargo Trucks 1-8",
+                                        ["heading"] = 0.54105206811824,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 37,
+                                        ["y"] = -26266.254771254,
+                                        ["x"] = 97335.853467452,
+                                        ["name"] = "Sneaky Ships Cargo Trucks 1-7",
+                                        ["heading"] = 3.8222710618676,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 36,
+                                        ["y"] = -26265.9222017,
+                                        ["x"] = 97383.432201048,
+                                        ["name"] = "Sneaky Ships Cargo Trucks 1-6",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 35,
+                                        ["y"] = -26268.422678991,
+                                        ["x"] = 97383.191539786,
+                                        ["name"] = "Sneaky Ships Cargo Trucks 1-5",
+                                        ["heading"] = 1.0122909661567,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 30,
+                                        ["y"] = -26266.761999306,
+                                        ["x"] = 97387.251438698,
+                                        ["name"] = "Sneaky Ships Cargo Trucks 1-2",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 29,
+                                        ["y"] = -26271.039473078,
+                                        ["x"] = 97334.560097737,
+                                        ["name"] = "Sneaky Ships Cargo Trucks 1-1",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 28,
+                                        ["y"] = -26273.524656784,
+                                        ["x"] = 97359.687550319,
+                                        ["name"] = "Sneaky Ships Cargo Trucks 1",
+                                        ["heading"] = 6.0388392119004,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                }, -- end of ["units"]
+                                ["y"] = -26274.305683187,
+                                ["x"] = 97270.034931297,
+                                ["name"] = "Sneaky Ships Cargo Trucks 1",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26266.790570735,
+                                            ["speed"] = 0,
+                                            ["x"] = 97380.994295841,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 840,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "m117_cargo",
+                                        ["type"] = "m117_cargo",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 100,
+                                        ["y"] = -26266.790570735,
+                                        ["x"] = 97380.994295841,
+                                        ["name"] = "Sneaky Large Ship Decoration 2",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26266.790570735,
+                                ["x"] = 97380.994295841,
+                                ["name"] = "Sneaky Large Ship Decoration 2",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26266.790570735,
+                                            ["speed"] = 0,
+                                            ["x"] = 97382.337152984,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 840,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "m117_cargo",
+                                        ["type"] = "m117_cargo",
+                                        ["unitId"] = 11,
+                                        ["rate"] = 100,
+                                        ["y"] = -26266.790570735,
+                                        ["x"] = 97382.337152984,
+                                        ["name"] = "Sneaky Large Ship Decoration 1",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26266.790570735,
+                                ["x"] = 97382.337152984,
+                                ["name"] = "Sneaky Large Ship Decoration 1",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 1.6057029118348,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26266.854013362,
+                                            ["speed"] = 0,
+                                            ["x"] = 97379.721224755,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 840,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "m117_cargo",
+                                        ["type"] = "m117_cargo",
+                                        ["unitId"] = 12,
+                                        ["rate"] = 100,
+                                        ["y"] = -26266.854013362,
+                                        ["x"] = 97379.721224755,
+                                        ["name"] = "Sneaky Large Ship Decoration 3",
+                                        ["heading"] = 1.6057029118348,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26266.854013362,
+                                ["x"] = 97379.721224755,
+                                ["name"] = "Sneaky Large Ship Decoration 3",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 1.5882496193148,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26269.261332225,
+                                            ["speed"] = 0,
+                                            ["x"] = 97373.269551426,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_brown",
+                                        ["type"] = "Container brown",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 100,
+                                        ["y"] = -26269.261332225,
+                                        ["x"] = 97373.269551426,
+                                        ["name"] = "Sneaky Large Ship Decoration 4",
+                                        ["heading"] = 1.5882496193148,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26269.261332225,
+                                ["x"] = 97373.269551426,
+                                ["name"] = "Sneaky Large Ship Decoration 4",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 1.5882496193148,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26264.831930166,
+                                            ["speed"] = 0,
+                                            ["x"] = 97373.348647891,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_brown",
+                                        ["type"] = "Container brown",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 100,
+                                        ["y"] = -26264.831930166,
+                                        ["x"] = 97373.348647891,
+                                        ["name"] = "Sneaky Large Ship Decoration 5",
+                                        ["heading"] = 1.5882496193148,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26264.831930166,
+                                ["x"] = 97373.348647891,
+                                ["name"] = "Sneaky Large Ship Decoration 5",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 1.5882496193148,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26269.34042869,
+                                            ["speed"] = 0,
+                                            ["x"] = 97364.094361447,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_brown",
+                                        ["type"] = "Container brown",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 100,
+                                        ["y"] = -26269.34042869,
+                                        ["x"] = 97364.094361447,
+                                        ["name"] = "Sneaky Large Ship Decoration 6",
+                                        ["heading"] = 1.5882496193148,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26269.34042869,
+                                ["x"] = 97364.094361447,
+                                ["name"] = "Sneaky Large Ship Decoration 6",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 1.5882496193148,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26265.069219562,
+                                            ["speed"] = 0,
+                                            ["x"] = 97363.936168516,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_brown",
+                                        ["type"] = "Container brown",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 100,
+                                        ["y"] = -26265.069219562,
+                                        ["x"] = 97363.936168516,
+                                        ["name"] = "Sneaky Large Ship Decoration 7",
+                                        ["heading"] = 1.5882496193148,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26265.069219562,
+                                ["x"] = 97363.936168516,
+                                ["name"] = "Sneaky Large Ship Decoration 7",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 1.5882496193148,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26269.656814551,
+                                            ["speed"] = 0,
+                                            ["x"] = 97355.077364398,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_brown",
+                                        ["type"] = "Container brown",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 100,
+                                        ["y"] = -26269.656814551,
+                                        ["x"] = 97355.077364398,
+                                        ["name"] = "Sneaky Large Ship Decoration 8",
+                                        ["heading"] = 1.5882496193148,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26269.656814551,
+                                ["x"] = 97355.077364398,
+                                ["name"] = "Sneaky Large Ship Decoration 8",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 1.5882496193148,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26265.069219562,
+                                            ["speed"] = 0,
+                                            ["x"] = 97355.077364398,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_brown",
+                                        ["type"] = "Container brown",
+                                        ["unitId"] = 18,
+                                        ["rate"] = 100,
+                                        ["y"] = -26265.069219562,
+                                        ["x"] = 97355.077364398,
+                                        ["name"] = "Sneaky Large Ship Decoration 9",
+                                        ["heading"] = 1.5882496193148,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26265.069219562,
+                                ["x"] = 97355.077364398,
+                                ["name"] = "Sneaky Large Ship Decoration 9",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 1.5882496193148,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26264.35431407,
+                                            ["speed"] = 0,
+                                            ["x"] = 97326.003425784,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_red3",
+                                        ["type"] = "Container red 3",
+                                        ["unitId"] = 19,
+                                        ["rate"] = 100,
+                                        ["y"] = -26264.35431407,
+                                        ["x"] = 97326.003425784,
+                                        ["name"] = "Sneaky Large Ship Decoration 11",
+                                        ["heading"] = 1.5882496193148,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26264.35431407,
+                                ["x"] = 97326.003425784,
+                                ["name"] = "Sneaky Large Ship Decoration 11",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 1.5882496193148,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26269.79715541,
+                                            ["speed"] = 0,
+                                            ["x"] = 97326.235036054,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_red3",
+                                        ["type"] = "Container red 3",
+                                        ["unitId"] = 20,
+                                        ["rate"] = 100,
+                                        ["y"] = -26269.79715541,
+                                        ["x"] = 97326.235036054,
+                                        ["name"] = "Sneaky Large Ship Decoration 10",
+                                        ["heading"] = 1.5882496193148,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26269.79715541,
+                                ["x"] = 97326.235036054,
+                                ["name"] = "Sneaky Large Ship Decoration 10",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 1.5882496193148,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26270.213299383,
+                                            ["speed"] = 0,
+                                            ["x"] = 97305.85911292,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_red3",
+                                        ["type"] = "Container red 3",
+                                        ["unitId"] = 21,
+                                        ["rate"] = 100,
+                                        ["y"] = -26270.213299383,
+                                        ["x"] = 97305.85911292,
+                                        ["name"] = "Sneaky Large Ship Decoration 12",
+                                        ["heading"] = 1.5882496193148,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26270.213299383,
+                                ["x"] = 97305.85911292,
+                                ["name"] = "Sneaky Large Ship Decoration 12",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                            [13] = 
+                            {
+                                ["heading"] = 1.5882496193148,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26264.397332225,
+                                            ["speed"] = 0,
+                                            ["x"] = 97305.605976695,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_red3",
+                                        ["type"] = "Container red 3",
+                                        ["unitId"] = 22,
+                                        ["rate"] = 100,
+                                        ["y"] = -26264.397332225,
+                                        ["x"] = 97305.605976695,
+                                        ["name"] = "Sneaky Large Ship Decoration 13",
+                                        ["heading"] = 1.5882496193148,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26264.397332225,
+                                ["x"] = 97305.605976695,
+                                ["name"] = "Sneaky Large Ship Decoration 13",
+                                ["dead"] = false,
+                            }, -- end of [13]
+                            [14] = 
+                            {
+                                ["heading"] = 0.02772018520059,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26258.263584479,
+                                            ["speed"] = 0,
+                                            ["x"] = 97490.879716403,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 23,
+                                        ["rate"] = 10,
+                                        ["y"] = -26258.263584479,
+                                        ["x"] = 97490.879716403,
+                                        ["name"] = "Static Watch tower armed-1-1",
+                                        ["heading"] = 0.02772018520059,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26258.263584479,
+                                ["x"] = 97490.879716403,
+                                ["name"] = "Static Watch tower armed-1",
+                                ["dead"] = false,
+                            }, -- end of [14]
+                            [15] = 
+                            {
+                                ["heading"] = 0.00048380850101291,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26265.368879182,
+                                            ["speed"] = 0,
+                                            ["x"] = 97273.040036342,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 2400,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "fueltank_cargo",
+                                        ["type"] = "fueltank_cargo",
+                                        ["unitId"] = 24,
+                                        ["rate"] = 100,
+                                        ["y"] = -26265.368879182,
+                                        ["x"] = 97273.040036342,
+                                        ["name"] = "Sneaky Large Ship Decoration 15",
+                                        ["heading"] = 0.00048380850101291,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26265.368879182,
+                                ["x"] = 97273.040036342,
+                                ["name"] = "Sneaky Large Ship Decoration 15",
+                                ["dead"] = false,
+                            }, -- end of [15]
+                            [16] = 
+                            {
+                                ["heading"] = 8.4440512918136e-06,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26270.645214198,
+                                            ["speed"] = 0,
+                                            ["x"] = 97273.040036342,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 20,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 2400,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "fueltank_cargo",
+                                        ["type"] = "fueltank_cargo",
+                                        ["unitId"] = 25,
+                                        ["rate"] = 100,
+                                        ["y"] = -26270.645214198,
+                                        ["x"] = 97273.040036342,
+                                        ["name"] = "Sneaky Large Ship Decoration 14",
+                                        ["heading"] = 8.4440512918136e-06,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26270.645214198,
+                                ["x"] = 97273.040036342,
+                                ["name"] = "Sneaky Large Ship Decoration 14",
+                                ["dead"] = false,
+                            }, -- end of [16]
+                            [17] = 
+                            {
+                                ["heading"] = 8.4440512918136e-06,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26270.472219607,
+                                            ["speed"] = 0,
+                                            ["x"] = 97267.33121485,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 21,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 2400,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "fueltank_cargo",
+                                        ["type"] = "fueltank_cargo",
+                                        ["unitId"] = 26,
+                                        ["rate"] = 100,
+                                        ["y"] = -26270.472219607,
+                                        ["x"] = 97267.33121485,
+                                        ["name"] = "Sneaky Large Ship Decoration 16",
+                                        ["heading"] = 8.4440512918136e-06,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26270.472219607,
+                                ["x"] = 97267.33121485,
+                                ["name"] = "Sneaky Large Ship Decoration 16",
+                                ["dead"] = false,
+                            }, -- end of [17]
+                            [18] = 
+                            {
+                                ["heading"] = 8.4440512918136e-06,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26265.455376478,
+                                            ["speed"] = 0,
+                                            ["x"] = 97267.244717555,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 22,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 2400,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "fueltank_cargo",
+                                        ["type"] = "fueltank_cargo",
+                                        ["unitId"] = 27,
+                                        ["rate"] = 100,
+                                        ["y"] = -26265.455376478,
+                                        ["x"] = 97267.244717555,
+                                        ["name"] = "Sneaky Large Ship Decoration 17",
+                                        ["heading"] = 8.4440512918136e-06,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26265.455376478,
+                                ["x"] = 97267.244717555,
+                                ["name"] = "Sneaky Large Ship Decoration 17",
+                                ["dead"] = false,
+                            }, -- end of [18]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 2,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -26266.908905919,
+                                            ["speed"] = 0,
+                                            ["x"] = 97334.548704422,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 25,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1500,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 40,
+                                        ["rate"] = 100,
+                                        ["y"] = -26266.908905919,
+                                        ["x"] = 97334.548704422,
+                                        ["name"] = "Sneaky Iranian Harbor Ammo Pallet",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -26266.908905919,
+                                ["x"] = 97334.548704422,
+                                ["name"] = "Sneaky Iranian Harbor Ammo Pallet",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "USA",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [6]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [4]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "iranian-hidden-harbor-small-ships",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Using intelligence from our US-A reconnaissance satellites, we have managed to identify the ships carrying American-made weapons and supplies to Iranian forces through the port at Bostanu. The two vessels currently docked at the port, formerly Qatari-flagged merchants that were recently purchased by what we believe to be a front company for the CIA, left Saudi Arabia several days ago. They are likely loaded with weapons and replacement parts for American-made aircraft and missile systems desperately needed by the Iranian military to sustain its war effort.\
+\
+The port at Bostanu is primarily defended by anti-aircraft artillery and IR missile systems, including American-made Chaparrals. It is also located in close proximity to Bandar Abbas and its extensive array of air defenses, including Hawk and Rapier surface-to-air missile systems and a squadron of F-4 Phantom fighters.\
+\
+You are to find the two American cargo vessels in Bostanu and sink them. We believe they are currently docked near a large green tanker and can be identified by their gray decks. You are permitted to attack any supplies that may have already been off-loaded from the ships. Other ships in the port are believed to be civilian vessels held by the IRGC as decoys; avoid damaging them if possible.",
+} -- end of staticTemplate

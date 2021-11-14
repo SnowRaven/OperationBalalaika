@@ -1,0 +1,5 @@
+-- Vehicle park
+objtype = "PORT"
+intel = 3
+cost = 4
+priority = 1
