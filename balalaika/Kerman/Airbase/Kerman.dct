@@ -12,7 +12,8 @@ subordinates = {
 	"344",
 	"393rd",
 	"47",
-	"116"
+	"116",
+	"115"
 }
 desc = "Kerman Airbase"
 recoverytype = "land"
