@@ -2,6 +2,134 @@ staticTemplate =
 {
     ["coalition"] = 
     {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 2.4958208303519,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 152548.26600538,
+                                            ["speed"] = 0,
+                                            ["x"] = -59128.250944679,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["type"] = "FPS-117 Dome",
+                                        ["unitId"] = 1,
+                                        ["rate"] = 100,
+                                        ["y"] = 152548.26600538,
+                                        ["x"] = -59128.250944679,
+                                        ["name"] = "PRIMARY DESTROYED Jask Objective Group 2-1",
+                                        ["heading"] = 2.4958208303519,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 152548.26600538,
+                                ["x"] = -59128.250944679,
+                                ["name"] = "PRIMARY DESTROYED Jask Objective Group 2",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 5.3407075111026,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 152621.30208324,
+                                            ["speed"] = 0,
+                                            ["x"] = -59167.494210394,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["type"] = "FPS-117 Dome",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 100,
+                                        ["y"] = 152621.30208324,
+                                        ["x"] = -59167.494210394,
+                                        ["name"] = "PRIMARY DESTROYED Jask Objective Group 1-1",
+                                        ["heading"] = 5.3407075111026,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 152621.30208324,
+                                ["x"] = -59167.494210394,
+                                ["name"] = "PRIMARY DESTROYED Jask Objective Group 1",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [7]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
         ["neutrals"] = 
         {
             ["name"] = "neutrals",
@@ -399,134 +527,6 @@ staticTemplate =
                 }, -- end of [78]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
-        ["blue"] = 
-        {
-            ["name"] = "blue",
-            ["country"] = 
-            {
-                [1] = 
-                {
-                    ["id"] = 80,
-                    ["static"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["heading"] = 0.018581662606989,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152548.26600538,
-                                            ["speed"] = 0,
-                                            ["x"] = -59128.250944679,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 17,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Air Defence",
-                                        ["type"] = "55G6 EWR",
-                                        ["unitId"] = 21,
-                                        ["rate"] = 100,
-                                        ["y"] = 152548.26600538,
-                                        ["x"] = -59128.250944679,
-                                        ["name"] = "PRIMARY DESTROYED Jask Objective Group 2-1",
-                                        ["heading"] = 0.018581662606989,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152548.26600538,
-                                ["x"] = -59128.250944679,
-                                ["name"] = "PRIMARY DESTROYED Jask Objective Group 2",
-                                ["dead"] = false,
-                            }, -- end of [1]
-                            [2] = 
-                            {
-                                ["heading"] = 0.018581662606989,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 152621.30208324,
-                                            ["speed"] = 0,
-                                            ["x"] = -59167.494210394,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 18,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Air Defence",
-                                        ["type"] = "55G6 EWR",
-                                        ["unitId"] = 22,
-                                        ["rate"] = 100,
-                                        ["y"] = 152621.30208324,
-                                        ["x"] = -59167.494210394,
-                                        ["name"] = "PRIMARY DESTROYED Jask Objective Group 1-1",
-                                        ["heading"] = 0.018581662606989,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 152621.30208324,
-                                ["x"] = -59167.494210394,
-                                ["name"] = "PRIMARY DESTROYED Jask Objective Group 1",
-                                ["dead"] = false,
-                            }, -- end of [2]
-                        }, -- end of ["group"]
-                    }, -- end of ["static"]
-                    ["name"] = "CJTF Blue",
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["id"] = 34,
-                    ["name"] = "Iran",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 42,
-                    ["name"] = "Saudi Arabia",
-                }, -- end of [5]
-                [6] = 
-                {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
-                }, -- end of [6]
-                [7] = 
-                {
-                    ["id"] = 2,
-                    ["name"] = "USA",
-                }, -- end of [7]
-            }, -- end of ["country"]
-        }, -- end of ["blue"]
         ["red"] = 
         {
             ["name"] = "red",

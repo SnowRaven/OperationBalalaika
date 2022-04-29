@@ -377,6 +377,26 @@ staticTemplate =
                     ["id"] = 67,
                     ["name"] = "Yugoslavia",
                 }, -- end of [74]
+                [75] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [78]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
         ["blue"] = 
@@ -449,32 +469,24 @@ staticTemplate =
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "55G6 EWR",
+                                        ["type"] = "FPS-117 Dome",
                                         ["unitId"] = 27,
+                                        ["skill"] = "Average",
                                         ["y"] = -224184.3372204,
                                         ["x"] = 43627.095857333,
                                         ["name"] = "PRIMARY DESTROYED EWR-1",
-                                        ["heading"] = 0,
+                                        ["heading"] = 2.2689280275926,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
-                                        ["type"] = "55G6 EWR",
+                                        ["type"] = "FPS-117 Dome",
                                         ["unitId"] = 26,
+                                        ["skill"] = "Average",
                                         ["y"] = -224226.22640904,
                                         ["x"] = 43169.024354882,
                                         ["name"] = "PRIMARY DESTROYED EWR-2",
-                                        ["heading"] = 3.4033920413889,
+                                        ["heading"] = 2.2689280275926,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
@@ -550,13 +562,9 @@ staticTemplate =
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "M48 Chaparral",
                                         ["unitId"] = 40,
+                                        ["skill"] = "Average",
                                         ["y"] = -224149.33483206,
                                         ["x"] = 43209.973015667,
                                         ["name"] = "Ground-1-1",
@@ -575,13 +583,13 @@ staticTemplate =
                 }, -- end of [1]
                 [2] = 
                 {
-                    ["id"] = 34,
-                    ["name"] = "Iran",
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
                 }, -- end of [2]
                 [3] = 
                 {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
+                    ["id"] = 34,
+                    ["name"] = "Iran",
                 }, -- end of [3]
                 [4] = 
                 {

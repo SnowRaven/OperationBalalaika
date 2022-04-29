@@ -406,7 +406,54 @@ staticTemplate =
             {
                 [1] = 
                 {
+                    ["name"] = "CJTF Blue",
                     ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -130301.4532279,
+                                            ["speed"] = 0,
+                                            ["x"] = 74639.983585973,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["type"] = "FPS-117 ECS",
+                                        ["unitId"] = 25,
+                                        ["rate"] = 20,
+                                        ["y"] = -130301.4532279,
+                                        ["x"] = 74639.983585973,
+                                        ["name"] = "Static EWR AN/FPS-117 ECS-1",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -130301.4532279,
+                                ["x"] = 74639.983585973,
+                                ["name"] = "Static EWR AN/FPS-117 ECS-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
                     ["vehicle"] = 
                     {
                         ["group"] = 
@@ -459,14 +506,10 @@ staticTemplate =
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
                                         ["type"] = "ZU-23 Emplacement Closed",
                                         ["unitId"] = 22,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
                                         ["y"] = -130119.75050676,
                                         ["x"] = 74739.424662653,
                                         ["name"] = "Ground-4-3",
@@ -475,14 +518,10 @@ staticTemplate =
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
                                         ["type"] = "ZU-23 Emplacement Closed",
                                         ["unitId"] = 21,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
                                         ["y"] = -130377.27136361,
                                         ["x"] = 74574.987163072,
                                         ["name"] = "Ground-4-2",
@@ -491,14 +530,10 @@ staticTemplate =
                                     }, -- end of [2]
                                     [3] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
                                         ["type"] = "M48 Chaparral",
                                         ["unitId"] = 10,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
                                         ["y"] = -130220.55175561,
                                         ["x"] = 74670.235761026,
                                         ["name"] = "Ground-4-1",
@@ -513,7 +548,6 @@ staticTemplate =
                             }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
-                    ["name"] = "CJTF Blue",
                 }, -- end of [1]
                 [2] = 
                 {
@@ -684,47 +718,6 @@ staticTemplate =
                                 ["name"] = "Static Barracks armed-1",
                                 ["dead"] = false,
                             }, -- end of [4]
-                            [5] = 
-                            {
-                                ["heading"] = 1.5707963267949,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = -130301.4532279,
-                                            ["speed"] = 0,
-                                            ["x"] = 74639.983585973,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 13,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "GeneratorF",
-                                        ["type"] = "GeneratorF",
-                                        ["unitId"] = 25,
-                                        ["rate"] = 100,
-                                        ["y"] = -130301.4532279,
-                                        ["x"] = 74639.983585973,
-                                        ["name"] = "Static GeneratorF-1",
-                                        ["heading"] = 1.5707963267949,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = -130301.4532279,
-                                ["x"] = 74639.983585973,
-                                ["name"] = "Static GeneratorF-1",
-                                ["dead"] = false,
-                            }, -- end of [5]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] = 
@@ -779,14 +772,10 @@ staticTemplate =
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 4,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
                                         ["y"] = -130305.02025426,
                                         ["x"] = 74717.361908606,
                                         ["name"] = "Ground-2-2",
@@ -795,14 +784,10 @@ staticTemplate =
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 3,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
                                         ["y"] = -130299.17954081,
                                         ["x"] = 74717.861975175,
                                         ["name"] = "Ground-2-1",
@@ -863,13 +848,9 @@ staticTemplate =
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 8,
+                                        ["skill"] = "Average",
                                         ["y"] = -130455.81059033,
                                         ["x"] = 74691.639477093,
                                         ["name"] = "Ground-3-4",
@@ -878,13 +859,9 @@ staticTemplate =
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 7,
+                                        ["skill"] = "Average",
                                         ["y"] = -130121.31973393,
                                         ["x"] = 74758.3259453,
                                         ["name"] = "Ground-3-3",
@@ -893,13 +870,9 @@ staticTemplate =
                                     }, -- end of [2]
                                     [3] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 6,
+                                        ["skill"] = "Average",
                                         ["y"] = -130430.73819681,
                                         ["x"] = 74583.231566072,
                                         ["name"] = "Ground-3-2",
@@ -908,13 +881,9 @@ staticTemplate =
                                     }, -- end of [3]
                                     [4] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 5,
+                                        ["skill"] = "Average",
                                         ["y"] = -130144.78581298,
                                         ["x"] = 74609.90989903,
                                         ["name"] = "Ground-3-1",
@@ -975,13 +944,9 @@ staticTemplate =
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
                                         ["unitId"] = 16,
+                                        ["skill"] = "Average",
                                         ["y"] = -130078.22231529,
                                         ["x"] = 74689.90109857,
                                         ["name"] = "Ground-5-2",
@@ -990,13 +955,9 @@ staticTemplate =
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
                                         ["unitId"] = 15,
+                                        ["skill"] = "Average",
                                         ["y"] = -130080.00233902,
                                         ["x"] = 74671.826998675,
                                         ["name"] = "Ground-5-1",

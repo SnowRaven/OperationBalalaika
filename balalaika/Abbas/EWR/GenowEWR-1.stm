@@ -2,132 +2,6 @@ staticTemplate =
 {
     ["coalition"] = 
     {
-        ["blue"] = 
-        {
-            ["name"] = "blue",
-            ["country"] = 
-            {
-                [1] = 
-                {
-                    ["id"] = 80,
-                    ["vehicle"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 2248,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = -5284.011264533,
-                                            ["x"] = 138518.24667452,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 0,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                        [1] = 
-                                                        {
-                                                            ["number"] = 1,
-                                                            ["auto"] = true,
-                                                            ["id"] = "EWR",
-                                                            ["enabled"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 1,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
-                                        ["type"] = "55G6 EWR",
-                                        ["unitId"] = 1,
-                                        ["y"] = -5284.011264533,
-                                        ["x"] = 138518.24667452,
-                                        ["name"] = "PRIMARY DESTROYED EWR",
-                                        ["heading"] = 0,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = -5284.011264533,
-                                ["x"] = 138518.24667452,
-                                ["name"] = "EWR",
-                                ["start_time"] = 0,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["vehicle"]
-                    ["name"] = "CJTF Blue",
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 34,
-                    ["name"] = "Iran",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 42,
-                    ["name"] = "Saudi Arabia",
-                }, -- end of [5]
-                [6] = 
-                {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
-                }, -- end of [6]
-                [7] = 
-                {
-                    ["id"] = 2,
-                    ["name"] = "USA",
-                }, -- end of [7]
-            }, -- end of ["country"]
-        }, -- end of ["blue"]
         ["neutrals"] = 
         {
             ["name"] = "neutrals",
@@ -525,6 +399,127 @@ staticTemplate =
                 }, -- end of [78]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2248,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -5284.011264533,
+                                            ["x"] = 138518.24667452,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["number"] = 1,
+                                                            ["params"] = 
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "FPS-117 Dome",
+                                        ["unitId"] = 1,
+                                        ["skill"] = "Average",
+                                        ["y"] = -5284.011264533,
+                                        ["x"] = 138518.24667452,
+                                        ["name"] = "PRIMARY DESTROYED EWR",
+                                        ["heading"] = 4.0666171571468,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -5284.011264533,
+                                ["x"] = 138518.24667452,
+                                ["name"] = "EWR",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [7]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
         ["red"] = 
         {
             ["name"] = "red",

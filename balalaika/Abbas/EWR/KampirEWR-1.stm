@@ -448,10 +448,10 @@ staticTemplate =
                                                     {
                                                         [1] = 
                                                         {
-                                                            ["enabled"] = true,
+                                                            ["number"] = 1,
                                                             ["auto"] = true,
                                                             ["id"] = "EWR",
-                                                            ["number"] = 1,
+                                                            ["enabled"] = true,
                                                             ["params"] = 
                                                             {
                                                             }, -- end of ["params"]
@@ -469,18 +469,13 @@ staticTemplate =
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
-                                        ["type"] = "1L13 EWR",
+                                        ["type"] = "FPS-117",
                                         ["unitId"] = 1,
+                                        ["skill"] = "Average",
                                         ["y"] = -130327.57874888,
                                         ["x"] = 74632.377468499,
                                         ["name"] = "PRIMARY DESTROYED EWR-1",
-                                        ["heading"] = 0,
+                                        ["heading"] = 3.1415926535898,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
