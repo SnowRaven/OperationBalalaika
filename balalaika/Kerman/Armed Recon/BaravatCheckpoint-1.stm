@@ -259,129 +259,144 @@ staticTemplate =
                 }, -- end of [50]
                 [51] = 
                 {
-                    ["id"] = 42,
-                    ["name"] = "Saudi Arabia",
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
                 }, -- end of [51]
                 [52] = 
                 {
-                    ["id"] = 43,
-                    ["name"] = "Serbia",
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
                 }, -- end of [52]
                 [53] = 
                 {
-                    ["id"] = 44,
-                    ["name"] = "Slovakia",
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
                 }, -- end of [53]
                 [54] = 
                 {
-                    ["id"] = 85,
-                    ["name"] = "Slovenia",
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
                 }, -- end of [54]
                 [55] = 
                 {
-                    ["id"] = 75,
-                    ["name"] = "South Africa",
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
                 }, -- end of [55]
                 [56] = 
                 {
-                    ["id"] = 45,
-                    ["name"] = "South Korea",
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
                 }, -- end of [56]
                 [57] = 
                 {
-                    ["id"] = 19,
-                    ["name"] = "South Ossetia",
+                    ["id"] = 9,
+                    ["name"] = "Spain",
                 }, -- end of [57]
                 [58] = 
                 {
-                    ["id"] = 9,
-                    ["name"] = "Spain",
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
                 }, -- end of [58]
                 [59] = 
                 {
-                    ["id"] = 53,
-                    ["name"] = "Sudan",
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
                 }, -- end of [59]
                 [60] = 
                 {
-                    ["id"] = 46,
-                    ["name"] = "Sweden",
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
                 }, -- end of [60]
                 [61] = 
                 {
-                    ["id"] = 22,
-                    ["name"] = "Switzerland",
+                    ["id"] = 47,
+                    ["name"] = "Syria",
                 }, -- end of [61]
                 [62] = 
                 {
-                    ["id"] = 47,
-                    ["name"] = "Syria",
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
                 }, -- end of [62]
                 [63] = 
                 {
-                    ["id"] = 52,
-                    ["name"] = "Thailand",
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
                 }, -- end of [63]
                 [64] = 
                 {
-                    ["id"] = 10,
-                    ["name"] = "The Netherlands",
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
                 }, -- end of [64]
                 [65] = 
                 {
-                    ["id"] = 66,
-                    ["name"] = "Third Reich",
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
                 }, -- end of [65]
                 [66] = 
                 {
-                    ["id"] = 51,
-                    ["name"] = "Tunisia",
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
                 }, -- end of [66]
                 [67] = 
                 {
-                    ["id"] = 3,
-                    ["name"] = "Turkey",
+                    ["id"] = 4,
+                    ["name"] = "UK",
                 }, -- end of [67]
                 [68] = 
                 {
-                    ["id"] = 4,
-                    ["name"] = "UK",
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
                 }, -- end of [68]
                 [69] = 
                 {
-                    ["id"] = 1,
-                    ["name"] = "Ukraine",
+                    ["id"] = 82,
+                    ["name"] = "UN",
                 }, -- end of [69]
                 [70] = 
                 {
-                    ["id"] = 82,
-                    ["name"] = "UN",
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
                 }, -- end of [70]
                 [71] = 
                 {
-                    ["id"] = 7,
-                    ["name"] = "USAF Aggressors",
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
                 }, -- end of [71]
                 [72] = 
                 {
-                    ["id"] = 50,
-                    ["name"] = "Venezuela",
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
                 }, -- end of [72]
                 [73] = 
                 {
-                    ["id"] = 49,
-                    ["name"] = "Vietnam",
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
                 }, -- end of [73]
                 [74] = 
                 {
-                    ["id"] = 48,
-                    ["name"] = "Yemen",
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
                 }, -- end of [74]
                 [75] = 
                 {
-                    ["id"] = 67,
-                    ["name"] = "Yugoslavia",
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
                 }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [78]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
         ["blue"] = 
@@ -417,18 +432,18 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 1,
+                                ["groupId"] = 3,
                                 ["units"] = 
                                 {
                                     [1] = 
                                     {
                                         ["category"] = "Fortifications",
                                         ["type"] = "outpost_road",
-                                        ["unitId"] = 1,
+                                        ["unitId"] = 8,
                                         ["rate"] = 5,
                                         ["y"] = 241669.72295067,
                                         ["x"] = 309006.81021456,
-                                        ["name"] = "PRIMARY DESTROYED mujahideen Checkpoint",
+                                        ["name"] = "PRIMARY DESTROYED mujahideen Checkpoint-1",
                                         ["heading"] = 4.3633231299858,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
@@ -457,18 +472,18 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 5,
+                                ["groupId"] = 4,
                                 ["units"] = 
                                 {
                                     [1] = 
                                     {
                                         ["category"] = "Fortifications",
                                         ["type"] = "outpost_road",
-                                        ["unitId"] = 11,
+                                        ["unitId"] = 9,
                                         ["rate"] = 5,
                                         ["y"] = 241653.6785729,
                                         ["x"] = 308980.2122169,
-                                        ["name"] = "PRIMARY DESTROYED baravat checkpoint westbound",
+                                        ["name"] = "PRIMARY DESTROYED baravat checkpoint westbound-1",
                                         ["heading"] = 1.2740903539559,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
@@ -525,59 +540,58 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 2,
+                                ["groupId"] = 1,
                                 ["hidden"] = false,
                                 ["units"] = 
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
-                                        ["unitId"] = 7,
+                                        ["unitId"] = 1,
+                                        ["skill"] = "Average",
                                         ["y"] = 241682.1320949,
                                         ["x"] = 309032.93491944,
-                                        ["name"] = "Ground-1-6",
+                                        ["name"] = "PRIMARY DESTROYED mujahideen Bam Checkpoint Vehicles-1",
                                         ["heading"] = 5.9864793343406,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 6,
+                                        ["unitId"] = 2,
+                                        ["skill"] = "Average",
                                         ["y"] = 241685.75852418,
                                         ["x"] = 308967.93814858,
-                                        ["name"] = "Ground-1-5",
+                                        ["name"] = "PRIMARY DESTROYED mujahideen Bam Checkpoint Vehicles-2",
                                         ["heading"] = 4.4680428851055,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
                                     [3] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
+                                        ["type"] = "HL_DSHK",
+                                        ["unitId"] = 10,
                                         ["skill"] = "Average",
+                                        ["y"] = 241664.42727724,
+                                        ["x"] = 308996.08984704,
+                                        ["name"] = "PRIMARY DESTROYED mujahideen Bam Checkpoint Vehicles-4",
+                                        ["heading"] = 4.1189770347066,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
                                         ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 4,
+                                        ["unitId"] = 3,
+                                        ["skill"] = "Average",
                                         ["y"] = 241638.8938997,
                                         ["x"] = 309014.10538282,
-                                        ["name"] = "Ground-1-3",
+                                        ["name"] = "PRIMARY DESTROYED mujahideen Bam Checkpoint Vehicles-3",
                                         ["heading"] = 1.221730476396,
                                         ["playerCanDrive"] = false,
-                                    }, -- end of [3]
+                                    }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["y"] = 241682.1320949,
                                 ["x"] = 309032.93491944,
-                                ["name"] = "PRIMARY DESTROYED mujahideen Bam Checkpoint Vehicles",
+                                ["name"] = "mujahideen Bam Checkpoint Vehicles",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                             [2] = 
@@ -635,34 +649,26 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 4,
+                                ["groupId"] = 2,
                                 ["hidden"] = false,
                                 ["units"] = 
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 10,
+                                        ["unitId"] = 4,
+                                        ["skill"] = "Average",
                                         ["y"] = 241654.25874925,
                                         ["x"] = 309010.70466783,
-                                        ["name"] = "mujahideen Bam Checkpoint Vehicles-1-2",
+                                        ["name"] = "mujahideen Bam Checkpoint Infantry-1",
                                         ["heading"] = 3.6302848441482,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 13,
+                                        ["unitId"] = 5,
+                                        ["skill"] = "Average",
                                         ["y"] = 241663.72099243,
                                         ["x"] = 308991.78889497,
                                         ["name"] = "mujahideen Bam Checkpoint Infantry-2",
@@ -671,31 +677,23 @@ staticTemplate =
                                     }, -- end of [2]
                                     [3] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 12,
+                                        ["unitId"] = 7,
+                                        ["skill"] = "Average",
                                         ["y"] = 241669.02115829,
                                         ["x"] = 308975.46996323,
-                                        ["name"] = "mujahideen Bam Checkpoint Infantry-1",
+                                        ["name"] = "mujahideen Bam Checkpoint Infantry-3",
                                         ["heading"] = 0.61086523819802,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]
                                     [4] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 9,
+                                        ["unitId"] = 6,
+                                        ["skill"] = "Average",
                                         ["y"] = 241660.10291599,
                                         ["x"] = 308994.96526423,
-                                        ["name"] = "mujahideen Bam Checkpoint Vehicles-1-1",
+                                        ["name"] = "mujahideen Bam Checkpoint Infantry-4",
                                         ["heading"] = 4.9567350756639,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -725,14 +723,19 @@ staticTemplate =
                 }, -- end of [4]
                 [5] = 
                 {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
                 }, -- end of [5]
                 [6] = 
                 {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [6]
+                [7] = 
+                {
                     ["id"] = 2,
                     ["name"] = "USA",
-                }, -- end of [6]
+                }, -- end of [7]
             }, -- end of ["country"]
         }, -- end of ["blue"]
         ["red"] = 
@@ -763,7 +766,7 @@ staticTemplate =
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "baravatcheckpointmujahideen",
+    ["name"] = "BaravatCheckpoint-1",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]

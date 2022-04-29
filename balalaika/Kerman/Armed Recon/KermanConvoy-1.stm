@@ -259,129 +259,144 @@ staticTemplate =
                 }, -- end of [50]
                 [51] = 
                 {
-                    ["id"] = 42,
-                    ["name"] = "Saudi Arabia",
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
                 }, -- end of [51]
                 [52] = 
                 {
-                    ["id"] = 43,
-                    ["name"] = "Serbia",
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
                 }, -- end of [52]
                 [53] = 
                 {
-                    ["id"] = 44,
-                    ["name"] = "Slovakia",
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
                 }, -- end of [53]
                 [54] = 
                 {
-                    ["id"] = 85,
-                    ["name"] = "Slovenia",
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
                 }, -- end of [54]
                 [55] = 
                 {
-                    ["id"] = 75,
-                    ["name"] = "South Africa",
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
                 }, -- end of [55]
                 [56] = 
                 {
-                    ["id"] = 45,
-                    ["name"] = "South Korea",
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
                 }, -- end of [56]
                 [57] = 
                 {
-                    ["id"] = 19,
-                    ["name"] = "South Ossetia",
+                    ["id"] = 9,
+                    ["name"] = "Spain",
                 }, -- end of [57]
                 [58] = 
                 {
-                    ["id"] = 9,
-                    ["name"] = "Spain",
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
                 }, -- end of [58]
                 [59] = 
                 {
-                    ["id"] = 53,
-                    ["name"] = "Sudan",
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
                 }, -- end of [59]
                 [60] = 
                 {
-                    ["id"] = 46,
-                    ["name"] = "Sweden",
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
                 }, -- end of [60]
                 [61] = 
                 {
-                    ["id"] = 22,
-                    ["name"] = "Switzerland",
+                    ["id"] = 47,
+                    ["name"] = "Syria",
                 }, -- end of [61]
                 [62] = 
                 {
-                    ["id"] = 47,
-                    ["name"] = "Syria",
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
                 }, -- end of [62]
                 [63] = 
                 {
-                    ["id"] = 52,
-                    ["name"] = "Thailand",
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
                 }, -- end of [63]
                 [64] = 
                 {
-                    ["id"] = 10,
-                    ["name"] = "The Netherlands",
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
                 }, -- end of [64]
                 [65] = 
                 {
-                    ["id"] = 66,
-                    ["name"] = "Third Reich",
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
                 }, -- end of [65]
                 [66] = 
                 {
-                    ["id"] = 51,
-                    ["name"] = "Tunisia",
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
                 }, -- end of [66]
                 [67] = 
                 {
-                    ["id"] = 3,
-                    ["name"] = "Turkey",
+                    ["id"] = 4,
+                    ["name"] = "UK",
                 }, -- end of [67]
                 [68] = 
                 {
-                    ["id"] = 4,
-                    ["name"] = "UK",
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
                 }, -- end of [68]
                 [69] = 
                 {
-                    ["id"] = 1,
-                    ["name"] = "Ukraine",
+                    ["id"] = 82,
+                    ["name"] = "UN",
                 }, -- end of [69]
                 [70] = 
                 {
-                    ["id"] = 82,
-                    ["name"] = "UN",
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
                 }, -- end of [70]
                 [71] = 
                 {
-                    ["id"] = 7,
-                    ["name"] = "USAF Aggressors",
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
                 }, -- end of [71]
                 [72] = 
                 {
-                    ["id"] = 50,
-                    ["name"] = "Venezuela",
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
                 }, -- end of [72]
                 [73] = 
                 {
-                    ["id"] = 49,
-                    ["name"] = "Vietnam",
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
                 }, -- end of [73]
                 [74] = 
                 {
-                    ["id"] = 48,
-                    ["name"] = "Yemen",
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
                 }, -- end of [74]
                 [75] = 
                 {
-                    ["id"] = 67,
-                    ["name"] = "Yugoslavia",
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
                 }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [78]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
         ["blue"] = 
@@ -444,96 +459,72 @@ staticTemplate =
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "ZIL-4331",
-                                        ["unitId"] = 10,
+                                        ["unitId"] = 8,
+                                        ["skill"] = "Average",
                                         ["y"] = 22385.727710374,
                                         ["x"] = 536244.38357845,
-                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy 1",
+                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy-1",
                                         ["heading"] = 2.164208272473,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "MAZ-6303",
-                                        ["unitId"] = 9,
+                                        ["unitId"] = 6,
+                                        ["skill"] = "Average",
                                         ["y"] = 22357.884433616,
                                         ["x"] = 536261.75587934,
-                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy 2",
+                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy-2",
                                         ["heading"] = 2.1293016874331,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
                                     [3] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "GAZ-3307",
-                                        ["unitId"] = 8,
+                                        ["unitId"] = 7,
+                                        ["skill"] = "Average",
                                         ["y"] = 22326.016803864,
                                         ["x"] = 536280.03006441,
-                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy 3",
+                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy-3",
                                         ["heading"] = 2.1118483949131,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]
                                     [4] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "ZIL-4331",
-                                        ["unitId"] = 7,
+                                        ["unitId"] = 9,
+                                        ["skill"] = "Average",
                                         ["y"] = 22247.94440614,
                                         ["x"] = 536324.46242784,
-                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy 6",
+                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy-4",
                                         ["heading"] = 2.0943951023932,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
                                     [5] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "VAZ Car",
-                                        ["unitId"] = 6,
+                                        ["unitId"] = 10,
+                                        ["skill"] = "Average",
                                         ["y"] = 22268.72785807,
                                         ["x"] = 536312.49927014,
-                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy 5",
+                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy-5",
                                         ["heading"] = 2.1293016874331,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
                                     [6] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
+                                        ["type"] = "Land_Rover_109_S3",
+                                        ["unitId"] = 5,
                                         ["livery_id"] = "summer",
                                         ["skill"] = "Average",
                                         ["AddPropVehicle"] = 
                                         {
                                             ["TentedRoof"] = true,
                                         }, -- end of ["AddPropVehicle"]
-                                        ["type"] = "Land_Rover_109_S3",
-                                        ["unitId"] = 5,
                                         ["y"] = 22294.308343945,
                                         ["x"] = 536297.02247149,
-                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy 4",
+                                        ["name"] = "PRIMARY DESTROYED Stranded mujahideen Convoy-6",
                                         ["heading"] = 2.0943951023932,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [6]
@@ -602,65 +593,60 @@ staticTemplate =
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 1,
                                         ["livery_id"] = "Desert",
                                         ["skill"] = "Average",
-                                        ["type"] = "BTR-80",
-                                        ["unitId"] = 4,
                                         ["y"] = 22419.817506237,
                                         ["x"] = 536218.17371079,
-                                        ["name"] = "Stranded mujahideen Convoy Defences-3",
+                                        ["name"] = "Stranded mujahideen Convoy Defences-1",
                                         ["heading"] = 2.3387411976724,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 12,
+                                        ["unitId"] = 2,
+                                        ["skill"] = "Average",
                                         ["y"] = 22405.298946466,
                                         ["x"] = 536247.41595018,
-                                        ["name"] = "Stranded mujahideen Convoy Defences-4",
+                                        ["name"] = "Stranded mujahideen Convoy Defences-2",
                                         ["heading"] = 2.1816615649929,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
                                     [3] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Soldier stinger",
-                                        ["unitId"] = 11,
+                                        ["unitId"] = 4,
+                                        ["skill"] = "Average",
                                         ["y"] = 22332.450367609,
                                         ["x"] = 536290.68764935,
-                                        ["name"] = "Stranded mujahideen Convoy Defences-1",
+                                        ["name"] = "Stranded mujahideen Convoy Defences-3",
                                         ["heading"] = 1.9547687622336,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [3]
                                     [4] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Ural-375 ZU-23 Insurgent",
-                                        ["unitId"] = 3,
-                                        ["y"] = 22509.784872823,
-                                        ["x"] = 536085.07765816,
-                                        ["name"] = "Stranded mujahideen Convoy Defences-2",
+                                        ["unitId"] = 11,
+                                        ["skill"] = "Average",
+                                        ["y"] = 22524.17166883,
+                                        ["x"] = 536071.18449075,
+                                        ["name"] = "Stranded mujahideen Convoy Defences-5",
                                         ["heading"] = 2.6703537555513,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["type"] = "HL_ZU-23",
+                                        ["unitId"] = 3,
+                                        ["skill"] = "Average",
+                                        ["y"] = 22233.100889028,
+                                        ["x"] = 536333.96481191,
+                                        ["name"] = "Stranded mujahideen Convoy Defences-4",
+                                        ["heading"] = 2.2863813201126,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
                                 }, -- end of ["units"]
                                 ["y"] = 22419.817506237,
                                 ["x"] = 536218.17371079,
@@ -683,14 +669,19 @@ staticTemplate =
                 }, -- end of [4]
                 [5] = 
                 {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
                 }, -- end of [5]
                 [6] = 
                 {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [6]
+                [7] = 
+                {
                     ["id"] = 2,
                     ["name"] = "USA",
-                }, -- end of [6]
+                }, -- end of [7]
             }, -- end of ["country"]
         }, -- end of ["blue"]
         ["red"] = 
@@ -721,7 +712,7 @@ staticTemplate =
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "strandedmujahideenconvoydv43",
+    ["name"] = "KermanConvoy-1",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]
