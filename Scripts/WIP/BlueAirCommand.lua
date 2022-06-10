@@ -18,6 +18,16 @@ local TypeAlias = {
 	["F-4E"] = "Phantom",
 	["F-5E-3"] = "Tiger"
 }
+local Skill = {
+	[0] = "Average",
+	[1] = "Good",
+	[2] = "High",
+	[3] = "Excellent",
+	["Rookie"] = "Average",
+	["Trained"] = "Good",
+	["Veteran"] = "High",
+	["Ace"] = "Excellent"
+}
 
 local primaryTrackers = {} -- list of primary tracking units: EWRs and search radars
 local secondaryTrackers = {} -- list of secondary tracking units: infantry and local air defence
@@ -94,6 +104,7 @@ local Airbases = {
 				["name"] = "91st TFS",
 				["country"] = Country.Iran,
 				["type"] = "F-4E",
+				["skill"] = "Veteran",
 				["livery"] = "IRIAF Asia Minor",
 				["loadouts"] = {
 					["AA"] = {
@@ -183,6 +194,7 @@ local Airbases = {
 				["name"] = "23rd TFS",
 				["country"] = Country.Iran,
 				["type"] = "F-5E-3",
+				["skill"] = "Veteran",
 				["livery"] = "ir iriaf 43rd tfs",
 				["loadouts"] = {
 					["AA"] = {
@@ -193,11 +205,7 @@ local Airbases = {
 								{
 									["CLSID"] = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
 								},
-								[3] =
-								{
-									["CLSID"] = "{PTB-150GAL}",
-								},
-								[5] =
+								[4] =
 								{
 									["CLSID"] = "{PTB-150GAL}",
 								},
@@ -219,17 +227,9 @@ local Airbases = {
 								{
 									["CLSID"] = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
 								},
-								[3] =
+								[4] = 
 								{
-									["CLSID"] = "{PTB-150GAL}",
-								},
-								[4] =
-								{
-									["CLSID"] = "{PTB-150GAL}",
-								},
-								[5] =
-								{
-									["CLSID"] = "{PTB-150GAL}",
+									["CLSID"] = "{0395076D-2F77-4420-9D33-087A4398130B}",
 								},
 								[7] =
 								{
@@ -272,6 +272,7 @@ local Airbases = {
 				["name"] = "71st TFS",
 				["country"] = Country.Iran,
 				["type"] = "F-4E", -- F-4D
+				["skill"] = "Veteran",
 				["livery"] = "IRIAF Asia Minor",
 				["loadouts"] = {
 					["AA"] = {
@@ -356,6 +357,7 @@ local Airbases = {
 				["name"] = "72nd TFS",
 				["country"] = Country.Iran,
 				["type"] = "F-14A-135-GR", -- F-14A-95-GR IRIAF
+				["skill"] = "Veteran",
 				["livery"] = "Rogue Nation(Top Gun - Maverick)",
 				["loadouts"] = {
 					["AA"] = {
@@ -408,6 +410,7 @@ local Airbases = {
 				["name"] = "73rd TFS",
 				["country"] = Country.Iran,
 				["type"] = "F-14A-135-GR", -- F-14A-95-GR IRIAF
+				["skill"] = "Veteran",
 				["livery"] = "Rogue Nation(Top Gun - Maverick)",
 				["loadouts"] = {
 					["AA"] = {
