@@ -1,110 +1,41 @@
--- OKB-17 air tasking and interception system --
+-- OKB-17 air tasking and interception system by Arctic Fox --
 
-local handler = {}
-local side = 2 -- BLUFOR
+local handler = {} -- DCS event handler
 
--- enum
-local Country = {
+-- enum and stuff
+local country = {
 	["Iran"] = 34
 }
-local Mission = {
-	["Intercept"] = 0,
-	["QRA"] = 1,
-	["CAP"] = 2,
-	["AMBUSHCAP"] = 3
+local missionClass = {
+	["Intercept"] = "AA",
+	["CAP"] = "AA",
+	["QRA"] = "AA"
 }
-local TypeAlias = {
+local typeAlias = {
 	["F-14A-135-GR"] = "Tomcat",
 	["F-4E"] = "Phantom",
 	["F-5E-3"] = "Tiger"
 }
-local Skill = {
-	[0] = "Average",
-	[1] = "Good",
-	[2] = "High",
-	[3] = "Excellent",
-	["Rookie"] = "Average",
-	["Trained"] = "Good",
-	["Veteran"] = "High",
-	["Ace"] = "Excellent"
+local typeCategory = {
+	["F-14A-135-GR"] = Group.Category.AIRPLANE,
+	["F-4E"] = Group.Category.AIRPLANE,
+	["F-5E-3"] = Group.Category.AIRPLANE
 }
 
-local primaryTrackers = {} -- list of primary tracking units: EWRs and search radars
-local secondaryTrackers = {} -- list of secondary tracking units: infantry and local air defence
-local tracks = {} -- list of airborne target tracks created by the AD system
-
--- evaluate whether a unit has the necessary properties then add it to the list of trackers
--- TODO: make sure insurgent units are not counted
-local function addTracker(unit)
-	if (unit:hasAttribute("EWR") or unit:hasAttribute("SAM SR")) then
-		primaryTrackers[unit:getID()] = unit
-		env.info("Blue Air Debug: Added " .. tostring(unit:getID()) .. " to primary trackers", 0)
-	elseif (unit:hasAttribute("Infantry") or unit:hasAttribute("Air Defence")) then
-		secondaryTrackers[unit:getID()] = unit
-		env.info("Blue Air Debug: Added " .. tostring(unit:getID()) .. " to secondary trackers", 0)
-	end
-end
-
--- remove unit from tracker list
-local function removeTracker(unit)
-	if (primaryTrackers[unit:getID()]  ~= nil) then
-		primaryTrackers[unit:getID()] = nil
-		env.info("Blue Air Debug: Removed " .. tostring(unit:getID()) .. " from primary trackers", 0)
-	end
-
-	if (secondaryTrackers[unit:getID()] ~= nil) then
-		secondaryTrackers[unit:getID()] = nil
-		env.info("Blue Air Debug: Removed " .. tostring(unit:getID()) .. " from secondary trackers", 0)
-	end
-end
-
--- build AD tracker lists at mission start
-local function initializeTrackers()
-	for _, group in pairs(coalition.getGroups(side, GROUND)) do
-		for _, unit in pairs(group:getUnits()) do
-			addTracker(unit)
-		end
-	end
-end
-
--- function handling DCS events
-function handler:onEvent(event)
-	-- add air defence tracking units when spawned
-	if event.id == world.event.S_EVENT_BIRTH then
-		if event.initiator:getCategory() == Object.Category.UNIT then
-			if event.initiator:getGroup():getCoalition() == side then
-				addTracker(event.initiator)
-			end
-		end
-	end
-
-	-- remove air defence tracking units when killed or despawned
-	if event.id == world.event.S_EVENT_DEAD then
-		if event.initiator:getCategory() == Object.Category.UNIT then
-			removeTracker(event.initiator)
-		end
-	end
-end
-
-world.addEventHandler(handler) -- add DCS event handler
-initializeTrackers()
-
-local function createTrack()
-
-end
-
 ---------------------------------------------------------------------------------------------------------------------------
+-- Faction and squadron data
+local side = 2 -- BLUFOR
 
--- define airbases and squadrons under this command
-local Airbases = {
+local airbases = {
 	["Bandar Abbas"] = {
+		name = "Bandar Abbas Intl", -- DCS name
 		ID = 2,
 		Squadrons = {
 			["91TFS"] = {
 				["name"] = "91st TFS",
-				["country"] = Country.Iran,
+				["country"] = country.Iran,
 				["type"] = "F-4E",
-				["skill"] = "Veteran",
+				["skill"] = "High",
 				["livery"] = "IRIAF Asia Minor",
 				["loadouts"] = {
 					["AA"] = {
@@ -183,18 +114,25 @@ local Airbases = {
 							["gun"] = 100,
 						}
 					}
+				},
+				["callsigns"] = {
+					"Sword",
+					"Scimitar",
+					"Rapier",
+					"Lion"
 				}
 			}
 		}
 	},
 	["Lar"] = {
+		name = "Lar", -- DCS name
 		ID = 11,
 		Squadrons = {
 			["23TFS"] = {
 				["name"] = "23rd TFS",
-				["country"] = Country.Iran,
+				["country"] = country.Iran,
 				["type"] = "F-5E-3",
-				["skill"] = "Veteran",
+				["skill"] = "High",
 				["livery"] = "ir iriaf 43rd tfs",
 				["loadouts"] = {
 					["AA"] = {
@@ -208,28 +146,6 @@ local Airbases = {
 								[4] =
 								{
 									["CLSID"] = "{PTB-150GAL}",
-								},
-								[7] =
-								{
-									["CLSID"] = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
-								},
-							},
-							["fuel"] = 2046,
-							["flare"] = 15,
-							["ammo_type"] = 2,
-							["chaff"] = 30,
-							["gun"] = 100,
-						},
-						["CAP"] = {
-							["pylons"] =
-							{
-								[1] =
-								{
-									["CLSID"] = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
-								},
-								[4] = 
-								{
-									["CLSID"] = "{0395076D-2F77-4420-9D33-087A4398130B}",
 								},
 								[7] =
 								{
@@ -261,18 +177,25 @@ local Airbases = {
 							["gun"] = 100,
 						}
 					}
+				},
+				["callsigns"] = {
+					"Sword",
+					"Scimitar",
+					"Rapier",
+					"Lion"
 				}
 			}
 		}
 	},
 	["Shiraz"] = {
+		name = "Shiraz Intl", -- DCS name
 		ID = 19,
 		Squadrons = {
 			["71TFS"] = {
 				["name"] = "71st TFS",
-				["country"] = Country.Iran,
+				["country"] = country.Iran,
 				["type"] = "F-4E", -- F-4D
-				["skill"] = "Veteran",
+				["skill"] = "High",
 				["livery"] = "IRIAF Asia Minor",
 				["loadouts"] = {
 					["AA"] = {
@@ -351,13 +274,19 @@ local Airbases = {
 							["gun"] = 0,
 						}
 					}
+				},
+				["callsigns"] = {
+					"Sword",
+					"Scimitar",
+					"Rapier",
+					"Lion"
 				}
 			},
 			["72TFS"] = {
 				["name"] = "72nd TFS",
-				["country"] = Country.Iran,
+				["country"] = country.Iran,
 				["type"] = "F-14A-135-GR", -- F-14A-95-GR IRIAF
-				["skill"] = "Veteran",
+				["skill"] = "High",
 				["livery"] = "Rogue Nation(Top Gun - Maverick)",
 				["loadouts"] = {
 					["AA"] = {
@@ -404,13 +333,19 @@ local Airbases = {
 							["gun"] = 100,
 						}
 					}
+				},
+				["callsigns"] = {
+					"Sword",
+					"Scimitar",
+					"Rapier",
+					"Lion"
 				}
 			},
 			["73TFS"] = {
 				["name"] = "73rd TFS",
-				["country"] = Country.Iran,
+				["country"] = country.Iran,
 				["type"] = "F-14A-135-GR", -- F-14A-95-GR IRIAF
-				["skill"] = "Veteran",
+				["skill"] = "High",
 				["livery"] = "Rogue Nation(Top Gun - Maverick)",
 				["loadouts"] = {
 					["AA"] = {
@@ -457,23 +392,199 @@ local Airbases = {
 							["gun"] = 100,
 						}
 					}
+				},
+				["callsigns"] = {
+					"Sword",
+					"Scimitar",
+					"Rapier",
+					"Lion"
 				}
 			}
 		}
 	}
 }
 
-local function launchFlight(airbase, squadron, mission, strength)
-	local loadout = {}
-	local flightData = {
-		["name"] = (squadron.name .. " " .. mission .. " " .. TypeAlias[squadron.type])
-	}
-	if (mission == Mission.Intercept) then
-		if (squadron.loadouts.AA.mission ~= nil) then
-			loadout = squadron.loadouts.AA.mission
-		else
-			loadout = squadron.loadouts.AA.General
+---------------------------------------------------------------------------------------------------------------------------
+-- helpful functions
+-- get the size of a given table
+local function getTableSize(table)
+	local size = 0
+	for _ in pairs(table) do
+		size = size + 1
+	end
+	return size
+end
+-- get a randomized skill level from a given baseline
+local function getSkill(baseline)
+	local adjustment = math.random(10)
+	if (baseline == "Average") then
+		if adjustment > 6 then
+			return "Good"
 		end
-		flightData["task"] = "Intercept"
+		return "Average"
+	end
+	if (baseline == "Good") then
+		if adjustment <= 2 then
+			return "Average"
+		elseif adjustment > 6 then
+			return "Good"
+		end
+		return "Good"
+	end
+	if (baseline == "High") then
+		if adjustment <= 2 then
+			return "Good"
+		elseif adjustment > 6 then
+			return "Excellent"
+		end
+		return "High"
+	end
+	if (baseline == "Excellent") then
+		if adjustment < 5 then
+			return "High"
+		end
+		return "Excellent"
+	end
+	-- I dunno what's going on if we get here
+	env.info("Blue Air Debug: Unit skill assignment broke", 0)
+	return "Excellent"
+end
+
+---------------------------------------------------------------------------------------------------------------------------
+local primaryTrackers = {} -- list of primary tracking units: EWRs and search radars
+local secondaryTrackers = {} -- list of secondary tracking units: infantry and local air defence
+local tracks = {} -- list of airborne target tracks created by the AD system
+
+-- evaluate whether a unit has the necessary properties then add it to the list of trackers
+-- TODO: make sure insurgent units are not counted
+local function addTracker(unit)
+	if (unit:hasAttribute("EWR") or unit:hasAttribute("SAM SR")) then
+		primaryTrackers[unit:getID()] = unit
+		env.info("Blue Air Debug: Added " .. tostring(unit:getID()) .. " to primary trackers", 0)
+	elseif (unit:hasAttribute("Infantry") or unit:hasAttribute("Air Defence")) then
+		secondaryTrackers[unit:getID()] = unit
+		env.info("Blue Air Debug: Added " .. tostring(unit:getID()) .. " to secondary trackers", 0)
 	end
 end
+
+-- remove unit from tracker list
+local function removeTracker(unit)
+	if (primaryTrackers[unit:getID()]  ~= nil) then
+		primaryTrackers[unit:getID()] = nil
+		env.info("Blue Air Debug: Removed " .. tostring(unit:getID()) .. " from primary trackers", 0)
+	end
+
+	if (secondaryTrackers[unit:getID()] ~= nil) then
+		secondaryTrackers[unit:getID()] = nil
+		env.info("Blue Air Debug: Removed " .. tostring(unit:getID()) .. " from secondary trackers", 0)
+	end
+end
+
+-- build AD tracker lists at mission start
+local function initializeTrackers()
+	for _, group in pairs(coalition.getGroups(side, GROUND)) do
+		for _, unit in pairs(group:getUnits()) do
+			addTracker(unit)
+		end
+	end
+end
+
+initializeTrackers()
+
+local function createTrack()
+
+end
+
+---------------------------------------------------------------------------------------------------------------------------
+
+-- create and spawn aircraft group for tasking
+-- TODO: Add air and non-airbase launch options
+local function launchFlight(airbase, squadron, mission, strength)
+	local flightData = {}
+	local loadout = {}
+	local units = {}
+	local route = {}
+	-- get airbase coordinates and elevation from game
+	local baseLocation = Airbase.getByName(airbase.name):getPoint()
+	-- assign callsign
+	local callsign = squadron.callsigns[math.random(getTableSize(squadron.callsigns))]
+	local flightNumber = math.random(9)
+	flightData = {
+		["name"] = callsign .. " " .. tostring(flightNumber)
+	}
+	-- see if mission specific loadout option exists and, if so, select it
+	if (squadron.loadouts[missionClass[mission]].mission ~= nil) then
+		loadout = squadron.loadouts[missionClass[mission]].mission
+	else
+		loadout = squadron.loadouts[missionClass[mission]].General -- if specific mission loadout doesn't exist, use generic A-A
+	end
+	-- select flight options for mission
+	if (mission == "Intercept") or (mission == "QRA") then
+		flightData["task"] = "Intercept"
+	elseif (mission == "CAP") then
+		flightData["task"] = "CAP"
+	end
+	-- add flight members
+	for i=1,strength do
+		units[i] = {
+			["name"] = callsign .. tostring(i),
+			["type"] = squadron.type,
+			["x"] = baseLocation.X,
+			["y"] = baseLocation.Z,
+			["alt"] = baseLocation.Y,
+			["alt_type"] = "BARO",
+			["speed"] = 0,
+			["skill"] = getSkill(squadron.skill),
+			["livery_id"] = squadron.livery,
+			["payload"] = loadout,
+			["callsign"] = {
+				[1] = math.random(9),
+				[2] = flightNumber,
+				[3] = i,
+				["name"] = callsign .. tostring(flightNumber) .. tostring(i)
+			},
+		}
+		units[i]["onboard_num"] = tostring(units[i].callsign[1]) .. tostring(units[i].callsign[2]) .. tostring(units[i].callsign[3])
+	end
+	flightData["units"] = units
+	-- add route waypoint for airfield launch
+	route = {
+		points = {
+			[1] = {			
+				["type"] = "TakeOff",
+				["action"] = "From Runway",
+				["airdromeId"] = airbase.ID,
+				["speed"] = 0,
+				["x"] = baseLocation.X,
+				["y"] = baseLocation.Z,
+				["alt"] = baseLocation.Y,
+			}
+		}
+	}
+	flightData["route"] = route
+	-- spawn unit and return
+	return coalition.addGroup(squadron.country, typeCategory[squadron.type], flightData)
+end
+launchFlight(airbases.Shiraz, airbases.Shiraz.Squadrons["72TFS"], "Intercept", 2)
+
+---------------------------------------------------------------------------------------------------------------------------
+-- function handling DCS events
+function handler:onEvent(event)
+	-- add air defence tracking units when spawned
+	if event.id == world.event.S_EVENT_BIRTH then
+		if event.initiator:getCategory() == Object.Category.UNIT then
+			if event.initiator:getGroup():getCoalition() == side then
+				addTracker(event.initiator)
+			end
+		end
+	end
+
+	-- remove air defence tracking units when killed or despawned
+	if event.id == world.event.S_EVENT_DEAD then
+		if event.initiator:getCategory() == Object.Category.UNIT then
+			removeTracker(event.initiator)
+		end
+	end
+end
+
+world.addEventHandler(handler) -- add DCS event handler
