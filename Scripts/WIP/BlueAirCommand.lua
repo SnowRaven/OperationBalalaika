@@ -2,20 +2,31 @@
 
 local handler = {} -- DCS event handler
 
+---------------------------------------------------------------------------------------------------------------------------
 -- enum and stuff
+-- DCS country IDs
 local country = {
 	["Iran"] = 34
 }
+-- all weather/night capability enum
+local allWeatherCapability = {
+	["None"] = 0,
+	["Limited"] = 1,
+	["Full"] = 2
+}
+-- basic category for each mission type
 local missionClass = {
 	["Intercept"] = "AA",
 	["CAP"] = "AA",
 	["QRA"] = "AA"
 }
+-- names for unit types
 local typeAlias = {
 	["F-14A-135-GR"] = "Tomcat",
 	["F-4E"] = "Phantom",
 	["F-5E-3"] = "Tiger"
 }
+-- DCS categories for unit types
 local typeCategory = {
 	["F-14A-135-GR"] = Group.Category.AIRPLANE,
 	["F-4E"] = Group.Category.AIRPLANE,
@@ -23,11 +34,25 @@ local typeCategory = {
 }
 
 ---------------------------------------------------------------------------------------------------------------------------
--- Faction and squadron data
-local side = 2 -- BLUFOR
+-- faction, squadron and air defense logic data
+local side = coalition.side.BLUE
 
+-- table defining which types constitute high priority threats
+local highThreatType = {
+	["Su-27"] = true,
+	["Su-33"] = true,
+	["MiG-29A"] = true,
+	["MiG-29S"] = true,
+	["MiG-25PD"] = true,
+	["MiG-25RBT"] = true,
+	["MiG-31"] = true,
+	["Su-24M"] = true,
+	["Su-24MR"] = true
+}
+
+-- airbases and squadrons
 local airbases = {
-	["Bandar Abbas"] = {
+	["Abbas"] = {
 		name = "Bandar Abbas Intl", -- DCS name
 		ID = 2,
 		Squadrons = {
@@ -37,6 +62,13 @@ local airbases = {
 				["type"] = "F-4E",
 				["skill"] = "High",
 				["livery"] = "IRIAF Asia Minor",
+				["allWeatherAA"] = allWeatherCapability.Full,
+				["allWeatherAG"] = allWeatherCapability.None,
+				["missions"] = {
+					["Intercept"] = true,
+					["CAP"] = true,
+					["QRA"] = true
+				},
 				["loadouts"] = {
 					["AA"] = {
 						["General"] = {
@@ -116,10 +148,11 @@ local airbases = {
 					}
 				},
 				["callsigns"] = {
-					"Sword",
-					"Scimitar",
-					"Rapier",
-					"Lion"
+					"Toophan",
+					"Alvand",
+					"Sahand",
+					"Alborz",
+					"Shahab"
 				}
 			}
 		}
@@ -134,6 +167,13 @@ local airbases = {
 				["type"] = "F-5E-3",
 				["skill"] = "High",
 				["livery"] = "ir iriaf 43rd tfs",
+				["allWeatherAA"] = allWeatherCapability.Limited,
+				["allWeatherAG"] = allWeatherCapability.None,
+				["missions"] = {
+					["Intercept"] = true,
+					["CAP"] = true,
+					["QRA"] = true
+				},
 				["loadouts"] = {
 					["AA"] = {
 						["General"] = {
@@ -179,10 +219,9 @@ local airbases = {
 					}
 				},
 				["callsigns"] = {
-					"Sword",
-					"Scimitar",
-					"Rapier",
-					"Lion"
+					"Palang",
+					"Kaman",
+					"Paykan"
 				}
 			}
 		}
@@ -197,6 +236,13 @@ local airbases = {
 				["type"] = "F-4E", -- F-4D
 				["skill"] = "High",
 				["livery"] = "IRIAF Asia Minor",
+				["allWeatherAA"] = allWeatherCapability.Full,
+				["allWeatherAG"] = allWeatherCapability.None,
+				["missions"] = {
+					["Intercept"] = true,
+					["CAP"] = true,
+					["QRA"] = true
+				},
 				["loadouts"] = {
 					["AA"] = {
 						["General"] = {
@@ -276,10 +322,11 @@ local airbases = {
 					}
 				},
 				["callsigns"] = {
-					"Sword",
-					"Scimitar",
-					"Rapier",
-					"Lion"
+					"Toophan",
+					"Alvand",
+					"Sahand",
+					"Alborz",
+					"Kaman"
 				}
 			},
 			["72TFS"] = {
@@ -287,7 +334,14 @@ local airbases = {
 				["country"] = country.Iran,
 				["type"] = "F-14A-135-GR", -- F-14A-95-GR IRIAF
 				["skill"] = "High",
-				["livery"] = "Rogue Nation(Top Gun - Maverick)",
+				["livery"] = "IRIAF Asia Minor",
+				["allWeatherAA"] = allWeatherCapability.Full,
+				["allWeatherAG"] = allWeatherCapability.None,
+				["highPriority"] = true, -- squadron aircraft will be saved for high priority targets
+				["missions"] = {
+					["Intercept"] = true,
+					["QRA"] = true
+				},
 				["loadouts"] = {
 					["AA"] = {
 						["General"] = {
@@ -335,10 +389,9 @@ local airbases = {
 					}
 				},
 				["callsigns"] = {
-					"Sword",
-					"Scimitar",
-					"Rapier",
-					"Lion"
+					"Shahin",
+					"Oghab",
+					"Toophan"
 				}
 			},
 			["73TFS"] = {
@@ -346,7 +399,14 @@ local airbases = {
 				["country"] = country.Iran,
 				["type"] = "F-14A-135-GR", -- F-14A-95-GR IRIAF
 				["skill"] = "High",
-				["livery"] = "Rogue Nation(Top Gun - Maverick)",
+				["livery"] = "IRIAF Asia Minor",
+				["allWeatherAA"] = allWeatherCapability.Full,
+				["allWeatherAG"] = allWeatherCapability.None,
+				["highPriority"] = true, -- squadron aircraft will be saved for high priority targets
+				["missions"] = {
+					["Intercept"] = true,
+					["QRA"] = true
+				},
 				["loadouts"] = {
 					["AA"] = {
 						["General"] = {
@@ -394,10 +454,9 @@ local airbases = {
 					}
 				},
 				["callsigns"] = {
-					"Sword",
-					"Scimitar",
-					"Rapier",
-					"Lion"
+					"Shahin",
+					"Oghab",
+					"Shahab"
 				}
 			}
 		}
@@ -406,15 +465,20 @@ local airbases = {
 
 ---------------------------------------------------------------------------------------------------------------------------
 -- helpful functions
+-- get distance between two points using the power of Pythagoras
+local function getDistance(x1, y1, x2, y2)
+	return math.sqrt(((x1 - x2)*(x1 - x2)) + ((y1 - y2)*(y1 - y2)))
+end
 -- get the size of a given table
 local function getTableSize(table)
 	local size = 0
-	for _ in pairs(table) do
+	for key in pairs(table) do
 		size = size + 1
 	end
 	return size
 end
 -- get a randomized skill level from a given baseline
+-- TODO: replace with percentage-based tables that can be defined per squadron
 local function getSkill(baseline)
 	local adjustment = math.random(10)
 	if (baseline == "Average") then
@@ -447,23 +511,31 @@ local function getSkill(baseline)
 	end
 	-- I dunno what's going on if we get here
 	env.info("Blue Air Debug: Unit skill assignment broke", 0)
-	return "Excellent"
+	return "High"
 end
 
 ---------------------------------------------------------------------------------------------------------------------------
+local trackTimeout = 90 -- amount of time before tracks are timed out
+local trackCorrelationDistance = 10000 -- maximum distance in meters between which a target will correlate with a track
+local trackCorrelationAltitude = 5000 -- maximum altitude difference in meters between which a target will correlate with a track
+
 local primaryTrackers = {} -- list of primary tracking units: EWRs and search radars
 local secondaryTrackers = {} -- list of secondary tracking units: infantry and local air defence
 local tracks = {} -- list of airborne target tracks created by the AD system
+local nextTrackNumber = 0 -- iterator to prevent track IDs from repeating
 
 -- evaluate whether a unit has the necessary properties then add it to the list of trackers
 -- TODO: make sure insurgent units are not counted
+-- TODO: add AWACS
+-- TODO: add ships
+-- TODO: remove SHORAD trackers?
 local function addTracker(unit)
 	if (unit:hasAttribute("EWR") or unit:hasAttribute("SAM SR")) then
 		primaryTrackers[unit:getID()] = unit
-		env.info("Blue Air Debug: Added " .. tostring(unit:getID()) .. " to primary trackers", 0)
+		env.info("Blue Air Debug: Added " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " to primary trackers", 0)
 	elseif (unit:hasAttribute("Infantry") or unit:hasAttribute("Air Defence")) then
 		secondaryTrackers[unit:getID()] = unit
-		env.info("Blue Air Debug: Added " .. tostring(unit:getID()) .. " to secondary trackers", 0)
+		env.info("Blue Air Debug: Added " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " to secondary trackers", 0)
 	end
 end
 
@@ -471,32 +543,118 @@ end
 local function removeTracker(unit)
 	if (primaryTrackers[unit:getID()]  ~= nil) then
 		primaryTrackers[unit:getID()] = nil
-		env.info("Blue Air Debug: Removed " .. tostring(unit:getID()) .. " from primary trackers", 0)
+		env.info("Blue Air Debug: Removed " .. " " .. unit:getTypeName() .. tostring(unit:getID()) .. " from primary trackers", 0)
 	end
 
 	if (secondaryTrackers[unit:getID()] ~= nil) then
 		secondaryTrackers[unit:getID()] = nil
-		env.info("Blue Air Debug: Removed " .. tostring(unit:getID()) .. " from secondary trackers", 0)
+		env.info("Blue Air Debug: Removed " .. " " .. unit:getTypeName() .. tostring(unit:getID()) .. " from secondary trackers", 0)
 	end
 end
 
 -- build AD tracker lists at mission start
 local function initializeTrackers()
-	for _, group in pairs(coalition.getGroups(side, GROUND)) do
-		for _, unit in pairs(group:getUnits()) do
+	for key, group in pairs(coalition.getGroups(side, Group.Category.GROUND)) do
+		for key, unit in pairs(group:getUnits()) do
 			addTracker(unit)
 		end
 	end
 end
 
-initializeTrackers()
-
-local function createTrack()
-
+-- update track with new data
+local function updateTrack(track, target)
+	track["x"] = target.object:getPoint().x
+	track["y"] = target.object:getPoint().z
+	track["alt"] = target.object:getPoint().y
+--	track["speed"] = target.object:getVelocity()
+--	if (target.type) then
+--		track["type"] = target.object:getTypeName()
+--	end
+	track["extrapolated"] = false
+	track["lastUpdate"] = timer.getTime()
 end
 
----------------------------------------------------------------------------------------------------------------------------
+-- update track with new data
+local function extrapolateTrack(track)
+	track["extrapolated"] = true
+end
 
+-- create new track and initialize data
+local function createTrack(target)
+	tracks[nextTrackNumber] = {}
+	updateTrack(tracks[nextTrackNumber], target)
+	env.info("Blue Air Debug: Created new track ID " .. tostring(nextTrackNumber))
+	env.info("Blue Air Debug: Updated track ID " .. tostring(nextTrackNumber) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
+	nextTrackNumber = nextTrackNumber + 1
+end
+
+-- correlate target to existing track
+-- currently this should have the effect of merging multiple close contacts which should be desirable for our purposes
+-- TODO: Handle very fast targets with heading and speed discrimination
+local function correlateTrack(track, target)
+	if getDistance(track.x, track.y, target.object:getPoint().x, target.object:getPoint().z) < trackCorrelationDistance then
+		if math.abs(target.object:getPoint().y - track["alt"]) < trackCorrelationAltitude then
+			return true
+		end
+	end
+	return false
+end
+
+-- TODO: Track weapons?
+local function detectTargets()
+	-- go through list of detected targets by primary tracking units and create or update existing tracks
+	for key, tracker in pairs(primaryTrackers) do
+		if (tracker:isExist()) then -- check if our tracker still exists
+			local targets = tracker:getController():getDetectedTargets(Controller.Detection.RADAR) -- get all targets currently detected by this tracker
+			env.info("Blue Air Debug: " .. tracker:getTypeName() .. " " .. tostring(tracker:getID()) .. " tracking " .. getTableSize(targets) .. " targets", 0)
+			for key, target in pairs(targets) do
+				if (target.object:getCategory() == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
+					local targetCorrelated = false
+					-- check if target can be correlated to any existing tracks
+					for key, track in pairs(tracks) do
+						if correlateTrack(track, target) then
+							updateTrack(track, target)
+							targetCorrelated = true
+							env.info("Blue Air Debug: Updated track ID " .. tostring(key) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
+						end
+					end
+					-- if target can't be correlated to any track, create a new track
+					if targetCorrelated == false then
+						createTrack(target)
+					end
+				end
+			end
+		else  -- if tracker doesn't exist then remove it from the list
+			primaryTrackers[key] = nil
+			env.info("Blue Air Debug: Removed " .. " " .. tostring(key) .. " from primary trackers", 0)
+		end
+	end
+	-- extrapolate all old tracks
+	for key, track in pairs(tracks) do
+		if (track.lastUpdate < timer.getTime() - 5) then
+			extrapolateTrack(track)
+			env.info("Blue Air Debug: Extrapolating lost track ID " .. tostring(key), 0)
+		end
+	end
+	timer.scheduleFunction(detectTargets, {}, timer.getTime() + 15)
+end
+
+-- delete old tracks that have not been updated
+local function timeoutTracks()
+	for key, track in pairs(tracks) do
+		if (track.lastUpdate < timer.getTime() - trackTimeout) then
+			tracks[key] = nil
+			env.info("Blue Air Debug: Timed out lost track ID " .. tostring(key) .. " after " .. tostring(timer.getTime() - track.lastUpdate) .. " seconds", 0)
+		end
+	end
+	timer.scheduleFunction(timeoutTracks, {}, timer.getTime() + trackTimeout)
+end
+
+initializeTrackers()
+detectTargets()
+timer.scheduleFunction(timeoutTracks, {}, timer.getTime() + trackTimeout)
+
+---------------------------------------------------------------------------------------------------------------------------
 -- create and spawn aircraft group for tasking
 -- TODO: Add air and non-airbase launch options
 local function launchFlight(airbase, squadron, mission, strength)
@@ -527,11 +685,11 @@ local function launchFlight(airbase, squadron, mission, strength)
 	-- add flight members
 	for i=1,strength do
 		units[i] = {
-			["name"] = callsign .. tostring(i),
+			["name"] = callsign .. " " .. tostring(flightNumber) .. tostring(i),
 			["type"] = squadron.type,
-			["x"] = baseLocation.X,
-			["y"] = baseLocation.Z,
-			["alt"] = baseLocation.Y,
+			["x"] = baseLocation.x,
+			["y"] = baseLocation.z,
+			["alt"] = baseLocation.y,
 			["alt_type"] = "BARO",
 			["speed"] = 0,
 			["skill"] = getSkill(squadron.skill),
@@ -550,7 +708,7 @@ local function launchFlight(airbase, squadron, mission, strength)
 	-- add route waypoint for airfield launch
 	route = {
 		points = {
-			[1] = {			
+			[1] = {	
 				["type"] = "TakeOff",
 				["action"] = "From Runway",
 				["airdromeId"] = airbase.ID,
@@ -565,7 +723,14 @@ local function launchFlight(airbase, squadron, mission, strength)
 	-- spawn unit and return
 	return coalition.addGroup(squadron.country, typeCategory[squadron.type], flightData)
 end
-launchFlight(airbases.Shiraz, airbases.Shiraz.Squadrons["72TFS"], "Intercept", 2)
+-- launchFlight(airbases.Abbas, airbases.Abbas.Squadrons["91TFS"], "Intercept", 3)
+
+-- main loop for dispatching packages and flights
+local function airTaskingOrder()
+	timer.scheduleFunction(airTaskingOrder, {}, timer.getTime() + 15)
+end
+
+airTaskingOrder()
 
 ---------------------------------------------------------------------------------------------------------------------------
 -- function handling DCS events
