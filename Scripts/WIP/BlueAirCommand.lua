@@ -14,6 +14,13 @@ local allWeatherCapability = {
 	["Limited"] = 1,
 	["Full"] = 2
 }
+-- enum for formations
+-- DCS does not have a default enum for this for some reason
+local fixedWingFormation = {
+	["LABSClose"] = 65537,
+	["LABSOpen"] = 65538,
+	["LABSGroupClose"] = 65539
+}
 -- basic category for each mission type
 local missionClass = {
 	["Intercept"] = "AA",
@@ -48,6 +55,13 @@ local highThreatType = {
 	["MiG-31"] = true,
 	["Su-24M"] = true,
 	["Su-24MR"] = true
+}
+
+-- range to intercept target in meters at which point the interceptors will activate their radar
+-- if range is not defined radar SOP is assumed to be always on
+local radarRange = {
+	["F-5E3"] = 12000,
+	["F-4E"] = 30000
 }
 
 -- airbases and squadrons
@@ -513,10 +527,18 @@ local function getSkill(baseline)
 	env.info("Blue Air Debug: Unit skill assignment broke", 0)
 	return "High"
 end
-
+-- get aircraft type of a flight
+-- since all members of a flight should be the same type, just get the type from one and return
+local function getFlightType(flight)
+	for key, unit in pairs(flight:getUnits()) do
+		if unit:getTypeName() ~= nil then
+			return unit:getTypeName()
+		end
+	end
+end
 ---------------------------------------------------------------------------------------------------------------------------
 local trackTimeout = 90 -- amount of time before tracks are timed out
-local trackCorrelationDistance = 10000 -- maximum distance in meters between which a target will correlate with a track
+local trackCorrelationDistance = 5000 -- maximum distance in meters between which a target will correlate with a track
 local trackCorrelationAltitude = 5000 -- maximum altitude difference in meters between which a target will correlate with a track
 
 local primaryTrackers = {} -- list of primary tracking units: EWRs and search radars
@@ -543,12 +565,12 @@ end
 local function removeTracker(unit)
 	if (primaryTrackers[unit:getID()]  ~= nil) then
 		primaryTrackers[unit:getID()] = nil
-		env.info("Blue Air Debug: Removed " .. " " .. unit:getTypeName() .. tostring(unit:getID()) .. " from primary trackers", 0)
+		env.info("Blue Air Debug: Removed " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " from primary trackers", 0)
 	end
 
 	if (secondaryTrackers[unit:getID()] ~= nil) then
 		secondaryTrackers[unit:getID()] = nil
-		env.info("Blue Air Debug: Removed " .. " " .. unit:getTypeName() .. tostring(unit:getID()) .. " from secondary trackers", 0)
+		env.info("Blue Air Debug: Removed " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " from secondary trackers", 0)
 	end
 end
 
@@ -562,27 +584,23 @@ local function initializeTrackers()
 end
 
 -- update track with new data
-local function updateTrack(track, target)
-	track["x"] = target.object:getPoint().x
-	track["y"] = target.object:getPoint().z
-	track["alt"] = target.object:getPoint().y
---	track["speed"] = target.object:getVelocity()
---	if (target.type) then
---		track["type"] = target.object:getTypeName()
---	end
-	track["extrapolated"] = false
-	track["lastUpdate"] = timer.getTime()
+local function updateTrack(trackID, target)
+	tracks[trackID].x = target.object:getPoint().x
+	tracks[trackID].y = target.object:getPoint().z
+	tracks[trackID].alt = target.object:getPoint().y
+	tracks[trackID].extrapolated = false
+	tracks[trackID].lastUpdate = timer.getTime()
 end
 
 -- update track with new data
-local function extrapolateTrack(track)
-	track["extrapolated"] = true
+local function extrapolateTrack(trackID)
+	tracks[trackID].extrapolated = true
 end
 
 -- create new track and initialize data
 local function createTrack(target)
 	tracks[nextTrackNumber] = {}
-	updateTrack(tracks[nextTrackNumber], target)
+	updateTrack(nextTrackNumber, target)
 	env.info("Blue Air Debug: Created new track ID " .. tostring(nextTrackNumber))
 	env.info("Blue Air Debug: Updated track ID " .. tostring(nextTrackNumber) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
 	nextTrackNumber = nextTrackNumber + 1
@@ -591,9 +609,9 @@ end
 -- correlate target to existing track
 -- currently this should have the effect of merging multiple close contacts which should be desirable for our purposes
 -- TODO: Handle very fast targets with heading and speed discrimination
-local function correlateTrack(track, target)
-	if getDistance(track.x, track.y, target.object:getPoint().x, target.object:getPoint().z) < trackCorrelationDistance then
-		if math.abs(target.object:getPoint().y - track["alt"]) < trackCorrelationAltitude then
+local function correlateTrack(trackID, target)
+	if getDistance(tracks[trackID].x, tracks[trackID].y, target.object:getPoint().x, target.object:getPoint().z) < trackCorrelationDistance then
+		if math.abs(target.object:getPoint().y - tracks[trackID].alt) < trackCorrelationAltitude then
 			return true
 		end
 	end
@@ -608,12 +626,12 @@ local function detectTargets()
 			local targets = tracker:getController():getDetectedTargets(Controller.Detection.RADAR) -- get all targets currently detected by this tracker
 			env.info("Blue Air Debug: " .. tracker:getTypeName() .. " " .. tostring(tracker:getID()) .. " tracking " .. getTableSize(targets) .. " targets", 0)
 			for key, target in pairs(targets) do
-				if (target.object:getCategory() == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
+				if (target.object ~= nil) and (target.object:getCategory() == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
 					local targetCorrelated = false
 					-- check if target can be correlated to any existing tracks
 					for key, track in pairs(tracks) do
-						if correlateTrack(track, target) then
-							updateTrack(track, target)
+						if correlateTrack(key, target) then
+							updateTrack(key, target)
 							targetCorrelated = true
 							env.info("Blue Air Debug: Updated track ID " .. tostring(key) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
 						end
@@ -632,11 +650,11 @@ local function detectTargets()
 	-- extrapolate all old tracks
 	for key, track in pairs(tracks) do
 		if (track.lastUpdate < timer.getTime() - 5) then
-			extrapolateTrack(track)
+			extrapolateTrack(key)
 			env.info("Blue Air Debug: Extrapolating lost track ID " .. tostring(key), 0)
 		end
 	end
-	timer.scheduleFunction(detectTargets, {}, timer.getTime() + 15)
+	timer.scheduleFunction(detectTargets, nil, timer.getTime() + 5)
 end
 
 -- delete old tracks that have not been updated
@@ -647,14 +665,17 @@ local function timeoutTracks()
 			env.info("Blue Air Debug: Timed out lost track ID " .. tostring(key) .. " after " .. tostring(timer.getTime() - track.lastUpdate) .. " seconds", 0)
 		end
 	end
-	timer.scheduleFunction(timeoutTracks, {}, timer.getTime() + trackTimeout)
+	timer.scheduleFunction(timeoutTracks, nil, timer.getTime() + trackTimeout)
 end
 
 initializeTrackers()
 detectTargets()
-timer.scheduleFunction(timeoutTracks, {}, timer.getTime() + trackTimeout)
+timer.scheduleFunction(timeoutTracks, nil, timer.getTime() + trackTimeout)
 
 ---------------------------------------------------------------------------------------------------------------------------
+local flights = {} -- currently active flights
+local nextFlightID = 0 -- ID of next flight to be launched
+
 -- create and spawn aircraft group for tasking
 -- TODO: Add air and non-airbase launch options
 local function launchFlight(airbase, squadron, mission, strength)
@@ -708,7 +729,7 @@ local function launchFlight(airbase, squadron, mission, strength)
 	-- add route waypoint for airfield launch
 	route = {
 		points = {
-			[1] = {	
+			[1] = {
 				["type"] = "TakeOff",
 				["action"] = "From Runway",
 				["airdromeId"] = airbase.ID,
@@ -723,11 +744,172 @@ local function launchFlight(airbase, squadron, mission, strength)
 	-- spawn unit and return
 	return coalition.addGroup(squadron.country, typeCategory[squadron.type], flightData)
 end
--- launchFlight(airbases.Abbas, airbases.Abbas.Squadrons["91TFS"], "Intercept", 3)
+
+-- control flight to intercept target track
+local function controlIntercept(missionData)
+	local flightID = missionData.flightID
+	local targetTrackID = missionData.targetID
+	-- check if our flight is even still alive
+	if flights[flightID]:isExist() == true then
+		-- check if target track is still valid for intercept
+		if tracks[targetTrackID] ~= nil then
+			local controller = flights[flightID]:getController()
+			-- check if expected target position is close enough to activate radar
+			local targetInSearchRange = false
+			if (radarRange[getFlightType(flights[flightID])] ~= nil) then
+				for key, unit in pairs(flights[flightID]:getUnits()) do
+					if getDistance(unit:getPoint().x, unit:getPoint().z, tracks[targetTrackID].x, tracks[targetTrackID].y) < radarRange[unit:getTypeName()] then
+						targetInSearchRange = true
+					end
+				end
+			end
+			if targetInSearchRange then
+				controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.FOR_SEARCH_IF_REQUIRED)
+				env.info("Blue Air Debug: Flight intercepting " .. tostring(targetTrackID) .. " radar active", 0)
+			else
+				controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.NEVER)
+				env.info("Blue Air Debug: Flight intercepting " .. tostring(targetTrackID) .. " radar off", 0)
+			end
+			-- check if target is detected by onboard sensors before giving permission to engage
+			-- we're doing this to prevent magic datalink intercepts
+			local targets = controller:getDetectedTargets(Controller.Detection.RADAR, Controller.Detection.VISUAL, Controller.Detection.OPTIC, Controller.Detection.IRST)
+			local targetDetected = false
+			for key, target in pairs(targets) do
+				if (target.object ~= nil) and (target.object:getCategory() == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
+					if correlateTrack(targetTrackID, target) then
+						env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(targetTrackID) .. " target detected", 0)
+						targetDetected = true
+					end
+				end
+			end
+			if targetDetected then
+				env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(targetTrackID) .. " free to engage", 0)
+				controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.OPEN_FIRE_WEAPON_FREE)
+			else
+				env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(targetTrackID) .. " holding engagement", 0)
+				controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.RETURN_FIRE)
+			end
+			-- update current intercept path
+			local task = {
+				id = 'Mission',
+				params = {
+					airborne = true,
+					route = {
+						points = {
+							[1] = {
+								type = "Turning Point",
+								action = "Fin Point",
+								x = tracks[targetTrackID].x,
+								y = tracks[targetTrackID].y,
+								alt = tracks[targetTrackID].alt,
+								speed = 2000,
+								task = {
+									id = "ComboTask",
+									params = {
+										tasks = {
+											[1] = {
+											id = 'EngageTargetsInZone',
+												params = {
+													point = {
+														tracks[targetTrackID].x,
+														tracks[targetTrackID].y
+													},
+													zoneRadius = 20000,
+													targetTypes = {"Air"},
+													priority = 0
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			controller:setTask(task)
+			env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(targetTrackID) .. " task updated", 0)
+			env.info("Blue Air Debug: Target position is X: " .. tostring(tracks[targetTrackID].x) .. ", Y: " .. tostring(tracks[targetTrackID].y) .. ", altitude: " .. tostring(tracks[targetTrackID].alt), 0)
+			-- schedule next update to flight control
+			local nextMissionData = {
+				["flightID"] = flightID,
+				["targetID"] = targetTrackID
+			}
+			timer.scheduleFunction(controlIntercept, nextMissionData, timer.getTime() + 5)
+		else
+			env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(targetTrackID) .. " track is nil", 0)
+		end
+	else
+		-- group is dead or MIA and is no longer intercepting
+		env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(targetTrackID) .. " no longer exists", 0)
+		tracks[targetTrackID].engaged = false
+		-- remove flight from list
+		flights[flightID] = nil
+	end
+end
+
+-- prepare flight according to mission parameters then hand off to the appropriate control function
+local function prepareMission(missionData)
+	local flightID = missionData.flightID
+	local targetID = missionData.targetID
+	if missionData.mission == "Intercept" then
+		-- check if whole flight is airborne
+		local flightAirborne = true
+		for key, unit in pairs(flights[flightID]:getUnits()) do
+			if unit:inAir() == false then
+				flightAirborne = false
+			end
+		end
+		if flightAirborne then
+			local controller = flights[flightID]:getController()
+			-- set up flight options according to intercept doctrine
+			controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.RETURN_FIRE)
+			controller:setOption(AI.Option.Air.id.REACTION_ON_THREAT, AI.Option.Air.val.REACTION_ON_THREAT.EVADE_FIRE)
+			if (radarRange[getFlightType(flights[flightID])] ~= nil) then
+				controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.NEVER)
+				env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " radar off", 0)
+			else
+				controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.FOR_SEARCH_IF_REQUIRED)
+				env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " radar active", 0)
+			end
+			controller:setOption(AI.Option.Air.id.FORMATION, fixedWingFormation.LABSClose)
+			controller:setOption(AI.Option.Air.id.ECM_USING, AI.Option.Air.val.ECM_USING.USE_IF_ONLY_LOCK_BY_RADAR)
+			controller:setOption(AI.Option.Air.id.PROHIBIT_AG, true)
+			controller:setOption(AI.Option.Air.id.MISSILE_ATTACK, AI.Option.Air.val.MISSILE_ATTACK.TARGET_THREAT_EST) -- TODO: more complex decision on that
+			-- hand off to intercept controller
+			env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(targetID) .. " handed off to intercept controller", 0)
+			local controlMissionData = {
+				["flightID"] = flightID,
+				["targetID"] = targetID
+			}
+			controlIntercept(controlMissionData)
+		else
+			-- if flight is not yet airborne, wait until it is before handing off control
+			env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(targetID) .. " still not airborne", 0)
+			timer.scheduleFunction(prepareMission, missionData, timer.getTime() + 5)
+		end
+	end
+end
 
 -- main loop for dispatching packages and flights
 local function airTaskingOrder()
-	timer.scheduleFunction(airTaskingOrder, {}, timer.getTime() + 15)
+	-- find unengaged targets and launch interceptors
+	-- very WIP
+	for key, track in pairs(tracks) do
+		if track.engaged ~= true then
+			track["engaged"] = true
+			env.info("Blue Air Debug: Launching flight to intercept track " .. tostring(key), 0)
+			flights[nextFlightID] = launchFlight(airbases.Shiraz, airbases.Shiraz.Squadrons["71TFS"], "Intercept", 2)
+			local mission = {
+				["mission"] = "Intercept",
+				["flightID"] = nextFlightID,
+				["targetID"] = key
+			}
+			prepareMission(mission)
+			nextFlightID = nextFlightID + 1
+		end
+	end
+	timer.scheduleFunction(airTaskingOrder, nil, timer.getTime() + 15)
 end
 
 airTaskingOrder()
