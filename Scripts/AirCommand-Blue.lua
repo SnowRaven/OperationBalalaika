@@ -84,8 +84,8 @@ local radarRange = {
 
 -- any zones where interception will not be launched even if in range of a squadron
 local ADZExclusion = {
-	{
-		-- Pakistani Air Force operational area
+	-- Pakistani Air Force operational area
+	[1] = {
 		["x"] = 4605,
 		["y"] = 248026,
 		["radius"] = 150000
@@ -212,7 +212,7 @@ local airbases = {
 				["livery"] = "ir iriaf 43rd tfs",
 				["allWeatherAA"] = capability.Limited,
 				["allWeatherAG"] = capability.None,
-				["interceptRadius"] = 270000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["interceptRadius"] = 150000, -- radius of action around the airbase for interceptors from this squadron in meters
 				["missions"] = {
 					["Intercept"] = true,
 					["CAP"] = true,
@@ -516,6 +516,10 @@ local airbases = {
 local function getDistance(x1, y1, x2, y2)
 	return math.sqrt(((x1 - x2)*(x1 - x2)) + ((y1 - y2)*(y1 - y2)))
 end
+-- get magnitude from a vector
+local function getMagnitude(vector)
+	return math.sqrt((vector.x^2 + vector.y^2 + vector.z^2))
+end
 -- get the size of a given table
 local function getTableSize(table)
 	local size = 0
@@ -642,6 +646,9 @@ local function updateTrack(trackID, target)
 	tracks[trackID].y = target.object:getPoint().z
 	tracks[trackID].alt = target.object:getPoint().y
 	tracks[trackID].extrapolated = false
+	if highThreatType[target.object:getTypeName()] == true then
+		tracks[trackID].highThreat = true
+	end
 	tracks[trackID].lastUpdate = timer.getTime()
 end
 
@@ -677,7 +684,7 @@ local function detectTargets()
 	for key, tracker in pairs(primaryTrackers) do
 		if (tracker:isExist()) then -- check if our tracker still exists
 			local targets = tracker:getController():getDetectedTargets(Controller.Detection.RADAR) -- get all targets currently detected by this tracker
-			env.info("Blue Air Debug: " .. tracker:getTypeName() .. " " .. tostring(tracker:getID()) .. " tracking " .. getTableSize(targets) .. " targets", 0)
+			--env.info("Blue Air Debug: " .. tracker:getTypeName() .. " " .. tostring(tracker:getID()) .. " tracking " .. getTableSize(targets) .. " targets", 0)
 			for key, target in pairs(targets) do
 				if (target.object ~= nil) and (target.object:getCategory() == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
 					local targetCorrelated = false
@@ -686,7 +693,7 @@ local function detectTargets()
 						if correlateTrack(key, target) then
 							updateTrack(key, target)
 							targetCorrelated = true
-							env.info("Blue Air Debug: Updated track ID " .. tostring(key) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
+							--env.info("Blue Air Debug: Updated track ID " .. tostring(key) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
 						end
 					end
 					-- if target can't be correlated to any track, create a new track
@@ -697,6 +704,33 @@ local function detectTargets()
 			end
 		else  -- if tracker doesn't exist then remove it from the list
 			primaryTrackers[key] = nil
+			env.info("Blue Air Debug: Removed " .. " " .. tostring(key) .. " from primary trackers", 0)
+		end
+	end
+		-- same for secondary trackers
+	for key, tracker in pairs(secondaryTrackers) do
+		if (tracker:isExist()) then -- check if our tracker still exists
+			local targets = tracker:getController():getDetectedTargets(Controller.Detection.RADAR, Controller.Detection.VISUAL, Controller.Detection.OPTIC, Controller.Detection.IRST) -- get all targets currently detected by this tracker
+			-- env.info("Blue Air Debug: " .. tracker:getTypeName() .. " " .. tostring(tracker:getID()) .. " tracking " .. getTableSize(targets) .. " targets", 0)
+			for key, target in pairs(targets) do
+				if (target.object ~= nil) and (target.object:getCategory() == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
+					local targetCorrelated = false
+					-- check if target can be correlated to any existing tracks
+					for key, track in pairs(tracks) do
+						if correlateTrack(key, target) then
+							updateTrack(key, target)
+							targetCorrelated = true
+							--env.info("Blue Air Debug: Secondary tracker updated track ID " .. tostring(key) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
+						end
+					end
+					-- if target can't be correlated to any track, create a new track
+					if targetCorrelated == false then
+						createTrack(target)
+					end
+				end
+			end
+		else  -- if tracker doesn't exist then remove it from the list
+			secondaryTrackers[key] = nil
 			env.info("Blue Air Debug: Removed " .. " " .. tostring(key) .. " from primary trackers", 0)
 		end
 	end
@@ -727,16 +761,9 @@ timer.scheduleFunction(timeoutTracks, nil, timer.getTime() + trackTimeout)
 
 ---------------------------------------------------------------------------------------------------------------------------
 local skipResetTime = 60 -- seconds between a failed launch until airfield will be used again
-local preparationTime = 180 -- time in seconds it takes to prepare a flight
+local preparationTime = 1800 -- time in seconds it takes to prepare the next flight from an airbase
 local QRARadius = 30000 -- radius in meters for emergency scramble
 local commitRange = 50000 -- radius around uncommitted fighter units at which tracks will be intercepted
- -- maximum airframes active per squadron at any given time
-local maximumAirframes = 4 -- TODO: more complex logic for this
-local maximumHighPriorityAirframes = 2 -- high priority squadron airframes
--- amount of airframes per airbase to be reserved for intercepts
-local minimumReserve = 2 -- make this lower than maximum airframes or things will be wonky
-local minimumHighPriorityReserve = 1 -- high priority squadron reserves
-
 
 local activeAirbases = {} -- active airbases
 local flights = {} -- currently active flights
@@ -747,54 +774,24 @@ local function initializeAirbases()
 		local airbaseID = key
 		activeAirbases[airbaseID] = {
 			["skip"] = false, -- flag for whether the airbase should be skipped in the next round of air tasking
-			["squadrons"] = {} -- currently available airframes and their status
+			["readinessTime"] = timer.getTime(), -- time until next aircraft are ready to launch
 		}
 		env.info("Blue Air Debug: Airbase " .. airbaseID .. " initialized", 0)
-		-- initialize airframes up to the maximum active limit for each squadron
-		for key, squadron in pairs(airbase.Squadrons) do
-			local squadronID = key
-			activeAirbases[airbaseID].squadrons[squadronID] = {
-				["reserveReadinessTime"] = timer.getTime() -- time until next reserves are ready to launch
-			}
-			-- assign appropriate numbers of airframes to squadron
-			if squadron.highPriority ~= true then
-				activeAirbases[airbaseID].squadrons[squadronID].freeAirframes = maximumAirframes - minimumReserve
-				env.info("Blue Air Debug: Added " .. tostring(activeAirbases[airbaseID].squadrons[squadronID].freeAirframes) .. " " .. squadron.name .. " " .. squadron.type .. " airframes to " .. airbaseID .. " " .. squadronID, 0)
-				activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes = minimumReserve
-				env.info("Blue Air Debug: Added " .. tostring(activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes) .. " " .. squadron.name .. " " .. squadron.type .. " airframes to " .. airbaseID .. " " .. squadronID.. " reserve", 0)
-			else
-				-- no emergency reserves on high priority squadron
-				activeAirbases[airbaseID].squadrons[squadronID].freeAirframes = maximumHighPriorityAirframes - minimumHighPriorityReserve
-				env.info("Blue Air Debug: Added " .. tostring(activeAirbases[airbaseID].squadrons[squadronID].freeAirframes) .. " " .. squadron.name .. " " .. squadron.type .. " airframes to " .. airbaseID .. " " .. squadronID, 0)
-				activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes = minimumHighPriorityReserve
-				env.info("Blue Air Debug: Added " .. tostring(activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes) .. " " .. squadron.name .. " " .. squadron.type .. " airframes to " .. airbaseID .. " " .. squadronID.. " reserve", 0)
-			end
-		end
+	end
+end
+
+-- function to sort airbases by their distance to a target
+local function sortAirbaseByRange(first, second)
+	if first.range < second.range then
+		return true
+	else
+		return false
 	end
 end
 
 -- sets a given airbase's skip flag to off
 local function resetAirbaseSkip(airbaseID)
 	activeAirbases[airbaseID].skip = false
-end
-
--- reallocate new reserves to a squadron
-local function allocateReserves(airbaseID, squadronID)
-	-- check if we need more reserves
-	if activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes < minimumReserve then
-		-- check if we even have any free airframes to send to reserves
-		if activeAirbases[airbaseID].squadrons[squadronID].freeAirframes > 0 then
-			if activeAirbases[airbaseID].squadrons[squadronID].freeAirframes >= minimumReserve - activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes then
-				activeAirbases[airbaseID].squadrons[squadronID].freeAirframes = activeAirbases[airbaseID].squadrons[squadronID].freeAirframes - (minimumReserve - activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes)
-				activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes = minimumReserve
-			else
-				activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes = activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes + activeAirbases[airbaseID].squadrons[squadronID].freeAirframes
-				activeAirbases[airbaseID].squadrons[squadronID].freeAirframes = 0
-			end
-			-- this is not very good since it means existing reserves have to be re-readied but I can't be bothered to make it more complex right now
-			activeAirbases[airbaseID].squadrons[squadronID].reserveReadinessTime = preparationTime
-		end
-	end
 end
 
 -- create and spawn aircraft group for tasking
@@ -875,7 +872,7 @@ local function returnToBase(missionData)
 		-- activate radar in case we get jumped and set return fire
 		controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.FOR_SEARCH_IF_REQUIRED)
 		controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.RETURN_FIRE)
-		local baseLocation = airbases[missionData.airbaseID].getByName(airbases[missionData.airbaseID].name):getPoint()
+		local baseLocation = Airbase.getByName(airbases[missionData.airbaseID].name):getPoint()
 		local task = {
 			id = 'Mission',
 			params = {
@@ -944,6 +941,7 @@ local function controlIntercept(missionData)
 					if correlateTrack(targetID, target) then
 						env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(targetID) .. " target detected", 0)
 						targetDetected = true
+						updateTrack(targetID, target)
 					end
 				end
 			end
@@ -981,9 +979,14 @@ local function controlIntercept(missionData)
 				}
 			end
 			-- update current intercept path
-			-- flights don't climb until they reform so hold off on going supersonic until that point
-			-- TODO: only for high altitude intercept
+			-- determine slowest aircraft velocity and incrementally increase intercept speed from that
 			local interceptSpeed = 2000
+			for key, unit in pairs(flights[flightID]:getUnits()) do
+				if getMagnitude(unit:getVelocity()) < interceptSpeed then
+					interceptSpeed = getMagnitude(unit:getVelocity())
+				end
+			end
+			interceptSpeed = interceptSpeed + 50
 			local task = {
 				id = 'Mission',
 				params = {
@@ -1098,7 +1101,7 @@ end
 -- receive allocated airframes, launch the flight and hand off to aircraft configuration and control
 local function launchSortie(missionData)
 	-- launch the flight
-	local flight = launchFlight(airbases[missionData.airbaseID], airbases[missionData.airbaseID].Squadrons[missionData.squadronID], missionData.mission, (missionData.reserveAirframes + missionData.freeAirframes))
+	local flight = launchFlight(airbases[missionData.airbaseID], airbases[missionData.airbaseID].Squadrons[missionData.squadronID], missionData.mission, missionData.flightSize)
 	if flight ~= nil then
 		local flightID = flight:getID()
 		flights[flightID] = flight
@@ -1108,9 +1111,11 @@ local function launchSortie(missionData)
 			["airbaseID"] = missionData.airbaseID,
 			["squadronID"] = missionData.squadronID,
 			["targetID"] = missionData.targetID,
-			["flightSize"] = (missionData.reserveAirframes + missionData.freeAirframes),
+			["flightSize"] = missionData.flightSize,
 			["flightID"] = flightID
 		}
+		-- set airfield readiness time
+		activeAirbases[missionData.airbaseID].readinessTime = timer.getTime() + preparationTime
 		-- the script might crash if we do this right away?
 		timer.scheduleFunction(assignMission, updatedMissionData, timer.getTime() + 1)
 	else
@@ -1118,9 +1123,6 @@ local function launchSortie(missionData)
 		if tracks[missionData.targetID] ~= nil then
 			tracks[missionData.targetID].engaged = false
 		end
-		-- free up the airframes we used again
-		activeAirbases[missionData.airbaseID].squadrons[missionData.squadronID].reserveAirframes = activeAirbases[missionData.airbaseID].squadrons[missionData.squadronID].reserveAirframes + missionData.reserveAirframes
-		activeAirbases[missionData.airbaseID].squadrons[missionData.squadronID].freeAirframes = activeAirbases[missionData.airbaseID].squadrons[missionData.squadronID].freeAirframes + missionData.freeAirframes
 		-- mark airfield skip so next time we'll try again from a different one
 		activeAirbases[missionData.airbaseID].skip = true
 		timer.scheduleFunction(skipResetTime, missionData.airbaseID, timer.getTime() + skipResetTime)
@@ -1129,85 +1131,28 @@ end
 
 -- allocate airframes from squadron to the mission and hand it off for preparation
 local function allocateAirframes(mission, airbaseID, squadronID, targetID)
-	local plannedAllocation -- how many airframes we want to launch
-	local allocatedReserveAirframes = 0 -- how many reserve airframes we allocated to launch
-	local allocatedFreeAirframes = 0 -- how many free airframes we allocated to launch
-	local launchTime -- amount of seconds until we can launch
+	local flightSize -- how many airframes we want to launch
 	-- determine how many aircraft to launch
 	local rand = math.random(10)
 	if rand <= 7 then
-		plannedAllocation = 2 -- baseline flight of two
+		flightSize = 2 -- baseline flight of two
 	end
-	if rand > 7 then
-		plannedAllocation = 3
+	if rand > 8 then
+		flightSize = 3
 	end
-	if rand >= 9 then
-		plannedAllocation = 4 -- the spiciest of frags
+	-- reduce flight size for high priority squadrons
+	if airbases[airbaseID].Squadrons[squadronID].highPriority == true then
+		flightSize = flightSize - 1
 	end
-	if mission == "Intercept" then
-		env.info("Blue Air Debug: Launching flight to intercept track " .. tostring(targetID), 0)
-		-- if the reserves fulfill all our needs then dispatch those
-		if (activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes >= plannedAllocation) then
-			allocatedReserveAirframes = plannedAllocation
-		-- if we can't then send whatever we can
-		else
-			allocatedReserveAirframes = activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes
-		end
-		-- if we're sending out less aircraft than two then take assign free airframes
-		-- high priority squadrons can go with even a one-ship
-		if airbases[airbaseID].Squadrons[squadronID].highPriority == false then
-			if allocatedReserveAirframes < 2 then
-				-- make sure we keep two for future reserves
-				if (activeAirbases[airbaseID].squadrons[squadronID].freeAirframes >= (plannedAllocation - allocatedReserveAirframes + 2)) then
-					allocatedFreeAirframes = plannedAllocation - allocatedReserveAirframes
-				else
-					allocatedFreeAirframes = activeAirbases[airbaseID].squadrons[squadronID].freeAirframes - 2
-				end
-			end
-		elseif allocatedReserveAirframes == 0 then
-			if (activeAirbases[airbaseID].squadrons[squadronID].freeAirframes >= plannedAllocation) then
-				allocatedFreeAirframes = plannedAllocation
-			-- if we can't then send whatever we can
-			else
-				allocatedFreeAirframes = activeAirbases[airbaseID].squadrons[squadronID].freeAirframes
-			end
-		end
-		-- launch as soon as the reserves are ready, or after the required preparation time for free airframes
-		if allocatedFreeAirframes > 0 then
-			launchTime = preparationTime
-		else
-			if (timer.getTime() >= activeAirbases[airbaseID].squadrons[squadronID].reserveReadinessTime) then
-				launchTime = 1
-			else
-				launchTime = (activeAirbases[airbaseID].squadrons[squadronID].reserveReadinessTime - timer.getTime())
-			end
-		end
-	end
-	if ((allocatedReserveAirframes + allocatedFreeAirframes) > 0) then
-		-- remove airframes being deployed from availability to the squadron
-		activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes = activeAirbases[airbaseID].squadrons[squadronID].reserveAirframes - allocatedReserveAirframes
-		activeAirbases[airbaseID].squadrons[squadronID].freeAirframes = activeAirbases[airbaseID].squadrons[squadronID].freeAirframes - allocatedFreeAirframes
-		-- launch flight and hand off to flight preparation
-		local missionData = {
-			["mission"] = mission,
-			["airbaseID"] = airbaseID,
-			["squadronID"] = squadronID,
-			["targetID"] = targetID,
-			["reserveAirframes"] = allocatedReserveAirframes,
-			["freeAirframes"] = allocatedFreeAirframes
-		}
-		timer.scheduleFunction(launchSortie, missionData, timer.getTime() + launchTime)
-		return true
-	end
-end
-
--- sorting function for table objects with "distance" parameter, using table.sort, with the closest of the two returning true
-local function sortSquadrons(first, second)
-	if first.distance < second.distance then
-		return true
-	else
-		return false
-	end
+	-- launch flight and hand off to flight preparation
+	local missionData = {
+		["mission"] = mission,
+		["airbaseID"] = airbaseID,
+		["squadronID"] = squadronID,
+		["targetID"] = targetID,
+		["flightSize"] = flightSize
+	}
+	launchSortie(missionData)
 end
 
 -- main loop for dispatching packages and flights
@@ -1225,38 +1170,53 @@ local function airTaskingOrder()
 			end
 			if excluded ~= true then
 				-- sort airbases by distance to target
-				local availableSquadrons = {}
+				local availableAirbases = {}
 				for key, airbase in pairs(activeAirbases) do
-					if airbase.skip ~= true then
-						local airbaseID = key
+					if airbase.skip ~= true and timer.getTime() > airbase.readinessTime then
 						local baseLocation = Airbase.getByName(airbases[key].name):getPoint()
-						for key, squadron in pairs(airbase.squadrons) do
-							if getDistance(tracks[trackID].x, tracks[trackID].y, baseLocation.x, baseLocation.z) < airbases[airbaseID].Squadrons[key].interceptRadius then
-								local squadronData = {
-									["airbaseID"] = airbaseID,
-									["squadronID"] = key
-								}
-								table.insert(availableSquadrons, squadronData)
+						local airbaseData = {
+							["airbaseID"] = key,
+							["range"] = getDistance(tracks[trackID].x, tracks[trackID].y, baseLocation.x, baseLocation.z)
+						}
+						table.insert(availableAirbases, airbaseData)
+					end
+				end
+				table.sort(availableAirbases, sortAirbaseByRange)
+				-- find an applicable squadron, randomizing from the closest airbases in order
+				local interceptAirbase
+				local interceptSquadron
+				for key, airbaseData in ipairs(availableAirbases) do
+					local baseLocation = Airbase.getByName(airbases[airbaseData.airbaseID].name):getPoint()
+					local counter = 0
+					local squadrons = {}
+					-- add up all the squadrons in the airbase and select a random one
+					for key, squadron in pairs(airbases[airbaseData.airbaseID].Squadrons) do
+						if getDistance(tracks[trackID].x, tracks[trackID].y, baseLocation.x, baseLocation.z) < squadron.interceptRadius then
+							-- use high priority squadrons only for high threat tracks
+							if tracks[trackID].highThreat == true then
+								table.insert(squadrons, key)
+								counter = counter + 1
+							else
+								if squadron.highPriority ~= true then
+									table.insert(squadrons, key)
+									counter = counter + 1
+								end
 							end
 						end
 					end
+					if counter > 0 then
+						interceptAirbase = airbaseData.airbaseID
+						interceptSquadron = squadrons[math.random(counter)]
+						break
+					end
 				end
-				-- sort squadrons to find the best available option
-				--table.sort(availableSquadrons, sortSquadrons)
 				-- if we have any squadrons available, launch the intercept
-				if availableSquadrons[1] ~= nil then
+				if interceptSquadron ~= nil then
 					tracks[trackID].engaged = true
 					-- TODO: Add QRA
-					allocateAirframes("Intercept", availableSquadrons[1].airbaseID, availableSquadrons[1].squadronID, trackID)
+					allocateAirframes("Intercept", interceptAirbase, interceptSquadron, trackID)
 				end
 			end
-		end
-	end
-	-- check if new reserves need to be allocated
-	for key, airbase in pairs(activeAirbases) do
-		local airbaseID = key
-		for key, squadron in pairs(activeAirbases[airbaseID].squadrons) do
-			allocateReserves(airbaseID, key)
 		end
 	end
 	timer.scheduleFunction(airTaskingOrder, nil, timer.getTime() + 15)
@@ -1274,13 +1234,6 @@ function handler:onEvent(event)
 			if event.initiator:getGroup():getCoalition() == side then
 				addTracker(event.initiator)
 			end
-		end
-	end
-
-	-- remove air defence tracking units when killed or despawned
-	if event.id == world.event.S_EVENT_DEAD then
-		if event.initiator:getCategory() == Object.Category.UNIT then
-			removeTracker(event.initiator)
 		end
 	end
 end

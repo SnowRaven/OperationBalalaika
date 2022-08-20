@@ -3,3 +3,8 @@ objtype = "C2"
 intel = 3
 cost = 4
 exclusion = "KhabirCommStation"
+
+location = {
+	x = 292815,
+	z = 18723
+}

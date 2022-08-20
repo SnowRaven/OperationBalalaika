@@ -213,8 +213,8 @@ local flights = {{
                                     {
                                         ["alt"] = 7620,
                                         ["alt_type"] = "BARO",
-                                        ["livery_id"] = "paf_no.5_falcons",
-                                        ["skill"] = "Random",
+                                        ["livery_id"] = "PAF_No.5_Falcons",
+                                        ["skill"] = "High",
                                         ["speed"] = 218.51663552233,
                                         ["AddPropAircraft"] = 
                                         {
@@ -286,8 +286,8 @@ local flights = {{
                                     {
                                         ["alt"] = 7620,
                                         ["alt_type"] = "BARO",
-                                        ["livery_id"] = "paf_no.5_falcons",
-                                        ["skill"] = "Random",
+                                        ["livery_id"] = "PAF_No.5_Falcons",
+                                        ["skill"] = "High",
                                         ["speed"] = 218.51663552233,
                                         ["AddPropAircraft"] = 
                                         {
