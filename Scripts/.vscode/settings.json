@@ -1,0 +1,14 @@
+{
+    "Lua.diagnostics.globals": [
+        "Group",
+        "coalition",
+        "env",
+        "timer",
+        "Controller",
+        "Object",
+        "Airbase",
+        "AI",
+        "world",
+        "trigger"
+    ]
+}

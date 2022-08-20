@@ -79,7 +79,7 @@ local highThreatType = {
 -- if range is not defined radar SOP is assumed to be always on
 local radarRange = {
 	["F-5E3"] = 12000,
-	["F-4E"] = 30000
+	["F-4E"] = 40000
 }
 
 -- any zones where interception will not be launched even if in range of a squadron
@@ -97,6 +97,7 @@ local airbases = {
 	["Abbas"] = {
 		name = "Bandar Abbas Intl", -- DCS name
 		ID = 2,
+		takeoffHeading = 0.488, -- in radians
 		Squadrons = {
 			["91TFS"] = {
 				["name"] = "91st TFS",
@@ -203,6 +204,7 @@ local airbases = {
 	["Lar"] = {
 		name = "Lar", -- DCS name
 		ID = 11,
+		takeoffHeading = 1.576, -- in radians
 		Squadrons = {
 			["23TFS"] = {
 				["name"] = "23rd TFS",
@@ -273,6 +275,7 @@ local airbases = {
 	["Shiraz"] = {
 		name = "Shiraz Intl", -- DCS name
 		ID = 19,
+		takeoffHeading = 2.037, -- in radians
 		Squadrons = {
 			["71TFS"] = {
 				["name"] = "71st TFS",
@@ -594,7 +597,7 @@ local function getLowestFlightAltitude(flight)
 	return lowestAltitude
 end
 ---------------------------------------------------------------------------------------------------------------------------
-local trackTimeout = 90 -- amount of time before tracks are timed out
+local trackTimeout = 60 -- amount of time before tracks are timed out
 local trackCorrelationDistance = 5000 -- maximum distance in meters between which a target will correlate with a track
 local trackCorrelationAltitude = 5000 -- maximum altitude difference in meters between which a target will correlate with a track
 
@@ -615,19 +618,6 @@ local function addTracker(unit)
 	elseif (unit:hasAttribute("Infantry") or unit:hasAttribute("Air Defence")) then
 		secondaryTrackers[unit:getID()] = unit
 		env.info("Blue Air Debug: Added " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " to secondary trackers", 0)
-	end
-end
-
--- remove unit from tracker list
-local function removeTracker(unit)
-	if (primaryTrackers[unit:getID()]  ~= nil) then
-		primaryTrackers[unit:getID()] = nil
-		env.info("Blue Air Debug: Removed " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " from primary trackers", 0)
-	end
-
-	if (secondaryTrackers[unit:getID()] ~= nil) then
-		secondaryTrackers[unit:getID()] = nil
-		env.info("Blue Air Debug: Removed " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " from secondary trackers", 0)
 	end
 end
 
@@ -795,7 +785,6 @@ local function resetAirbaseSkip(airbaseID)
 end
 
 -- create and spawn aircraft group for tasking
--- TODO: Add air and non-airbase launch options
 local function launchFlight(airbase, squadron, mission, flightSize)
 	local flightData = {}
 	local loadout = {}
@@ -828,9 +817,10 @@ local function launchFlight(airbase, squadron, mission, flightSize)
 			["type"] = squadron.type,
 			["x"] = baseLocation.x,
 			["y"] = baseLocation.z,
-			["alt"] = baseLocation.y,
+			["alt"] = (baseLocation.y + 100),
+			["heading"] = airbase.takeoffHeading,
 			["alt_type"] = "BARO",
-			["speed"] = 0,
+			["speed"] = 100,
 			["skill"] = getSkill(squadron.skill),
 			["livery_id"] = squadron.livery,
 			["payload"] = loadout,
@@ -848,13 +838,13 @@ local function launchFlight(airbase, squadron, mission, flightSize)
 	route = {
 		points = {
 			[1] = {
-				["type"] = "TakeOff",
-				["action"] = "From Runway",
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
 				["airdromeId"] = airbase.ID,
-				["speed"] = 0,
-				["x"] = baseLocation.X,
-				["y"] = baseLocation.Z,
-				["alt"] = baseLocation.Y,
+				["speed"] = 100,
+				["x"] = baseLocation.x,
+				["y"] = baseLocation.z,
+				["alt"] = (baseLocation.y + 100),
 			}
 		}
 	}
@@ -986,7 +976,7 @@ local function controlIntercept(missionData)
 					interceptSpeed = getMagnitude(unit:getVelocity())
 				end
 			end
-			interceptSpeed = interceptSpeed + 50
+			interceptSpeed = interceptSpeed + 60
 			local task = {
 				id = 'Mission',
 				params = {
@@ -1086,7 +1076,7 @@ local function assignMission(missionData)
 			controller:setOption(AI.Option.Air.id.FORMATION, fixedWingFormation.LABSClose)
 			controller:setOption(AI.Option.Air.id.ECM_USING, AI.Option.Air.val.ECM_USING.USE_IF_ONLY_LOCK_BY_RADAR)
 			controller:setOption(AI.Option.Air.id.PROHIBIT_AG, true)
-			controller:setOption(AI.Option.Air.id.MISSILE_ATTACK, AI.Option.Air.val.MISSILE_ATTACK.HALF_WAY_RMAX_NEZ) -- TODO: more complex decision on that
+			controller:setOption(AI.Option.Air.id.MISSILE_ATTACK, AI.Option.Air.val.MISSILE_ATTACK.RANDOM_RANGE) -- TODO: more complex decision on that
 			-- hand off to intercept controller
 			env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(missionData.targetID) .. " handed off to intercept controller", 0)
 			controlIntercept(missionData)
@@ -1125,7 +1115,7 @@ local function launchSortie(missionData)
 		end
 		-- mark airfield skip so next time we'll try again from a different one
 		activeAirbases[missionData.airbaseID].skip = true
-		timer.scheduleFunction(skipResetTime, missionData.airbaseID, timer.getTime() + skipResetTime)
+		timer.scheduleFunction(resetAirbaseSkip, missionData.airbaseID, timer.getTime() + skipResetTime)
 	end
 end
 
@@ -1137,7 +1127,7 @@ local function allocateAirframes(mission, airbaseID, squadronID, targetID)
 	if rand <= 7 then
 		flightSize = 2 -- baseline flight of two
 	end
-	if rand > 8 then
+	if rand > 7 then
 		flightSize = 3
 	end
 	-- reduce flight size for high priority squadrons
