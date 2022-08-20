@@ -79,7 +79,7 @@ local highThreatType = {
 -- if range is not defined radar SOP is assumed to be always on
 local radarRange = {
 	["F-5E3"] = 12000,
-	["F-4E"] = 40000
+	["F-4E"] = 60000
 }
 
 -- any zones where interception will not be launched even if in range of a squadron
@@ -598,7 +598,7 @@ local function getLowestFlightAltitude(flight)
 end
 ---------------------------------------------------------------------------------------------------------------------------
 local trackTimeout = 60 -- amount of time before tracks are timed out
-local trackCorrelationDistance = 5000 -- maximum distance in meters between which a target will correlate with a track
+local trackCorrelationDistance = 8000 -- maximum distance in meters between which a target will correlate with a track
 local trackCorrelationAltitude = 5000 -- maximum altitude difference in meters between which a target will correlate with a track
 
 local primaryTrackers = {} -- list of primary tracking units: EWRs and search radars
@@ -915,7 +915,7 @@ local function controlIntercept(missionData)
 				targetInSearchRange = true
 			end
 			if targetInSearchRange then
-				controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.FOR_SEARCH_IF_REQUIRED)
+				controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.FOR_CONTINUOUS_SEARCH)
 				env.info("Blue Air Debug: Flight intercepting " .. tostring(targetID) .. " radar active", 0)
 			else
 				controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.NEVER)
@@ -935,6 +935,15 @@ local function controlIntercept(missionData)
 					end
 				end
 			end
+			-- special F-4 exception, since they apparently can't detect targets to save their life
+			for key, unit in pairs(flights[flightID]:getUnits()) do
+				if unit:getTypeName() == "F-4E" and targetInSearchRange and tracks[targetID].alt > 3000 then
+					targetDetected = true
+					env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(targetID) .. " target detected by F-4 exception", 0)
+				end
+				break
+			end
+			-- if target detected then engage
 			if targetDetected then
 				env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(targetID) .. " free to engage", 0)
 				controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.OPEN_FIRE_WEAPON_FREE)
@@ -969,14 +978,17 @@ local function controlIntercept(missionData)
 				}
 			end
 			-- update current intercept path
-			-- determine slowest aircraft velocity and incrementally increase intercept speed from that
 			local interceptSpeed = 2000
-			for key, unit in pairs(flights[flightID]:getUnits()) do
-				if getMagnitude(unit:getVelocity()) < interceptSpeed then
-					interceptSpeed = getMagnitude(unit:getVelocity())
+			if tracks[targetID].alt > 3000 then
+				for key, unit in pairs(flights[flightID]:getUnits()) do
+					if unit:getPoint().y < 3000 then
+						interceptSpeed = 250
+					end
+					if unit:getPoint().y < (tracks[targetID].alt - 500) then
+						interceptSpeed = 350
+					end
 				end
 			end
-			interceptSpeed = interceptSpeed + 60
 			local task = {
 				id = 'Mission',
 				params = {
@@ -1077,6 +1089,7 @@ local function assignMission(missionData)
 			controller:setOption(AI.Option.Air.id.ECM_USING, AI.Option.Air.val.ECM_USING.USE_IF_ONLY_LOCK_BY_RADAR)
 			controller:setOption(AI.Option.Air.id.PROHIBIT_AG, true)
 			controller:setOption(AI.Option.Air.id.MISSILE_ATTACK, AI.Option.Air.val.MISSILE_ATTACK.RANDOM_RANGE) -- TODO: more complex decision on that
+			controller:setOption(AI.Option.Air.id.JETT_TANKS_IF_EMPTY, true)
 			-- hand off to intercept controller
 			env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(missionData.targetID) .. " handed off to intercept controller", 0)
 			controlIntercept(missionData)
