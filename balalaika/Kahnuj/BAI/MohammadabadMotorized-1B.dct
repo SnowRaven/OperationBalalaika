@@ -1,0 +1,5 @@
+--undeployed variant
+objtype = "LOGISTICS"
+intel = 2
+cost = 4
+exclusion = "MohammadabadMotorized"
