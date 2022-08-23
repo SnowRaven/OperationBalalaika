@@ -2,6 +2,408 @@ staticTemplate =
 {
     ["coalition"] = 
     {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [74]
+                [75] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [78]
+                [79] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [79]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
         ["blue"] = 
         {
             ["name"] = "blue",
@@ -27,9 +429,9 @@ staticTemplate =
                                             ["alt"] = 0,
                                             ["type"] = "",
                                             ["name"] = "",
-                                            ["y"] = 161316.43161451,
+                                            ["y"] = 161319.65372937,
                                             ["speed"] = 0,
-                                            ["x"] = -54618.54600244,
+                                            ["x"] = -54625.314420779,
                                             ["formation_template"] = "",
                                             ["action"] = "",
                                         }, -- end of [1]
@@ -44,15 +446,15 @@ staticTemplate =
                                         ["type"] = "Dry-cargo ship-1",
                                         ["unitId"] = 3,
                                         ["rate"] = 50,
-                                        ["y"] = 161316.43161451,
-                                        ["x"] = -54618.54600244,
-                                        ["name"] = "Static Bulker Yakushev-1",
+                                        ["y"] = 161319.65372937,
+                                        ["x"] = -54625.314420779,
+                                        ["name"] = "PRIMARY DESTROYED Pakistan Harbor Shipping Group 1",
                                         ["heading"] = 2.8623399732707,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["y"] = 161316.43161451,
-                                ["x"] = -54618.54600244,
-                                ["name"] = "Static Bulker Yakushev-1",
+                                ["y"] = 161319.65372937,
+                                ["x"] = -54625.314420779,
+                                ["name"] = "Pakistan Harbor Shipping Group 1",
                                 ["dead"] = false,
                             }, -- end of [1]
                             [2] = 
@@ -557,6 +959,47 @@ staticTemplate =
                                 ["name"] = "Static Ammo-4",
                                 ["dead"] = false,
                             }, -- end of [13]
+                            [14] = 
+                            {
+                                ["heading"] = 2.8972465583106,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 161331.70156754,
+                                            ["speed"] = 0,
+                                            ["x"] = -54716.266107935,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 20,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "Harbor Tug Black",
+                                        ["category"] = "Ships",
+                                        ["type"] = "HarborTug",
+                                        ["unitId"] = 34,
+                                        ["rate"] = 700,
+                                        ["y"] = 161331.70156754,
+                                        ["x"] = -54716.266107935,
+                                        ["name"] = "Pakistan Harbor Decorative Tug 1",
+                                        ["heading"] = 2.8972465583106,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 161331.70156754,
+                                ["x"] = -54716.266107935,
+                                ["name"] = "Pakistan Harbor Decorative Tug 1",
+                                ["dead"] = false,
+                            }, -- end of [14]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] = 
@@ -624,14 +1067,10 @@ staticTemplate =
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "summer",
-                                        ["skill"] = "Average",
                                         ["type"] = "M48 Chaparral",
                                         ["unitId"] = 12,
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
                                         ["y"] = 161315.68607199,
                                         ["x"] = -54534.162731436,
                                         ["name"] = "Pakistan Harbor Shipping Defence Group Chap 1",
@@ -640,14 +1079,10 @@ staticTemplate =
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "summer",
-                                        ["skill"] = "Average",
                                         ["type"] = "M48 Chaparral",
                                         ["unitId"] = 11,
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
                                         ["y"] = 161352.95869959,
                                         ["x"] = -54654.109516637,
                                         ["name"] = "Pakistan Harbor Shipping Defence Group Chap 2",
@@ -656,14 +1091,10 @@ staticTemplate =
                                     }, -- end of [2]
                                     [3] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "summer",
-                                        ["skill"] = "Average",
                                         ["type"] = "M48 Chaparral",
                                         ["unitId"] = 10,
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
                                         ["y"] = 161384.86628024,
                                         ["x"] = -54767.157938608,
                                         ["name"] = "Pakistan Harbor Shipping Defence Group Chap 3",
@@ -672,14 +1103,10 @@ staticTemplate =
                                     }, -- end of [3]
                                     [4] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "summer",
-                                        ["skill"] = "Average",
                                         ["type"] = "bofors40",
                                         ["unitId"] = 9,
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
                                         ["y"] = 161288.5853493,
                                         ["x"] = -54487.338321126,
                                         ["name"] = "Ground-1-5",
@@ -688,13 +1115,9 @@ staticTemplate =
                                     }, -- end of [4]
                                     [5] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "bofors40",
                                         ["unitId"] = 8,
+                                        ["skill"] = "Average",
                                         ["y"] = 161308.13541446,
                                         ["x"] = -54482.733076066,
                                         ["name"] = "Ground-1-4",
@@ -703,13 +1126,9 @@ staticTemplate =
                                     }, -- end of [5]
                                     [6] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Ural-375 ZU-23",
                                         ["unitId"] = 7,
+                                        ["skill"] = "Average",
                                         ["y"] = 161217.07471401,
                                         ["x"] = -54275.215999246,
                                         ["name"] = "Ground-1-3",
@@ -718,14 +1137,10 @@ staticTemplate =
                                     }, -- end of [6]
                                     [7] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
                                         ["type"] = "ZU-23 Emplacement",
                                         ["unitId"] = 6,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
                                         ["y"] = 161207.59507758,
                                         ["x"] = -55099.303572608,
                                         ["name"] = "Ground-1-2",
@@ -734,13 +1149,9 @@ staticTemplate =
                                     }, -- end of [7]
                                     [8] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
                                         ["unitId"] = 14,
+                                        ["skill"] = "Average",
                                         ["y"] = 161237.51337926,
                                         ["x"] = -54268.011443012,
                                         ["name"] = "Pakistan Harbor Shipping Defence Group-2",
@@ -749,14 +1160,10 @@ staticTemplate =
                                     }, -- end of [8]
                                     [9] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
                                         ["type"] = "ZU-23 Emplacement",
                                         ["unitId"] = 13,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
                                         ["y"] = 161178.03906657,
                                         ["x"] = -54569.192127979,
                                         ["name"] = "Pakistan Harbor Shipping Defence Group-1",
@@ -765,14 +1172,10 @@ staticTemplate =
                                     }, -- end of [9]
                                     [10] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
                                         ["type"] = "ZU-23 Emplacement",
                                         ["unitId"] = 5,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
                                         ["y"] = 161186.99284677,
                                         ["x"] = -54910.315948482,
                                         ["name"] = "Ground-1-1",
@@ -846,13 +1249,9 @@ staticTemplate =
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 20,
+                                        ["skill"] = "Average",
                                         ["y"] = 161323.3535201,
                                         ["x"] = -54560.599960942,
                                         ["name"] = "Pakistan Harbor Shipping Logistics Group-1-4",
@@ -861,13 +1260,9 @@ staticTemplate =
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 19,
+                                        ["skill"] = "Average",
                                         ["y"] = 161335.47345573,
                                         ["x"] = -54593.761551403,
                                         ["name"] = "Pakistan Harbor Shipping Logistics Group-1-3",
@@ -876,13 +1271,9 @@ staticTemplate =
                                     }, -- end of [2]
                                     [3] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 18,
+                                        ["skill"] = "Average",
                                         ["y"] = 161343.72727038,
                                         ["x"] = -54624.025538459,
                                         ["name"] = "Pakistan Harbor Shipping Logistics Group-1-2",
@@ -891,13 +1282,9 @@ staticTemplate =
                                     }, -- end of [3]
                                     [4] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "ATZ-5",
                                         ["unitId"] = 17,
+                                        ["skill"] = "Average",
                                         ["y"] = 161361.9544444,
                                         ["x"] = -54691.431691447,
                                         ["name"] = "Pakistan Harbor Shipping Logistics Group-1-1",
@@ -906,13 +1293,9 @@ staticTemplate =
                                     }, -- end of [4]
                                     [5] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 16,
+                                        ["skill"] = "Average",
                                         ["y"] = 161374.33516638,
                                         ["x"] = -54732.356855761,
                                         ["name"] = "Pakistan Harbor Shipping Logistics Group-1-5",
@@ -955,388 +1338,6 @@ staticTemplate =
                 }, -- end of [6]
             }, -- end of ["country"]
         }, -- end of ["blue"]
-        ["neutrals"] = 
-        {
-            ["name"] = "neutrals",
-            ["country"] = 
-            {
-                [1] = 
-                {
-                    ["id"] = 18,
-                    ["name"] = "Abkhazia",
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 70,
-                    ["name"] = "Algeria",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["id"] = 83,
-                    ["name"] = "Argentina",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 21,
-                    ["name"] = "Australia",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 23,
-                    ["name"] = "Austria",
-                }, -- end of [5]
-                [6] = 
-                {
-                    ["id"] = 65,
-                    ["name"] = "Bahrain",
-                }, -- end of [6]
-                [7] = 
-                {
-                    ["id"] = 24,
-                    ["name"] = "Belarus",
-                }, -- end of [7]
-                [8] = 
-                {
-                    ["id"] = 11,
-                    ["name"] = "Belgium",
-                }, -- end of [8]
-                [9] = 
-                {
-                    ["id"] = 64,
-                    ["name"] = "Brazil",
-                }, -- end of [9]
-                [10] = 
-                {
-                    ["id"] = 25,
-                    ["name"] = "Bulgaria",
-                }, -- end of [10]
-                [11] = 
-                {
-                    ["id"] = 8,
-                    ["name"] = "Canada",
-                }, -- end of [11]
-                [12] = 
-                {
-                    ["id"] = 63,
-                    ["name"] = "Chile",
-                }, -- end of [12]
-                [13] = 
-                {
-                    ["id"] = 27,
-                    ["name"] = "China",
-                }, -- end of [13]
-                [14] = 
-                {
-                    ["id"] = 28,
-                    ["name"] = "Croatia",
-                }, -- end of [14]
-                [15] = 
-                {
-                    ["id"] = 76,
-                    ["name"] = "Cuba",
-                }, -- end of [15]
-                [16] = 
-                {
-                    ["id"] = 84,
-                    ["name"] = "Cyprus",
-                }, -- end of [16]
-                [17] = 
-                {
-                    ["id"] = 26,
-                    ["name"] = "Czech Republic",
-                }, -- end of [17]
-                [18] = 
-                {
-                    ["id"] = 13,
-                    ["name"] = "Denmark",
-                }, -- end of [18]
-                [19] = 
-                {
-                    ["id"] = 29,
-                    ["name"] = "Egypt",
-                }, -- end of [19]
-                [20] = 
-                {
-                    ["id"] = 62,
-                    ["name"] = "Ethiopia",
-                }, -- end of [20]
-                [21] = 
-                {
-                    ["id"] = 30,
-                    ["name"] = "Finland",
-                }, -- end of [21]
-                [22] = 
-                {
-                    ["id"] = 5,
-                    ["name"] = "France",
-                }, -- end of [22]
-                [23] = 
-                {
-                    ["id"] = 78,
-                    ["name"] = "GDR",
-                }, -- end of [23]
-                [24] = 
-                {
-                    ["id"] = 16,
-                    ["name"] = "Georgia",
-                }, -- end of [24]
-                [25] = 
-                {
-                    ["id"] = 6,
-                    ["name"] = "Germany",
-                }, -- end of [25]
-                [26] = 
-                {
-                    ["id"] = 31,
-                    ["name"] = "Greece",
-                }, -- end of [26]
-                [27] = 
-                {
-                    ["id"] = 61,
-                    ["name"] = "Honduras",
-                }, -- end of [27]
-                [28] = 
-                {
-                    ["id"] = 32,
-                    ["name"] = "Hungary",
-                }, -- end of [28]
-                [29] = 
-                {
-                    ["id"] = 33,
-                    ["name"] = "India",
-                }, -- end of [29]
-                [30] = 
-                {
-                    ["id"] = 60,
-                    ["name"] = "Indonesia",
-                }, -- end of [30]
-                [31] = 
-                {
-                    ["id"] = 15,
-                    ["name"] = "Israel",
-                }, -- end of [31]
-                [32] = 
-                {
-                    ["id"] = 69,
-                    ["name"] = "Italian Social Republic",
-                }, -- end of [32]
-                [33] = 
-                {
-                    ["id"] = 20,
-                    ["name"] = "Italy",
-                }, -- end of [33]
-                [34] = 
-                {
-                    ["id"] = 36,
-                    ["name"] = "Japan",
-                }, -- end of [34]
-                [35] = 
-                {
-                    ["id"] = 59,
-                    ["name"] = "Jordan",
-                }, -- end of [35]
-                [36] = 
-                {
-                    ["id"] = 37,
-                    ["name"] = "Kazakhstan",
-                }, -- end of [36]
-                [37] = 
-                {
-                    ["id"] = 71,
-                    ["name"] = "Kuwait",
-                }, -- end of [37]
-                [38] = 
-                {
-                    ["id"] = 79,
-                    ["name"] = "Lebanon",
-                }, -- end of [38]
-                [39] = 
-                {
-                    ["id"] = 58,
-                    ["name"] = "Libya",
-                }, -- end of [39]
-                [40] = 
-                {
-                    ["id"] = 57,
-                    ["name"] = "Malaysia",
-                }, -- end of [40]
-                [41] = 
-                {
-                    ["id"] = 56,
-                    ["name"] = "Mexico",
-                }, -- end of [41]
-                [42] = 
-                {
-                    ["id"] = 55,
-                    ["name"] = "Morocco",
-                }, -- end of [42]
-                [43] = 
-                {
-                    ["id"] = 38,
-                    ["name"] = "North Korea",
-                }, -- end of [43]
-                [44] = 
-                {
-                    ["id"] = 12,
-                    ["name"] = "Norway",
-                }, -- end of [44]
-                [45] = 
-                {
-                    ["id"] = 73,
-                    ["name"] = "Oman",
-                }, -- end of [45]
-                [46] = 
-                {
-                    ["id"] = 54,
-                    ["name"] = "Philippines",
-                }, -- end of [46]
-                [47] = 
-                {
-                    ["id"] = 40,
-                    ["name"] = "Poland",
-                }, -- end of [47]
-                [48] = 
-                {
-                    ["id"] = 77,
-                    ["name"] = "Portugal",
-                }, -- end of [48]
-                [49] = 
-                {
-                    ["id"] = 72,
-                    ["name"] = "Qatar",
-                }, -- end of [49]
-                [50] = 
-                {
-                    ["id"] = 41,
-                    ["name"] = "Romania",
-                }, -- end of [50]
-                [51] = 
-                {
-                    ["id"] = 42,
-                    ["name"] = "Saudi Arabia",
-                }, -- end of [51]
-                [52] = 
-                {
-                    ["id"] = 43,
-                    ["name"] = "Serbia",
-                }, -- end of [52]
-                [53] = 
-                {
-                    ["id"] = 44,
-                    ["name"] = "Slovakia",
-                }, -- end of [53]
-                [54] = 
-                {
-                    ["id"] = 85,
-                    ["name"] = "Slovenia",
-                }, -- end of [54]
-                [55] = 
-                {
-                    ["id"] = 75,
-                    ["name"] = "South Africa",
-                }, -- end of [55]
-                [56] = 
-                {
-                    ["id"] = 45,
-                    ["name"] = "South Korea",
-                }, -- end of [56]
-                [57] = 
-                {
-                    ["id"] = 19,
-                    ["name"] = "South Ossetia",
-                }, -- end of [57]
-                [58] = 
-                {
-                    ["id"] = 9,
-                    ["name"] = "Spain",
-                }, -- end of [58]
-                [59] = 
-                {
-                    ["id"] = 53,
-                    ["name"] = "Sudan",
-                }, -- end of [59]
-                [60] = 
-                {
-                    ["id"] = 46,
-                    ["name"] = "Sweden",
-                }, -- end of [60]
-                [61] = 
-                {
-                    ["id"] = 22,
-                    ["name"] = "Switzerland",
-                }, -- end of [61]
-                [62] = 
-                {
-                    ["id"] = 47,
-                    ["name"] = "Syria",
-                }, -- end of [62]
-                [63] = 
-                {
-                    ["id"] = 52,
-                    ["name"] = "Thailand",
-                }, -- end of [63]
-                [64] = 
-                {
-                    ["id"] = 10,
-                    ["name"] = "The Netherlands",
-                }, -- end of [64]
-                [65] = 
-                {
-                    ["id"] = 66,
-                    ["name"] = "Third Reich",
-                }, -- end of [65]
-                [66] = 
-                {
-                    ["id"] = 51,
-                    ["name"] = "Tunisia",
-                }, -- end of [66]
-                [67] = 
-                {
-                    ["id"] = 3,
-                    ["name"] = "Turkey",
-                }, -- end of [67]
-                [68] = 
-                {
-                    ["id"] = 4,
-                    ["name"] = "UK",
-                }, -- end of [68]
-                [69] = 
-                {
-                    ["id"] = 1,
-                    ["name"] = "Ukraine",
-                }, -- end of [69]
-                [70] = 
-                {
-                    ["id"] = 82,
-                    ["name"] = "UN",
-                }, -- end of [70]
-                [71] = 
-                {
-                    ["id"] = 7,
-                    ["name"] = "USAF Aggressors",
-                }, -- end of [71]
-                [72] = 
-                {
-                    ["id"] = 50,
-                    ["name"] = "Venezuela",
-                }, -- end of [72]
-                [73] = 
-                {
-                    ["id"] = 49,
-                    ["name"] = "Vietnam",
-                }, -- end of [73]
-                [74] = 
-                {
-                    ["id"] = 48,
-                    ["name"] = "Yemen",
-                }, -- end of [74]
-                [75] = 
-                {
-                    ["id"] = 67,
-                    ["name"] = "Yugoslavia",
-                }, -- end of [75]
-            }, -- end of ["country"]
-        }, -- end of ["neutrals"]
         ["red"] = 
         {
             ["name"] = "red",
@@ -1365,7 +1366,7 @@ staticTemplate =
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "Pakistan-Harbor-Set-Shipping",
+    ["name"] = "Pakistan-Harbor-Shipping",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]

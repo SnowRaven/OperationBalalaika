@@ -1,0 +1,1588 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [74]
+                [75] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [78]
+                [79] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [79]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 3.07177948351,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145743.27075936,
+                                            ["speed"] = 0,
+                                            ["x"] = 261541.15078059,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 100,
+                                        ["y"] = 145743.27075936,
+                                        ["x"] = 261541.15078059,
+                                        ["name"] = "Jiroft IFV Line Pipes 1",
+                                        ["heading"] = 3.07177948351,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145743.27075936,
+                                ["x"] = 261541.15078059,
+                                ["name"] = "Jiroft IFV Line Pipes",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 4.5902159327451,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145655.63548567,
+                                            ["speed"] = 0,
+                                            ["x"] = 261549.31305619,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 100,
+                                        ["y"] = 145655.63548567,
+                                        ["x"] = 261549.31305619,
+                                        ["name"] = "Jiroft IFV Line Pipes 9",
+                                        ["heading"] = 4.5902159327451,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145655.63548567,
+                                ["x"] = 261549.31305619,
+                                ["name"] = "Jiroft IFV Line Pipes 9",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 0.09534525239324,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145682.73187759,
+                                            ["speed"] = 0,
+                                            ["x"] = 261552.10488537,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 5000,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "tetrapod_cargo",
+                                        ["type"] = "tetrapod_cargo",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 100,
+                                        ["y"] = 145682.73187759,
+                                        ["x"] = 261552.10488537,
+                                        ["name"] = "Static Tetrapod-1-1",
+                                        ["heading"] = 0.09534525239324,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145682.73187759,
+                                ["x"] = 261552.10488537,
+                                ["name"] = "Static Tetrapod-1",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 0.90757121103705,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145688.54638393,
+                                            ["speed"] = 0,
+                                            ["x"] = 261552.67729791,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 5000,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "tetrapod_cargo",
+                                        ["type"] = "tetrapod_cargo",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 100,
+                                        ["y"] = 145688.54638393,
+                                        ["x"] = 261552.67729791,
+                                        ["name"] = "Static Tetrapod-2-1",
+                                        ["heading"] = 0.90757121103705,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145688.54638393,
+                                ["x"] = 261552.67729791,
+                                ["name"] = "Static Tetrapod-2",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 0.09534525239324,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145684.69013102,
+                                            ["speed"] = 0,
+                                            ["x"] = 261552.88818674,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 5000,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "tetrapod_cargo",
+                                        ["type"] = "tetrapod_cargo",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 100,
+                                        ["y"] = 145684.69013102,
+                                        ["x"] = 261552.88818674,
+                                        ["name"] = "Static Tetrapod-3-1",
+                                        ["heading"] = 0.09534525239324,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145684.69013102,
+                                ["x"] = 261552.88818674,
+                                ["name"] = "Static Tetrapod-3",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 1.0471975511966,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145686.73876538,
+                                            ["speed"] = 0,
+                                            ["x"] = 261553.24971045,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 5000,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "tetrapod_cargo",
+                                        ["type"] = "tetrapod_cargo",
+                                        ["unitId"] = 18,
+                                        ["rate"] = 100,
+                                        ["y"] = 145686.73876538,
+                                        ["x"] = 261553.24971045,
+                                        ["name"] = "Static Tetrapod-4-1",
+                                        ["heading"] = 1.0471975511966,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145686.73876538,
+                                ["x"] = 261553.24971045,
+                                ["name"] = "Static Tetrapod-4",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 4.5553093477052,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145676.82552749,
+                                            ["speed"] = 0,
+                                            ["x"] = 261552.37560776,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 25,
+                                        ["rate"] = 100,
+                                        ["y"] = 145676.82552749,
+                                        ["x"] = 261552.37560776,
+                                        ["name"] = "Jiroft IFV Line Pipes 7",
+                                        ["heading"] = 4.5553093477052,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145676.82552749,
+                                ["x"] = 261552.37560776,
+                                ["name"] = "Jiroft IFV Line Pipes 7",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 1.7278759594744,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145727.53447171,
+                                            ["speed"] = 0,
+                                            ["x"] = 261554.45693602,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 26,
+                                        ["rate"] = 100,
+                                        ["y"] = 145727.53447171,
+                                        ["x"] = 261554.45693602,
+                                        ["name"] = "Jiroft IFV Line Pipes 3",
+                                        ["heading"] = 1.7278759594744,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145727.53447171,
+                                ["x"] = 261554.45693602,
+                                ["name"] = "Jiroft IFV Line Pipes 3",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 4.3458698374659,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145645.37643142,
+                                            ["speed"] = 0,
+                                            ["x"] = 261546.82044494,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 37,
+                                        ["rate"] = 100,
+                                        ["y"] = 145645.37643142,
+                                        ["x"] = 261546.82044494,
+                                        ["name"] = "Jiroft IFV Line Pipes 10",
+                                        ["heading"] = 4.3458698374659,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145645.37643142,
+                                ["x"] = 261546.82044494,
+                                ["name"] = "Jiroft IFV Line Pipes 10",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 3.0368728984701,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145638.13620167,
+                                            ["speed"] = 0,
+                                            ["x"] = 261528.78122844,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 38,
+                                        ["rate"] = 100,
+                                        ["y"] = 145638.13620167,
+                                        ["x"] = 261528.78122844,
+                                        ["name"] = "Jiroft IFV Line Pipes 12",
+                                        ["heading"] = 3.0368728984701,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145638.13620167,
+                                ["x"] = 261528.78122844,
+                                ["name"] = "Jiroft IFV Line Pipes 12",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145716.08338362,
+                                            ["speed"] = 0,
+                                            ["x"] = 261555.13774396,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 20,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 39,
+                                        ["rate"] = 100,
+                                        ["y"] = 145716.08338362,
+                                        ["x"] = 261555.13774396,
+                                        ["name"] = "Jiroft IFV Line Pipes 4",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145716.08338362,
+                                ["x"] = 261555.13774396,
+                                ["name"] = "Jiroft IFV Line Pipes 4",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 2.1991148575129,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145738.52035736,
+                                            ["speed"] = 0,
+                                            ["x"] = 261550.72946003,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 21,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 40,
+                                        ["rate"] = 100,
+                                        ["y"] = 145738.52035736,
+                                        ["x"] = 261550.72946003,
+                                        ["name"] = "Jiroft IFV Line Pipes 2",
+                                        ["heading"] = 2.1991148575129,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145738.52035736,
+                                ["x"] = 261550.72946003,
+                                ["name"] = "Jiroft IFV Line Pipes 2",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                            [13] = 
+                            {
+                                ["heading"] = 1.5009831567151,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145694.54467775,
+                                            ["speed"] = 0,
+                                            ["x"] = 261553.46195616,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 22,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 41,
+                                        ["rate"] = 100,
+                                        ["y"] = 145694.54467775,
+                                        ["x"] = 261553.46195616,
+                                        ["name"] = "Jiroft IFV Line Pipes 6",
+                                        ["heading"] = 1.5009831567151,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145694.54467775,
+                                ["x"] = 261553.46195616,
+                                ["name"] = "Jiroft IFV Line Pipes 6",
+                                ["dead"] = false,
+                            }, -- end of [13]
+                            [14] = 
+                            {
+                                ["heading"] = 4.5553093477052,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145666.30623267,
+                                            ["speed"] = 0,
+                                            ["x"] = 261550.83619876,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 23,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 42,
+                                        ["rate"] = 100,
+                                        ["y"] = 145666.30623267,
+                                        ["x"] = 261550.83619876,
+                                        ["name"] = "Jiroft IFV Line Pipes 8",
+                                        ["heading"] = 4.5553093477052,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145666.30623267,
+                                ["x"] = 261550.83619876,
+                                ["name"] = "Jiroft IFV Line Pipes 8",
+                                ["dead"] = false,
+                            }, -- end of [14]
+                            [15] = 
+                            {
+                                ["heading"] = 3.4906585039887,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145638.44299106,
+                                            ["speed"] = 0,
+                                            ["x"] = 261539.51885731,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 24,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 43,
+                                        ["rate"] = 100,
+                                        ["y"] = 145638.44299106,
+                                        ["x"] = 261539.51885731,
+                                        ["name"] = "Jiroft IFV Line Pipes 11",
+                                        ["heading"] = 3.4906585039887,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145638.44299106,
+                                ["x"] = 261539.51885731,
+                                ["name"] = "Jiroft IFV Line Pipes 11",
+                                ["dead"] = false,
+                            }, -- end of [15]
+                            [16] = 
+                            {
+                                ["heading"] = 1.4486232791553,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 145705.00613133,
+                                            ["speed"] = 0,
+                                            ["x"] = 261554.46477821,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 25,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 44,
+                                        ["rate"] = 100,
+                                        ["y"] = 145705.00613133,
+                                        ["x"] = 261554.46477821,
+                                        ["name"] = "Jiroft IFV Line Pipes 5",
+                                        ["heading"] = 1.4486232791553,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 145705.00613133,
+                                ["x"] = 261554.46477821,
+                                ["name"] = "Jiroft IFV Line Pipes 5",
+                                ["dead"] = false,
+                            }, -- end of [16]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 634,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 145680.90788777,
+                                            ["x"] = 261547.07880032,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["number"] = 1,
+                                                            ["auto"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                        ["groupId"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 24,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145680.90788777,
+                                        ["x"] = 261547.07880032,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft IFV Line 1",
+                                        ["heading"] = 6.14355896702,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 23,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145738.72745995,
+                                        ["x"] = 261541.16102532,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft IFV Line 2",
+                                        ["heading"] = 6.2133721370998,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "BMP-2",
+                                        ["unitId"] = 22,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145663.63962628,
+                                        ["x"] = 261544.07140647,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft IFV Line 3",
+                                        ["heading"] = 6.1959188445799,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["type"] = "ZSU_57_2",
+                                        ["unitId"] = 51,
+                                        ["skill"] = "Average",
+                                        ["AddPropVehicle"] = 
+                                        {
+                                            ["Branches"] = false,
+                                        }, -- end of ["AddPropVehicle"]
+                                        ["y"] = 145680.03477342,
+                                        ["x"] = 261497.11725724,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft IFV Line 4",
+                                        ["heading"] = 6.1086523819802,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 52,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145687.3107263,
+                                        ["x"] = 261538.9297331,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft IFV Line 5",
+                                        ["heading"] = 0.62831853071796,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["type"] = "ZSU_57_2",
+                                        ["unitId"] = 50,
+                                        ["skill"] = "Average",
+                                        ["AddPropVehicle"] = 
+                                        {
+                                            ["Branches"] = false,
+                                        }, -- end of ["AddPropVehicle"]
+                                        ["y"] = 145700.31042877,
+                                        ["x"] = 261498.96049864,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft IFV Line 6",
+                                        ["heading"] = 6.1784655520599,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["type"] = "BMP-2",
+                                        ["unitId"] = 21,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145713.89220747,
+                                        ["x"] = 261550.18320688,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft IFV Line 7",
+                                        ["heading"] = 6.1784655520599,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 20,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145642.58786929,
+                                        ["x"] = 261528.35534825,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft IFV Line 8",
+                                        ["heading"] = 6.1959188445799,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 19,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145690.41513286,
+                                        ["x"] = 261547.75788926,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft IFV Line 9",
+                                        ["heading"] = 6.2308254296198,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                }, -- end of ["units"]
+                                ["y"] = 145680.90788777,
+                                ["x"] = 261547.07880032,
+                                ["name"] = "Jiroft-Defensive-line-IFVs",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 635,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 145687.44542444,
+                                            ["x"] = 261551.88612926,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 36,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145687.44542444,
+                                        ["x"] = 261551.88612926,
+                                        ["name"] = "Jiroft IFV Line Infantry 1",
+                                        ["heading"] = 0.087266462599716,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 35,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145676.20694033,
+                                        ["x"] = 261550.97613054,
+                                        ["name"] = "Jiroft IFV Line Infantry 2",
+                                        ["heading"] = 6.0213859193804,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 34,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145695.27279067,
+                                        ["x"] = 261552.23164779,
+                                        ["name"] = "Jiroft IFV Line Infantry 3",
+                                        ["heading"] = 4.8345620280243,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 47,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145738.94064379,
+                                        ["x"] = 261548.37881883,
+                                        ["name"] = "Jiroft IFV Line Infantry 4",
+                                        ["heading"] = 0.5235987755983,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 49,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145689.02953518,
+                                        ["x"] = 261537.11242265,
+                                        ["name"] = "Jiroft IFV Line Infantry 5",
+                                        ["heading"] = 5.7944931166212,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 48,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145677.35722276,
+                                        ["x"] = 261495.3225222,
+                                        ["name"] = "Jiroft IFV Line Infantry 6",
+                                        ["heading"] = 0.5235987755983,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 46,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145656.36896837,
+                                        ["x"] = 261548.33713427,
+                                        ["name"] = "Jiroft IFV Line Infantry 7",
+                                        ["heading"] = 5.6548667764616,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 45,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145723.00152797,
+                                        ["x"] = 261553.5422352,
+                                        ["name"] = "Jiroft IFV Line Infantry 8",
+                                        ["heading"] = 0.5235987755983,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 33,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145709.32265082,
+                                        ["x"] = 261553.5422352,
+                                        ["name"] = "Jiroft IFV Line Infantry 9",
+                                        ["heading"] = 0.5235987755983,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 32,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145665.60545531,
+                                        ["x"] = 261549.20163305,
+                                        ["name"] = "Jiroft IFV Line Infantry 10",
+                                        ["heading"] = 0.5235987755983,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 31,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["y"] = 145644.66394118,
+                                        ["x"] = 261527.72476567,
+                                        ["name"] = "Jiroft IFV Line Infantry 11",
+                                        ["heading"] = 0.5235987755983,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 30,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["y"] = 145735.17679495,
+                                        ["x"] = 261539.56031568,
+                                        ["name"] = "Jiroft IFV Line Infantry 12",
+                                        ["heading"] = 6.1086523819802,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 29,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145685.94392656,
+                                        ["x"] = 261551.97712913,
+                                        ["name"] = "Jiroft IFV Line Infantry 13",
+                                        ["heading"] = 0.5235987755983,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 28,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145693.72032773,
+                                        ["x"] = 261552.17989902,
+                                        ["name"] = "Jiroft IFV Line Infantry 14",
+                                        ["heading"] = 1.3613568165556,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 27,
+                                        ["skill"] = "Average",
+                                        ["y"] = 145646.17698278,
+                                        ["x"] = 261545.97113762,
+                                        ["name"] = "Jiroft IFV Line Infantry 15",
+                                        ["heading"] = 0.5235987755983,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                }, -- end of ["units"]
+                                ["y"] = 145687.44542444,
+                                ["x"] = 261551.88612926,
+                                ["name"] = "Jiroft IFV Line Infantry",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [6]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [4]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "jiroft western AFV and Pipe defensive line",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Our VDV units fighting south of Jiroft have run up against IRGC troops that have dug in west of Mohammadabad. The IRGC has taken pipes from nearby construction sites in order to create a fortification that blocks the road south from Jiroft. Scout reports indicate the position is held by several American style APCs and BTRs, as well as BMPs taken from the Iranian regular army, backed up by a large troop contingent armed with small arms and light anti-tank weapons. An anti-aircraft threat consisting of MANPADS and ZSU-57s is also present. The position is located roughly 23 kilometers from Jiroft along radial 169.\
+\
+You are to attack the position and destroy any AFVs, support vehicles and anti-aircraft guns present.",
+} -- end of staticTemplate

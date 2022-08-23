@@ -1497,7 +1497,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "Our scout units operating in the south have stumbled into an Iranian motorized infantry unit alongside Road 91, east of Mohammadabad. Certainly an element of the 41st Tharallah Division currently in the process of deploying in increasing numbers towards our front line at Jiroft, the enemy is estimated to be approximately company-strength. Due to enemy fire, our troops have been forced to withdraw before they were able to determine the enemy's deployment, so their formation or combat readiness is unknown. The last point of contact was at approximately true bearing 155° for 220km from Kerman.\
+    ["desc"] = "Our scout units operating in the south have stumbled into an Iranian motorized infantry unit alongside Road 91, east of Mohammadabad. Certainly an element of the 41st Tharallah Division currently in the process of deploying in increasing numbers towards our front line at Jiroft, the enemy is estimated to be approximately company-strength. Due to enemy fire, our troops have been forced to withdraw before they were able to determine the enemy's deployment, so their formation or combat readiness is unknown. The last point of contact was at approximately true bearing 139° for 30km from Jiroft airbase.\
 \
 337th HQ has requested that we execute an immediate interdiction strike to blunt any possible advance on our positions. Find the enemy and destroy as many of their combat vehicles as you can. Any HQ vehicles must be destroyed. Good luck.",
 } -- end of staticTemplate

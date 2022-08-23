@@ -1,0 +1,8 @@
+objtype = "SPECIALFORCES"
+intel = 2
+cost = 4
+
+location = {
+	x = 404649,
+	z = 105814
+}
