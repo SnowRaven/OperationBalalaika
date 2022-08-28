@@ -1,2 +1,3 @@
 name = "Bostanu"
 priority = 25
+airspace = false

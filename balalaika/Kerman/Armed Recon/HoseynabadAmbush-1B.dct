@@ -1,5 +1,5 @@
 --up-road variant
-objtype = "SPECIALFORCES"
+objtype = "INSURGENCY"
 intel = 4
 cost = 4
 coalition = 2

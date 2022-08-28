@@ -1,4 +1,4 @@
 --inactive tank variant
-objtype = "SPECIALFORCES"
+objtype = "INSURGENCY"
 intel = 3
 cost = 4

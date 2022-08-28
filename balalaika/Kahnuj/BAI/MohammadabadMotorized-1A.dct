@@ -1,5 +1,5 @@
 --deployed variant
-objtype = "LOGISTICS"
+objtype = "CONVOY"
 intel = 3
 cost = 4
 exclusion = "MohammadabadMotorized"
