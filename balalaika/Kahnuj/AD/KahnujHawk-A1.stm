@@ -2,6 +2,496 @@ staticTemplate =
 {
     ["coalition"] = 
     {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 34,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 652,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 104914.89309441,
+                                            ["x"] = 220609.04829547,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "Hawk pcp",
+                                        ["unitId"] = 2,
+                                        ["skill"] = "Average",
+                                        ["y"] = 104914.89309441,
+                                        ["x"] = 220609.04829547,
+                                        ["name"] = "CP",
+                                        ["heading"] = 3.9793506945471,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "Hawk sr",
+                                        ["unitId"] = 3,
+                                        ["skill"] = "Average",
+                                        ["y"] = 105017.67593001,
+                                        ["x"] = 220680.72101878,
+                                        ["name"] = "CWAR",
+                                        ["heading"] = 5.4977871437821,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "Hawk cwar",
+                                        ["unitId"] = 9,
+                                        ["skill"] = "Average",
+                                        ["y"] = 105042.43077695,
+                                        ["x"] = 220646.68310423,
+                                        ["name"] = "SR",
+                                        ["heading"] = 4.1538836197465,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["type"] = "Hawk tr",
+                                        ["unitId"] = 4,
+                                        ["skill"] = "High",
+                                        ["y"] = 105113.88319673,
+                                        ["x"] = 220507.86479379,
+                                        ["name"] = "TR-2",
+                                        ["heading"] = 4.1887902047864,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["type"] = "Hawk ln",
+                                        ["unitId"] = 7,
+                                        ["skill"] = "Average",
+                                        ["y"] = 105140.49980023,
+                                        ["x"] = 220485.75527634,
+                                        ["name"] = "Hawk-5",
+                                        ["heading"] = 1.9547687622336,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["type"] = "Hawk ln",
+                                        ["unitId"] = 33,
+                                        ["skill"] = "Average",
+                                        ["y"] = 105068.87608449,
+                                        ["x"] = 220501.72384248,
+                                        ["name"] = "Hawk-1",
+                                        ["heading"] = 4.1538836197465,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["type"] = "Hawk ln",
+                                        ["unitId"] = 10,
+                                        ["skill"] = "Average",
+                                        ["y"] = 105145.62337851,
+                                        ["x"] = 220564.95571572,
+                                        ["name"] = "Hawk-6",
+                                        ["heading"] = 1.0471975511966,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 1,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "High",
+                                        ["y"] = 105039.54514284,
+                                        ["x"] = 220532.34915281,
+                                        ["name"] = "Hawk-7",
+                                        ["heading"] = 4.2411500823462,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 5,
+                                        ["skill"] = "High",
+                                        ["y"] = 104907.3105707,
+                                        ["x"] = 220634.9933154,
+                                        ["name"] = "Hawk-8",
+                                        ["heading"] = 4.0491638646268,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["type"] = "Hawk tr",
+                                        ["unitId"] = 6,
+                                        ["skill"] = "High",
+                                        ["y"] = 104907.36974216,
+                                        ["x"] = 220793.08916354,
+                                        ["name"] = "TR-1",
+                                        ["heading"] = 3.7699111843078,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["type"] = "Hawk ln",
+                                        ["unitId"] = 34,
+                                        ["skill"] = "Average",
+                                        ["y"] = 104880.33816069,
+                                        ["x"] = 220770.89905935,
+                                        ["name"] = "Hawk-2",
+                                        ["heading"] = 4.2062434973063,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["type"] = "Hawk ln",
+                                        ["unitId"] = 8,
+                                        ["skill"] = "Average",
+                                        ["y"] = 104928.08372607,
+                                        ["x"] = 220782.24712509,
+                                        ["name"] = "Hawk-10",
+                                        ["heading"] = 0.68067840827779,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["type"] = "Hawk ln",
+                                        ["unitId"] = 11,
+                                        ["skill"] = "Average",
+                                        ["y"] = 104901.05244589,
+                                        ["x"] = 220816.35802627,
+                                        ["name"] = "Hawk-11",
+                                        ["heading"] = 1.0471975511966,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                }, -- end of ["units"]
+                                ["y"] = 104914.89309441,
+                                ["x"] = 220609.04829547,
+                                ["name"] = "Hawk",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "Iran",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 654,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 104013.67038768,
+                                            ["x"] = 220848.67412591,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "SON_9",
+                                        ["unitId"] = 20,
+                                        ["skill"] = "Average",
+                                        ["y"] = 104013.67038768,
+                                        ["x"] = 220848.67412591,
+                                        ["name"] = "SHORAD-1-1",
+                                        ["heading"] = 4.5902159327451,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 81,
+                                        ["skill"] = "Average",
+                                        ["y"] = 104576.31082544,
+                                        ["x"] = 219950.09371147,
+                                        ["name"] = "SHORAD-1-17",
+                                        ["heading"] = 4.8345620280243,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 80,
+                                        ["skill"] = "Average",
+                                        ["y"] = 104576.57009394,
+                                        ["x"] = 220836.26210231,
+                                        ["name"] = "SHORAD-1-16",
+                                        ["heading"] = 1.832595714594,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 79,
+                                        ["skill"] = "Average",
+                                        ["y"] = 104574.77002882,
+                                        ["x"] = 219898.16572603,
+                                        ["name"] = "SHORAD-1-15",
+                                        ["heading"] = 0.50614548307836,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 78,
+                                        ["skill"] = "Average",
+                                        ["y"] = 104562.84461198,
+                                        ["x"] = 219911.72607905,
+                                        ["name"] = "SHORAD-1-14",
+                                        ["heading"] = 3.9269908169872,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 29,
+                                        ["skill"] = "Average",
+                                        ["y"] = 104222.65215229,
+                                        ["x"] = 220804.21816356,
+                                        ["name"] = "SHORAD-1-10",
+                                        ["heading"] = 1.4835298641952,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 32,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["y"] = 105825.38034173,
+                                        ["x"] = 221549.00400804,
+                                        ["name"] = "SHORAD-1-13",
+                                        ["heading"] = 5.218534463463,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 30,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["y"] = 104041.70601915,
+                                        ["x"] = 220819.72783212,
+                                        ["name"] = "SHORAD-1-11",
+                                        ["heading"] = 2.7052603405912,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 28,
+                                        ["skill"] = "Average",
+                                        ["y"] = 103904.70394691,
+                                        ["x"] = 220705.99026272,
+                                        ["name"] = "SHORAD-1-9",
+                                        ["heading"] = 4.0840704496667,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["type"] = "ZU-23 Emplacement",
+                                        ["unitId"] = 38,
+                                        ["skill"] = "Average",
+                                        ["y"] = 104867.87174399,
+                                        ["x"] = 220810.50815025,
+                                        ["name"] = "SHORAD-1-12",
+                                        ["heading"] = 5.6199601914217,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["type"] = "ZU-23 Emplacement",
+                                        ["unitId"] = 37,
+                                        ["skill"] = "Average",
+                                        ["y"] = 105597.69280506,
+                                        ["x"] = 220677.13227371,
+                                        ["name"] = "SHORAD-1-7",
+                                        ["heading"] = 0.71558499331767,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["type"] = "ZU-23 Emplacement",
+                                        ["unitId"] = 36,
+                                        ["skill"] = "Average",
+                                        ["y"] = 105579.06732292,
+                                        ["x"] = 220701.19018813,
+                                        ["name"] = "SHORAD-1-3",
+                                        ["heading"] = 1.2566370614359,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["type"] = "ZU-23 Emplacement",
+                                        ["unitId"] = 35,
+                                        ["skill"] = "Average",
+                                        ["y"] = 105110.11186148,
+                                        ["x"] = 220488.89473123,
+                                        ["name"] = "SHORAD-1-2",
+                                        ["heading"] = 3.07177948351,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 27,
+                                        ["skill"] = "Average",
+                                        ["y"] = 103978.6621522,
+                                        ["x"] = 220999.01744477,
+                                        ["name"] = "SHORAD-1-8",
+                                        ["heading"] = 6.0039326268605,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 23,
+                                        ["skill"] = "Average",
+                                        ["y"] = 105831.02123706,
+                                        ["x"] = 221535.9354468,
+                                        ["name"] = "SHORAD-1-4",
+                                        ["heading"] = 1.8151424220741,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 24,
+                                        ["skill"] = "Average",
+                                        ["y"] = 105817.83283778,
+                                        ["x"] = 221544.80029757,
+                                        ["name"] = "SHORAD-1-5",
+                                        ["heading"] = 3.7699111843078,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [16]
+                                    [17] = 
+                                    {
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 25,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["y"] = 105801.706682,
+                                        ["x"] = 221547.74700659,
+                                        ["name"] = "SHORAD-1-6",
+                                        ["heading"] = 4.0491638646268,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [17]
+                                }, -- end of ["units"]
+                                ["y"] = 104013.67038768,
+                                ["x"] = 220848.67412591,
+                                ["name"] = "SHORAD-1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [7]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
         ["neutrals"] = 
         {
             ["name"] = "neutrals",
@@ -399,1080 +889,6 @@ staticTemplate =
                 }, -- end of [78]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
-        ["blue"] = 
-        {
-            ["name"] = "blue",
-            ["country"] = 
-            {
-                [1] = 
-                {
-                    ["name"] = "Iran",
-                    ["id"] = 34,
-                    ["static"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["heading"] = 0.78539816339745,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 104904.14209064,
-                                            ["speed"] = 0,
-                                            ["x"] = 220795.3754167,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 43,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["livery_id"] = "default",
-                                        ["category"] = "Animal",
-                                        ["shape_name"] = "Cow",
-                                        ["type"] = "Cow",
-                                        ["unitId"] = 82,
-                                        ["rate"] = 2,
-                                        ["y"] = 104904.14209064,
-                                        ["x"] = 220795.3754167,
-                                        ["name"] = "Static Cow-1",
-                                        ["heading"] = 0.78539816339745,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 104904.14209064,
-                                ["x"] = 220795.3754167,
-                                ["name"] = "Static Cow-1",
-                                ["dead"] = false,
-                            }, -- end of [1]
-                            [2] = 
-                            {
-                                ["heading"] = 0.90757121103705,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 105028.35305448,
-                                            ["speed"] = 0,
-                                            ["x"] = 220284.26696591,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 45,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "PalatkaB",
-                                        ["type"] = "FARP Tent",
-                                        ["unitId"] = 84,
-                                        ["rate"] = 50,
-                                        ["y"] = 105028.35305448,
-                                        ["x"] = 220284.26696591,
-                                        ["name"] = "Static FARP Tent-1",
-                                        ["heading"] = 0.90757121103705,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 105028.35305448,
-                                ["x"] = 220284.26696591,
-                                ["name"] = "Static FARP Tent-1",
-                                ["dead"] = false,
-                            }, -- end of [2]
-                            [3] = 
-                            {
-                                ["heading"] = 0.90757121103705,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 105042.30563883,
-                                            ["speed"] = 0,
-                                            ["x"] = 220295.15749697,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 46,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "PalatkaB",
-                                        ["type"] = "FARP Tent",
-                                        ["unitId"] = 85,
-                                        ["rate"] = 50,
-                                        ["y"] = 105042.30563883,
-                                        ["x"] = 220295.15749697,
-                                        ["name"] = "Static FARP Tent-2-1",
-                                        ["heading"] = 0.90757121103705,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 105042.30563883,
-                                ["x"] = 220295.15749697,
-                                ["name"] = "Static FARP Tent-2",
-                                ["dead"] = false,
-                            }, -- end of [3]
-                            [4] = 
-                            {
-                                ["heading"] = 0.90757121103705,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 105056.34008311,
-                                            ["speed"] = 0,
-                                            ["x"] = 220306.0629504,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 47,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "PalatkaB",
-                                        ["type"] = "FARP Tent",
-                                        ["unitId"] = 86,
-                                        ["rate"] = 50,
-                                        ["y"] = 105056.34008311,
-                                        ["x"] = 220306.0629504,
-                                        ["name"] = "Static FARP Tent-3-1",
-                                        ["heading"] = 0.90757121103705,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 105056.34008311,
-                                ["x"] = 220306.0629504,
-                                ["name"] = "Static FARP Tent-3",
-                                ["dead"] = false,
-                            }, -- end of [4]
-                            [5] = 
-                            {
-                                ["heading"] = 0.90757121103705,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 105070.32851283,
-                                            ["speed"] = 0,
-                                            ["x"] = 220316.92238926,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 48,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "PalatkaB",
-                                        ["type"] = "FARP Tent",
-                                        ["unitId"] = 87,
-                                        ["rate"] = 50,
-                                        ["y"] = 105070.32851283,
-                                        ["x"] = 220316.92238926,
-                                        ["name"] = "Static FARP Tent-4-1",
-                                        ["heading"] = 0.90757121103705,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 105070.32851283,
-                                ["x"] = 220316.92238926,
-                                ["name"] = "Static FARP Tent-4",
-                                ["dead"] = false,
-                            }, -- end of [5]
-                            [6] = 
-                            {
-                                ["heading"] = 0.90757121103705,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 105039.71215737,
-                                            ["speed"] = 0,
-                                            ["x"] = 220266.02435388,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 49,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["mass"] = 4500,
-                                        ["category"] = "Cargos",
-                                        ["canCargo"] = true,
-                                        ["shape_name"] = "iso_container_cargo",
-                                        ["type"] = "iso_container",
-                                        ["unitId"] = 88,
-                                        ["rate"] = 100,
-                                        ["y"] = 105039.71215737,
-                                        ["x"] = 220266.02435388,
-                                        ["name"] = "Static ISO container-1",
-                                        ["heading"] = 0.90757121103705,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 105039.71215737,
-                                ["x"] = 220266.02435388,
-                                ["name"] = "Static ISO container-1",
-                                ["dead"] = false,
-                            }, -- end of [6]
-                            [7] = 
-                            {
-                                ["heading"] = 0.90757121103705,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 105045.97200207,
-                                            ["speed"] = 0,
-                                            ["x"] = 220270.6791102,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 50,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["mass"] = 4500,
-                                        ["category"] = "Cargos",
-                                        ["canCargo"] = true,
-                                        ["shape_name"] = "iso_container_cargo",
-                                        ["type"] = "iso_container",
-                                        ["unitId"] = 89,
-                                        ["rate"] = 100,
-                                        ["y"] = 105045.97200207,
-                                        ["x"] = 220270.6791102,
-                                        ["name"] = "Static ISO container-2-1",
-                                        ["heading"] = 0.90757121103705,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 105045.97200207,
-                                ["x"] = 220270.6791102,
-                                ["name"] = "Static ISO container-2",
-                                ["dead"] = false,
-                            }, -- end of [7]
-                            [8] = 
-                            {
-                                ["heading"] = 0.90757121103705,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 105051.99108351,
-                                            ["speed"] = 0,
-                                            ["x"] = 220275.17335768,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 51,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["mass"] = 4500,
-                                        ["category"] = "Cargos",
-                                        ["canCargo"] = true,
-                                        ["shape_name"] = "iso_container_cargo",
-                                        ["type"] = "iso_container",
-                                        ["unitId"] = 90,
-                                        ["rate"] = 100,
-                                        ["y"] = 105051.99108351,
-                                        ["x"] = 220275.17335768,
-                                        ["name"] = "Static ISO container-3-1",
-                                        ["heading"] = 0.90757121103705,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 105051.99108351,
-                                ["x"] = 220275.17335768,
-                                ["name"] = "Static ISO container-3",
-                                ["dead"] = false,
-                            }, -- end of [8]
-                            [9] = 
-                            {
-                                ["heading"] = 2.4783675378319,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 105017.88295533,
-                                            ["speed"] = 0,
-                                            ["x"] = 220274.77208558,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 52,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["mass"] = 4500,
-                                        ["category"] = "Cargos",
-                                        ["canCargo"] = true,
-                                        ["shape_name"] = "iso_container_cargo",
-                                        ["type"] = "iso_container",
-                                        ["unitId"] = 91,
-                                        ["rate"] = 100,
-                                        ["y"] = 105017.88295533,
-                                        ["x"] = 220274.77208558,
-                                        ["name"] = "Static ISO container-4-1",
-                                        ["heading"] = 2.4783675378319,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 105017.88295533,
-                                ["x"] = 220274.77208558,
-                                ["name"] = "Static ISO container-4",
-                                ["dead"] = false,
-                            }, -- end of [9]
-                            [10] = 
-                            {
-                                ["heading"] = 4.014257279587,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 104578.81822891,
-                                            ["speed"] = 0,
-                                            ["x"] = 219912.43462071,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 53,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["type"] = "outpost_road",
-                                        ["unitId"] = 92,
-                                        ["rate"] = 5,
-                                        ["y"] = 104578.81822891,
-                                        ["x"] = 219912.43462071,
-                                        ["name"] = "Static Road outpost-1",
-                                        ["heading"] = 4.014257279587,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 104578.81822891,
-                                ["x"] = 219912.43462071,
-                                ["name"] = "Static Road outpost-1",
-                                ["dead"] = false,
-                            }, -- end of [10]
-                            [11] = 
-                            {
-                                ["heading"] = 0.90757121103705,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 105080.19192185,
-                                            ["speed"] = 0,
-                                            ["x"] = 220315.95407897,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 55,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Unarmed",
-                                        ["type"] = "Land_Rover_109_S3",
-                                        ["unitId"] = 94,
-                                        ["rate"] = 3,
-                                        ["y"] = 105080.19192185,
-                                        ["x"] = 220315.95407897,
-                                        ["name"] = "Static LUV Land Rover 109-1",
-                                        ["heading"] = 0.90757121103705,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 105080.19192185,
-                                ["x"] = 220315.95407897,
-                                ["name"] = "Static LUV Land Rover 109-1",
-                                ["dead"] = false,
-                            }, -- end of [11]
-                            [12] = 
-                            {
-                                ["heading"] = 4.5204027626653,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 104576.13739263,
-                                            ["speed"] = 0,
-                                            ["x"] = 219922.08290405,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 56,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Unarmed",
-                                        ["type"] = "Land_Rover_109_S3",
-                                        ["unitId"] = 95,
-                                        ["rate"] = 3,
-                                        ["y"] = 104576.13739263,
-                                        ["x"] = 219922.08290405,
-                                        ["name"] = "Static LUV Land Rover 109-2-1",
-                                        ["heading"] = 4.5204027626653,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 104576.13739263,
-                                ["x"] = 219922.08290405,
-                                ["name"] = "Static LUV Land Rover 109-2",
-                                ["dead"] = false,
-                            }, -- end of [12]
-                            [13] = 
-                            {
-                                ["heading"] = 4.0317105721069,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 105583.93741124,
-                                            ["speed"] = 0,
-                                            ["x"] = 220676.79643758,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 57,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Unarmed",
-                                        ["type"] = "Land_Rover_109_S3",
-                                        ["unitId"] = 96,
-                                        ["rate"] = 3,
-                                        ["y"] = 105583.93741124,
-                                        ["x"] = 220676.79643758,
-                                        ["name"] = "Static LUV Land Rover 109-3-1",
-                                        ["heading"] = 4.0317105721069,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 105583.93741124,
-                                ["x"] = 220676.79643758,
-                                ["name"] = "Static LUV Land Rover 109-3",
-                                ["dead"] = false,
-                            }, -- end of [13]
-                            [14] = 
-                            {
-                                ["heading"] = 0.90757121103705,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 104918.11422981,
-                                            ["speed"] = 0,
-                                            ["x"] = 220606.65098147,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 58,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Unarmed",
-                                        ["type"] = "Land_Rover_109_S3",
-                                        ["unitId"] = 97,
-                                        ["rate"] = 3,
-                                        ["y"] = 104918.11422981,
-                                        ["x"] = 220606.65098147,
-                                        ["name"] = "Static LUV Land Rover 109-4-1",
-                                        ["heading"] = 0.90757121103705,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 104918.11422981,
-                                ["x"] = 220606.65098147,
-                                ["name"] = "Static LUV Land Rover 109-4",
-                                ["dead"] = false,
-                            }, -- end of [14]
-                        }, -- end of ["group"]
-                    }, -- end of ["static"]
-                    ["vehicle"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 652,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 104914.89309441,
-                                            ["x"] = 220609.04829547,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 0,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 1,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["type"] = "Hawk pcp",
-                                        ["unitId"] = 2,
-                                        ["skill"] = "Average",
-                                        ["y"] = 104914.89309441,
-                                        ["x"] = 220609.04829547,
-                                        ["name"] = "CP",
-                                        ["heading"] = 3.9793506945471,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["type"] = "Hawk sr",
-                                        ["unitId"] = 3,
-                                        ["skill"] = "Average",
-                                        ["y"] = 105017.67593001,
-                                        ["x"] = 220680.72101878,
-                                        ["name"] = "CWAR",
-                                        ["heading"] = 5.4977871437821,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [2]
-                                    [3] = 
-                                    {
-                                        ["type"] = "Hawk cwar",
-                                        ["unitId"] = 9,
-                                        ["skill"] = "Average",
-                                        ["y"] = 105042.43077695,
-                                        ["x"] = 220646.68310423,
-                                        ["name"] = "SR",
-                                        ["heading"] = 4.1538836197465,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [3]
-                                    [4] = 
-                                    {
-                                        ["type"] = "Hawk tr",
-                                        ["unitId"] = 4,
-                                        ["skill"] = "High",
-                                        ["y"] = 105113.88319673,
-                                        ["x"] = 220507.86479379,
-                                        ["name"] = "TR-2",
-                                        ["heading"] = 4.1887902047864,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [4]
-                                    [5] = 
-                                    {
-                                        ["type"] = "Hawk ln",
-                                        ["unitId"] = 7,
-                                        ["skill"] = "Average",
-                                        ["y"] = 105140.49980023,
-                                        ["x"] = 220485.75527634,
-                                        ["name"] = "Hawk-5",
-                                        ["heading"] = 1.9547687622336,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [5]
-                                    [6] = 
-                                    {
-                                        ["type"] = "Hawk ln",
-                                        ["unitId"] = 33,
-                                        ["skill"] = "Average",
-                                        ["y"] = 105068.87608449,
-                                        ["x"] = 220501.72384248,
-                                        ["name"] = "Hawk-1",
-                                        ["heading"] = 4.1538836197465,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [6]
-                                    [7] = 
-                                    {
-                                        ["type"] = "Hawk ln",
-                                        ["unitId"] = 10,
-                                        ["skill"] = "Average",
-                                        ["y"] = 105145.62337851,
-                                        ["x"] = 220564.95571572,
-                                        ["name"] = "Hawk-6",
-                                        ["heading"] = 1.0471975511966,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [7]
-                                    [8] = 
-                                    {
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 1,
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "High",
-                                        ["y"] = 105039.54514284,
-                                        ["x"] = 220532.34915281,
-                                        ["name"] = "Hawk-7",
-                                        ["heading"] = 4.2411500823462,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [8]
-                                    [9] = 
-                                    {
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 5,
-                                        ["skill"] = "High",
-                                        ["y"] = 104907.3105707,
-                                        ["x"] = 220634.9933154,
-                                        ["name"] = "Hawk-8",
-                                        ["heading"] = 4.0491638646268,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [9]
-                                    [10] = 
-                                    {
-                                        ["type"] = "Hawk tr",
-                                        ["unitId"] = 6,
-                                        ["skill"] = "High",
-                                        ["y"] = 104907.36974216,
-                                        ["x"] = 220793.08916354,
-                                        ["name"] = "TR-1",
-                                        ["heading"] = 3.7699111843078,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [10]
-                                    [11] = 
-                                    {
-                                        ["type"] = "Hawk ln",
-                                        ["unitId"] = 34,
-                                        ["skill"] = "Average",
-                                        ["y"] = 104880.33816069,
-                                        ["x"] = 220770.89905935,
-                                        ["name"] = "Hawk-2",
-                                        ["heading"] = 4.2062434973063,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [11]
-                                    [12] = 
-                                    {
-                                        ["type"] = "Hawk ln",
-                                        ["unitId"] = 8,
-                                        ["skill"] = "Average",
-                                        ["y"] = 104928.08372607,
-                                        ["x"] = 220782.24712509,
-                                        ["name"] = "Hawk-10",
-                                        ["heading"] = 0.68067840827779,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [12]
-                                    [13] = 
-                                    {
-                                        ["type"] = "Hawk ln",
-                                        ["unitId"] = 11,
-                                        ["skill"] = "Average",
-                                        ["y"] = 104901.05244589,
-                                        ["x"] = 220816.35802627,
-                                        ["name"] = "Hawk-11",
-                                        ["heading"] = 1.0471975511966,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [13]
-                                }, -- end of ["units"]
-                                ["y"] = 104914.89309441,
-                                ["x"] = 220609.04829547,
-                                ["name"] = "Hawk",
-                                ["start_time"] = 0,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["vehicle"]
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 80,
-                    ["vehicle"] = 
-                    {
-                        ["group"] = 
-                        {
-                            [1] = 
-                            {
-                                ["visible"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["spans"] = 
-                                    {
-                                    }, -- end of ["spans"]
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 654,
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["y"] = 104013.67038768,
-                                            ["x"] = 220848.67412591,
-                                            ["ETA_locked"] = true,
-                                            ["speed"] = 0,
-                                            ["action"] = "Off Road",
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 3,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["type"] = "SON_9",
-                                        ["unitId"] = 20,
-                                        ["skill"] = "Average",
-                                        ["y"] = 104013.67038768,
-                                        ["x"] = 220848.67412591,
-                                        ["name"] = "SHORAD-1-1",
-                                        ["heading"] = 4.5902159327451,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 81,
-                                        ["skill"] = "Average",
-                                        ["y"] = 104576.31082544,
-                                        ["x"] = 219950.09371147,
-                                        ["name"] = "SHORAD-1-17",
-                                        ["heading"] = 4.8345620280243,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [2]
-                                    [3] = 
-                                    {
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 80,
-                                        ["skill"] = "Average",
-                                        ["y"] = 104576.57009394,
-                                        ["x"] = 220836.26210231,
-                                        ["name"] = "SHORAD-1-16",
-                                        ["heading"] = 1.832595714594,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [3]
-                                    [4] = 
-                                    {
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 79,
-                                        ["skill"] = "Average",
-                                        ["y"] = 104574.77002882,
-                                        ["x"] = 219898.16572603,
-                                        ["name"] = "SHORAD-1-15",
-                                        ["heading"] = 0.50614548307836,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [4]
-                                    [5] = 
-                                    {
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 78,
-                                        ["skill"] = "Average",
-                                        ["y"] = 104562.84461198,
-                                        ["x"] = 219911.72607905,
-                                        ["name"] = "SHORAD-1-14",
-                                        ["heading"] = 3.9269908169872,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [5]
-                                    [6] = 
-                                    {
-                                        ["type"] = "S-60_Type59_Artillery",
-                                        ["unitId"] = 29,
-                                        ["skill"] = "Average",
-                                        ["y"] = 104222.65215229,
-                                        ["x"] = 220804.21816356,
-                                        ["name"] = "SHORAD-1-10",
-                                        ["heading"] = 1.4835298641952,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [6]
-                                    [7] = 
-                                    {
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 32,
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
-                                        ["y"] = 105825.38034173,
-                                        ["x"] = 221549.00400804,
-                                        ["name"] = "SHORAD-1-13",
-                                        ["heading"] = 5.218534463463,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [7]
-                                    [8] = 
-                                    {
-                                        ["type"] = "Ural-375",
-                                        ["unitId"] = 30,
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
-                                        ["y"] = 104041.70601915,
-                                        ["x"] = 220819.72783212,
-                                        ["name"] = "SHORAD-1-11",
-                                        ["heading"] = 2.7052603405912,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [8]
-                                    [9] = 
-                                    {
-                                        ["type"] = "S-60_Type59_Artillery",
-                                        ["unitId"] = 28,
-                                        ["skill"] = "Average",
-                                        ["y"] = 103904.70394691,
-                                        ["x"] = 220705.99026272,
-                                        ["name"] = "SHORAD-1-9",
-                                        ["heading"] = 4.0840704496667,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [9]
-                                    [10] = 
-                                    {
-                                        ["type"] = "ZU-23 Emplacement",
-                                        ["unitId"] = 38,
-                                        ["skill"] = "Average",
-                                        ["y"] = 104867.87174399,
-                                        ["x"] = 220810.50815025,
-                                        ["name"] = "SHORAD-1-12",
-                                        ["heading"] = 5.6199601914217,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [10]
-                                    [11] = 
-                                    {
-                                        ["type"] = "ZU-23 Emplacement",
-                                        ["unitId"] = 37,
-                                        ["skill"] = "Average",
-                                        ["y"] = 105597.69280506,
-                                        ["x"] = 220677.13227371,
-                                        ["name"] = "SHORAD-1-7",
-                                        ["heading"] = 0.71558499331767,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [11]
-                                    [12] = 
-                                    {
-                                        ["type"] = "ZU-23 Emplacement",
-                                        ["unitId"] = 36,
-                                        ["skill"] = "Average",
-                                        ["y"] = 105579.06732292,
-                                        ["x"] = 220701.19018813,
-                                        ["name"] = "SHORAD-1-3",
-                                        ["heading"] = 1.2566370614359,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [12]
-                                    [13] = 
-                                    {
-                                        ["type"] = "ZU-23 Emplacement",
-                                        ["unitId"] = 35,
-                                        ["skill"] = "Average",
-                                        ["y"] = 105110.11186148,
-                                        ["x"] = 220488.89473123,
-                                        ["name"] = "SHORAD-1-2",
-                                        ["heading"] = 3.07177948351,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [13]
-                                    [14] = 
-                                    {
-                                        ["type"] = "S-60_Type59_Artillery",
-                                        ["unitId"] = 27,
-                                        ["skill"] = "Average",
-                                        ["y"] = 103978.6621522,
-                                        ["x"] = 220999.01744477,
-                                        ["name"] = "SHORAD-1-8",
-                                        ["heading"] = 6.0039326268605,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [14]
-                                    [15] = 
-                                    {
-                                        ["type"] = "Infantry AK Ins",
-                                        ["unitId"] = 23,
-                                        ["skill"] = "Average",
-                                        ["y"] = 105831.02123706,
-                                        ["x"] = 221535.9354468,
-                                        ["name"] = "SHORAD-1-4",
-                                        ["heading"] = 1.8151424220741,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [15]
-                                    [16] = 
-                                    {
-                                        ["type"] = "Soldier AK",
-                                        ["unitId"] = 24,
-                                        ["skill"] = "Average",
-                                        ["y"] = 105817.83283778,
-                                        ["x"] = 221544.80029757,
-                                        ["name"] = "SHORAD-1-5",
-                                        ["heading"] = 3.7699111843078,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [16]
-                                    [17] = 
-                                    {
-                                        ["type"] = "Soldier stinger",
-                                        ["unitId"] = 25,
-                                        ["livery_id"] = "desert",
-                                        ["skill"] = "Average",
-                                        ["y"] = 105801.706682,
-                                        ["x"] = 221547.74700659,
-                                        ["name"] = "SHORAD-1-6",
-                                        ["heading"] = 4.0491638646268,
-                                        ["playerCanDrive"] = true,
-                                    }, -- end of [17]
-                                }, -- end of ["units"]
-                                ["y"] = 104013.67038768,
-                                ["x"] = 220848.67412591,
-                                ["name"] = "SHORAD-1",
-                                ["start_time"] = 0,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["vehicle"]
-                    ["name"] = "CJTF Blue",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 42,
-                    ["name"] = "Saudi Arabia",
-                }, -- end of [5]
-                [6] = 
-                {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
-                }, -- end of [6]
-                [7] = 
-                {
-                    ["id"] = 2,
-                    ["name"] = "USA",
-                }, -- end of [7]
-            }, -- end of ["country"]
-        }, -- end of ["blue"]
         ["red"] = 
         {
             ["name"] = "red",
