@@ -1,0 +1,8 @@
+objtype = "INSURGENCY"
+intel = 3
+cost = 4
+
+location = {
+	x = 320851,
+	z = 130276
+}

@@ -1,0 +1,1191 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2978,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 129714.47836439,
+                                            ["x"] = 319999.2279181,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 6,
+                                        ["skill"] = "Average",
+                                        ["y"] = 129714.47836439,
+                                        ["x"] = 319999.2279181,
+                                        ["name"] = "PRIMARY DESTROYED Mujahideen Ambush 2 Group",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 5,
+                                        ["livery_id"] = "INS",
+                                        ["skill"] = "Average",
+                                        ["y"] = 129729.46158381,
+                                        ["x"] = 319979.16576425,
+                                        ["name"] = "Mujahideen Ambush 2 Group 2",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 4,
+                                        ["skill"] = "Average",
+                                        ["y"] = 129714.17100462,
+                                        ["x"] = 319990.16776009,
+                                        ["name"] = "PRIMARY DESTROYED Mujahideen Ambush 2 Group 3",
+                                        ["heading"] = 3.2637657012294,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 3,
+                                        ["skill"] = "Average",
+                                        ["y"] = 129715.96281996,
+                                        ["x"] = 319990.94681024,
+                                        ["name"] = "Mujahideen Ambush 2 Group 4",
+                                        ["heading"] = 4.921828490624,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 2,
+                                        ["skill"] = "Average",
+                                        ["y"] = 129726.36170141,
+                                        ["x"] = 319992.64697936,
+                                        ["name"] = "Mujahideen Ambush 2 Group 5",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 20,
+                                        ["skill"] = "Average",
+                                        ["y"] = 130375.98331772,
+                                        ["x"] = 321891.18596202,
+                                        ["name"] = "PRIMARY DESTROYED Mujahideen Ambush 2 Group 6",
+                                        ["heading"] = 3.1415926535898,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["type"] = "2B11 mortar",
+                                        ["unitId"] = 19,
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["y"] = 130374.53263046,
+                                        ["x"] = 321930.75382749,
+                                        ["name"] = "Mujahideen Ambush 2 Group 7",
+                                        ["heading"] = 3.5255650890285,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 18,
+                                        ["skill"] = "Average",
+                                        ["y"] = 130379.66518704,
+                                        ["x"] = 321893.02563962,
+                                        ["name"] = "Mujahideen Ambush 2 Group 8",
+                                        ["heading"] = 3.4033920413889,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["type"] = "tt_B8M1",
+                                        ["unitId"] = 17,
+                                        ["skill"] = "Average",
+                                        ["y"] = 130378.23167412,
+                                        ["x"] = 321957.31968648,
+                                        ["name"] = "PRIMARY DESTROYED Mujahideen Ambush 2 Group 9",
+                                        ["heading"] = 3.3335788713092,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 16,
+                                        ["skill"] = "Average",
+                                        ["y"] = 130373.49619811,
+                                        ["x"] = 321931.39260437,
+                                        ["name"] = "Mujahideen Ambush 2 Group 10",
+                                        ["heading"] = 2.2863813201126,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 15,
+                                        ["skill"] = "Average",
+                                        ["y"] = 130384.47013726,
+                                        ["x"] = 321925.48800829,
+                                        ["name"] = "Mujahideen Ambush 2 Group 11",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 14,
+                                        ["skill"] = "Average",
+                                        ["y"] = 130375.65560315,
+                                        ["x"] = 321930.79029596,
+                                        ["name"] = "Mujahideen Ambush 2 Group 12",
+                                        ["heading"] = 4.4156830075457,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 13,
+                                        ["skill"] = "Average",
+                                        ["y"] = 130370.58439277,
+                                        ["x"] = 321889.61408288,
+                                        ["name"] = "Mujahideen Ambush 2 Group 14",
+                                        ["heading"] = 3.2463124087095,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 12,
+                                        ["skill"] = "Average",
+                                        ["y"] = 130376.06133916,
+                                        ["x"] = 321899.98769084,
+                                        ["name"] = "PRIMARY DESTROYED Mujahideen Ambush 2 Group 16",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 11,
+                                        ["skill"] = "Average",
+                                        ["y"] = 129735.37095057,
+                                        ["x"] = 319983.28178854,
+                                        ["name"] = "Mujahideen Ambush 2 Group 15",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 10,
+                                        ["skill"] = "Average",
+                                        ["y"] = 129712.06095566,
+                                        ["x"] = 319997.26039449,
+                                        ["name"] = "Mujahideen Ambush 2 Group 16",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [16]
+                                    [17] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 9,
+                                        ["skill"] = "Average",
+                                        ["y"] = 129754.83920426,
+                                        ["x"] = 319975.83408147,
+                                        ["name"] = "Mujahideen Ambush 2 Group 17",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [17]
+                                    [18] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 8,
+                                        ["skill"] = "Average",
+                                        ["y"] = 129693.86304176,
+                                        ["x"] = 320000.69359388,
+                                        ["name"] = "Mujahideen Ambush 2 Group 18",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [18]
+                                    [19] = 
+                                    {
+                                        ["type"] = "HL_KORD",
+                                        ["unitId"] = 7,
+                                        ["skill"] = "Average",
+                                        ["y"] = 129732.67572555,
+                                        ["x"] = 319983.78609301,
+                                        ["name"] = "PRIMARY DESTROYED Mujahideen Ambush 2 Group 19",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [19]
+                                    [20] = 
+                                    {
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 1,
+                                        ["skill"] = "Average",
+                                        ["y"] = 129724.83020854,
+                                        ["x"] = 319992.90616751,
+                                        ["name"] = "Mujahideen Ambush 2 Group 20",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [20]
+                                }, -- end of ["units"]
+                                ["y"] = 129714.47836439,
+                                ["x"] = 319999.2279181,
+                                ["name"] = "Mujahideen Ambush 2 Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [6]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [74]
+                [75] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [78]
+                [79] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [79]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "USSR",
+                    ["id"] = 68,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 2.4085543677522,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 128586.00372693,
+                                            ["speed"] = 0,
+                                            ["x"] = 325271.80992148,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "Russia_Army_Weather",
+                                        ["category"] = "Helicopters",
+                                        ["type"] = "Mi-8MT",
+                                        ["unitId"] = 31,
+                                        ["rate"] = "30",
+                                        ["y"] = 128586.00372693,
+                                        ["x"] = 325271.80992148,
+                                        ["name"] = "Second Kamaz Convoy Ambush Helicopter-1",
+                                        ["heading"] = 2.4085543677522,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 128586.00372693,
+                                ["x"] = 325271.80992148,
+                                ["name"] = "Second Kamaz Convoy Ambush Helicopter",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 2.2340214425527,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 130299.25679787,
+                                            ["speed"] = 0,
+                                            ["x"] = 320832.67100463,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["effectPreset"] = "1",
+                                        ["category"] = "Armor",
+                                        ["type"] = "BMP-2",
+                                        ["effectTransparency"] = 1,
+                                        ["unitId"] = 32,
+                                        ["rate"] = 10,
+                                        ["y"] = 130299.25679787,
+                                        ["x"] = 320832.67100463,
+                                        ["name"] = "Kamaz Ambush Destroyed BMP-1",
+                                        ["heading"] = 2.2340214425527,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 130299.25679787,
+                                ["x"] = 320832.67100463,
+                                ["name"] = "Kamaz Ambush Destroyed BMP",
+                                ["dead"] = true,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 2.1991148575129,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 130302.0825948,
+                                            ["speed"] = 0,
+                                            ["x"] = 320830.40260356,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 33,
+                                        ["rate"] = 1,
+                                        ["y"] = 130302.0825948,
+                                        ["x"] = 320830.40260356,
+                                        ["name"] = "Kamaz Ambush IED Crater-1",
+                                        ["heading"] = 2.1991148575129,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 130302.0825948,
+                                ["x"] = 320830.40260356,
+                                ["name"] = "Kamaz Ambush IED Crater",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 1.3788101090755,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 130252.12459267,
+                                            ["speed"] = 0,
+                                            ["x"] = 320851.76019624,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 34,
+                                        ["rate"] = 5,
+                                        ["y"] = 130252.12459267,
+                                        ["x"] = 320851.76019624,
+                                        ["name"] = "Kamaz Second Ambush Destroyed Kamaz-1",
+                                        ["heading"] = 1.3788101090755,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 130252.12459267,
+                                ["x"] = 320851.76019624,
+                                ["name"] = "Kamaz Second Ambush Destroyed Kamaz",
+                                ["dead"] = true,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 0.038381794893126,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 130251.63141107,
+                                            ["speed"] = 0,
+                                            ["x"] = 320851.36565096,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["effectPreset"] = 1,
+                                        ["category"] = "Effects",
+                                        ["type"] = "big_smoke",
+                                        ["unitId"] = 35,
+                                        ["y"] = 130251.63141107,
+                                        ["x"] = 320851.36565096,
+                                        ["name"] = "Kamaz Ambush Fire 1-1",
+                                        ["effectTransparency"] = 1,
+                                        ["heading"] = 0.038381794893126,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 130251.63141107,
+                                ["x"] = 320851.36565096,
+                                ["name"] = "Kamaz Ambush Fire 1",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 0.00066988869371019,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 130298.64883413,
+                                            ["speed"] = 0,
+                                            ["x"] = 320833.15160318,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["effectPreset"] = 1,
+                                        ["category"] = "Effects",
+                                        ["type"] = "big_smoke",
+                                        ["unitId"] = 36,
+                                        ["y"] = 130298.64883413,
+                                        ["x"] = 320833.15160318,
+                                        ["name"] = "Kamaz Ambush Fire 2-1",
+                                        ["effectTransparency"] = 1,
+                                        ["heading"] = 0.00066988869371019,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 130298.64883413,
+                                ["x"] = 320833.15160318,
+                                ["name"] = "Kamaz Ambush Fire 2",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2881,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 128559.89734864,
+                                            ["x"] = 325229.67018481,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 22,
+                                        ["skill"] = "Average",
+                                        ["y"] = 128559.89734864,
+                                        ["x"] = 325229.67018481,
+                                        ["name"] = "Second Kamaz Convoy Soviet Group-1",
+                                        ["heading"] = 2.7227136331112,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 23,
+                                        ["skill"] = "Average",
+                                        ["y"] = 128555.59524086,
+                                        ["x"] = 325246.53444731,
+                                        ["name"] = "Second Kamaz Convoy Soviet Group-2",
+                                        ["heading"] = 5.8992128717408,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 29,
+                                        ["skill"] = "Average",
+                                        ["y"] = 128540.96807441,
+                                        ["x"] = 325244.81360419,
+                                        ["name"] = "Second Kamaz Convoy Soviet Group-3",
+                                        ["heading"] = 5.218534463463,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 24,
+                                        ["skill"] = "Average",
+                                        ["y"] = 128562.48855017,
+                                        ["x"] = 325229.69451527,
+                                        ["name"] = "Second Kamaz Convoy Soviet Group-4",
+                                        ["heading"] = 2.8797932657906,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["type"] = "Paratrooper RPG-16",
+                                        ["unitId"] = 27,
+                                        ["skill"] = "Average",
+                                        ["y"] = 128557.22356665,
+                                        ["x"] = 325240.02476111,
+                                        ["name"] = "Second Kamaz Convoy Soviet Group-5",
+                                        ["heading"] = 2.146754979953,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 30,
+                                        ["skill"] = "Average",
+                                        ["y"] = 128566.1753415,
+                                        ["x"] = 325226.36248231,
+                                        ["name"] = "Second Kamaz Convoy Soviet Group-6",
+                                        ["heading"] = 3.1939525311496,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 21,
+                                        ["skill"] = "Average",
+                                        ["y"] = 128544.24828544,
+                                        ["x"] = 325245.86426347,
+                                        ["name"] = "Second Kamaz Convoy Soviet Group-7",
+                                        ["heading"] = 4.2062434973063,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 25,
+                                        ["skill"] = "Average",
+                                        ["y"] = 128550.18208337,
+                                        ["x"] = 325228.92190323,
+                                        ["name"] = "Second Kamaz Convoy Soviet Group-8",
+                                        ["heading"] = 5.7072266540215,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["type"] = "SA-18 Igla manpad",
+                                        ["unitId"] = 26,
+                                        ["skill"] = "Average",
+                                        ["y"] = 128550.65702711,
+                                        ["x"] = 325237.18781322,
+                                        ["name"] = "Second Kamaz Convoy Soviet Group-9",
+                                        ["heading"] = 2.8448866807508,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 28,
+                                        ["skill"] = "Average",
+                                        ["y"] = 128545.96934874,
+                                        ["x"] = 325253.76457316,
+                                        ["name"] = "Second Kamaz Convoy Soviet Group-10",
+                                        ["heading"] = 5.7072266540215,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                }, -- end of ["units"]
+                                ["y"] = 128559.89734864,
+                                ["x"] = 325229.67018481,
+                                ["name"] = "Second Kamaz Convoy Soviet Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [4]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "DarBaAmbush-1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "A convoy of the 59th Material Support Brigade has been ambushed by mujahideen fighters in a mountain pass just north of Jiroft. Initial communications claim that the lead armored escort was destroyed by a buried explosive device before the mujahideen opened fire from gun emplacements waiting on the surrounding mountains. Thankfully they failed to destroy the trailing vehicle and a bulk of the convoy was able to flee several kilometers to the north. A Mi-8 from FARP Vetka has already been dispatched to gather the wounded. While the situation is still unclear, we know that the mujahideen deployed rapid-firing gun emplacements of some description, as well as launched anti-tank munitions and machine guns. Given the well organized nature of this ambush it would be safe to assume the attackers are well equipped, and the probability of MANPADS presence is high. The ambush took place along radial 343 for roughly 39 kilometers from Jiroft.\
+\
+Your objective is to find and attack the mujahideen force that conducted the ambush before it can escape the area. Destroy any gun emplacements and vehicles you find.",
+} -- end of staticTemplate
