@@ -1,6 +1,7 @@
 objtype = "INSURGENCY"
 intel = 3
 cost = 4
+coalition = 2
 
 location = {
 	x = 320851,
