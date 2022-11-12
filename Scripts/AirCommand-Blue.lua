@@ -24,6 +24,13 @@ local fixedWingFormation = {
 	["WedgeOpen"] = 196610,
 	["WedgeGroupClose"] = 196611,
 }
+local rotaryFormation = {
+	["Wedge"] = 8,
+	["FrontRightClose"] = 655361,
+	["FrontRightOpen"] = 655362,
+	["FrontLeftClose"] = 655617,
+	["FrontLeftOpen"] = 655618
+}
 -- enum for intercept tactics
 local interceptTactic = {
 	["Lead"] = 1,
@@ -35,20 +42,26 @@ local interceptTactic = {
 -- basic category for each mission type
 local missionClass = {
 	["Intercept"] = "AA",
-	["CAP"] = "AA",
-	["QRA"] = "AA"
+	["QRA"] = "AA",
+	["CAP"] = "AA"
 }
 -- names for unit types
 local typeAlias = {
 	["F-14A-135-GR"] = "Tomcat",
 	["F-4E"] = "Phantom",
-	["F-5E-3"] = "Tiger"
+	["F-5E-3"] = "Tiger",
+	["AH-1W"] = "Cobra"
 }
 -- DCS categories for unit types
 local typeCategory = {
 	["F-14A-135-GR"] = Group.Category.AIRPLANE,
 	["F-4E"] = Group.Category.AIRPLANE,
-	["F-5E-3"] = Group.Category.AIRPLANE
+	["F-5E-3"] = Group.Category.AIRPLANE,
+	["AH-1W"] = Group.Category.HELICOPTER
+}
+-- DCS categories for weapon types
+local weaponTypes = {
+	["GuidedWeapon"] = 268402702
 }
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -58,8 +71,8 @@ local side = coalition.side.BLUE
 -- table defining preferred tactics for each aircraft type
 -- if not defined, will be determined randomly or according to threat (TODO)
 local preferredTactic = {
-	["F-5E-3"] = "SternLow",
-	["F-14A-135-GR"] = "LeadHigh"
+	["F-5E-3"] = interceptTactic.SternLow,
+	["F-14A-135-GR"] = interceptTactic.LeadHigh
 }
 
 -- table defining which types constitute high priority threats
@@ -96,7 +109,6 @@ local ADZExclusion = {
 local airbases = {
 	["Abbas"] = {
 		name = "Bandar Abbas Intl", -- DCS name
-		ID = 2,
 		takeoffHeading = 0.488, -- in radians
 		Squadrons = {
 			["91TFS"] = {
@@ -110,8 +122,11 @@ local airbases = {
 				["interceptRadius"] = 220000, -- radius of action around the airbase for interceptors from this squadron in meters
 				["missions"] = {
 					["Intercept"] = true,
-					["CAP"] = true,
-					["QRA"] = true
+					["QRA"] = true,
+					["CAP"] = true
+				},
+				["targetCategories"] = {
+					[1] = Unit.Category.AIRPLANE
 				},
 				["loadouts"] = {
 					["AA"] = {
@@ -156,7 +171,7 @@ local airbases = {
 							["chaff"] = 60,
 							["gun"] = 100,
 						},
-						["Short Range"] = {
+						["QRA"] = {
 							["pylons"] =
 							{
 								[2] =
@@ -198,12 +213,80 @@ local airbases = {
 					"Alborz",
 					"Shahab"
 				}
+			},
+			["82TFS"] = {
+				["name"] = "82nd TFS",
+				["country"] = country.Iran,
+				["type"] = "F-14A-135-GR", -- F-14A-95-GR IRIAF
+				["skill"] = "High",
+				["livery"] = "IRIAF Asia Minor",
+				["allWeatherAA"] = capability.Full,
+				["allWeatherAG"] = capability.None,
+				["highPriority"] = true, -- squadron aircraft will be saved for high priority targets
+				["interceptRadius"] = 220000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["missions"] = {
+					["Intercept"] = true,
+					["QRA"] = true
+				},
+				["targetCategories"] = {
+					[1] = Unit.Category.AIRPLANE
+				},
+				["loadouts"] = {
+					["AA"] = {
+						["General"] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{LAU-138 wtip - AIM-9L}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{SHOULDER AIM-7F}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{AIM_54A_Mk47}",
+								},
+								[5] =
+								{
+									["CLSID"] = "<CLEAN>",
+								},
+								[6] =
+								{
+									["CLSID"] = "<CLEAN>",
+								},
+								[7] =
+								{
+									["CLSID"] = "{AIM_54A_Mk47}",
+								},
+								[9] =
+								{
+									["CLSID"] = "{SHOULDER AIM-7F}",
+								},
+								[10] =
+								{
+									["CLSID"] = "{LAU-138 wtip - AIM-9L}",
+								},
+							},
+							["fuel"] = 7348,
+							["flare"] = 60,
+							["ammo_type"] = 1,
+							["chaff"] = 140,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					"Shahin",
+					"Oghab",
+					"Toophan"
+				}
 			}
 		}
 	},
 	["Lar"] = {
 		name = "Lar", -- DCS name
-		ID = 11,
 		takeoffHeading = 1.576, -- in radians
 		Squadrons = {
 			["23TFS"] = {
@@ -217,8 +300,11 @@ local airbases = {
 				["interceptRadius"] = 150000, -- radius of action around the airbase for interceptors from this squadron in meters
 				["missions"] = {
 					["Intercept"] = true,
-					["CAP"] = true,
-					["QRA"] = true
+					["QRA"] = true,
+					["CAP"] = true
+				},
+				["targetCategories"] = {
+					[1] = Unit.Category.AIRPLANE
 				},
 				["loadouts"] = {
 					["AA"] = {
@@ -274,7 +360,6 @@ local airbases = {
 	},
 	["Shiraz"] = {
 		name = "Shiraz Intl", -- DCS name
-		ID = 19,
 		takeoffHeading = 2.037, -- in radians
 		Squadrons = {
 			["71TFS"] = {
@@ -288,8 +373,11 @@ local airbases = {
 				["interceptRadius"] = 350000, -- radius of action around the airbase for interceptors from this squadron in meters
 				["missions"] = {
 					["Intercept"] = true,
-					["CAP"] = true,
-					["QRA"] = true
+					["QRA"] = true,
+					["CAP"] = true
+				},
+				["targetCategories"] = {
+					[1] = Unit.Category.AIRPLANE
 				},
 				["loadouts"] = {
 					["AA"] = {
@@ -391,6 +479,9 @@ local airbases = {
 					["Intercept"] = true,
 					["QRA"] = true
 				},
+				["targetCategories"] = {
+					[1] = Unit.Category.AIRPLANE
+				},
 				["loadouts"] = {
 					["AA"] = {
 						["General"] = {
@@ -457,6 +548,9 @@ local airbases = {
 					["Intercept"] = true,
 					["QRA"] = true
 				},
+				["targetCategories"] = {
+					[1] = Unit.Category.AIRPLANE
+				},
 				["loadouts"] = {
 					["AA"] = {
 						["General"] = {
@@ -507,6 +601,106 @@ local airbases = {
 					"Shahin",
 					"Oghab",
 					"Shahab"
+				}
+			}
+		}
+	},
+	["Kahnuj FB"] = {
+		name = "Kahnuj FB", -- DCS name
+		takeoffHeading = 0.436, -- in radians
+		Squadrons = {
+			["3CSG"] = {
+				["name"] = "3rd CSG",
+				["country"] = country.Iran,
+				["type"] = "AH-1W", -- AH-1J
+				["skill"] = "Excellent",
+				["livery"] = "I.R.I.A.A",
+				["allWeatherAA"] = capability.None,
+				["allWeatherAG"] = capability.None,
+				["interceptRadius"] = 40000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["missions"] = {
+					["Intercept"] = true,
+					["QRA"] = true,
+					["CAP"] = true
+				},
+				["targetCategories"] = {
+					[1] = Unit.Category.HELICOPTER
+				},
+				["loadouts"] = {
+					["AA"] = {
+						["General"] = {
+							["pylons"] = 
+							{
+								[1] = 
+								{
+									["CLSID"] = "{3EA17AB0-A805-4D9E-8732-4CE00CB00F17}",
+								}, -- end of [1]
+								[4] = 
+								{
+									["CLSID"] = "{3EA17AB0-A805-4D9E-8732-4CE00CB00F17}",
+								}, -- end of [4]
+							}, -- end of ["pylons"]
+							["fuel"] = "1250.0",
+							["flare"] = 30,
+							["chaff"] = 30,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					"Palang",
+					"Kaman",
+					"Paykan"
+				}
+			}
+		}
+	},
+	["Sirjan FB"] = {
+		name = "Sirjan FB", -- DCS name
+		takeoffHeading = 1.047, -- in radians
+		Squadrons = {
+			["3CSG"] = {
+				["name"] = "3rd CSG",
+				["country"] = country.Iran,
+				["type"] = "AH-1W", -- AH-1J
+				["skill"] = "Excellent",
+				["livery"] = "I.R.I.A.A",
+				["allWeatherAA"] = capability.None,
+				["allWeatherAG"] = capability.None,
+				["interceptRadius"] = 40000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["missions"] = {
+					["Intercept"] = true,
+					["QRA"] = true,
+					["CAP"] = true
+				},
+				["targetCategories"] = {
+					[1] = Unit.Category.HELICOPTER
+				},
+				["loadouts"] = {
+					["AA"] = {
+						["General"] = {
+							["pylons"] = 
+							{
+								[1] = 
+								{
+									["CLSID"] = "{3EA17AB0-A805-4D9E-8732-4CE00CB00F17}",
+								}, -- end of [1]
+								[4] = 
+								{
+									["CLSID"] = "{3EA17AB0-A805-4D9E-8732-4CE00CB00F17}",
+								}, -- end of [4]
+							}, -- end of ["pylons"]
+							["fuel"] = "1250.0",
+							["flare"] = 30,
+							["chaff"] = 30,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					"Palang",
+					"Kaman",
+					"Paykan"
 				}
 			}
 		}
@@ -597,7 +791,7 @@ local function getLowestFlightAltitude(flight)
 	return lowestAltitude
 end
 ---------------------------------------------------------------------------------------------------------------------------
-local trackTimeout = 60 -- amount of time before tracks are timed out
+local trackTimeout = 120 -- amount of time before tracks are timed out
 local trackCorrelationDistance = 8000 -- maximum distance in meters between which a target will correlate with a track
 local trackCorrelationAltitude = 5000 -- maximum altitude difference in meters between which a target will correlate with a track
 
@@ -650,8 +844,9 @@ end
 -- create new track and initialize data
 local function createTrack(target)
 	tracks[nextTrackNumber] = {}
+	tracks[nextTrackNumber].category = target.object:getDesc().category
 	updateTrack(nextTrackNumber, target)
-	env.info("Blue Air Debug: Created new track ID " .. tostring(nextTrackNumber))
+	env.info("Blue Air Debug: Created new track ID " .. tostring(nextTrackNumber) .. ". Category: " .. tracks[nextTrackNumber].category)
 	env.info("Blue Air Debug: Updated track ID " .. tostring(nextTrackNumber) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
 	nextTrackNumber = nextTrackNumber + 1
 end
@@ -660,6 +855,9 @@ end
 -- currently this should have the effect of merging multiple close contacts which should be desirable for our purposes
 -- TODO: Handle very fast targets with heading and speed discrimination
 local function correlateTrack(trackID, target)
+	if tracks[trackID].category ~= target.object:getDesc().category then
+		return false
+	end
 	if getDistance(tracks[trackID].x, tracks[trackID].y, target.object:getPoint().x, target.object:getPoint().z) < trackCorrelationDistance then
 		if math.abs(target.object:getPoint().y - tracks[trackID].alt) < trackCorrelationAltitude then
 			return true
@@ -751,8 +949,8 @@ timer.scheduleFunction(timeoutTracks, nil, timer.getTime() + trackTimeout)
 
 ---------------------------------------------------------------------------------------------------------------------------
 local skipResetTime = 60 -- seconds between a failed launch until airfield will be used again
-local preparationTime = 1800 -- time in seconds it takes to prepare the next flight from an airbase
-local QRARadius = 30000 -- radius in meters for emergency scramble
+local preparationTime = 1500 -- time in seconds it takes to prepare the next flight from an airbase
+local QRARadius = 60000 -- radius in meters for emergency scramble
 local commitRange = 50000 -- radius around uncommitted fighter units at which tracks will be intercepted
 
 local activeAirbases = {} -- active airbases
@@ -784,6 +982,15 @@ local function resetAirbaseSkip(airbaseID)
 	activeAirbases[airbaseID].skip = false
 end
 
+local function allowedTargetCategrory(squadron, targetCategory)
+	for key, category in pairs(squadron.targetCategories) do
+		if category == targetCategory then
+			return true
+		end
+	end
+	return false
+end
+
 -- create and spawn aircraft group for tasking
 local function launchFlight(airbase, squadron, mission, flightSize)
 	local flightData = {}
@@ -799,10 +1006,14 @@ local function launchFlight(airbase, squadron, mission, flightSize)
 		["name"] = callsign .. " " .. tostring(flightNumber)
 	}
 	-- see if mission specific loadout option exists and, if so, select it
-	if (squadron.loadouts[missionClass[mission]].mission ~= nil) then
-		loadout = squadron.loadouts[missionClass[mission]].mission
+	if (squadron.loadouts[missionClass[mission]][mission] ~= nil) then
+		loadout = squadron.loadouts[missionClass[mission]][mission]
 	else
-		loadout = squadron.loadouts[missionClass[mission]].General -- if specific mission loadout doesn't exist, use generic A-A
+		if mission == "QRA" and squadron.loadouts[missionClass[mission]].Intercept ~= nil then
+			loadout = squadron.loadouts[missionClass[mission]].Intercept -- if QRA loadout doesn't exist use intercept loadout
+		else
+			loadout = squadron.loadouts[missionClass[mission]].General -- if specific mission loadout doesn't exist, use generic A-A
+		end
 	end
 	-- select flight options for mission
 	if (mission == "Intercept") or (mission == "QRA") then
@@ -840,7 +1051,7 @@ local function launchFlight(airbase, squadron, mission, flightSize)
 			[1] = {
 				["type"] = "Turning Point",
 				["action"] = "Turning Point",
-				["airdromeId"] = airbase.ID,
+				["airdromeId"] = Airbase.getByName(airbase.name):getID(),
 				["speed"] = 100,
 				["x"] = baseLocation.x,
 				["y"] = baseLocation.z,
@@ -872,7 +1083,7 @@ local function returnToBase(missionData)
 						[1] = {
 							type = "Land",
 							action = "Fly Over Point",
-							airdromeId = airbases[missionData.airbaseID].ID,
+							airdromeId = Airbase.getByName(airbases[missionData.airbaseID].name):getID(),
 							x = baseLocation.x,
 							y = baseLocation.z,
 							alt = 30000,
@@ -898,6 +1109,7 @@ end
 local function controlIntercept(missionData)
 	local flightID = missionData.flightID
 	local targetID = missionData.targetID
+	local flightCategory = typeCategory[airbases[missionData.airbaseID].Squadrons[missionData.squadronID].type]
 	-- check if our flight is even still alive
 	if flights[flightID]:isExist() == true then
 		-- check if target track is still valid for intercept
@@ -946,7 +1158,12 @@ local function controlIntercept(missionData)
 			-- if target detected then engage
 			if targetDetected then
 				env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(targetID) .. " free to engage", 0)
-				controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.OPEN_FIRE_WEAPON_FREE)
+				-- just in case
+				if flightCategory == Group.Category.HELICOPTER then
+					controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.WEAPON_FREE)
+				else
+					controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.OPEN_FIRE_WEAPON_FREE)
+				end
 				interceptTask = {
 					id = "ComboTask",
 					params = {
@@ -1065,6 +1282,7 @@ end
 -- prepare flight according to mission parameters then hand off to the appropriate control function
 local function assignMission(missionData)
 	local flightID = missionData.flightID
+	local flightCategory = typeCategory[airbases[missionData.airbaseID].Squadrons[missionData.squadronID].type]
 	if (missionData.mission == "Intercept" or missionData.mission == "QRA") then
 		-- check if whole flight is airborne
 		local flightAirborne = true
@@ -1085,10 +1303,18 @@ local function assignMission(missionData)
 				controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.FOR_SEARCH_IF_REQUIRED)
 				env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " radar active", 0)
 			end
-			controller:setOption(AI.Option.Air.id.FORMATION, fixedWingFormation.LABSClose)
+			if flightCategory == Group.Category.HELICOPTER then
+				controller:setOption(AI.Option.Air.id.FORMATION, rotaryFormation.FrontRightClose)
+			else
+				controller:setOption(AI.Option.Air.id.FORMATION, fixedWingFormation.LABSClose)
+			end
 			controller:setOption(AI.Option.Air.id.ECM_USING, AI.Option.Air.val.ECM_USING.USE_IF_ONLY_LOCK_BY_RADAR)
 			controller:setOption(AI.Option.Air.id.PROHIBIT_AG, true)
-			controller:setOption(AI.Option.Air.id.MISSILE_ATTACK, AI.Option.Air.val.MISSILE_ATTACK.RANDOM_RANGE) -- TODO: more complex decision on that
+			if flightCategory == Group.Category.HELICOPTER then
+				controller:setOption(AI.Option.Air.id.MISSILE_ATTACK, AI.Option.Air.val.MISSILE_ATTACK.MAX_RANGE) -- TODO: more complex decision on that
+			else
+				controller:setOption(AI.Option.Air.id.MISSILE_ATTACK, AI.Option.Air.val.MISSILE_ATTACK.RANDOM_RANGE) -- TODO: more complex decision on that
+			end
 			controller:setOption(AI.Option.Air.id.JETT_TANKS_IF_EMPTY, true)
 			-- hand off to intercept controller
 			env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(missionData.targetID) .. " handed off to intercept controller", 0)
@@ -1134,6 +1360,7 @@ end
 
 -- allocate airframes from squadron to the mission and hand it off for preparation
 local function allocateAirframes(mission, airbaseID, squadronID, targetID)
+	-- TODO: Set base flight size by squadron
 	local flightSize -- how many airframes we want to launch
 	-- determine how many aircraft to launch
 	local rand = math.random(10)
@@ -1144,7 +1371,7 @@ local function allocateAirframes(mission, airbaseID, squadronID, targetID)
 		flightSize = 3
 	end
 	-- reduce flight size for high priority squadrons
-	if airbases[airbaseID].Squadrons[squadronID].highPriority == true then
+	if airbases[airbaseID].Squadrons[squadronID].highPriority == true or typeCategory[airbases[airbaseID].Squadrons[squadronID].type] == Group.Category.HELICOPTER then
 		flightSize = flightSize - 1
 	end
 	-- launch flight and hand off to flight preparation
@@ -1194,15 +1421,17 @@ local function airTaskingOrder()
 					local squadrons = {}
 					-- add up all the squadrons in the airbase and select a random one
 					for key, squadron in pairs(airbases[airbaseData.airbaseID].Squadrons) do
-						if getDistance(tracks[trackID].x, tracks[trackID].y, baseLocation.x, baseLocation.z) < squadron.interceptRadius then
-							-- use high priority squadrons only for high threat tracks
-							if tracks[trackID].highThreat == true then
-								table.insert(squadrons, key)
-								counter = counter + 1
-							else
-								if squadron.highPriority ~= true then
+						if allowedTargetCategrory(squadron, tracks[trackID].category) then
+							if getDistance(tracks[trackID].x, tracks[trackID].y, baseLocation.x, baseLocation.z) < squadron.interceptRadius then
+								-- use high priority squadrons only for high threat tracks
+								if tracks[trackID].highThreat == true then
 									table.insert(squadrons, key)
 									counter = counter + 1
+								else
+									if squadron.highPriority ~= true then
+										table.insert(squadrons, key)
+										counter = counter + 1
+									end
 								end
 							end
 						end
@@ -1216,8 +1445,15 @@ local function airTaskingOrder()
 				-- if we have any squadrons available, launch the intercept
 				if interceptSquadron ~= nil then
 					tracks[trackID].engaged = true
-					-- TODO: Add QRA
-					allocateAirframes("Intercept", interceptAirbase, interceptSquadron, trackID)
+					-- check if target is close enough for QRA intercept
+					local mission
+					local baseLocation = Airbase.getByName(airbases[interceptAirbase].name):getPoint()
+					if getDistance(tracks[trackID].x, tracks[trackID].y, baseLocation.x, baseLocation.z) < QRARadius then
+						mission = "QRA"
+					else
+						mission = "Intercept"
+					end
+					allocateAirframes(mission, interceptAirbase, interceptSquadron, trackID)
 				end
 			end
 		end
