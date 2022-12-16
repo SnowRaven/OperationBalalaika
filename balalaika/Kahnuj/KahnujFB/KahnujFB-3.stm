@@ -1,0 +1,264 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 3.8746309394274,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156751.17514187,
+                                            ["speed"] = 0,
+                                            ["x"] = 252282.92617916,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "GSM Rus",
+                                        ["type"] = "FARP Fuel Depot",
+                                        ["unitId"] = 23,
+                                        ["rate"] = 20,
+                                        ["y"] = 156751.17514187,
+                                        ["x"] = 252282.92617916,
+                                        ["name"] = "Jiroft heli military base fuel area decoration 1",
+                                        ["heading"] = 3.8746309394274,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156751.17514187,
+                                ["x"] = 252282.92617916,
+                                ["name"] = "Jiroft heli military base fuel area decoration 1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 5.4628805587423,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156751.52875883,
+                                            ["speed"] = 0,
+                                            ["x"] = 252303.25915435,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 24,
+                                        ["rate"] = 100,
+                                        ["y"] = 156751.52875883,
+                                        ["x"] = 252303.25915435,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft Heli Military Base Fuel Area Target 1",
+                                        ["heading"] = 5.4628805587423,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156751.52875883,
+                                ["x"] = 252303.25915435,
+                                ["name"] = "PRIMARY DESTROYED Jiroft Heli Military Base Fuel Area Target 1",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 5.4279739737024,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156775.75152057,
+                                            ["speed"] = 0,
+                                            ["x"] = 252284.16383852,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 25,
+                                        ["rate"] = 100,
+                                        ["y"] = 156775.75152057,
+                                        ["x"] = 252284.16383852,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft Heli Military Base Fuel Area Target 2",
+                                        ["heading"] = 5.4279739737024,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156775.75152057,
+                                ["x"] = 252284.16383852,
+                                ["name"] = "PRIMARY DESTROYED Jiroft Heli Military Base Fuel Area Target 2",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 5.550147021342,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156776.45875449,
+                                            ["speed"] = 0,
+                                            ["x"] = 252328.01234153,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 26,
+                                        ["rate"] = 100,
+                                        ["y"] = 156776.45875449,
+                                        ["x"] = 252328.01234153,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft Heli Military Base Fuel Area Target 3",
+                                        ["heading"] = 5.550147021342,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156776.45875449,
+                                ["x"] = 252328.01234153,
+                                ["name"] = "PRIMARY DESTROYED Jiroft Heli Military Base Fuel Area Target 3",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 5.550147021342,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156803.15683495,
+                                            ["speed"] = 0,
+                                            ["x"] = 252309.62425962,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 27,
+                                        ["rate"] = 100,
+                                        ["y"] = 156803.15683495,
+                                        ["x"] = 252309.62425962,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft Heli Military Base Fuel Area Target 4",
+                                        ["heading"] = 5.550147021342,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156803.15683495,
+                                ["x"] = 252309.62425962,
+                                ["name"] = "PRIMARY DESTROYED Jiroft Heli Military Base Fuel Area Target 4",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "jiroft-heli-military-base-fuel-area",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Aerial recon has located one of the 51st Tharallah Division's main bases near Mohammadabad. The base contains major logistical and command facilities supporting Iranian ground forces deployed to our front line at Jiroft. Crucially, we have identified it as the 3rd Combat Support Group's forward base in the region, serving the IRIAA's combat and supply helicopter operations throughout the Halil river valley, and its destruction will cripple their ability to threaten our forces. 40th Army HQ has commanded a large-scale strike effort to eliminate this base as quickly as possible.\
+\
+Photographs of the area suggest heavy air defences. Several anti-aircraft artillery batteries have been identified protecting the target, and missile based defenses are expected as well. The base is located along radial 153 from Jiroft for roughly 34 kilometers.\
+\
+Your mission is to destroy the base's fuel supply. Recon photos have identified four half-buried fuel tanks serving the Iranian army's vehicles and, critically, 3rd CSG's helicopters, on the northern side of the base. These will be your target. Once the tanks are confirmed to have been destroyed, contact HQ for further orders if munitions and fuel permit or return to base.",
+} -- end of staticTemplate

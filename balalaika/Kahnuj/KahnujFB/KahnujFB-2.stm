@@ -1,0 +1,100 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 2.1816615649929,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156910.76953359,
+                                            ["speed"] = 0,
+                                            ["x"] = 252248.63763665,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "ComCenter",
+                                        ["type"] = ".Command Center",
+                                        ["unitId"] = 1,
+                                        ["rate"] = 100,
+                                        ["y"] = 156910.76953359,
+                                        ["x"] = 252248.63763665,
+                                        ["name"] = "PRIMARY DESTROYED Jiroft Heli-Military Base Bunker",
+                                        ["heading"] = 2.1816615649929,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156910.76953359,
+                                ["x"] = 252248.63763665,
+                                ["name"] = "PRIMARY DESTROYED Jiroft Heli-Military Base Bunker",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "jiroft-heli-military-base-bunker",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Aerial recon has located one of the 51st Tharallah Division's main bases near Mohammadabad. The base contains major logistical and command facilities supporting Iranian ground forces deployed to our front line at Jiroft. Crucially, we have identified it as the 3rd Combat Support Group's forward base in the region, serving the IRIAA's combat and supply helicopter operations throughout the Halil river valley, and its destruction will cripple their ability to threaten our forces. 40th Army HQ has commanded a large-scale strike effort to eliminate this base as quickly as possible.\
+\
+Photographs of the area suggest heavy air defences. Several anti-aircraft artillery batteries have been identified protecting the target, and missile based defenses are expected as well. The base is located along radial 153 from Jiroft for roughly 34 kilometers.\
+\
+Your mission is to locate and destroy the bunker on the northeastern side of the base. The bunker can be identified by its green roof and two tall communications antennae. We believe this bunker may be the primary command headquarters of the 51st Tharallah Division, and its destruction should severely impair Iranian GHQ's ability to control its various formations in the region. Concrete piercing munitions are recommended. Once the target is destroyed, contact HQ for further orders if munitions and fuel permit or return to base.",
+} -- end of staticTemplate

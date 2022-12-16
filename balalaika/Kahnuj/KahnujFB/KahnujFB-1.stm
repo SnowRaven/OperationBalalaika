@@ -1,0 +1,331 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 578,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 156899.73285483,
+                                            ["x"] = 252122.98067899,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 9,
+                                        ["y"] = 156899.73285483,
+                                        ["x"] = 252122.98067899,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1",
+                                        ["heading"] = 1.4660765716752,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 12,
+                                        ["y"] = 156878.41289591,
+                                        ["x"] = 252139.98588432,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 2",
+                                        ["heading"] = 0.38397243543875,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 11,
+                                        ["y"] = 156866.23006224,
+                                        ["x"] = 252144.30063791,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 3",
+                                        ["heading"] = 0.38397243543875,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 10,
+                                        ["y"] = 156854.3010376,
+                                        ["x"] = 252147.8539644,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 4",
+                                        ["heading"] = 0.48869219055841,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 8,
+                                        ["y"] = 156846.43295752,
+                                        ["x"] = 252129.32590486,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 5",
+                                        ["heading"] = 2.5307274153918,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "desert_summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Chieftain_mk3",
+                                        ["unitId"] = 16,
+                                        ["y"] = 156888.62857918,
+                                        ["x"] = 252136.16064324,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-3",
+                                        ["heading"] = 0.59341194567807,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["livery_id"] = "desert_summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Chieftain_mk3",
+                                        ["unitId"] = 15,
+                                        ["y"] = 156873.48738642,
+                                        ["x"] = 252178.27208559,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-2",
+                                        ["heading"] = 0.59341194567807,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["livery_id"] = "desert_summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Chieftain_mk3",
+                                        ["unitId"] = 14,
+                                        ["y"] = 156844.15132546,
+                                        ["x"] = 252152.95790395,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-1",
+                                        ["heading"] = 0.59341194567807,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["livery_id"] = "desert_summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Chieftain_mk3",
+                                        ["unitId"] = 7,
+                                        ["y"] = 156892.62620186,
+                                        ["x"] = 252148.61539151,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 6",
+                                        ["heading"] = 0.59341194567807,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 19,
+                                        ["y"] = 156817.89081927,
+                                        ["x"] = 252142.78491507,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-6",
+                                        ["heading"] = 0.99483767363677,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 18,
+                                        ["y"] = 156870.41183164,
+                                        ["x"] = 252122.91209958,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-5",
+                                        ["heading"] = 0.99483767363677,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 6,
+                                        ["y"] = 156881.71241336,
+                                        ["x"] = 252154.96061738,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 7",
+                                        ["heading"] = 0.45378560551853,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "HL_ZU-23",
+                                        ["unitId"] = 17,
+                                        ["y"] = 156884.13353758,
+                                        ["x"] = 252174.25020626,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-4",
+                                        ["heading"] = 0.50614548307836,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "HL_ZU-23",
+                                        ["unitId"] = 5,
+                                        ["y"] = 156872.57528811,
+                                        ["x"] = 252161.05203421,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 8",
+                                        ["heading"] = 0.50614548307836,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 4,
+                                        ["y"] = 156861.91530865,
+                                        ["x"] = 252164.35155166,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 9",
+                                        ["heading"] = 0.47123889803847,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 21,
+                                        ["y"] = 156895.48943214,
+                                        ["x"] = 252165.4967042,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-8",
+                                        ["heading"] = 0.5235987755983,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [16]
+                                    [17] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 20,
+                                        ["y"] = 156862.84123526,
+                                        ["x"] = 252182.05738378,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-7",
+                                        ["heading"] = 0.5235987755983,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [17]
+                                    [18] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 3,
+                                        ["y"] = 156851.24875956,
+                                        ["x"] = 252169.75516466,
+                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 10",
+                                        ["heading"] = 0.5235987755983,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [18]
+                                }, -- end of ["units"]
+                                ["y"] = 156899.73285483,
+                                ["x"] = 252122.98067899,
+                                ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "jiroft-heli-military-base-vehicle-park",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Aerial recon has located one of the 51st Tharallah Division's main bases near Mohammadabad. The base contains major logistical and command facilities supporting Iranian ground forces deployed to our front line at Jiroft. Crucially, we have identified it as the 3rd Combat Support Group's forward base in the region, serving the IRIAA's combat and supply helicopter operations throughout the Halil river valley, and its destruction will cripple their ability to threaten our forces. 40th Army HQ has commanded a large-scale strike effort to eliminate this base as quickly as possible.\
+\
+Photographs of the area suggest heavy air defences. Several anti-aircraft artillery batteries have been identified protecting the target, and missile based defenses are expected as well. The base is located along radial 153 from Jiroft for roughly 34 kilometers.\
+\
+A major vehicle park is located on the eastern side of the base, containing numerous trucks as well as light and heavy armour. This park is used to service vehicles before returning them to combat, as well as to load supplies and troops headed for units on the front line. You are to strike the park and destroy as many of the vehicles as possible. Once the mission is complete, contact HQ for further orders if munitions and fuel permit or return to base.",
+} -- end of staticTemplate

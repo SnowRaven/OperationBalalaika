@@ -1,0 +1,1624 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 3.700098014228,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156838.07786224,
+                                            ["speed"] = 0,
+                                            ["x"] = 252088.18743879,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "tech",
+                                        ["type"] = "Repair workshop",
+                                        ["unitId"] = 19,
+                                        ["rate"] = 100,
+                                        ["y"] = 156838.07786224,
+                                        ["x"] = 252088.18743879,
+                                        ["name"] = " Jiroft Heli Military Base Repair workshop",
+                                        ["heading"] = 3.700098014228,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156838.07786224,
+                                ["x"] = 252088.18743879,
+                                ["name"] = " Jiroft Heli Military Base Repair workshop",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 3.7873644768277,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156699.5458781,
+                                            ["speed"] = 0,
+                                            ["x"] = 252308.63950491,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "I.R.I.A.A",
+                                        ["category"] = "Helicopters",
+                                        ["type"] = "AH-1W",
+                                        ["unitId"] = 56,
+                                        ["rate"] = "30",
+                                        ["y"] = 156699.5458781,
+                                        ["x"] = 252308.63950491,
+                                        ["name"] = "Jiroft Heli Military base decorative ah1 1-1",
+                                        ["heading"] = 3.7873644768277,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156699.5458781,
+                                ["x"] = 252308.63950491,
+                                ["name"] = "Jiroft Heli Military base decorative ah1 1",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 3.8397243543875,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156658.34295383,
+                                            ["speed"] = 0,
+                                            ["x"] = 252338.74933418,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "USA X Black",
+                                        ["category"] = "Helicopters",
+                                        ["type"] = "AH-1W",
+                                        ["unitId"] = 57,
+                                        ["rate"] = "30",
+                                        ["y"] = 156658.34295383,
+                                        ["x"] = 252338.74933418,
+                                        ["name"] = "Jiroft Heli Military base decorative ah1 2-1",
+                                        ["heading"] = 3.8397243543875,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156658.34295383,
+                                ["x"] = 252338.74933418,
+                                ["name"] = "Jiroft Heli Military base decorative ah1 2",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 3.4033920413889,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156621.99494266,
+                                            ["speed"] = 0,
+                                            ["x"] = 252359.74769623,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "IRIAF Desert",
+                                        ["category"] = "Helicopters",
+                                        ["type"] = "CH-47D",
+                                        ["unitId"] = 58,
+                                        ["rate"] = "30",
+                                        ["y"] = 156621.99494266,
+                                        ["x"] = 252359.74769623,
+                                        ["name"] = "Jiroft Heli Military Base CH47",
+                                        ["heading"] = 3.4033920413889,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156621.99494266,
+                                ["x"] = 252359.74769623,
+                                ["name"] = "Jiroft Heli Military Base CH47",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 0.54105206811824,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156749.71898164,
+                                            ["speed"] = 0,
+                                            ["x"] = 252110.81286571,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 63,
+                                        ["rate"] = 50,
+                                        ["y"] = 156749.71898164,
+                                        ["x"] = 252110.81286571,
+                                        ["name"] = "Jiroft Heli Military Base Tent 7",
+                                        ["heading"] = 0.54105206811824,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156749.71898164,
+                                ["x"] = 252110.81286571,
+                                ["name"] = "Jiroft Heli Military Base Tent 7",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 0.50614548307836,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156735.22707592,
+                                            ["speed"] = 0,
+                                            ["x"] = 252118.39324717,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 64,
+                                        ["rate"] = 50,
+                                        ["y"] = 156735.22707592,
+                                        ["x"] = 252118.39324717,
+                                        ["name"] = "Jiroft Heli Military Base Tent 8",
+                                        ["heading"] = 0.50614548307836,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156735.22707592,
+                                ["x"] = 252118.39324717,
+                                ["name"] = "Jiroft Heli Military Base Tent 8",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 0.48869219055841,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156723.73395238,
+                                            ["speed"] = 0,
+                                            ["x"] = 252124.93222013,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 65,
+                                        ["rate"] = 50,
+                                        ["y"] = 156723.73395238,
+                                        ["x"] = 252124.93222013,
+                                        ["name"] = "Jiroft Heli Military Base Tent 10",
+                                        ["heading"] = 0.48869219055841,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156723.73395238,
+                                ["x"] = 252124.93222013,
+                                ["name"] = "Jiroft Heli Military Base Tent 10",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 0.50614548307836,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156709.58755041,
+                                            ["speed"] = 0,
+                                            ["x"] = 252132.4392481,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 66,
+                                        ["rate"] = 50,
+                                        ["y"] = 156709.58755041,
+                                        ["x"] = 252132.4392481,
+                                        ["name"] = "Jiroft Heli Military Base Tent 11",
+                                        ["heading"] = 0.50614548307836,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156709.58755041,
+                                ["x"] = 252132.4392481,
+                                ["name"] = "Jiroft Heli Military Base Tent 11",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 0.55850536063819,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156696.65631146,
+                                            ["speed"] = 0,
+                                            ["x"] = 252139.79667716,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 67,
+                                        ["rate"] = 50,
+                                        ["y"] = 156696.65631146,
+                                        ["x"] = 252139.79667716,
+                                        ["name"] = "Jiroft Heli Military Base Tent 12",
+                                        ["heading"] = 0.55850536063819,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156696.65631146,
+                                ["x"] = 252139.79667716,
+                                ["name"] = "Jiroft Heli Military Base Tent 12",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 0.55850536063819,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156684.39392969,
+                                            ["speed"] = 0,
+                                            ["x"] = 252145.81639184,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 68,
+                                        ["rate"] = 50,
+                                        ["y"] = 156684.39392969,
+                                        ["x"] = 252145.81639184,
+                                        ["name"] = "Jiroft Heli Military Base Tent 13",
+                                        ["heading"] = 0.55850536063819,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156684.39392969,
+                                ["x"] = 252145.81639184,
+                                ["name"] = "Jiroft Heli Military Base Tent 13",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 0.55850536063819,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156738.46322994,
+                                            ["speed"] = 0,
+                                            ["x"] = 252091.62446777,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 69,
+                                        ["rate"] = 50,
+                                        ["y"] = 156738.46322994,
+                                        ["x"] = 252091.62446777,
+                                        ["name"] = "Jiroft Heli Military Base Tent 1",
+                                        ["heading"] = 0.55850536063819,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156738.46322994,
+                                ["x"] = 252091.62446777,
+                                ["name"] = "Jiroft Heli Military Base Tent 1",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 0.57595865315813,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156724.32292015,
+                                            ["speed"] = 0,
+                                            ["x"] = 252099.9136149,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 20,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 70,
+                                        ["rate"] = 50,
+                                        ["y"] = 156724.32292015,
+                                        ["x"] = 252099.9136149,
+                                        ["name"] = "Jiroft Heli Military Base Tent 2",
+                                        ["heading"] = 0.57595865315813,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156724.32292015,
+                                ["x"] = 252099.9136149,
+                                ["name"] = "Jiroft Heli Military Base Tent 2",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                            [13] = 
+                            {
+                                ["heading"] = 0.50614548307836,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156711.80793332,
+                                            ["speed"] = 0,
+                                            ["x"] = 252107.55263283,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 21,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 71,
+                                        ["rate"] = 50,
+                                        ["y"] = 156711.80793332,
+                                        ["x"] = 252107.55263283,
+                                        ["name"] = "Jiroft Heli Military Base Tent 3",
+                                        ["heading"] = 0.50614548307836,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156711.80793332,
+                                ["x"] = 252107.55263283,
+                                ["name"] = "Jiroft Heli Military Base Tent 3",
+                                ["dead"] = false,
+                            }, -- end of [13]
+                            [14] = 
+                            {
+                                ["heading"] = 0.48869219055841,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156699.13041419,
+                                            ["speed"] = 0,
+                                            ["x"] = 252113.7288601,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 22,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 72,
+                                        ["rate"] = 50,
+                                        ["y"] = 156699.13041419,
+                                        ["x"] = 252113.7288601,
+                                        ["name"] = "Jiroft Heli Military Base Tent 4",
+                                        ["heading"] = 0.48869219055841,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156699.13041419,
+                                ["x"] = 252113.7288601,
+                                ["name"] = "Jiroft Heli Military Base Tent 4",
+                                ["dead"] = false,
+                            }, -- end of [14]
+                            [15] = 
+                            {
+                                ["heading"] = 0.48869219055841,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156686.12783047,
+                                            ["speed"] = 0,
+                                            ["x"] = 252121.04281344,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 23,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 73,
+                                        ["rate"] = 50,
+                                        ["y"] = 156686.12783047,
+                                        ["x"] = 252121.04281344,
+                                        ["name"] = "Jiroft Heli Military Base Tent 5",
+                                        ["heading"] = 0.48869219055841,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156686.12783047,
+                                ["x"] = 252121.04281344,
+                                ["name"] = "Jiroft Heli Military Base Tent 5",
+                                ["dead"] = false,
+                            }, -- end of [15]
+                            [16] = 
+                            {
+                                ["heading"] = 0.5235987755983,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 156673.61284364,
+                                            ["speed"] = 0,
+                                            ["x"] = 252128.19423449,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 24,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 74,
+                                        ["rate"] = 50,
+                                        ["y"] = 156673.61284364,
+                                        ["x"] = 252128.19423449,
+                                        ["name"] = "Jiroft Heli Military Base Tent 6",
+                                        ["heading"] = 0.5235987755983,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 156673.61284364,
+                                ["x"] = 252128.19423449,
+                                ["name"] = "Jiroft Heli Military Base Tent 6",
+                                ["dead"] = false,
+                            }, -- end of [16]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 156797.35705017,
+                                                ["x"] = 252005.9254963,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 156804.85823543,
+                                                ["x"] = 251984.09400173,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 576,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 156802.34614729,
+                                            ["x"] = 251992.27612224,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "SON_9",
+                                        ["unitId"] = 8,
+                                        ["y"] = 156802.34614729,
+                                        ["x"] = 251992.27612224,
+                                        ["name"] = "Jiroft heli military base air defences-7",
+                                        ["heading"] = 2.8106354950301,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 7,
+                                        ["y"] = 156807.76441502,
+                                        ["x"] = 252026.60921641,
+                                        ["name"] = "Jiroft heli military base air defences-6",
+                                        ["heading"] = 0.017453292519943,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 6,
+                                        ["y"] = 156768.80156103,
+                                        ["x"] = 252004.01672743,
+                                        ["name"] = "Jiroft heli military base air defences-5",
+                                        ["heading"] = 5.1836278784232,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 5,
+                                        ["y"] = 156833.49469168,
+                                        ["x"] = 251984.12957987,
+                                        ["name"] = "Jiroft heli military base air defences-4",
+                                        ["heading"] = 1.9024088846738,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 4,
+                                        ["y"] = 156788.6887086,
+                                        ["x"] = 251955.37707736,
+                                        ["name"] = "Jiroft heli military base air defences-3",
+                                        ["heading"] = 3.4033920413889,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 3,
+                                        ["y"] = 156933.40855153,
+                                        ["x"] = 252206.58595249,
+                                        ["name"] = "Jiroft heli military base air defences-2",
+                                        ["heading"] = 3.5953782591083,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Roland ADS",
+                                        ["unitId"] = 13,
+                                        ["y"] = 156950.19871128,
+                                        ["x"] = 252014.2496622,
+                                        ["name"] = "Jiroft heli military base air defences-12",
+                                        ["heading"] = 6.0911990894602,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M48 Chaparral",
+                                        ["unitId"] = 11,
+                                        ["y"] = 156750.44765794,
+                                        ["x"] = 252373.26546359,
+                                        ["name"] = "Jiroft heli military base air defences-10",
+                                        ["heading"] = 3.8746309394274,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 10,
+                                        ["y"] = 156848.53452184,
+                                        ["x"] = 252256.92965166,
+                                        ["name"] = "Jiroft heli military base air defences-9",
+                                        ["heading"] = 3.8746309394274,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 18,
+                                        ["y"] = 156793.02844552,
+                                        ["x"] = 252011.38582251,
+                                        ["name"] = "Jiroft heli military base air defences-17",
+                                        ["heading"] = 5.7421332390613,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 17,
+                                        ["y"] = 156819.37031225,
+                                        ["x"] = 252306.79104226,
+                                        ["name"] = "Jiroft heli military base air defences-16",
+                                        ["heading"] = 2.8099800957109,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 16,
+                                        ["y"] = 156510.79415914,
+                                        ["x"] = 252682.16264315,
+                                        ["name"] = "Jiroft heli military base air defences-15",
+                                        ["heading"] = 5.7421332390613,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 9,
+                                        ["y"] = 156464.69589236,
+                                        ["x"] = 252743.3134052,
+                                        ["name"] = "Jiroft heli military base air defences-8",
+                                        ["heading"] = 5.7421332390613,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 15,
+                                        ["y"] = 156556.89242591,
+                                        ["x"] = 252640.76828115,
+                                        ["name"] = "Jiroft heli military base air defences-14",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 14,
+                                        ["y"] = 156555.010864,
+                                        ["x"] = 252737.66871947,
+                                        ["name"] = "Jiroft heli military base air defences-13",
+                                        ["heading"] = 0.6457718232379,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 2,
+                                        ["y"] = 156462.81433045,
+                                        ["x"] = 252630.41969064,
+                                        ["name"] = "Jiroft heli military base air defences-1",
+                                        ["heading"] = 3.8746309394274,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [16]
+                                }, -- end of ["units"]
+                                ["y"] = 156802.34614729,
+                                ["x"] = 251992.27612224,
+                                ["name"] = "Jiroft heli military base air defences",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 578,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 156890.80030988,
+                                            ["x"] = 252237.34901596,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 20,
+                                        ["y"] = 156890.80030988,
+                                        ["x"] = 252237.34901596,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-1",
+                                        ["heading"] = 2.460914245312,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 21,
+                                        ["y"] = 156894.59375123,
+                                        ["x"] = 252234.39856157,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-2",
+                                        ["heading"] = 5.5676003138619,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 35,
+                                        ["y"] = 156783.74096491,
+                                        ["x"] = 252278.44463066,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-3",
+                                        ["heading"] = 5.1487212933833,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 22,
+                                        ["y"] = 156859.70273137,
+                                        ["x"] = 252165.06393717,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-4",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 28,
+                                        ["y"] = 156872.06562806,
+                                        ["x"] = 252184.58625719,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-5",
+                                        ["heading"] = 3.4906585039887,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 36,
+                                        ["y"] = 156874.83956031,
+                                        ["x"] = 252184.13020362,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-6",
+                                        ["heading"] = 3.4557519189488,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 44,
+                                        ["y"] = 156876.93892421,
+                                        ["x"] = 252183.872387,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-7",
+                                        ["heading"] = 3.4557519189488,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 23,
+                                        ["y"] = 156879.48604055,
+                                        ["x"] = 252182.90163499,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-8",
+                                        ["heading"] = 3.4208453339089,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 26,
+                                        ["y"] = 156882.23123103,
+                                        ["x"] = 252182.23900281,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-9",
+                                        ["heading"] = 3.5081117965086,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 29,
+                                        ["y"] = 156884.78709803,
+                                        ["x"] = 252181.57637062,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-10",
+                                        ["heading"] = 3.5255650890285,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 33,
+                                        ["y"] = 156886.96431806,
+                                        ["x"] = 252180.8190767,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-11",
+                                        ["heading"] = 3.1590459461097,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 37,
+                                        ["y"] = 156877.78212921,
+                                        ["x"] = 252178.35787144,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-12",
+                                        ["heading"] = 0.43633231299858,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 41,
+                                        ["y"] = 156789.00146358,
+                                        ["x"] = 251989.81134379,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-13",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 45,
+                                        ["y"] = 156741.00351906,
+                                        ["x"] = 252307.00397575,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-14",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 49,
+                                        ["y"] = 156907.2077469,
+                                        ["x"] = 252227.44959012,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-15",
+                                        ["heading"] = 3.7350045992679,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 24,
+                                        ["y"] = 156605.21074986,
+                                        ["x"] = 252364.84389032,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-16",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [16]
+                                    [17] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 25,
+                                        ["y"] = 156652.31250415,
+                                        ["x"] = 252361.49141445,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-17",
+                                        ["heading"] = 3.2114058236696,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [17]
+                                    [18] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 27,
+                                        ["y"] = 156748.32828101,
+                                        ["x"] = 252282.41916908,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-18",
+                                        ["heading"] = 1.5184364492351,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [18]
+                                    [19] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 39,
+                                        ["y"] = 156803.0729267,
+                                        ["x"] = 252000.20719783,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-19",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [19]
+                                    [20] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 30,
+                                        ["y"] = 156876.64618832,
+                                        ["x"] = 252178.64185666,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-20",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [20]
+                                    [21] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 32,
+                                        ["y"] = 156846.19333676,
+                                        ["x"] = 252258.16967857,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-21",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [21]
+                                    [22] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 34,
+                                        ["y"] = 156519.67511033,
+                                        ["x"] = 252686.25378217,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-22",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [22]
+                                    [23] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 47,
+                                        ["y"] = 156613.98879916,
+                                        ["x"] = 252368.63175549,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-23",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [23]
+                                    [24] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 82,
+                                        ["y"] = 156712.16859474,
+                                        ["x"] = 252122.88873128,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-38",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [24]
+                                    [25] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 81,
+                                        ["y"] = 156736.1979091,
+                                        ["x"] = 252098.01628309,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-37",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [25]
+                                    [26] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 80,
+                                        ["y"] = 156739.57044445,
+                                        ["x"] = 252127.9475343,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-36",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [26]
+                                    [27] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 79,
+                                        ["y"] = 156679.2863751,
+                                        ["x"] = 252139.32984111,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-35",
+                                        ["heading"] = 0.83775804095728,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [27]
+                                    [28] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 78,
+                                        ["y"] = 156704.15882329,
+                                        ["x"] = 252121.20246361,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-34",
+                                        ["heading"] = 3.7699111843078,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [28]
+                                    [29] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 77,
+                                        ["y"] = 156690.24711498,
+                                        ["x"] = 252127.9475343,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-33",
+                                        ["heading"] = 3.8048177693476,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [29]
+                                    [30] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 76,
+                                        ["y"] = 156753.48215276,
+                                        ["x"] = 252119.09462902,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-32",
+                                        ["heading"] = 3.4557519189488,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [30]
+                                    [31] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 75,
+                                        ["y"] = 156714.81635678,
+                                        ["x"] = 252120.88196549,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-31",
+                                        ["heading"] = 5.3581608036226,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [31]
+                                    [32] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 38,
+                                        ["y"] = 156850.32115863,
+                                        ["x"] = 252147.31528012,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-24",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [32]
+                                    [33] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 40,
+                                        ["y"] = 156946.76203846,
+                                        ["x"] = 252013.11800164,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-25",
+                                        ["heading"] = 1.2566370614359,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [33]
+                                    [34] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 42,
+                                        ["y"] = 156504.73739581,
+                                        ["x"] = 252680.03221642,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-26",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [34]
+                                    [35] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 43,
+                                        ["y"] = 156746.21509139,
+                                        ["x"] = 252376.33104796,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-27",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [35]
+                                    [36] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 46,
+                                        ["y"] = 156816.72152359,
+                                        ["x"] = 252311.63812865,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-28",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [36]
+                                    [37] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 48,
+                                        ["y"] = 156909.21370778,
+                                        ["x"] = 252226.31623213,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-29",
+                                        ["heading"] = 3.682644721708,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [37]
+                                    [38] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 31,
+                                        ["y"] = 156659.9008738,
+                                        ["x"] = 252334.38933913,
+                                        ["name"] = "Jiroft Heli Military Base Infantry-30",
+                                        ["heading"] = 2.2689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [38]
+                                }, -- end of ["units"]
+                                ["y"] = 156890.80030988,
+                                ["x"] = 252237.34901596,
+                                ["name"] = "Jiroft Heli Military Base Infantry",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 578,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 156663.0296795,
+                                            ["x"] = 252336.30777751,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ATMZ-5",
+                                        ["unitId"] = 53,
+                                        ["y"] = 156663.0296795,
+                                        ["x"] = 252336.30777751,
+                                        ["name"] = "Jiroft Heli Military Base Decorative unit group 1-1",
+                                        ["heading"] = 3.5255650890285,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 51,
+                                        ["y"] = 156609.79065317,
+                                        ["x"] = 252368.56824866,
+                                        ["name"] = "Jiroft Heli Military Base Decorative unit group 1-2",
+                                        ["heading"] = 3.5255650890285,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 52,
+                                        ["y"] = 156663.6150011,
+                                        ["x"] = 252340.23378356,
+                                        ["name"] = "Jiroft Heli Military Base Decorative unit group 1-3",
+                                        ["heading"] = 3.5255650890285,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 54,
+                                        ["y"] = 156606.55178299,
+                                        ["x"] = 252367.59739249,
+                                        ["name"] = "Jiroft Heli Military Base Decorative unit group 1-4",
+                                        ["heading"] = 5.218534463463,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 84,
+                                        ["y"] = 156722.54561286,
+                                        ["x"] = 252140.49571933,
+                                        ["name"] = "Jiroft Heli Military Base Decorative unit group 1-7",
+                                        ["heading"] = 0.5235987755983,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 55,
+                                        ["y"] = 156655.2505147,
+                                        ["x"] = 252360.77135381,
+                                        ["name"] = "Jiroft Heli Military Base Decorative unit group 1-5",
+                                        ["heading"] = 3.5255650890285,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 50,
+                                        ["y"] = 156696.87060462,
+                                        ["x"] = 252308.95685175,
+                                        ["name"] = "Jiroft Heli Military Base Decorative unit group 1-6",
+                                        ["heading"] = 2.5307274153918,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                }, -- end of ["units"]
+                                ["y"] = 156663.0296795,
+                                ["x"] = 252336.30777751,
+                                ["name"] = "Jiroft Heli Military Base Decorative unit group 1",
+                                ["start_time"] = 0,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "jiroft-heli-military-base-airdefenses-and-decorations",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "",
+} -- end of staticTemplate

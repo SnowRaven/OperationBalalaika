@@ -1,0 +1,5 @@
+-- Kahnuj forward base
+objtype = "OCA"
+intel = 1
+cost = 4
+ignore = true
