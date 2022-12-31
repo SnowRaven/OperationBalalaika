@@ -1,0 +1,547 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -182823.8694398,
+                                            ["speed"] = 0,
+                                            ["x"] = 168585.22357341,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "ir iriaf camo",
+                                        ["category"] = "Planes",
+                                        ["type"] = "F-5E-3",
+                                        ["unitId"] = 1,
+                                        ["rate"] = 30,
+                                        ["y"] = -182823.8694398,
+                                        ["x"] = 168585.22357341,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5 repairing group 2",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -182823.8694398,
+                                ["x"] = 168585.22357341,
+                                ["name"] = "PRIMARY INCAPACITATED Lar F5 repairing group 2",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -182799.27057368,
+                                            ["speed"] = 0,
+                                            ["x"] = 168585.44856304,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "ir iriaf 43rd tfs",
+                                        ["category"] = "Planes",
+                                        ["type"] = "F-5E-3",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 30,
+                                        ["y"] = -182799.27057368,
+                                        ["x"] = 168585.44856304,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5 repairing group 1",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -182799.27057368,
+                                ["x"] = 168585.44856304,
+                                ["name"] = "PRIMARY INCAPACITATED Lar F5 repairing group 1",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -182811.35128141,
+                                            ["speed"] = 0,
+                                            ["x"] = 168595.60729134,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "ir iriaf camo",
+                                        ["category"] = "Planes",
+                                        ["type"] = "F-5E-3",
+                                        ["unitId"] = 3,
+                                        ["rate"] = 30,
+                                        ["y"] = -182811.35128141,
+                                        ["x"] = 168595.60729134,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5 repairing group 3",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -182811.35128141,
+                                ["x"] = 168595.60729134,
+                                ["name"] = "PRIMARY INCAPACITATED Lar F5 repairing group 3",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -182779.02150706,
+                                            ["speed"] = 0,
+                                            ["x"] = 168597.52300647,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "ir iriaf camo",
+                                        ["category"] = "Planes",
+                                        ["type"] = "F-5E-3",
+                                        ["unitId"] = 4,
+                                        ["rate"] = 30,
+                                        ["y"] = -182779.02150706,
+                                        ["x"] = 168597.52300647,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5 repairing group 4",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -182779.02150706,
+                                ["x"] = 168597.52300647,
+                                ["name"] = "PRIMARY INCAPACITATED Lar F5 repairing group 4",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -182778.72152089,
+                                            ["speed"] = 0,
+                                            ["x"] = 168627.82160985,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "ir iriaf camo",
+                                        ["category"] = "Planes",
+                                        ["type"] = "F-5E-3",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 30,
+                                        ["y"] = -182778.72152089,
+                                        ["x"] = 168627.82160985,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5 repairing group 6",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -182778.72152089,
+                                ["x"] = 168627.82160985,
+                                ["name"] = "PRIMARY INCAPACITATED Lar F5 repairing group 6",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 1.553343034275,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -182827.51221316,
+                                            ["speed"] = 0,
+                                            ["x"] = 168613.73989834,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "ir iriaf camo",
+                                        ["category"] = "Planes",
+                                        ["type"] = "F-5E-3",
+                                        ["unitId"] = 6,
+                                        ["rate"] = 30,
+                                        ["y"] = -182827.51221316,
+                                        ["x"] = 168613.73989834,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5 repairing group 5",
+                                        ["heading"] = 1.553343034275,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -182827.51221316,
+                                ["x"] = 168613.73989834,
+                                ["name"] = "PRIMARY INCAPACITATED Lar F5 repairing group 5",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 803,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -182818.60034644,
+                                            ["x"] = 168605.73856699,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "UAZ-469",
+                                        ["unitId"] = 12,
+                                        ["y"] = -182818.60034644,
+                                        ["x"] = 168605.73856699,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 1",
+                                        ["heading"] = 4.1189770347066,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["AddPropVehicle"] = 
+                                        {
+                                            ["Variant"] = 4,
+                                        }, -- end of ["AddPropVehicle"]
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Land_Rover_101_FC",
+                                        ["unitId"] = 11,
+                                        ["y"] = -182792.47289379,
+                                        ["x"] = 168638.61141396,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 2",
+                                        ["heading"] = 4.1189770347066,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 10,
+                                        ["y"] = -182807.35802258,
+                                        ["x"] = 168587.19603284,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 3",
+                                        ["heading"] = 0.6457718232379,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 9,
+                                        ["y"] = -182831.85460825,
+                                        ["x"] = 168646.53506221,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 4",
+                                        ["heading"] = 0.017453292519943,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 21,
+                                        ["y"] = -182828.40541503,
+                                        ["x"] = 168588.00287238,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 5",
+                                        ["heading"] = 2.5830872929516,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 20,
+                                        ["y"] = -182805.02725901,
+                                        ["x"] = 168577.20404198,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 6",
+                                        ["heading"] = 3.7175513067479,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 19,
+                                        ["y"] = -182830.60574667,
+                                        ["x"] = 168611.41319566,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 7",
+                                        ["heading"] = 0.78539816339745,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 18,
+                                        ["y"] = -182829.73790674,
+                                        ["x"] = 168571.89820146,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 8",
+                                        ["heading"] = 5.6374134839417,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 17,
+                                        ["y"] = -182817.59593986,
+                                        ["x"] = 168604.73933094,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 9",
+                                        ["heading"] = 5.6374134839417,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 16,
+                                        ["y"] = -182798.62259094,
+                                        ["x"] = 168642.8688966,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 10",
+                                        ["heading"] = 1.0122909661567,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 15,
+                                        ["y"] = -182826.58242557,
+                                        ["x"] = 168610.55105543,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 11",
+                                        ["heading"] = 5.550147021342,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 14,
+                                        ["y"] = -182820.94943547,
+                                        ["x"] = 168586.5841995,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 12",
+                                        ["heading"] = 5.6374134839417,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 13,
+                                        ["y"] = -182808.66906735,
+                                        ["x"] = 168592.1587304,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 13",
+                                        ["heading"] = 5.6374134839417,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "AA8",
+                                        ["unitId"] = 8,
+                                        ["y"] = -182797.67648369,
+                                        ["x"] = 168644.87937452,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 14",
+                                        ["heading"] = 5.6374134839417,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ATZ-5",
+                                        ["unitId"] = 7,
+                                        ["y"] = -182825.46254411,
+                                        ["x"] = 168598.29235249,
+                                        ["name"] = "PRIMARY INCAPACITATED Lar F5s Maint Group 15",
+                                        ["heading"] = 4.1189770347066,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                }, -- end of ["units"]
+                                ["y"] = -182818.60034644,
+                                ["x"] = 168605.73856699,
+                                ["name"] = "Lar F5s Maint Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "LarF5maint",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Intelligence has informed us of a potential target located on the Iranian airfield at Lar. The IRIAF's 23rd Tactical Fighter Squadron was detached from its airbase in Tabriz and redeployed to Lar during our initial push into Iran. It has since been flying sorties on a non-stop basis, both against our operations and Iraqi forces operating from the west. This has put a heavy load on their maintenance crews, and multiple aircraft are being serviced and repaired in the open on Lar's secondary ramp. A recent recon flight confirmed that these activities are ongoing.\
+\
+You are to execute a strike Lar and do whatever damage you can to the airframes and maintenance equipment working there. The loss of any airframes and maintenance capability will heavily impact the 23rd's ability to operate in the future. Your target will be found on the smaller, western ramp protruding from the southern side of the airfield. Lar is heavily defended by anti-aircraft artillery and missile systems, so plan your attack carefully.",
+} -- end of staticTemplate
