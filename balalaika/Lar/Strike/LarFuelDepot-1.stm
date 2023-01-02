@@ -1,0 +1,518 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0.24434609527921,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -161323.38376166,
+                                            ["speed"] = 0,
+                                            ["x"] = 168196.24547525,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 1,
+                                        ["rate"] = 100,
+                                        ["y"] = -161323.38376166,
+                                        ["x"] = 168196.24547525,
+                                        ["name"] = "PRIMARY DESTROYED Lar Fuel Depot 1",
+                                        ["heading"] = 0.24434609527921,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -161323.38376166,
+                                ["x"] = 168196.24547525,
+                                ["name"] = "PRIMARY DESTROYED Lar Fuel Depot 1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0.24434609527921,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -161332.50518201,
+                                            ["speed"] = 0,
+                                            ["x"] = 168170.40145094,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "toplivo-bak",
+                                        ["type"] = "Fuel tank",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 100,
+                                        ["y"] = -161332.50518201,
+                                        ["x"] = 168170.40145094,
+                                        ["name"] = "PRIMARY DESTROYED Lar Fuel Depot 2",
+                                        ["heading"] = 0.24434609527921,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -161332.50518201,
+                                ["x"] = 168170.40145094,
+                                ["name"] = "PRIMARY DESTROYED Lar Fuel Depot 2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -161269.30958473,
+                                            ["speed"] = 0,
+                                            ["x"] = 168097.55020541,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "him_bak_a",
+                                        ["type"] = "Chemical tank A",
+                                        ["unitId"] = 4,
+                                        ["rate"] = 100,
+                                        ["y"] = -161269.30958473,
+                                        ["x"] = 168097.55020541,
+                                        ["name"] = "PRIMARY DESTROYED Lar Fuel Depot 4",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -161269.30958473,
+                                ["x"] = 168097.55020541,
+                                ["name"] = "PRIMARY DESTROYED Lar Fuel Depot 4",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -161302.80880351,
+                                            ["speed"] = 0,
+                                            ["x"] = 168105.85089679,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "him_bak_a",
+                                        ["type"] = "Chemical tank A",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 100,
+                                        ["y"] = -161302.80880351,
+                                        ["x"] = 168105.85089679,
+                                        ["name"] = "PRIMARY DESTROYED Lar Fuel Depot 3",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -161302.80880351,
+                                ["x"] = 168105.85089679,
+                                ["name"] = "PRIMARY DESTROYED Lar Fuel Depot 3",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -161229.4518111,
+                                                ["x"] = 168148.23900754,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -161266.3450521,
+                                                ["x"] = 168109.70478921,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 720,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -161247.19179736,
+                                            ["x"] = 168160.90596408,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                        ["groupId"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 17,
+                                        ["y"] = -161247.19179736,
+                                        ["x"] = 168160.90596408,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 1",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 16,
+                                        ["y"] = -161258.39312853,
+                                        ["x"] = 168163.79663019,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 2",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 15,
+                                        ["y"] = -161266.70379359,
+                                        ["x"] = 168166.20551861,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 3",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 14,
+                                        ["y"] = -161240.08557651,
+                                        ["x"] = 168159.09929776,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 4",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 13,
+                                        ["y"] = -161275.57579325,
+                                        ["x"] = 168168.70932109,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 5",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 12,
+                                        ["y"] = -161228.95725666,
+                                        ["x"] = 168155.48385554,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 6",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 11,
+                                        ["y"] = -161218.84592018,
+                                        ["x"] = 168151.26165415,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 7",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 10,
+                                        ["y"] = -161206.74996903,
+                                        ["x"] = 168147.49251536,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 8",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 9,
+                                        ["y"] = -161271.496636,
+                                        ["x"] = 168147.75694267,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 9",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 8,
+                                        ["y"] = -161260.15275381,
+                                        ["x"] = 168143.98521482,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 10",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 7,
+                                        ["y"] = -161247.53744761,
+                                        ["x"] = 168139.78011275,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 11",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M48 Chaparral",
+                                        ["unitId"] = 19,
+                                        ["y"] = -161256.82267942,
+                                        ["x"] = 168120.37156358,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 12",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 18,
+                                        ["y"] = -161217.45891403,
+                                        ["x"] = 168131.14631688,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 13",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ATZ-5",
+                                        ["unitId"] = 22,
+                                        ["y"] = -161313.93362716,
+                                        ["x"] = 168110.05094458,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 17",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 21,
+                                        ["y"] = -161313.93362716,
+                                        ["x"] = 168176.09693552,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 15",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ATZ-5",
+                                        ["unitId"] = 20,
+                                        ["y"] = -161277.75556844,
+                                        ["x"] = 168111.94398254,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 16",
+                                        ["heading"] = 1.221730476396,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [16]
+                                    [17] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 6,
+                                        ["y"] = -161233.54921229,
+                                        ["x"] = 168135.88720833,
+                                        ["name"] = "Lar Fuel Depot Secondary Target 14",
+                                        ["heading"] = 0.33161255787892,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [17]
+                                }, -- end of ["units"]
+                                ["y"] = -161247.19179736,
+                                ["x"] = 168160.90596408,
+                                ["name"] = "Lar Fuel Depot Secondary Target ",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "larfueldepot",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Recon flights following Iranian troop movements in the Fars region have discovered a fuel depot located east of the city of Lar. This depot is located at a crossroads along the route from the Iraqi front leading to both Sirjan and Bandar Abbas, and serves as a replenishment point for Iranian ground units heading towards our front line. Knocking out this depot will hinder the ongoing Iranian troop movement in the area and relieve pressure on our forces.\
+\
+Your mission is to strike the depot and destroy its fuel storage. We have identified four tanks: two large white tanks and two smaller ones buried in the ground. If the situation permits you are authorized to engage the vehicle park and inflict any additional damage you can at your discretion. The target is located along radial 219 for 368 kilometers from Kerman.\
+\
+The city of Lar and the nearby airfield are heavily defended by anti-aircraft artillery and surface-to-air missile units; avoid overflying them unless absolutely necessary. IRIAF F-5s are currently based at Lar airfield and may scramble to intercept.",
+} -- end of staticTemplate
