@@ -1,0 +1,369 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 1.7627825445143,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -179444.49132111,
+                                            ["speed"] = 0,
+                                            ["x"] = 170346.20247559,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "angar_b",
+                                        ["type"] = "Hangar B",
+                                        ["unitId"] = 1,
+                                        ["rate"] = 100,
+                                        ["y"] = -179444.49132111,
+                                        ["x"] = 170346.20247559,
+                                        ["name"] = "PRIMARY DESTROYED Lafiti Vehicle Hangars 1",
+                                        ["heading"] = 1.7627825445143,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -179444.49132111,
+                                ["x"] = 170346.20247559,
+                                ["name"] = "PRIMARY DESTROYED Lafiti Vehicle Hangars 1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 1.7627825445143,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -179412.13254215,
+                                            ["speed"] = 0,
+                                            ["x"] = 170339.91921754,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "angar_b",
+                                        ["type"] = "Hangar B",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 100,
+                                        ["y"] = -179412.13254215,
+                                        ["x"] = 170339.91921754,
+                                        ["name"] = "PRIMARY DESTROYED Lafiti Vehicle Hangars 2",
+                                        ["heading"] = 1.7627825445143,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -179412.13254215,
+                                ["x"] = 170339.91921754,
+                                ["name"] = "PRIMARY DESTROYED Lafiti Vehicle Hangars 2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -179450.3976308,
+                                                ["x"] = 170314.70153414,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -179450.3976308,
+                                                ["x"] = 170314.70153414,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 793,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -179459.48481249,
+                                            ["x"] = 170315.02044473,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 7,
+                                        ["y"] = -179459.48481249,
+                                        ["x"] = 170315.02044473,
+                                        ["name"] = "Latifi Vehicle hangers secondary objective 1",
+                                        ["heading"] = 0.62831853071796,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 6,
+                                        ["y"] = -179452.57502155,
+                                        ["x"] = 170314.17370084,
+                                        ["name"] = "Latifi Vehicle hangers secondary objective 2",
+                                        ["heading"] = 0.62831853071796,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 5,
+                                        ["y"] = -179446.21066356,
+                                        ["x"] = 170312.97120975,
+                                        ["name"] = "Latifi Vehicle hangers secondary objective 3",
+                                        ["heading"] = 0.62831853071796,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["AddPropVehicle"] = 
+                                        {
+                                            ["Branches"] = false,
+                                        }, -- end of ["AddPropVehicle"]
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZSU_57_2",
+                                        ["unitId"] = 4,
+                                        ["y"] = -179439.35948992,
+                                        ["x"] = 170311.99247066,
+                                        ["name"] = "Latifi Vehicle hangers secondary objective 4",
+                                        ["heading"] = 0.62831853071796,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 3,
+                                        ["y"] = -179432.3248027,
+                                        ["x"] = 170310.64670441,
+                                        ["name"] = "Latifi Vehicle hangers secondary objective 5",
+                                        ["heading"] = 0.62831853071796,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                }, -- end of ["units"]
+                                ["y"] = -179459.48481249,
+                                ["x"] = 170315.02044473,
+                                ["name"] = "Latifi Vehicle hangers secondary objective 1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 795,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -179371.93863138,
+                                            ["x"] = 170344.90288822,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 10,
+                                        ["y"] = -179371.93863138,
+                                        ["x"] = 170344.90288822,
+                                        ["name"] = "Latifi Vehicle hangers Light Defence Group 1",
+                                        ["heading"] = 0.62831853071796,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 9,
+                                        ["y"] = -179314.94485724,
+                                        ["x"] = 170316.30601207,
+                                        ["name"] = "Latifi Vehicle hangers Light Defence Group 2",
+                                        ["heading"] = 0.62831853071796,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 8,
+                                        ["y"] = -179399.3356386,
+                                        ["x"] = 170244.51385446,
+                                        ["name"] = "Latifi Vehicle hangers Light Defence Group 3",
+                                        ["heading"] = 0.62831853071796,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["y"] = -179371.93863138,
+                                ["x"] = 170344.90288822,
+                                ["name"] = "Latifi Vehicle hangers Light Defence Group",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "lafitilarvehiclerepairdepot",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Photo reconnaissance has identified a series of industrial hangars to the East of Lafiti that have been converted to repair depots for Iranian armor traveling through the Lar area.\
+\
+Your target will be the two white hangars on the northwestern corner of the compound, located roughly 2.5km along radial 098 from the city of Lafiti, just north of Lar airbase. Expect only light defences in the immediate area, however the city of Lar and its accompanying airfield are heavily defended by anti-aircraft artillery and missile systems; avoid overflying them unless necessary. IRIAF F-5E fighters are currently based at Lar and may scramble to intercept.\
+\
+If weapons and fuel allow you are authorized to engage the vehicle park.",
+} -- end of staticTemplate
