@@ -1,0 +1,1311 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 803,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -181572.62927167,
+                                            ["x"] = 168849.7088817,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 76,
+                                        ["y"] = -181572.62927167,
+                                        ["x"] = 168849.7088817,
+                                        ["name"] = "Lar AAA 1-8",
+                                        ["heading"] = 0.069813170079773,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 81,
+                                        ["y"] = -180694.95740796,
+                                        ["x"] = 169006.52264779,
+                                        ["name"] = "Lar AAA 1-13",
+                                        ["heading"] = 1.0297442586767,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 86,
+                                        ["y"] = -182437.45781236,
+                                        ["x"] = 168355.86439888,
+                                        ["name"] = "Lar AAA 1-18",
+                                        ["heading"] = 3.1415926535898,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 85,
+                                        ["y"] = -182420.78723279,
+                                        ["x"] = 168622.08555044,
+                                        ["name"] = "Lar AAA 1-17",
+                                        ["heading"] = 6.0562925044203,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 84,
+                                        ["y"] = -182551.14843903,
+                                        ["x"] = 168573.54052759,
+                                        ["name"] = "Lar AAA 1-16",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 83,
+                                        ["y"] = -182550.9682591,
+                                        ["x"] = 168594.39269127,
+                                        ["name"] = "Lar AAA 1-15",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 80,
+                                        ["y"] = -180699.35188665,
+                                        ["x"] = 168928.51013062,
+                                        ["name"] = "Lar AAA 1-12",
+                                        ["heading"] = 2.0420352248334,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 78,
+                                        ["y"] = -183936.00160798,
+                                        ["x"] = 169029.1586473,
+                                        ["name"] = "Lar AAA 1-10",
+                                        ["heading"] = 5.0090949532237,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 77,
+                                        ["y"] = -183933.17539912,
+                                        ["x"] = 168947.96992187,
+                                        ["name"] = "Lar AAA 1-9",
+                                        ["heading"] = 4.3982297150257,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 82,
+                                        ["y"] = -182390.38818763,
+                                        ["x"] = 168502.75812948,
+                                        ["name"] = "Lar AAA 1-14",
+                                        ["heading"] = 0.087266462599716,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 79,
+                                        ["y"] = -180752.59175752,
+                                        ["x"] = 168907.87671732,
+                                        ["name"] = "Lar AAA 1-11",
+                                        ["heading"] = 0.087266462599716,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 23,
+                                        ["y"] = -183863.61530496,
+                                        ["x"] = 168943.49907305,
+                                        ["name"] = "Lar AAA 1-2",
+                                        ["heading"] = 0.82030474843733,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 21,
+                                        ["y"] = -181643.57882164,
+                                        ["x"] = 168885.91097825,
+                                        ["name"] = "Lar AAA 1-1",
+                                        ["heading"] = 6.0213859193804,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 22,
+                                        ["y"] = -181615.12210985,
+                                        ["x"] = 168886.27737368,
+                                        ["name"] = "Lar AAA 1-3",
+                                        ["heading"] = 0.43633231299858,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 24,
+                                        ["y"] = -181594.71276933,
+                                        ["x"] = 168861.8351332,
+                                        ["name"] = "Lar AAA 1-4",
+                                        ["heading"] = 1.5707963267949,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 25,
+                                        ["y"] = -181661.77646136,
+                                        ["x"] = 168858.55345276,
+                                        ["name"] = "Lar AAA 1-5",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [16]
+                                    [17] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 20,
+                                        ["y"] = -181643.74529255,
+                                        ["x"] = 168833.33685395,
+                                        ["name"] = "Lar AAA 1-6",
+                                        ["heading"] = 3.5779249665884,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [17]
+                                    [18] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 26,
+                                        ["y"] = -181617.07621881,
+                                        ["x"] = 168832.17298174,
+                                        ["name"] = "Lar AAA 1-7",
+                                        ["heading"] = 2.6179938779915,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [18]
+                                }, -- end of ["units"]
+                                ["y"] = -181572.62927167,
+                                ["x"] = 168849.7088817,
+                                ["name"] = "Lar AAA 1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -188209.76111625,
+                                                ["x"] = 167716.66083743,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -188209.96242162,
+                                                ["x"] = 167712.38684378,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 809,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -189476.92817092,
+                                            ["x"] = 167940.25278819,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_optical_tracker_unit",
+                                        ["unitId"] = 88,
+                                        ["y"] = -189476.92817092,
+                                        ["x"] = 167940.25278819,
+                                        ["name"] = "Lar Rapier-1",
+                                        ["heading"] = 1.2566370614359,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_launcher",
+                                        ["unitId"] = 92,
+                                        ["y"] = -189431.56956245,
+                                        ["x"] = 167939.70072346,
+                                        ["name"] = "Lar Rapier-6",
+                                        ["heading"] = 5.0265482457437,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_launcher",
+                                        ["unitId"] = 91,
+                                        ["y"] = -189457.28737169,
+                                        ["x"] = 167892.91592861,
+                                        ["name"] = "Lar Rapier-5",
+                                        ["heading"] = 5.0265482457437,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_launcher",
+                                        ["unitId"] = 90,
+                                        ["y"] = -189520.39305232,
+                                        ["x"] = 167903.49245825,
+                                        ["name"] = "Lar Rapier-4",
+                                        ["heading"] = 1.8675022996339,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_launcher",
+                                        ["unitId"] = 89,
+                                        ["y"] = -189495.08037612,
+                                        ["x"] = 167961.02126781,
+                                        ["name"] = "Lar Rapier-3",
+                                        ["heading"] = 2.3561944901923,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375 PBU",
+                                        ["unitId"] = 93,
+                                        ["y"] = -189487.89309731,
+                                        ["x"] = 167902.29115536,
+                                        ["name"] = "Lar Rapier-7",
+                                        ["heading"] = 5.0963614158234,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_blindfire_radar",
+                                        ["unitId"] = 87,
+                                        ["y"] = -189474.04693304,
+                                        ["x"] = 167938.55568384,
+                                        ["name"] = "Lar Rapier-2",
+                                        ["heading"] = 4.1887902047864,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                }, -- end of ["units"]
+                                ["y"] = -189476.92817092,
+                                ["x"] = 167940.25278819,
+                                ["name"] = "Lar Rapier",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 858,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -187051.50793785,
+                                            ["x"] = 170516.66498453,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 99,
+                                        ["y"] = -187051.50793785,
+                                        ["x"] = 170516.66498453,
+                                        ["name"] = "Lar AAA 1-1-1",
+                                        ["heading"] = 0.069813170079773,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement",
+                                        ["unitId"] = 119,
+                                        ["y"] = -186945.79008549,
+                                        ["x"] = 170473.93487419,
+                                        ["name"] = "Lar AAA 2-3",
+                                        ["heading"] = 5.3581608036226,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement",
+                                        ["unitId"] = 118,
+                                        ["y"] = -186949.55162631,
+                                        ["x"] = 170390.1755978,
+                                        ["name"] = "Lar AAA 2-2",
+                                        ["heading"] = 4.9567350756639,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement",
+                                        ["unitId"] = 117,
+                                        ["y"] = -187350.16878207,
+                                        ["x"] = 169531.64695809,
+                                        ["name"] = "Lar AAA 2-1",
+                                        ["heading"] = 0.47123889803847,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement",
+                                        ["unitId"] = 101,
+                                        ["y"] = -187400.15107974,
+                                        ["x"] = 169431.71506244,
+                                        ["name"] = "Lar AAA 1-1-3",
+                                        ["heading"] = 3.1415926535898,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 108,
+                                        ["y"] = -187434.09737728,
+                                        ["x"] = 169516.88793495,
+                                        ["name"] = "Lar AAA 1-1-10",
+                                        ["heading"] = 5.1138147083434,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 111,
+                                        ["y"] = -187071.25094413,
+                                        ["x"] = 170552.33993894,
+                                        ["name"] = "Lar AAA 1-1-13",
+                                        ["heading"] = 6.0213859193804,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 112,
+                                        ["y"] = -187026.4861904,
+                                        ["x"] = 170550.94710383,
+                                        ["name"] = "Lar AAA 1-1-14",
+                                        ["heading"] = 0.43633231299858,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 113,
+                                        ["y"] = -187025.06602904,
+                                        ["x"] = 170518.26752446,
+                                        ["name"] = "Lar AAA 1-1-15",
+                                        ["heading"] = 1.5707963267949,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 114,
+                                        ["y"] = -187085.16127632,
+                                        ["x"] = 170515.0624446,
+                                        ["name"] = "Lar AAA 1-1-16",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 115,
+                                        ["y"] = -187077.94984665,
+                                        ["x"] = 170481.40910613,
+                                        ["name"] = "Lar AAA 1-1-17",
+                                        ["heading"] = 3.5779249665884,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 116,
+                                        ["y"] = -187034.68126861,
+                                        ["x"] = 170476.60148634,
+                                        ["name"] = "Lar AAA 1-1-18",
+                                        ["heading"] = 2.6179938779915,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [12]
+                                }, -- end of ["units"]
+                                ["y"] = -187051.50793785,
+                                ["x"] = 170516.66498453,
+                                ["name"] = "Lar AAA 2",
+                                ["start_time"] = 0,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 926,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -190466.8073628,
+                                            ["x"] = 165684.64476627,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 139,
+                                        ["y"] = -190466.8073628,
+                                        ["x"] = 165684.64476627,
+                                        ["name"] = "Lar AAA 2-1-15",
+                                        ["heading"] = 1.2042771838761,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 123,
+                                        ["y"] = -189889.27963948,
+                                        ["x"] = 165669.95014208,
+                                        ["name"] = "Lar AAA 2-1-1",
+                                        ["heading"] = 1.6929693744345,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement",
+                                        ["unitId"] = 124,
+                                        ["y"] = -189880.42321577,
+                                        ["x"] = 165695.89788603,
+                                        ["name"] = "Lar AAA 2-1-2",
+                                        ["heading"] = 4.7822021504645,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement",
+                                        ["unitId"] = 125,
+                                        ["y"] = -189833.93301178,
+                                        ["x"] = 165706.2331348,
+                                        ["name"] = "Lar AAA 2-1-3",
+                                        ["heading"] = 3.5604716740684,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 136,
+                                        ["y"] = -189976.54548648,
+                                        ["x"] = 164460.56435112,
+                                        ["name"] = "Lar AAA 2-1-14",
+                                        ["heading"] = 1.5707963267949,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 135,
+                                        ["y"] = -189976.79320819,
+                                        ["x"] = 164513.59210609,
+                                        ["name"] = "Lar AAA 2-1-13",
+                                        ["heading"] = 1.5707963267949,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement",
+                                        ["unitId"] = 126,
+                                        ["y"] = -189854.84447823,
+                                        ["x"] = 164342.8734105,
+                                        ["name"] = "Lar AAA 2-1-4",
+                                        ["heading"] = 1.7278759594744,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement",
+                                        ["unitId"] = 127,
+                                        ["y"] = -189854.73552906,
+                                        ["x"] = 164352.97578779,
+                                        ["name"] = "Lar AAA 2-1-5",
+                                        ["heading"] = 1.1868238913561,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 128,
+                                        ["y"] = -189992.65863704,
+                                        ["x"] = 164432.32996788,
+                                        ["name"] = "Lar AAA 2-1-6",
+                                        ["heading"] = 0.61086523819802,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 129,
+                                        ["y"] = -190453.19037532,
+                                        ["x"] = 165723.15425408,
+                                        ["name"] = "Lar AAA 2-1-7",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 130,
+                                        ["y"] = -190437.71248894,
+                                        ["x"] = 165716.47313637,
+                                        ["name"] = "Lar AAA 2-1-8",
+                                        ["heading"] = 0.95993108859688,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 131,
+                                        ["y"] = -190437.96454889,
+                                        ["x"] = 165702.35777925,
+                                        ["name"] = "Lar AAA 2-1-9",
+                                        ["heading"] = 1.9896753472735,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 132,
+                                        ["y"] = -190466.57335304,
+                                        ["x"] = 165715.71695652,
+                                        ["name"] = "Lar AAA 2-1-10",
+                                        ["heading"] = 5.0789081233035,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 133,
+                                        ["y"] = -190467.32953289,
+                                        ["x"] = 165700.08923971,
+                                        ["name"] = "Lar AAA 2-1-11",
+                                        ["heading"] = 4.2236967898263,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 134,
+                                        ["y"] = -190452.58721572,
+                                        ["x"] = 165695.10733242,
+                                        ["name"] = "Lar AAA 2-1-12",
+                                        ["heading"] = 3.1415926535898,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [15]
+                                }, -- end of ["units"]
+                                ["y"] = -190466.8073628,
+                                ["x"] = 165684.64476627,
+                                ["name"] = "Lar AAA 2-1",
+                                ["start_time"] = 0,
+                            }, -- end of [4]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 34,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0.26179938779915,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -189584.79436017,
+                                            ["speed"] = 0,
+                                            ["x"] = 167925.37025074,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 94,
+                                        ["rate"] = 50,
+                                        ["y"] = -189584.79436017,
+                                        ["x"] = 167925.37025074,
+                                        ["name"] = "Static FARP Tent-1-1",
+                                        ["heading"] = 0.26179938779915,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -189584.79436017,
+                                ["x"] = 167925.37025074,
+                                ["name"] = "Static FARP Tent-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0.26179938779915,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -189579.6716259,
+                                            ["speed"] = 0,
+                                            ["x"] = 167944.46215417,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 95,
+                                        ["rate"] = 50,
+                                        ["y"] = -189579.6716259,
+                                        ["x"] = 167944.46215417,
+                                        ["name"] = "Static FARP Tent-2-1",
+                                        ["heading"] = 0.26179938779915,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -189579.6716259,
+                                ["x"] = 167944.46215417,
+                                ["name"] = "Static FARP Tent-2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 4.8869219055841,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -189589.86046531,
+                                            ["speed"] = 0,
+                                            ["x"] = 167915.85902889,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_109_S3",
+                                        ["unitId"] = 96,
+                                        ["rate"] = 3,
+                                        ["y"] = -189589.86046531,
+                                        ["x"] = 167915.85902889,
+                                        ["name"] = "Static LUV Land Rover 109-1",
+                                        ["heading"] = 4.8869219055841,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -189589.86046531,
+                                ["x"] = 167915.85902889,
+                                ["name"] = "Static LUV Land Rover 109-1",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 4.9043751981041,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -189590.38703448,
+                                            ["speed"] = 0,
+                                            ["x"] = 167913.43681073,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_109_S3",
+                                        ["unitId"] = 97,
+                                        ["rate"] = 3,
+                                        ["y"] = -189590.38703448,
+                                        ["x"] = 167913.43681073,
+                                        ["name"] = "Static LUV Land Rover 109-2-1",
+                                        ["heading"] = 4.9043751981041,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -189590.38703448,
+                                ["x"] = 167913.43681073,
+                                ["name"] = "Static LUV Land Rover 109-2",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 4.9043751981041,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -189576.97045767,
+                                            ["speed"] = 0,
+                                            ["x"] = 167955.15437663,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 98,
+                                        ["rate"] = 5,
+                                        ["y"] = -189576.97045767,
+                                        ["x"] = 167955.15437663,
+                                        ["name"] = "Static Truck Ural-375-1",
+                                        ["heading"] = 4.9043751981041,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -189576.97045767,
+                                ["x"] = 167955.15437663,
+                                ["name"] = "Static Truck Ural-375-1",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 0.50614548307836,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -187115.66666956,
+                                            ["speed"] = 0,
+                                            ["x"] = 170429.77997955,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 120,
+                                        ["rate"] = 50,
+                                        ["y"] = -187115.66666956,
+                                        ["x"] = 170429.77997955,
+                                        ["name"] = "Static FARP Tent-3-1",
+                                        ["heading"] = 0.50614548307836,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -187115.66666956,
+                                ["x"] = 170429.77997955,
+                                ["name"] = "Static FARP Tent-3",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 0.55850536063819,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -187125.15948067,
+                                            ["speed"] = 0,
+                                            ["x"] = 170435.62128974,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 121,
+                                        ["rate"] = 50,
+                                        ["y"] = -187125.15948067,
+                                        ["x"] = 170435.62128974,
+                                        ["name"] = "Static FARP Tent-4-1",
+                                        ["heading"] = 0.55850536063819,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -187125.15948067,
+                                ["x"] = 170435.62128974,
+                                ["name"] = "Static FARP Tent-4",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 4.8869219055841,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -187109.71132602,
+                                            ["speed"] = 0,
+                                            ["x"] = 170440.26521353,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_109_S3",
+                                        ["unitId"] = 122,
+                                        ["rate"] = 3,
+                                        ["y"] = -187109.71132602,
+                                        ["x"] = 170440.26521353,
+                                        ["name"] = "Static LUV Land Rover 109-3-1",
+                                        ["heading"] = 4.8869219055841,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -187109.71132602,
+                                ["x"] = 170440.26521353,
+                                ["name"] = "Static LUV Land Rover 109-3",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 0.36651914291881,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -189983.01245078,
+                                            ["speed"] = 0,
+                                            ["x"] = 164446.18647631,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 137,
+                                        ["rate"] = 50,
+                                        ["y"] = -189983.01245078,
+                                        ["x"] = 164446.18647631,
+                                        ["name"] = "Static FARP Tent-5-1",
+                                        ["heading"] = 0.36651914291881,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -189983.01245078,
+                                ["x"] = 164446.18647631,
+                                ["name"] = "Static FARP Tent-5",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "Iran",
+                }, -- end of [2]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "LarAD-A",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "If you are reading this, report to high command immediately.",
+} -- end of staticTemplate
