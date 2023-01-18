@@ -1,0 +1,1175 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0.82030474843733,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -170313.44461198,
+                                            ["speed"] = 0,
+                                            ["x"] = 181799.54021984,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 4,
+                                        ["rate"] = 50,
+                                        ["y"] = -170313.44461198,
+                                        ["x"] = 181799.54021984,
+                                        ["name"] = "Khoerde Bunker Tent Decoration 1",
+                                        ["heading"] = 0.82030474843733,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -170313.44461198,
+                                ["x"] = 181799.54021984,
+                                ["name"] = "Khoerde Bunker Tent Decoration 1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 6.0388392119004,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -170306.50614575,
+                                            ["speed"] = 0,
+                                            ["x"] = 181818.79446364,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 50,
+                                        ["y"] = -170306.50614575,
+                                        ["x"] = 181818.79446364,
+                                        ["name"] = "Khoerde Bunker Tent Decoration 2",
+                                        ["heading"] = 6.0388392119004,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -170306.50614575,
+                                ["x"] = 181818.79446364,
+                                ["name"] = "Khoerde Bunker Tent Decoration 2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 5.0440015382636,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -170291.41498169,
+                                            ["speed"] = 0,
+                                            ["x"] = 181803.00945296,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 6,
+                                        ["rate"] = 50,
+                                        ["y"] = -170291.41498169,
+                                        ["x"] = 181803.00945296,
+                                        ["name"] = "Khoerde Bunker Tent Decoration 3",
+                                        ["heading"] = 5.0440015382636,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -170291.41498169,
+                                ["x"] = 181803.00945296,
+                                ["name"] = "Khoerde Bunker Tent Decoration 3",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 5.4105206811824,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169164.10414395,
+                                            ["speed"] = 0,
+                                            ["x"] = 181934.65238621,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 840,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "m117_cargo",
+                                        ["type"] = "m117_cargo",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 100,
+                                        ["y"] = -169164.10414395,
+                                        ["x"] = 181934.65238621,
+                                        ["name"] = "Khoerde Bunker Static Decoration 14",
+                                        ["heading"] = 5.4105206811824,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169164.10414395,
+                                ["x"] = 181934.65238621,
+                                ["name"] = "Khoerde Bunker Static Decoration 14",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 1.221730476396,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169153.02240728,
+                                            ["speed"] = 0,
+                                            ["x"] = 181936.16691656,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1500,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 100,
+                                        ["y"] = -169153.02240728,
+                                        ["x"] = 181936.16691656,
+                                        ["name"] = "Khoerde Bunker Static Decoration 9",
+                                        ["heading"] = 1.221730476396,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169153.02240728,
+                                ["x"] = 181936.16691656,
+                                ["name"] = "Khoerde Bunker Static Decoration 9",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 0.0016481388496044,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169164.01842967,
+                                            ["speed"] = 0,
+                                            ["x"] = 181936.25238621,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1500,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 18,
+                                        ["rate"] = 100,
+                                        ["y"] = -169164.01842967,
+                                        ["x"] = 181936.25238621,
+                                        ["name"] = "Khoerde Bunker Static Decoration 15",
+                                        ["heading"] = 0.0016481388496044,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169164.01842967,
+                                ["x"] = 181936.25238621,
+                                ["name"] = "Khoerde Bunker Static Decoration 15",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 1.1344640137963,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169153.30812156,
+                                            ["speed"] = 0,
+                                            ["x"] = 181937.22405941,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1500,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 19,
+                                        ["rate"] = 100,
+                                        ["y"] = -169153.30812156,
+                                        ["x"] = 181937.22405941,
+                                        ["name"] = "Khoerde Bunker Static Decoration 10",
+                                        ["heading"] = 1.1344640137963,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169153.30812156,
+                                ["x"] = 181937.22405941,
+                                ["name"] = "Khoerde Bunker Static Decoration 10",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 1.2915436464758,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169149.30112252,
+                                            ["speed"] = 0,
+                                            ["x"] = 181919.75388487,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 2400,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "fueltank_cargo",
+                                        ["type"] = "fueltank_cargo",
+                                        ["unitId"] = 20,
+                                        ["rate"] = 100,
+                                        ["y"] = -169149.30112252,
+                                        ["x"] = 181919.75388487,
+                                        ["name"] = "Khoerde Bunker Static Decoration 1",
+                                        ["heading"] = 1.2915436464758,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169149.30112252,
+                                ["x"] = 181919.75388487,
+                                ["name"] = "Khoerde Bunker Static Decoration 1",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 1.3788101090755,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169152.87557252,
+                                            ["speed"] = 0,
+                                            ["x"] = 181928.45238621,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 840,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "m117_cargo",
+                                        ["type"] = "m117_cargo",
+                                        ["unitId"] = 21,
+                                        ["rate"] = 100,
+                                        ["y"] = -169152.87557252,
+                                        ["x"] = 181928.45238621,
+                                        ["name"] = "Khoerde Bunker Static Decoration 6",
+                                        ["heading"] = 1.3788101090755,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169152.87557252,
+                                ["x"] = 181928.45238621,
+                                ["name"] = "Khoerde Bunker Static Decoration 6",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 1.3788101090755,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169152.58985824,
+                                            ["speed"] = 0,
+                                            ["x"] = 181927.10952906,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 840,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "m117_cargo",
+                                        ["type"] = "m117_cargo",
+                                        ["unitId"] = 22,
+                                        ["rate"] = 100,
+                                        ["y"] = -169152.58985824,
+                                        ["x"] = 181927.10952906,
+                                        ["name"] = "Khoerde Bunker Static Decoration 5",
+                                        ["heading"] = 1.3788101090755,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169152.58985824,
+                                ["x"] = 181927.10952906,
+                                ["name"] = "Khoerde Bunker Static Decoration 5",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 1.3613568165556,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169152.36128681,
+                                            ["speed"] = 0,
+                                            ["x"] = 181925.85238621,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 840,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "m117_cargo",
+                                        ["type"] = "m117_cargo",
+                                        ["unitId"] = 23,
+                                        ["rate"] = 100,
+                                        ["y"] = -169152.36128681,
+                                        ["x"] = 181925.85238621,
+                                        ["name"] = "Khoerde Bunker Static Decoration 4",
+                                        ["heading"] = 1.3613568165556,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169152.36128681,
+                                ["x"] = 181925.85238621,
+                                ["name"] = "Khoerde Bunker Static Decoration 4",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 1.2042771838761,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169153.70812156,
+                                            ["speed"] = 0,
+                                            ["x"] = 181938.3097737,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1500,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 24,
+                                        ["rate"] = 100,
+                                        ["y"] = -169153.70812156,
+                                        ["x"] = 181938.3097737,
+                                        ["name"] = "Khoerde Bunker Static Decoration 11",
+                                        ["heading"] = 1.2042771838761,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169153.70812156,
+                                ["x"] = 181938.3097737,
+                                ["name"] = "Khoerde Bunker Static Decoration 11",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                            [13] = 
+                            {
+                                ["heading"] = 1.5184364492351,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169156.79598565,
+                                            ["speed"] = 0,
+                                            ["x"] = 181922.08581923,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1500,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 25,
+                                        ["rate"] = 100,
+                                        ["y"] = -169156.79598565,
+                                        ["x"] = 181922.08581923,
+                                        ["name"] = "Khoerde Bunker Static Decoration 2",
+                                        ["heading"] = 1.5184364492351,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169156.79598565,
+                                ["x"] = 181922.08581923,
+                                ["name"] = "Khoerde Bunker Static Decoration 2",
+                                ["dead"] = false,
+                            }, -- end of [13]
+                            [14] = 
+                            {
+                                ["heading"] = 0.89011791851711,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169157.94932616,
+                                            ["speed"] = 0,
+                                            ["x"] = 181924.05610926,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 20,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1500,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 26,
+                                        ["rate"] = 100,
+                                        ["y"] = -169157.94932616,
+                                        ["x"] = 181924.05610926,
+                                        ["name"] = "Khoerde Bunker Static Decoration 3",
+                                        ["heading"] = 0.89011791851711,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169157.94932616,
+                                ["x"] = 181924.05610926,
+                                ["name"] = "Khoerde Bunker Static Decoration 3",
+                                ["dead"] = false,
+                            }, -- end of [14]
+                            [15] = 
+                            {
+                                ["heading"] = 1.3264502315157,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169152.70812156,
+                                            ["speed"] = 0,
+                                            ["x"] = 181935.13834513,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 21,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1500,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 27,
+                                        ["rate"] = 100,
+                                        ["y"] = -169152.70812156,
+                                        ["x"] = 181935.13834513,
+                                        ["name"] = "Khoerde Bunker Static Decoration 8",
+                                        ["heading"] = 1.3264502315157,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169152.70812156,
+                                ["x"] = 181935.13834513,
+                                ["name"] = "Khoerde Bunker Static Decoration 8",
+                                ["dead"] = false,
+                            }, -- end of [15]
+                            [16] = 
+                            {
+                                ["heading"] = 5.9864793343406,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169155.42240728,
+                                            ["speed"] = 0,
+                                            ["x"] = 181936.08120227,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 22,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1200,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "bw_container_cargo",
+                                        ["type"] = "container_cargo",
+                                        ["unitId"] = 28,
+                                        ["rate"] = 100,
+                                        ["y"] = -169155.42240728,
+                                        ["x"] = 181936.08120227,
+                                        ["name"] = "Khoerde Bunker Static Decoration 12",
+                                        ["heading"] = 5.9864793343406,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169155.42240728,
+                                ["x"] = 181936.08120227,
+                                ["name"] = "Khoerde Bunker Static Decoration 12",
+                                ["dead"] = false,
+                            }, -- end of [16]
+                            [17] = 
+                            {
+                                ["heading"] = 5.9690260418206,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -169115.94097641,
+                                            ["speed"] = 0,
+                                            ["x"] = 181941.27891858,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 23,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["shape_name"] = "SkladC",
+                                        ["type"] = ".Ammunition depot",
+                                        ["unitId"] = 29,
+                                        ["rate"] = 100,
+                                        ["y"] = -169115.94097641,
+                                        ["x"] = 181941.27891858,
+                                        ["name"] = "PRIMARY DESTROYED Khoerde Bunker",
+                                        ["heading"] = 5.9690260418206,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -169115.94097641,
+                                ["x"] = 181941.27891858,
+                                ["name"] = "PRIMARY DESTROYED Khoerde Bunker",
+                                ["dead"] = false,
+                            }, -- end of [17]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1143,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -169168.34550828,
+                                            ["x"] = 181933.70332291,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 14,
+                                        ["y"] = -169168.34550828,
+                                        ["x"] = 181933.70332291,
+                                        ["name"] = "Khoerde Bunker Vehicle and Infantry Group 1",
+                                        ["heading"] = 4.3284165449459,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 13,
+                                        ["y"] = -169219.04952417,
+                                        ["x"] = 181930.08160749,
+                                        ["name"] = "Khoerde Bunker Vehicle and Infantry Group 2",
+                                        ["heading"] = 4.3982297150257,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 12,
+                                        ["y"] = -170342.49645468,
+                                        ["x"] = 181785.98029511,
+                                        ["name"] = "Khoerde Bunker Vehicle and Infantry Group 3",
+                                        ["heading"] = 2.8972465583106,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 11,
+                                        ["y"] = -169160.83267742,
+                                        ["x"] = 181920.93247873,
+                                        ["name"] = "Khoerde Bunker Vehicle and Infantry Group 4",
+                                        ["heading"] = 4.0317105721069,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 10,
+                                        ["y"] = -169165.82128238,
+                                        ["x"] = 181936.99579147,
+                                        ["name"] = "Khoerde Bunker Vehicle and Infantry Group 5",
+                                        ["heading"] = 2.5481807079117,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 9,
+                                        ["y"] = -169162.30931591,
+                                        ["x"] = 181936.33729776,
+                                        ["name"] = "Khoerde Bunker Vehicle and Infantry Group 6",
+                                        ["heading"] = 4.3284165449459,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 8,
+                                        ["y"] = -169155.97903613,
+                                        ["x"] = 181923.09499217,
+                                        ["name"] = "Khoerde Bunker Vehicle and Infantry Group 7",
+                                        ["heading"] = 4.4331363000656,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                }, -- end of ["units"]
+                                ["y"] = -169168.34550828,
+                                ["x"] = 181933.70332291,
+                                ["name"] = "Khoerde Bunker Vehicle and Infantry Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -170436.70567086,
+                                                ["x"] = 181815.17657044,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -170436.94931091,
+                                                ["x"] = 181815.15176887,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1074,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -170355.59579434,
+                                            ["x"] = 181851.57871658,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 24,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 33,
+                                        ["y"] = -170355.59579434,
+                                        ["x"] = 181851.57871658,
+                                        ["name"] = "Khoerde Valley S60 Battery 1",
+                                        ["heading"] = 6.2482787221397,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 32,
+                                        ["y"] = -170354.20810109,
+                                        ["x"] = 181825.73292987,
+                                        ["name"] = "Khoerde Valley S60 Battery 2",
+                                        ["heading"] = 3.1066860685499,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 31,
+                                        ["y"] = -170366.17695534,
+                                        ["x"] = 181837.18139915,
+                                        ["name"] = "Khoerde Valley S60 Battery 3",
+                                        ["heading"] = 4.6109424695033,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 34,
+                                        ["y"] = -170342.93309346,
+                                        ["x"] = 181830.24293292,
+                                        ["name"] = "Khoerde Valley S60 Battery 4",
+                                        ["heading"] = 1.3788101090755,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 30,
+                                        ["y"] = -170342.4127085,
+                                        ["x"] = 181839.26293902,
+                                        ["name"] = "Khoerde Valley S60 Battery 5",
+                                        ["heading"] = 1.3788101090755,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                }, -- end of ["units"]
+                                ["y"] = -170355.59579434,
+                                ["x"] = 181851.57871658,
+                                ["name"] = "Khoerde Valley S60 Battery",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -168302.69060867,
+                                                ["x"] = 179653.93098943,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -168302.15261035,
+                                                ["x"] = 179653.30003754,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1913,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -168365.54068567,
+                                            ["x"] = 179645.85674082,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                        ["groupId"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 25,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M48 Chaparral",
+                                        ["unitId"] = 38,
+                                        ["y"] = -168365.54068567,
+                                        ["x"] = 179645.85674082,
+                                        ["name"] = "Khoerde Mountain AA group 1",
+                                        ["heading"] = 2.4355463566773,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 37,
+                                        ["y"] = -168357.23740485,
+                                        ["x"] = 179635.07807402,
+                                        ["name"] = "Khoerde Mountain AA group 2",
+                                        ["heading"] = 2.4355463566773,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 36,
+                                        ["y"] = -168376.67201586,
+                                        ["x"] = 179630.44191341,
+                                        ["name"] = "Khoerde Mountain AA group 3",
+                                        ["heading"] = 4.7996554429844,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["y"] = -168365.54068567,
+                                ["x"] = 179645.85674082,
+                                ["name"] = "Khoerde Mountain AA group",
+                                ["start_time"] = 0,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "khoerdeammobunker",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Aerial recon flights over the Lar area have identified the entrance to an Iranian ammo dump built into a mountain just outside a city north of Lar known as Khoerde. We believe this is the entrance to a larger underground facility, and destroying it will likely disrupt Iran's ability to distribute weapons and ammunition throughout the Lar area. Photo-analysis suggests that Iran has stationed anti-aircraft vehicles and personnel on the mountain south and west of the bunker to defend against intruding Iraqi aircraft. Khoerde is located along radial 020 from Lar for roughly 12km; the bunker located in the mountains to the east of the city.\
+\
+Your objective is to destroy the bunker. Engagement of nearby buildings, vehicles, and defenses are authorized if fuel and munitions allow.",
+} -- end of staticTemplate
