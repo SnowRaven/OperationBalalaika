@@ -1,0 +1,1583 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206843.39317321,
+                                            ["speed"] = 0,
+                                            ["x"] = 169696.09150313,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 50,
+                                        ["y"] = -206843.39317321,
+                                        ["x"] = 169696.09150313,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 1",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206843.39317321,
+                                ["x"] = 169696.09150313,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206858.05345124,
+                                            ["speed"] = 0,
+                                            ["x"] = 169698.58098431,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 3,
+                                        ["rate"] = 50,
+                                        ["y"] = -206858.05345124,
+                                        ["x"] = 169698.58098431,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 2",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206858.05345124,
+                                ["x"] = 169698.58098431,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206970.53789203,
+                                            ["speed"] = 0,
+                                            ["x"] = 169717.27187066,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 4,
+                                        ["rate"] = 50,
+                                        ["y"] = -206970.53789203,
+                                        ["x"] = 169717.27187066,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 10",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206970.53789203,
+                                ["x"] = 169717.27187066,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 10",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206967.63416119,
+                                            ["speed"] = 0,
+                                            ["x"] = 169737.77946974,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 50,
+                                        ["y"] = -206967.63416119,
+                                        ["x"] = 169737.77946974,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 18",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206967.63416119,
+                                ["x"] = 169737.77946974,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 18",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206957.47110324,
+                                            ["speed"] = 0,
+                                            ["x"] = 169715.09407253,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 6,
+                                        ["rate"] = 50,
+                                        ["y"] = -206957.47110324,
+                                        ["x"] = 169715.09407253,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 9",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206957.47110324,
+                                ["x"] = 169715.09407253,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 9",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206953.29699015,
+                                            ["speed"] = 0,
+                                            ["x"] = 169735.23870525,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 7,
+                                        ["rate"] = 50,
+                                        ["y"] = -206953.29699015,
+                                        ["x"] = 169735.23870525,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 20",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206953.29699015,
+                                ["x"] = 169735.23870525,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 20",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206943.31541538,
+                                            ["speed"] = 0,
+                                            ["x"] = 169712.19034169,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 8,
+                                        ["rate"] = 50,
+                                        ["y"] = -206943.31541538,
+                                        ["x"] = 169712.19034169,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 8",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206943.31541538,
+                                ["x"] = 169712.19034169,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 8",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206937.62085228,
+                                            ["speed"] = 0,
+                                            ["x"] = 169731.90154022,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 9,
+                                        ["rate"] = 50,
+                                        ["y"] = -206937.62085228,
+                                        ["x"] = 169731.90154022,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 19",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206937.62085228,
+                                ["x"] = 169731.90154022,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 19",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206928.43379482,
+                                            ["speed"] = 0,
+                                            ["x"] = 169710.01254356,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 50,
+                                        ["y"] = -206928.43379482,
+                                        ["x"] = 169710.01254356,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 7",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206928.43379482,
+                                ["x"] = 169710.01254356,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 7",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206924.62264809,
+                                            ["speed"] = 0,
+                                            ["x"] = 169729.43124357,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 11,
+                                        ["rate"] = 50,
+                                        ["y"] = -206924.62264809,
+                                        ["x"] = 169729.43124357,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 13",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206924.62264809,
+                                ["x"] = 169729.43124357,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 13",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206839.79725595,
+                                            ["speed"] = 0,
+                                            ["x"] = 169716.83717959,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 12,
+                                        ["rate"] = 50,
+                                        ["y"] = -206839.79725595,
+                                        ["x"] = 169716.83717959,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 11",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206839.79725595,
+                                ["x"] = 169716.83717959,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 11",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206854.734143,
+                                            ["speed"] = 0,
+                                            ["x"] = 169718.77344273,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 50,
+                                        ["y"] = -206854.734143,
+                                        ["x"] = 169718.77344273,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 12",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206854.734143,
+                                ["x"] = 169718.77344273,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 12",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                            [13] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206869.08879573,
+                                            ["speed"] = 0,
+                                            ["x"] = 169720.90153422,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 50,
+                                        ["y"] = -206869.08879573,
+                                        ["x"] = 169720.90153422,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 14",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206869.08879573,
+                                ["x"] = 169720.90153422,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 14",
+                                ["dead"] = false,
+                            }, -- end of [13]
+                            [14] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206873.08142564,
+                                            ["speed"] = 0,
+                                            ["x"] = 169701.30135103,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 50,
+                                        ["y"] = -206873.08142564,
+                                        ["x"] = 169701.30135103,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 3",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206873.08142564,
+                                ["x"] = 169701.30135103,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 3",
+                                ["dead"] = false,
+                            }, -- end of [14]
+                            [15] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206883.60744994,
+                                            ["speed"] = 0,
+                                            ["x"] = 169723.4422987,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 50,
+                                        ["y"] = -206883.60744994,
+                                        ["x"] = 169723.4422987,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 15",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206883.60744994,
+                                ["x"] = 169723.4422987,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 15",
+                                ["dead"] = false,
+                            }, -- end of [15]
+                            [16] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206887.05563031,
+                                            ["speed"] = 0,
+                                            ["x"] = 169703.11618281,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 50,
+                                        ["y"] = -206887.05563031,
+                                        ["x"] = 169703.11618281,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 4",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206887.05563031,
+                                ["x"] = 169703.11618281,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 4",
+                                ["dead"] = false,
+                            }, -- end of [16]
+                            [17] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206897.03720508,
+                                            ["speed"] = 0,
+                                            ["x"] = 169725.25713048,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 18,
+                                        ["rate"] = 50,
+                                        ["y"] = -206897.03720508,
+                                        ["x"] = 169725.25713048,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 16",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206897.03720508,
+                                ["x"] = 169725.25713048,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 16",
+                                ["dead"] = false,
+                            }, -- end of [17]
+                            [18] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206900.84835182,
+                                            ["speed"] = 0,
+                                            ["x"] = 169705.29398094,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 19,
+                                        ["rate"] = 50,
+                                        ["y"] = -206900.84835182,
+                                        ["x"] = 169705.29398094,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 5",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206900.84835182,
+                                ["x"] = 169705.29398094,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 5",
+                                ["dead"] = false,
+                            }, -- end of [18]
+                            [19] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206910.73329683,
+                                            ["speed"] = 0,
+                                            ["x"] = 169727.83939155,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 20,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 20,
+                                        ["rate"] = 50,
+                                        ["y"] = -206910.73329683,
+                                        ["x"] = 169727.83939155,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 17",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206910.73329683,
+                                ["x"] = 169727.83939155,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 17",
+                                ["dead"] = false,
+                            }, -- end of [19]
+                            [20] = 
+                            {
+                                ["heading"] = 0.17453292519943,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206915.18552285,
+                                            ["speed"] = 0,
+                                            ["x"] = 169707.29029589,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 21,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 21,
+                                        ["rate"] = 50,
+                                        ["y"] = -206915.18552285,
+                                        ["x"] = 169707.29029589,
+                                        ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 6",
+                                        ["heading"] = 0.17453292519943,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206915.18552285,
+                                ["x"] = 169707.29029589,
+                                ["name"] = "PRIMARY INCAPACITATED Gerash Farp Target Tent 6",
+                                ["dead"] = false,
+                            }, -- end of [20]
+                            [21] = 
+                            {
+                                ["heading"] = 0.069813170079773,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206890.1587382,
+                                            ["speed"] = 0,
+                                            ["x"] = 169682.09946388,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 23,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1500,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 87,
+                                        ["rate"] = 100,
+                                        ["y"] = -206890.1587382,
+                                        ["x"] = 169682.09946388,
+                                        ["name"] = "Gerash Infantry Camp Ammo decoration 1",
+                                        ["heading"] = 0.069813170079773,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206890.1587382,
+                                ["x"] = 169682.09946388,
+                                ["name"] = "Gerash Infantry Camp Ammo decoration 1",
+                                ["dead"] = false,
+                            }, -- end of [21]
+                            [22] = 
+                            {
+                                ["heading"] = 3.3161255787892,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -206871.53034283,
+                                            ["speed"] = 0,
+                                            ["x"] = 169635.49730725,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 25,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["type"] = "outpost_road",
+                                        ["unitId"] = 92,
+                                        ["rate"] = 5,
+                                        ["y"] = -206871.53034283,
+                                        ["x"] = 169635.49730725,
+                                        ["name"] = "Gerash Infantry Encampment Road Block",
+                                        ["heading"] = 3.3161255787892,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -206871.53034283,
+                                ["x"] = 169635.49730725,
+                                ["name"] = "Gerash Infantry Encampment Road Block",
+                                ["dead"] = false,
+                            }, -- end of [22]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -206466.56948414,
+                                                ["x"] = 170307.50484845,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -206468.37781265,
+                                                ["x"] = 170311.58478221,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 929,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -206908.65212845,
+                                            ["x"] = 169717.45335384,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 22,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 61,
+                                        ["y"] = -206908.65212845,
+                                        ["x"] = 169717.45335384,
+                                        ["name"] = "Gerash Defence Units 1",
+                                        ["heading"] = 5.8659797648954,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 95,
+                                        ["y"] = -206855.79757203,
+                                        ["x"] = 169633.63622968,
+                                        ["name"] = "Gerash Defence Units-2",
+                                        ["heading"] = 3.2637657012294,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 60,
+                                        ["y"] = -206842.52540173,
+                                        ["x"] = 169675.89887241,
+                                        ["name"] = "Gerash Defence Units 2",
+                                        ["heading"] = 3.2637657012294,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 59,
+                                        ["y"] = -206850.19648159,
+                                        ["x"] = 169676.49817552,
+                                        ["name"] = "Gerash Defence Units 3",
+                                        ["heading"] = 3.3335788713092,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 58,
+                                        ["y"] = -206832.21738816,
+                                        ["x"] = 169701.42918508,
+                                        ["name"] = "Gerash Defence Units 4",
+                                        ["heading"] = 1.9198621771938,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 57,
+                                        ["y"] = -206839.16930429,
+                                        ["x"] = 169743.73998496,
+                                        ["name"] = "Gerash Defence Units 5",
+                                        ["heading"] = 1.7976891295542,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 56,
+                                        ["y"] = -206968.49891638,
+                                        ["x"] = 169758.12325971,
+                                        ["name"] = "Gerash Defence Units 6",
+                                        ["heading"] = 4.9741883681838,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 100,
+                                        ["y"] = -206885.50389391,
+                                        ["x"] = 169772.59287595,
+                                        ["name"] = "Gerash Defence Units-6",
+                                        ["heading"] = 1.7278759594744,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 99,
+                                        ["y"] = -206896.25955822,
+                                        ["x"] = 169765.84461871,
+                                        ["name"] = "Gerash Defence Units-5",
+                                        ["heading"] = 3.2812189937493,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 98,
+                                        ["y"] = -206904.41733852,
+                                        ["x"] = 169777.08977886,
+                                        ["name"] = "Gerash Defence Units-4",
+                                        ["heading"] = 4.8694686130642,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 55,
+                                        ["y"] = -206892.80449836,
+                                        ["x"] = 169784.01806725,
+                                        ["name"] = "Gerash Defence Units 7",
+                                        ["heading"] = 0.17453292519943,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KrAZ6322",
+                                        ["unitId"] = 72,
+                                        ["y"] = -206884.61588106,
+                                        ["x"] = 169681.58517817,
+                                        ["name"] = "Gerash Defence Units 8",
+                                        ["heading"] = 1.7453292519943,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KrAZ6322",
+                                        ["unitId"] = 71,
+                                        ["y"] = -206883.66389829,
+                                        ["x"] = 169685.95505381,
+                                        ["name"] = "Gerash Defence Units 9",
+                                        ["heading"] = 1.7453292519943,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KrAZ6322",
+                                        ["unitId"] = 70,
+                                        ["y"] = -206883.09326285,
+                                        ["x"] = 169690.60777486,
+                                        ["name"] = "Gerash Defence Units 10",
+                                        ["heading"] = 1.7453292519943,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 69,
+                                        ["y"] = -206989.11494352,
+                                        ["x"] = 169705.50444626,
+                                        ["name"] = "Gerash Defence Units 11",
+                                        ["heading"] = 4.939281783144,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 86,
+                                        ["y"] = -206896.58254265,
+                                        ["x"] = 169751.2912042,
+                                        ["name"] = "Gerash Defence Units 12",
+                                        ["heading"] = 5.4279739737024,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [16]
+                                    [17] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 85,
+                                        ["y"] = -206976.28985687,
+                                        ["x"] = 169712.57622301,
+                                        ["name"] = "Gerash Defence Units 13",
+                                        ["heading"] = 1.4835298641952,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [17]
+                                    [18] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 84,
+                                        ["y"] = -206890.10159534,
+                                        ["x"] = 169683.87089245,
+                                        ["name"] = "Gerash Defence Units 14",
+                                        ["heading"] = 3.2986722862693,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [18]
+                                    [19] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 83,
+                                        ["y"] = -206890.27302392,
+                                        ["x"] = 169680.92803531,
+                                        ["name"] = "Gerash Defence Units 15",
+                                        ["heading"] = 6.2308254296198,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [19]
+                                    [20] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 75,
+                                        ["y"] = -206894.03160491,
+                                        ["x"] = 169690.22929939,
+                                        ["name"] = "Gerash Defence Units 16",
+                                        ["heading"] = 6.2308254296198,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [20]
+                                    [21] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 79,
+                                        ["y"] = -206897.69072383,
+                                        ["x"] = 169694.93533246,
+                                        ["name"] = "Gerash Defence Units 17",
+                                        ["heading"] = 3.6128315516283,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [21]
+                                    [22] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 78,
+                                        ["y"] = -206900.73016677,
+                                        ["x"] = 169690.98517817,
+                                        ["name"] = "Gerash Defence Units 18",
+                                        ["heading"] = 6.2308254296198,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [22]
+                                    [23] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 77,
+                                        ["y"] = -206899.3587382,
+                                        ["x"] = 169690.8137496,
+                                        ["name"] = "Gerash Defence Units 19",
+                                        ["heading"] = 6.2308254296198,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [23]
+                                    [24] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 76,
+                                        ["y"] = -206898.13016677,
+                                        ["x"] = 169690.69946388,
+                                        ["name"] = "Gerash Defence Units 20",
+                                        ["heading"] = 6.2308254296198,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [24]
+                                    [25] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 74,
+                                        ["y"] = -206896.78730963,
+                                        ["x"] = 169690.55660674,
+                                        ["name"] = "Gerash Defence Units 21",
+                                        ["heading"] = 6.2308254296198,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [25]
+                                    [26] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 73,
+                                        ["y"] = -206895.47270767,
+                                        ["x"] = 169690.3032021,
+                                        ["name"] = "Gerash Defence Units 22",
+                                        ["heading"] = 6.2308254296198,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [26]
+                                    [27] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 68,
+                                        ["y"] = -206893.98730963,
+                                        ["x"] = 169691.72803531,
+                                        ["name"] = "Gerash Defence Units 23",
+                                        ["heading"] = 6.2308254296198,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [27]
+                                    [28] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 67,
+                                        ["y"] = -206900.8414006,
+                                        ["x"] = 169692.57232488,
+                                        ["name"] = "Gerash Defence Units 24",
+                                        ["heading"] = 0.1221730476396,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [28]
+                                    [29] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 66,
+                                        ["y"] = -206899.42359605,
+                                        ["x"] = 169692.62483616,
+                                        ["name"] = "Gerash Defence Units 25",
+                                        ["heading"] = 6.1261056745001,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [29]
+                                    [30] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 65,
+                                        ["y"] = -206898.05830278,
+                                        ["x"] = 169692.30976849,
+                                        ["name"] = "Gerash Defence Units 26",
+                                        ["heading"] = 0.15707963267949,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [30]
+                                    [31] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 64,
+                                        ["y"] = -206896.67302392,
+                                        ["x"] = 169692.15660674,
+                                        ["name"] = "Gerash Defence Units 27",
+                                        ["heading"] = 6.1261056745001,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [31]
+                                    [32] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 54,
+                                        ["y"] = -206895.10159534,
+                                        ["x"] = 169691.8137496,
+                                        ["name"] = "Gerash Defence Units 28",
+                                        ["heading"] = 5.8659797648954,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [32]
+                                    [33] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 51,
+                                        ["y"] = -206908.68846556,
+                                        ["x"] = 169763.51698774,
+                                        ["name"] = "Gerash Defence Units 29",
+                                        ["heading"] = 5.8659797648954,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [33]
+                                    [34] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 50,
+                                        ["y"] = -206836.53237059,
+                                        ["x"] = 169678.53580611,
+                                        ["name"] = "Gerash Defence Units 30",
+                                        ["heading"] = 5.8659797648954,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [34]
+                                    [35] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 49,
+                                        ["y"] = -206926.78741962,
+                                        ["x"] = 169700.82988197,
+                                        ["name"] = "Gerash Defence Units 31",
+                                        ["heading"] = 5.8659797648954,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [35]
+                                    [36] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 82,
+                                        ["y"] = -206961.18741839,
+                                        ["x"] = 169724.20270343,
+                                        ["name"] = "Gerash Defence Units 32",
+                                        ["heading"] = 4.1189770347066,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [36]
+                                    [37] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 81,
+                                        ["y"] = -206892.92738774,
+                                        ["x"] = 169716.50190988,
+                                        ["name"] = "Gerash Defence Units 33",
+                                        ["heading"] = 3.1066860685499,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [37]
+                                    [38] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 80,
+                                        ["y"] = -206833.53585501,
+                                        ["x"] = 169704.6654219,
+                                        ["name"] = "Gerash Defence Units 34",
+                                        ["heading"] = 3.1066860685499,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [38]
+                                    [39] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 48,
+                                        ["y"] = -206895.6952952,
+                                        ["x"] = 169694.41021967,
+                                        ["name"] = "Gerash Defence Units 35",
+                                        ["heading"] = 3.4557519189488,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [39]
+                                    [40] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 47,
+                                        ["y"] = -206949.2013561,
+                                        ["x"] = 169721.20618786,
+                                        ["name"] = "Gerash Defence Units 36",
+                                        ["heading"] = 5.8659797648954,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [40]
+                                    [41] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 40,
+                                        ["y"] = -206989.95396788,
+                                        ["x"] = 169710.77831367,
+                                        ["name"] = "Gerash Defence Units 37",
+                                        ["heading"] = 5.8659797648954,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [41]
+                                    [42] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 39,
+                                        ["y"] = -206968.25919514,
+                                        ["x"] = 169756.08562912,
+                                        ["name"] = "Gerash Defence Units 38",
+                                        ["heading"] = 5.8659797648954,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [42]
+                                    [43] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 97,
+                                        ["y"] = -206866.04966152,
+                                        ["x"] = 169625.3184967,
+                                        ["name"] = "Gerash Defence Units-3",
+                                        ["heading"] = 4.2062434973063,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [43]
+                                    [44] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 96,
+                                        ["y"] = -206885.00635529,
+                                        ["x"] = 169637.50494269,
+                                        ["name"] = "Gerash Defence Units-1",
+                                        ["heading"] = 1.7278759594744,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [44]
+                                    [45] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 37,
+                                        ["y"] = -206845.04247481,
+                                        ["x"] = 169676.49817552,
+                                        ["name"] = "Gerash Defence Units 39",
+                                        ["heading"] = 1.7278759594744,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [45]
+                                    [46] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 22,
+                                        ["y"] = -206864.29935848,
+                                        ["x"] = 169716.48931659,
+                                        ["name"] = "Gerash Defence Units 40",
+                                        ["heading"] = 5.8659797648954,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [46]
+                                }, -- end of ["units"]
+                                ["y"] = -206908.65212845,
+                                ["x"] = 169717.45335384,
+                                ["name"] = "Gerash Defence Units",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "gerashinfantryencampment",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Reconnaissance over the Lar area has detected a major infantry encampment on the outskirts of the city of Gerash, located 24km west of Lar. We believe it has been established up by one of the battalions attached to the IRIA's 92nd Armored Division along its route towards our front line. The encampment is comprised of twenty tents, alongside an accompanying checkpoint. Several air defense positions have been spotted near the target, and we believe it is defended by both anti-aircraft artillery and short-ranged missile systems. Due to the target's proximity to Lar, interception by IRIAF F-5s stationed at the airfield is probable if you are detected.\
+\
+You are to find the encampment and destroy it. Prioritize destruction of the tents housing the Iranian infantry. You may engage the defenses, infantry, and armor nearby if fuel and munitions allow.",
+} -- end of staticTemplate

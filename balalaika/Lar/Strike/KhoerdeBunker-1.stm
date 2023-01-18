@@ -1169,7 +1169,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "Aerial recon flights over the Lar area have identified the entrance to an Iranian ammo dump built into a mountain just outside a city north of Lar known as Khoerde. We believe this is the entrance to a larger underground facility, and destroying it will likely disrupt Iran's ability to distribute weapons and ammunition throughout the Lar area. Photo-analysis suggests that Iran has stationed anti-aircraft vehicles and personnel on the mountain south and west of the bunker to defend against intruding Iraqi aircraft. Khoerde is located along radial 020 from Lar for roughly 12km; the bunker located in the mountains to the east of the city.\
+    ["desc"] = "Satellite recon flights over the Lar area have identified the entrance to an Iranian ammo dump built into a mountain just outside a city north of Lar known as Khoerde. We believe this is the entrance to a larger underground facility, and destroying it will likely disrupt Iran's ability to distribute weapons and ammunition throughout the Lar area. Photo-analysis suggests that Iran has stationed anti-aircraft vehicles and personnel on the mountain south and west of the bunker to defend against intruding Iraqi aircraft. Khoerde is located along radial 020 from Lar for roughly 12km; the bunker located in the mountains to the east of the city.\
 \
 Your objective is to destroy the bunker. Engagement of nearby buildings, vehicles, and defenses are authorized if fuel and munitions allow.",
 } -- end of staticTemplate
