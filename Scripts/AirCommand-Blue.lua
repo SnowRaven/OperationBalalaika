@@ -43,21 +43,40 @@ local interceptTactic = {
 local missionClass = {
 	["Intercept"] = "AA",
 	["QRA"] = "AA",
-	["CAP"] = "AA"
+	["CAP"] = "AA",
+	["Escort"] = "AA",
+	["HAVCAP"] = "AA",
+	["Tanker"] = "Logistics"
 }
 -- names for unit types
 local typeAlias = {
 	["F-14A-135-GR"] = "Tomcat",
 	["F-4E"] = "Phantom",
 	["F-5E-3"] = "Tiger",
-	["AH-1W"] = "Cobra"
+	["AH-1W"] = "Cobra",
+	["KC-135"] = "KC-707",
+	["KC135MPRS"] = "KC-707"
 }
 -- DCS categories for unit types
 local typeCategory = {
 	["F-14A-135-GR"] = Group.Category.AIRPLANE,
 	["F-4E"] = Group.Category.AIRPLANE,
 	["F-5E-3"] = Group.Category.AIRPLANE,
+	["KC-135"] = Group.Category.AIRPLANE,
+	["KC135MPRS"] = Group.Category.AIRPLANE,
 	["AH-1W"] = Group.Category.HELICOPTER
+}
+
+-- altitude and speeds used for tanker operations
+local tankerParameters = {
+	["KC-135"] = {
+		altitude = 6096,
+		speed = 211
+	},
+	["KC135MPRS"] = {
+		altitude = 6096,
+		speed = 211
+	}
 }
 -- DCS categories for weapon types
 local weaponTypes = {
@@ -67,6 +86,11 @@ local weaponTypes = {
 ---------------------------------------------------------------------------------------------------------------------------
 -- faction, squadron and air defense logic data
 local side = coalition.side.BLUE
+
+-- general cruise speed and altitude unless defined otherwise
+local standardAltitude = 7620
+local returnAltitude = 10973 -- RTB altitude
+local standardSpeed = 250
 
 -- table defining preferred tactics for each aircraft type
 -- if not defined, will be determined randomly or according to threat (TODO)
@@ -105,6 +129,29 @@ local ADZExclusion = {
 	}
 }
 
+local tankerOrbits = {
+	["Shiraz"] = {
+		[1] = {
+			["x"] = 340121,
+			["y"] = -205223
+		},
+		[2] = {
+			["x"] = 287224,
+			["y"] = -150008
+		}
+	},
+	["Abbas"] = {
+		[1] = {
+			["x"] = 226045,
+			["y"] = -48664
+		},
+		[2] = {
+			["x"] = 175307,
+			["y"] = 25752
+		}
+	}
+}
+
 -- airbases and squadrons
 local airbases = {
 	["Abbas"] = {
@@ -123,7 +170,9 @@ local airbases = {
 				["missions"] = {
 					["Intercept"] = true,
 					["QRA"] = true,
-					["CAP"] = true
+					["CAP"] = true,
+					["Escort"] = true,
+					["HAVCAP"] = true
 				},
 				["targetCategories"] = {
 					[1] = Unit.Category.AIRPLANE
@@ -142,14 +191,6 @@ local airbases = {
 									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
 								},
 								[3] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[4] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[6] =
 								{
 									["CLSID"] = "{AIM-7E}",
 								},
@@ -179,14 +220,6 @@ local airbases = {
 									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
 								},
 								[3] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[4] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[6] =
 								{
 									["CLSID"] = "{AIM-7E}",
 								},
@@ -226,7 +259,8 @@ local airbases = {
 				["interceptRadius"] = 220000, -- radius of action around the airbase for interceptors from this squadron in meters
 				["missions"] = {
 					["Intercept"] = true,
-					["QRA"] = true
+					["QRA"] = true,
+					["HAVCAP"] = true
 				},
 				["targetCategories"] = {
 					[1] = Unit.Category.AIRPLANE
@@ -301,7 +335,9 @@ local airbases = {
 				["missions"] = {
 					["Intercept"] = true,
 					["QRA"] = true,
-					["CAP"] = true
+					["CAP"] = true,
+					["Escort"] = true,
+					["HAVCAP"] = true
 				},
 				["targetCategories"] = {
 					[1] = Unit.Category.AIRPLANE
@@ -374,7 +410,9 @@ local airbases = {
 				["missions"] = {
 					["Intercept"] = true,
 					["QRA"] = true,
-					["CAP"] = true
+					["CAP"] = true,
+					["Escort"] = true,
+					["HAVCAP"] = true
 				},
 				["targetCategories"] = {
 					[1] = Unit.Category.AIRPLANE
@@ -393,14 +431,6 @@ local airbases = {
 									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
 								},
 								[3] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[4] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[6] =
 								{
 									["CLSID"] = "{AIM-7E}",
 								},
@@ -430,14 +460,6 @@ local airbases = {
 									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
 								},
 								[3] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[4] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[6] =
 								{
 									["CLSID"] = "{AIM-7E}",
 								},
@@ -477,7 +499,8 @@ local airbases = {
 				["interceptRadius"] = 350000, -- radius of action around the airbase for interceptors from this squadron in meters
 				["missions"] = {
 					["Intercept"] = true,
-					["QRA"] = true
+					["QRA"] = true,
+					["HAVCAP"] = true
 				},
 				["targetCategories"] = {
 					[1] = Unit.Category.AIRPLANE
@@ -546,7 +569,8 @@ local airbases = {
 				["interceptRadius"] = 350000, -- radius of action around the airbase for interceptors from this squadron in meters
 				["missions"] = {
 					["Intercept"] = true,
-					["QRA"] = true
+					["QRA"] = true,
+					["HAVCAP"] = true
 				},
 				["targetCategories"] = {
 					[1] = Unit.Category.AIRPLANE
@@ -602,6 +626,35 @@ local airbases = {
 					"Oghab",
 					"Shahab"
 				}
+			},
+			["11TS"] = {
+				["name"] = "11th TS",
+				["country"] = country.Iran,
+				["type"] = "KC135MPRS", -- KC-707
+				["skill"] = "High",
+				["livery"] = "IRIAF (2)",
+				["missions"] = {
+					["Tanker"] = true
+				},
+				["loadouts"] = {
+					["Logistics"] = {
+						["General"] = {
+							["pylons"] =
+							{
+							},
+							["fuel"] = 90700,
+							["flare"] = 0,
+							["chaff"] = 0,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					"Karoon",
+					"Paykan",
+					"Nahid",
+					"Mahtab"
+				}
 			}
 		}
 	},
@@ -648,9 +701,10 @@ local airbases = {
 					}
 				},
 				["callsigns"] = {
-					"Palang",
-					"Kaman",
-					"Paykan"
+					"Oghab",
+					"Sahand",
+					"Shahin",
+					"Babr"
 				}
 			}
 		}
@@ -698,9 +752,10 @@ local airbases = {
 					}
 				},
 				["callsigns"] = {
-					"Palang",
-					"Kaman",
-					"Paykan"
+					"Oghab",
+					"Sahand",
+					"Shahin",
+					"Babr"
 				}
 			}
 		}
@@ -789,6 +844,18 @@ local function getLowestFlightAltitude(flight)
 		end
 	end
 	return lowestAltitude
+end
+
+-- see if any player is within a certain distance in meters to a point
+local function playerInRange(distance, x, y)
+	for key, sideIndex in pairs(coalition.side) do
+		for key, player in pairs(coalition.getPlayers(sideIndex)) do
+			if getDistance(player:getPoint().x, player:getPoint().z, x, y) < distance then
+				return true
+			end
+		end
+	end
+	return false
 end
 ---------------------------------------------------------------------------------------------------------------------------
 local trackTimeout = 120 -- amount of time before tracks are timed out
@@ -948,13 +1015,22 @@ detectTargets()
 timer.scheduleFunction(timeoutTracks, nil, timer.getTime() + trackTimeout)
 
 ---------------------------------------------------------------------------------------------------------------------------
+local groundStartRadius = 30000 -- radius around an airfield where if a player is present, a flight will ground instead of air start
 local skipResetTime = 60 -- seconds between a failed launch until airfield will be used again
-local preparationTime = 1500 -- time in seconds it takes to prepare the next flight from an airbase
+local minPackageTime = 1800 -- minimum number of seconds before the package ATO reactivates
+local maxPackageTime = 5400 -- maximum number of seconds before the package ATO reactivates
+local preparationTime = 1500 -- time in seconds it takes to prepare the next interceptors from an airbase
 local QRARadius = 60000 -- radius in meters for emergency scramble
-local commitRange = 50000 -- radius around uncommitted fighter units at which tracks will be intercepted
+local commitRange = 60000 -- radius in meters around which uncommitted fighters will intercept tracks
+local escortCommitRange = 60000 -- radius in meters around uncommitted escort units at which targets will be intercepted
+
+local tankerChance = 100 -- chance to launch a tanker mission
+local CAPChance = 30 -- chance to launch a CAP mission
 
 local activeAirbases = {} -- active airbases
 local flights = {} -- currently active flights
+local packages = {} -- currently active packages
+local nextPackageID = 1000 -- next package ID
 
 -- initialize all active airbases at mission start
 local function initializeAirbases()
@@ -992,7 +1068,7 @@ local function allowedTargetCategrory(squadron, targetCategory)
 end
 
 -- create and spawn aircraft group for tasking
-local function launchFlight(airbase, squadron, mission, flightSize)
+local function launchFlight(airbase, squadron, mission, flightSize, groundStart)
 	local flightData = {}
 	local loadout = {}
 	local units = {}
@@ -1011,20 +1087,35 @@ local function launchFlight(airbase, squadron, mission, flightSize)
 	else
 		if mission == "QRA" and squadron.loadouts[missionClass[mission]].Intercept ~= nil then
 			loadout = squadron.loadouts[missionClass[mission]].Intercept -- if QRA loadout doesn't exist use intercept loadout
+		elseif mission == "HAVCAP" and squadron.loadouts[missionClass[mission]].Escort ~= nil then
+			loadout = squadron.loadouts[missionClass[mission]].Escort
 		else
 			loadout = squadron.loadouts[missionClass[mission]].General -- if specific mission loadout doesn't exist, use generic A-A
 		end
 	end
 	-- select flight options for mission
-	if (mission == "Intercept") or (mission == "QRA") then
+	if mission == "Intercept" or mission == "QRA" then
 		flightData["task"] = "Intercept"
-	elseif (mission == "CAP") then
+	end
+	if mission == "CAP" then
 		flightData["task"] = "CAP"
+	end
+	if mission == "Escort" or mission == "HAVCAP" then
+		flightData["task"] = "Escort"
+	end
+	if mission == "Tanker" then
+		flightData["task"] = "Refueling"
 	end
 	-- add flight members
 	for i=1,flightSize do
+		local name
+		if mission == "Tanker" and flightSize == 1 then
+			name = callsign .. " " .. tostring(flightNumber)
+		else
+			name = callsign .. " " .. tostring(flightNumber) .. tostring(i)
+		end
 		units[i] = {
-			["name"] = callsign .. " " .. tostring(flightNumber) .. tostring(i),
+			["name"] = name,
 			["type"] = squadron.type,
 			["x"] = baseLocation.x,
 			["y"] = baseLocation.z,
@@ -1045,12 +1136,22 @@ local function launchFlight(airbase, squadron, mission, flightSize)
 		units[i]["onboard_num"] = tostring(units[i].callsign[1]) .. tostring(units[i].callsign[2]) .. tostring(units[i].callsign[3])
 	end
 	flightData["units"] = units
+	-- force ground start if players are close enough to see
+	local waypointType
+	local waypointAction
+	if groundStart or playerInRange(groundStartRadius, baseLocation.x, baseLocation.z) then
+		waypointType = "TakeOffParkingHot"
+		waypointAction = "From Parking Area Hot"
+	else
+		waypointType = "Turning Point"
+		waypointAction = "Turning Point"
+	end
 	-- add route waypoint for airfield launch
 	route = {
 		points = {
 			[1] = {
-				["type"] = "Turning Point",
-				["action"] = "Turning Point",
+				["type"] = waypointType,
+				["action"] = waypointAction,
 				["airdromeId"] = Airbase.getByName(airbase.name):getID(),
 				["speed"] = 100,
 				["x"] = baseLocation.x,
@@ -1068,7 +1169,17 @@ end
 local function returnToBase(missionData)
 	local flightID = missionData.flightID
 	local targetID = missionData.targetID
-	if flights[flightID]:isExist() == true then
+	-- check if our flight even exists or isn't on the ground already
+	local flightInAir = false
+	if flights[flightID]:isExist() ~= false then
+		for key, unit in pairs(flights[flightID]:getUnits()) do
+			if unit:inAir() == true then
+				flightInAir = true
+				break
+			end
+		end
+	end
+	if flightInAir then
 		local controller = flights[flightID]:getController()
 		-- activate radar in case we get jumped and set return fire
 		controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.FOR_SEARCH_IF_REQUIRED)
@@ -1086,8 +1197,8 @@ local function returnToBase(missionData)
 							airdromeId = Airbase.getByName(airbases[missionData.airbaseID].name):getID(),
 							x = baseLocation.x,
 							y = baseLocation.z,
-							alt = 30000,
-							speed = 150,
+							alt = returnAltitude,
+							speed = standardSpeed,
 							task = {
 								id = "ComboTask",
 								params = {
@@ -1103,6 +1214,13 @@ local function returnToBase(missionData)
 		controller:setTask(task)
 		env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " RTB to " .. airbases[missionData.airbaseID].name, 0)
 	end
+end
+
+local function packageAbort(packageID)
+	for key, flight in pairs(packages[packageID].flights) do
+		returnToBase(flight)
+	end
+	packages[packageID] = nil
 end
 
 -- control flight to intercept target track
@@ -1283,7 +1401,8 @@ end
 local function assignMission(missionData)
 	local flightID = missionData.flightID
 	local flightCategory = typeCategory[airbases[missionData.airbaseID].Squadrons[missionData.squadronID].type]
-	if (missionData.mission == "Intercept" or missionData.mission == "QRA") then
+
+	if missionData.mission == "Intercept" or missionData.mission == "QRA" then
 		-- check if whole flight is airborne
 		local flightAirborne = true
 		for key, unit in pairs(flights[flightID]:getUnits()) do
@@ -1325,32 +1444,230 @@ local function assignMission(missionData)
 			timer.scheduleFunction(assignMission, missionData, timer.getTime() + 5)
 		end
 	end
+
+	if missionData.mission == "Tanker" then
+		local controller = flights[flightID]:getController()
+		-- set up flight options
+		controller:setOption(AI.Option.Air.id.REACTION_ON_THREAT, AI.Option.Air.val.REACTION_ON_THREAT.ALLOW_ABORT_MISSION)
+
+		local tankerAltitude = tankerParameters[airbases[missionData.airbaseID].Squadrons[missionData.squadronID].type].altitude
+		local tankerSpeed =  tankerParameters[airbases[missionData.airbaseID].Squadrons[missionData.squadronID].type].speed
+		local orbitID = missionData.targetID
+		local baseLocation = Airbase.getByName(airbases[missionData.airbaseID].name):getPoint()
+		env.info("Blue Air Debug: Tanker flight " .. tostring(flightID) .. " launching", 0)
+		env.info("Blue Air Debug: Altitude: " .. tostring(tankerAltitude) .. " Speed: " .. tostring(tankerSpeed), 0)
+		env.info("Blue Air Debug: Point 1: " .. tostring(tankerOrbits[orbitID][1].x) .. " " .. tostring(tankerOrbits[orbitID][1].y), 0)
+		env.info("Blue Air Debug: Point 2: " .. tostring(tankerOrbits[orbitID][2].x) .. " " .. tostring(tankerOrbits[orbitID][2].y), 0)
+		local task = {
+			id = "Mission",
+			params = {
+				airborne = true,
+				route = {
+					points = {
+						[1] = {
+							type = "Turning Point",
+							action = "Fly Over Point",
+							x = tankerOrbits[orbitID][1].x,
+							y = tankerOrbits[orbitID][1].y,
+							alt = tankerAltitude,
+							speed = tankerSpeed,
+							task = {
+								id = "ComboTask",
+								params = {
+									tasks = {
+										[1] = {
+										id = "Tanker",
+											params = {
+											}
+										},
+										[2] = {
+											id = "Orbit",
+											params = {
+												pattern = "Race-Track",
+												point = {
+													x = tankerOrbits[orbitID][1].x,
+													y = tankerOrbits[orbitID][1].y
+												},
+												point2 = {
+													x = tankerOrbits[orbitID][2].x,
+													y = tankerOrbits[orbitID][2].y
+												},
+												altitude = tankerAltitude,
+												speed = tankerSpeed
+											}
+										}
+									}
+								}
+							}
+						},
+						[2] = {
+							type = "Land",
+							action = "Fly Over Point",
+							airdromeId = Airbase.getByName(airbases[missionData.airbaseID].name):getID(),
+							x = baseLocation.x,
+							y = baseLocation.z,
+							alt = tankerAltitude,
+							speed = tankerSpeed,
+							task = {
+								id = "ComboTask",
+								params = {
+									tasks = {
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		controller:setTask(task)
+	end
+
+	if missionData.mission == "Escort" or missionData.mission == "HAVCAP" then
+		local controller = flights[flightID]:getController()
+		-- set up flight options
+		controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.RETURN_FIRE)
+		controller:setOption(AI.Option.Air.id.REACTION_ON_THREAT, AI.Option.Air.val.REACTION_ON_THREAT.EVADE_FIRE)
+		controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.FOR_SEARCH_IF_REQUIRED)
+		if flightCategory == Group.Category.HELICOPTER then
+			controller:setOption(AI.Option.Air.id.FORMATION, rotaryFormation.FrontRightClose)
+		else
+			controller:setOption(AI.Option.Air.id.FORMATION, fixedWingFormation.LABSClose)
+		end
+		controller:setOption(AI.Option.Air.id.ECM_USING, AI.Option.Air.val.ECM_USING.USE_IF_ONLY_LOCK_BY_RADAR)
+		controller:setOption(AI.Option.Air.id.PROHIBIT_AG, true)
+		if flightCategory == Group.Category.HELICOPTER then
+			controller:setOption(AI.Option.Air.id.MISSILE_ATTACK, AI.Option.Air.val.MISSILE_ATTACK.MAX_RANGE) -- TODO: more complex decision on that
+		else
+			controller:setOption(AI.Option.Air.id.MISSILE_ATTACK, AI.Option.Air.val.MISSILE_ATTACK.RANDOM_RANGE) -- TODO: more complex decision on that
+		end
+		controller:setOption(AI.Option.Air.id.JETT_TANKS_IF_EMPTY, false)
+
+		local targetLocation
+		if packages[missionData.packageID].mission == "Tanker" then
+			targetLocation = tankerOrbits[packages[missionData.packageID].targetID][1]
+		end
+		local escortTargetID = missionData.targetID
+		local baseLocation = Airbase.getByName(airbases[missionData.airbaseID].name):getPoint()
+		env.info("Blue Air Debug: Escort flight " .. tostring(flightID) .. " launching", 0)
+		env.info("Blue Air Debug: Escorting flight: " .. tostring(escortTargetID), 0)
+		local task = {
+			id = "Mission",
+			params = {
+				airborne = true,
+				route = {
+					points = {
+						[1] = {
+							type = "Turning Point",
+							action = "Turning Point",
+							x = targetLocation.x,
+							y = targetLocation.y,
+							alt = standardAltitude,
+							speed = standardSpeed,
+							task = {
+								id = "ComboTask",
+								params = {
+									tasks = {
+										[1] = {
+											id = "Escort",
+											params = {
+												groupId = escortTargetID, -- should already be the same as the in-game ID
+												engagementDistMax = escortCommitRange,
+												pos = {
+													["x"] = 0,
+													["y"] = 500,
+													["z"] = 1000
+												},
+												targetTypes = {
+													[1] = "Planes"
+												},
+												noTargetTypes = {
+													[1] = "Helicopters"
+												},
+												lastWptIndexFlag = true,
+												lastWptIndex = 10
+											}
+										},
+										[2] = {
+											id = "Refueling",
+											params = {
+											}
+										}
+									}
+								}
+							}
+						},
+						[2] = {
+							type = "Land",
+							action = "Turning Point",
+							airdromeId = Airbase.getByName(airbases[missionData.airbaseID].name):getID(),
+							x = baseLocation.x,
+							y = baseLocation.z,
+							alt = standardAltitude,
+							speed = standardSpeed,
+							task = {
+								id = "ComboTask",
+								params = {
+									tasks = {
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		controller:setTask(task)
+	end
 end
 
 -- receive allocated airframes, launch the flight and hand off to aircraft configuration and control
 local function launchSortie(missionData)
 	-- launch the flight
-	local flight = launchFlight(airbases[missionData.airbaseID], airbases[missionData.airbaseID].Squadrons[missionData.squadronID], missionData.mission, missionData.flightSize)
+	-- force ground start for non-intercepts
+	local groundStart = true
+	if missionData.mission == "Intercept" or missionData.mission == "Intercept" then
+		groundStart = false
+	end
+	local flight = launchFlight(airbases[missionData.airbaseID], airbases[missionData.airbaseID].Squadrons[missionData.squadronID], missionData.mission, missionData.flightSize, groundStart)
 	if flight ~= nil then
 		local flightID = flight:getID()
 		flights[flightID] = flight
+		-- if handed nil target data, find the main flight in the package and make that the target (for escort purposes)
+		local targetID = missionData.targetID
+		if targetID == nil then
+			for key, packageFlight in pairs(packages[missionData.packageID].flights) do
+				if packageFlight.mission == "Tanker" then
+					targetID = packageFlight.flightID
+				end
+			end
+		end
 		-- hand off control
 		local updatedMissionData = {
 			["mission"] = missionData.mission,
+			["packageID"] = missionData.packageID,
 			["airbaseID"] = missionData.airbaseID,
 			["squadronID"] = missionData.squadronID,
-			["targetID"] = missionData.targetID,
+			["targetID"] = targetID,
 			["flightSize"] = missionData.flightSize,
 			["flightID"] = flightID
 		}
-		-- set airfield readiness time
-		activeAirbases[missionData.airbaseID].readinessTime = timer.getTime() + preparationTime
+		-- set airfield readiness time for next intercept
+		if missionData.mission == "Intercept" or missionData.mission == "QRA" then
+			activeAirbases[missionData.airbaseID].readinessTime = timer.getTime() + preparationTime
+		end
+		-- update package with flight data
+		if missionData.packageID ~= nil then
+			table.insert(packages[missionData.packageID].flights, updatedMissionData)
+		end
 		-- the script might crash if we do this right away?
 		timer.scheduleFunction(assignMission, updatedMissionData, timer.getTime() + 1)
 	else
 		-- if our flight didn't launch for whatever reason, try again later
-		if tracks[missionData.targetID] ~= nil then
-			tracks[missionData.targetID].engaged = false
+		if missionData.mission == "Intercept" or missionData.mission == "QRA" then
+			if tracks[missionData.targetID] ~= nil then
+				tracks[missionData.targetID].engaged = false
+			end
 		end
 		-- mark airfield skip so next time we'll try again from a different one
 		activeAirbases[missionData.airbaseID].skip = true
@@ -1359,24 +1676,30 @@ local function launchSortie(missionData)
 end
 
 -- allocate airframes from squadron to the mission and hand it off for preparation
-local function allocateAirframes(mission, airbaseID, squadronID, targetID)
+local function allocateAirframes(mission, airbaseID, squadronID, targetID, packageID)
 	-- TODO: Set base flight size by squadron
 	local flightSize -- how many airframes we want to launch
 	-- determine how many aircraft to launch
-	local rand = math.random(10)
-	if rand <= 7 then
-		flightSize = 2 -- baseline flight of two
-	end
-	if rand > 7 then
-		flightSize = 3
-	end
-	-- reduce flight size for high priority squadrons
-	if airbases[airbaseID].Squadrons[squadronID].highPriority == true or typeCategory[airbases[airbaseID].Squadrons[squadronID].type] == Group.Category.HELICOPTER then
-		flightSize = flightSize - 1
+	if mission ~= "Tanker" then
+		local rand = math.random(10)
+		if rand <= 7 then
+			flightSize = 2 -- baseline flight of two
+		end
+		if rand > 7 then
+			flightSize = 3
+		end
+		-- reduce flight size for high priority squadrons
+		if airbases[airbaseID].Squadrons[squadronID].highPriority == true or typeCategory[airbases[airbaseID].Squadrons[squadronID].type] == Group.Category.HELICOPTER then
+			flightSize = flightSize - 1
+		end
+	else
+		-- only need one tanker
+		flightSize = 1
 	end
 	-- launch flight and hand off to flight preparation
 	local missionData = {
 		["mission"] = mission,
+		["packageID"] = packageID, -- nil for intercepts
 		["airbaseID"] = airbaseID,
 		["squadronID"] = squadronID,
 		["targetID"] = targetID,
@@ -1385,8 +1708,36 @@ local function allocateAirframes(mission, airbaseID, squadronID, targetID)
 	launchSortie(missionData)
 end
 
--- main loop for dispatching packages and flights
-local function airTaskingOrder()
+local function assignHAVCAP(packageID)
+	local escortSquadrons = {}
+	-- determine whether it's regular escort or HAVCAP
+	local mission = "Escort"
+	if packages[packageID].mission == "Tanker" then
+		mission = "HAVCAP"
+	end
+	for airbaseID, airbaseData in pairs(activeAirbases) do
+		-- add up all the squadrons in the airbase and select a random one
+		for squadronID, squadron in pairs(airbases[airbaseID].Squadrons) do
+			if squadron.missions[mission] == true then
+				local squadronData = {
+					["airbaseID"] = airbaseID,
+					["squadronID"] = squadronID
+				}
+				table.insert(escortSquadrons, squadronData)
+			end
+		end
+	end
+	if getTableSize(escortSquadrons) > 0 then
+		local squadronIndex = math.random(getTableSize(escortSquadrons))
+		local airbaseID = escortSquadrons[squadronIndex].airbaseID
+		local squadronID = escortSquadrons[squadronIndex].squadronID
+		
+		allocateAirframes(mission, airbaseID, squadronID, nil, packageID)
+	end
+end
+
+-- main loop for dispatching interceptors
+local function interceptATO()
 	-- find unengaged targets and launch interceptors
 	for key, track in pairs(tracks) do
 		if track.engaged ~= true then
@@ -1421,7 +1772,7 @@ local function airTaskingOrder()
 					local squadrons = {}
 					-- add up all the squadrons in the airbase and select a random one
 					for key, squadron in pairs(airbases[airbaseData.airbaseID].Squadrons) do
-						if allowedTargetCategrory(squadron, tracks[trackID].category) then
+						if squadron.missions["Intercept"] == true and allowedTargetCategrory(squadron, tracks[trackID].category) then
 							if getDistance(tracks[trackID].x, tracks[trackID].y, baseLocation.x, baseLocation.z) < squadron.interceptRadius then
 								-- use high priority squadrons only for high threat tracks
 								if tracks[trackID].highThreat == true then
@@ -1453,16 +1804,117 @@ local function airTaskingOrder()
 					else
 						mission = "Intercept"
 					end
-					allocateAirframes(mission, interceptAirbase, interceptSquadron, trackID)
+					allocateAirframes(mission, interceptAirbase, interceptSquadron, trackID, nil)
 				end
 			end
 		end
 	end
-	timer.scheduleFunction(airTaskingOrder, nil, timer.getTime() + 15)
+	timer.scheduleFunction(interceptATO, nil, timer.getTime() + 15)
 end
 
+-- loop for assigning non-intercept packages
+local function logisticsATO()
+	-- refresh HAVCAP or clean up tanker packages
+	for packageID, package in pairs(packages) do
+		if package.mission == "Tanker" then
+			for key, flight in pairs(package.flights) do
+				if flight.mission == "Tanker" then
+					if flights[flight.flightID]:isExist() == false then
+						packageAbort(packageID)
+						env.info("Blue Air Debug: Tanker package: " .. tostring(packageID) .. " disbanded", 0)
+					else
+						local flightAirborne = true
+						for key, unit in pairs(flights[flight.flightID]:getUnits()) do
+							if unit:inAir() == false then
+								flightAirborne = false
+							end
+						end
+						if flightAirborne ~= true then
+							packageAbort(packageID)
+							env.info("Blue Air Debug: Tanker package: " .. tostring(packageID) .. " disbanded", 0)
+						end
+					end
+				end
+				if flight.mission == "HAVCAP" then
+					if flights[flight.flightID]:isExist() == false then
+						timer.scheduleFunction(assignHAVCAP, packageID, timer.getTime() + 60) -- need to delay it otherwise we go into infinite loop
+						env.info("Blue Air Debug: Refreshing HAVCAP for package " .. tostring(packageID), 0)
+					else
+						local flightAirborne = true
+						for key, unit in pairs(flights[flight.flightID]:getUnits()) do
+							if unit:inAir() == false then
+								flightAirborne = false
+							end
+						end
+						if flightAirborne ~= true then
+							timer.scheduleFunction(assignHAVCAP, packageID, timer.getTime() + 60) -- need to delay it otherwise we go into infinite loop
+							env.info("Blue Air Debug: Refreshing HAVCAP for package " .. tostring(packageID), 0)
+						end
+					end
+				end
+			end
+		end
+	end
+
+	-- dispatch tanker missions
+	if math.random(100) < tankerChance then
+		local orbitID
+		-- find all unoccupied orbits available and pick one at random
+		local openOrbits = {}
+		for orbitID, orbit in pairs(tankerOrbits) do
+			local assigned = false
+			for packageID, package in pairs(packages) do
+				if package.mission == "Tanker" and package.targetID == orbitID then
+					assigned = true
+				end
+			end
+			if assigned == false then
+				table.insert(openOrbits, orbitID)
+			end
+		end
+		if getTableSize(openOrbits) > 0 then
+			orbitID = openOrbits[math.random(getTableSize(openOrbits))]
+			-- pick random squadron to dispatch
+			local tankerSquadrons = {}
+			for airbaseID, airbaseData in pairs(activeAirbases) do
+				-- add up all the squadrons in the airbase and select a random one
+				for squadronID, squadron in pairs(airbases[airbaseID].Squadrons) do
+					if squadron.missions["Tanker"] == true then
+						local squadronData = {
+							["airbaseID"] = airbaseID,
+							["squadronID"] = squadronID
+						}
+						table.insert(tankerSquadrons, squadronData)
+					end
+				end
+			end
+			if getTableSize(tankerSquadrons) > 0 then
+				local squadronIndex = math.random(getTableSize(tankerSquadrons))
+				local airbaseID = tankerSquadrons[squadronIndex].airbaseID
+				local squadronID = tankerSquadrons[squadronIndex].squadronID
+				
+				-- assemble the package
+				local packageID = nextPackageID
+				nextPackageID = nextPackageID + 1
+				packages[packageID] = {
+					["mission"] = "Tanker",
+					["targetID"] = orbitID,
+					["flights"] = {}
+				}
+				-- launch tanker
+				allocateAirframes("Tanker", airbaseID, squadronID, orbitID, packageID)
+				-- assign HAVCAP
+				timer.scheduleFunction(assignHAVCAP, packageID, timer.getTime() + 60)
+			end
+		end
+	end
+
+	timer.scheduleFunction(logisticsATO, nil, timer.getTime() + 1080)
+end
+-- math.random(minPackageTime, maxPackageTime)
 initializeAirbases()
-airTaskingOrder()
+interceptATO()
+logisticsATO()
 
 ---------------------------------------------------------------------------------------------------------------------------
 -- function handling DCS events
