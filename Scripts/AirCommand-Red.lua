@@ -79,103 +79,70 @@ local weaponTypes = {
 
 ---------------------------------------------------------------------------------------------------------------------------
 -- faction, squadron and air defense logic data
-local side = coalition.side.BLUE
+local side = coalition.side.RED
 
 -- general cruise speed and altitude unless defined otherwise
-local standardAltitude = 7620
-local returnAltitude = 10973 -- RTB altitude
+local standardAltitude = 7500
+local returnAltitude = 1100 -- RTB altitude
 local standardSpeed = 250
 
 -- altitude and speeds used for tanker operations
 local tankerParameters = {
-	["KC-135"] = {
-		altitude = 6096,
-		speed = 211
-	},
-	["KC135MPRS"] = {
-		altitude = 6096,
-		speed = 211
+	["IL-78M"] = {
+		altitude = 8000,
+		speed = 233.6
 	}
 }
 
 -- table defining preferred tactics for each aircraft type
 -- if not defined, will be determined randomly or according to threat (TODO)
 local preferredTactic = {
-	["F-5E-3"] = interceptTactic.SternLow,
-	["F-14A-135-GR"] = interceptTactic.LeadHigh
+	["MiG-31"] = interceptTactic.LeadHigh
 }
 
 -- table defining which types constitute high priority threats
 local highThreatType = {
-	["Su-27"] = true,
-	["Su-33"] = true,
-	["MiG-29A"] = true,
-	["MiG-29S"] = true,
-	["MiG-25PD"] = true,
-	["MiG-25RBT"] = true,
-	["MiG-31"] = true,
-	["Su-24M"] = true,
-	["Su-24MR"] = true
+	["F-14A-135-GR"] = true
 }
 
 -- range to intercept target in meters at which point the interceptors will activate their radar
 -- if range is not defined radar SOP is assumed to be always on
 local radarRange = {
-	["F-5E3"] = 12000,
-	["F-4E"] = 60000
 }
 
 -- any zones where interception will not be launched even if in range of a squadron
 local ADZExclusion = {
-	-- Pakistani Air Force operational area
-	[1] = {
-		["x"] = 4605,
-		["y"] = 248026,
-		["radius"] = 150000
-	}
 }
 
 local tankerOrbits = {
-	["Shiraz"] = {
+	["Kerman"] = {
 		[1] = {
-			["x"] = 340121,
-			["y"] = -205223
+			["x"] = 363580,
+			["y"] = 102662
 		},
 		[2] = {
-			["x"] = 287224,
-			["y"] = -150008
-		}
-	},
-	["Abbas"] = {
-		[1] = {
-			["x"] = 226045,
-			["y"] = -48664
-		},
-		[2] = {
-			["x"] = 175307,
-			["y"] = 25752
+			["x"] = 305627,
+			["y"] = 173034
 		}
 	}
 }
 
 -- airbases and squadrons
 local airbases = {
-	["Abbas"] = {
-		name = "Bandar Abbas Intl", -- DCS name
-		takeoffHeading = 0.488, -- in radians
+	["Kerman"] = {
+		name = "Kerman", -- DCS name
+		takeoffHeading = 0.314, -- in radians
 		Squadrons = {
-			["91TFS"] = {
-				["name"] = "91st TFS",
-				["country"] = country.Iran,
-				["type"] = "F-4E",
+			["763IAP"] = {
+				["name"] = "763 IAP",
+				["country"] = country.USSR,
+				["type"] = "MiG-31",
 				["skill"] = "High",
-				["livery"] = "IRIAF Asia Minor",
+				["livery"] = "af standard",
 				["allWeatherAA"] = capability.Full,
 				["allWeatherAG"] = capability.None,
-				["interceptRadius"] = 220000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["interceptRadius"] = 50000, -- radius of action around the airbase for interceptors from this squadron in meters
 				["missions"] = {
-					["Intercept"] = true,
-					["QRA"] = true,
 					["CAP"] = true,
 					["Escort"] = true,
 					["HAVCAP"] = true
@@ -190,455 +157,46 @@ local airbases = {
 							{
 								[1] =
 								{
-									["CLSID"] = "{7B4B122D-C12C-4DB4-834E-4D8BB4D863A8}",
+									["CLSID"] = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}",
 								},
 								[2] =
 								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
+									["CLSID"] = "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}",
 								},
 								[3] =
 								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[7] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[8] =
-								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
-								},
-								[9] =
-								{
-									["CLSID"] = "{7B4B122D-C12C-4DB4-834E-4D8BB4D863A8}",
-								},
-							},
-							["fuel"] = "4864",
-							["flare"] = 30,
-							["chaff"] = 60,
-							["gun"] = 100,
-						},
-						["QRA"] = {
-							["pylons"] =
-							{
-								[2] =
-								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
-								},
-								[3] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[7] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[8] =
-								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
-								},
-							},
-							["fuel"] = "4864",
-							["flare"] = 30,
-							["chaff"] = 60,
-							["gun"] = 100,
-						}
-					}
-				},
-				["callsigns"] = {
-					"Toophan",
-					"Alvand",
-					"Sahand",
-					"Alborz",
-					"Shahab"
-				}
-			},
-			["82TFS"] = {
-				["name"] = "82nd TFS",
-				["country"] = country.Iran,
-				["type"] = "F-14A-135-GR", -- F-14A-95-GR IRIAF
-				["skill"] = "High",
-				["livery"] = "IRIAF Asia Minor",
-				["allWeatherAA"] = capability.Full,
-				["allWeatherAG"] = capability.None,
-				["highPriority"] = true, -- squadron aircraft will be saved for high priority targets
-				["interceptRadius"] = 220000, -- radius of action around the airbase for interceptors from this squadron in meters
-				["missions"] = {
-					["Intercept"] = true,
-					["QRA"] = true,
-					["HAVCAP"] = true
-				},
-				["targetCategories"] = {
-					[1] = Unit.Category.AIRPLANE
-				},
-				["loadouts"] = {
-					["AA"] = {
-						["General"] = {
-							["pylons"] =
-							{
-								[1] =
-								{
-									["CLSID"] = "{LAU-138 wtip - AIM-9L}",
-								},
-								[2] =
-								{
-									["CLSID"] = "{SHOULDER AIM-7F}",
+									["CLSID"] = "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}",
 								},
 								[4] =
 								{
-									["CLSID"] = "{AIM_54A_Mk47}",
+									["CLSID"] = "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}",
 								},
 								[5] =
 								{
-									["CLSID"] = "<CLEAN>",
+									["CLSID"] = "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}",
 								},
 								[6] =
 								{
-									["CLSID"] = "<CLEAN>",
-								},
-								[7] =
-								{
-									["CLSID"] = "{AIM_54A_Mk47}",
-								},
-								[9] =
-								{
-									["CLSID"] = "{SHOULDER AIM-7F}",
-								},
-								[10] =
-								{
-									["CLSID"] = "{LAU-138 wtip - AIM-9L}",
+									["CLSID"] = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}",
 								},
 							},
-							["fuel"] = 7348,
-							["flare"] = 60,
-							["ammo_type"] = 1,
-							["chaff"] = 140,
-							["gun"] = 100,
-						}
-					}
-				},
-				["callsigns"] = {
-					"Shahin",
-					"Oghab",
-					"Toophan"
-				}
-			}
-		}
-	},
-	["Lar"] = {
-		name = "Lar", -- DCS name
-		takeoffHeading = 1.576, -- in radians
-		Squadrons = {
-			["23TFS"] = {
-				["name"] = "23rd TFS",
-				["country"] = country.Iran,
-				["type"] = "F-5E-3",
-				["skill"] = "High",
-				["livery"] = "ir iriaf 43rd tfs",
-				["allWeatherAA"] = capability.Limited,
-				["allWeatherAG"] = capability.None,
-				["interceptRadius"] = 150000, -- radius of action around the airbase for interceptors from this squadron in meters
-				["missions"] = {
-					["Intercept"] = true,
-					["QRA"] = true,
-					["CAP"] = true,
-					["Escort"] = true,
-					["HAVCAP"] = true
-				},
-				["targetCategories"] = {
-					[1] = Unit.Category.AIRPLANE
-				},
-				["loadouts"] = {
-					["AA"] = {
-						["General"] = {
-							["pylons"] =
-							{
-								[1] =
-								{
-									["CLSID"] = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
-								},
-								[4] =
-								{
-									["CLSID"] = "{0395076D-2F77-4420-9D33-087A4398130B}",
-								},
-								[7] =
-								{
-									["CLSID"] = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
-								},
-							},
-							["fuel"] = 2046,
-							["flare"] = 15,
-							["ammo_type"] = 2,
-							["chaff"] = 30,
-							["gun"] = 100,
-						},
-						["QRA"] = {
-							["pylons"] =
-							{
-								[1] =
-								{
-									["CLSID"] = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
-								},
-								[7] =
-								{
-									["CLSID"] = "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}",
-								},
-							},
-							["fuel"] = 2046,
-							["flare"] = 15,
-							["ammo_type"] = 2,
-							["chaff"] = 30,
-							["gun"] = 100,
-						}
-					}
-				},
-				["callsigns"] = {
-					"Palang",
-					"Kaman",
-					"Paykan"
-				}
-			}
-		}
-	},
-	["Shiraz"] = {
-		name = "Shiraz Intl", -- DCS name
-		takeoffHeading = 2.037, -- in radians
-		Squadrons = {
-			["71TFS"] = {
-				["name"] = "71st TFS",
-				["country"] = country.Iran,
-				["type"] = "F-4E", -- F-4D
-				["skill"] = "High",
-				["livery"] = "IRIAF Asia Minor",
-				["allWeatherAA"] = capability.Full,
-				["allWeatherAG"] = capability.None,
-				["interceptRadius"] = 350000, -- radius of action around the airbase for interceptors from this squadron in meters
-				["missions"] = {
-					["Intercept"] = true,
-					["QRA"] = true,
-					["CAP"] = true,
-					["Escort"] = true,
-					["HAVCAP"] = true
-				},
-				["targetCategories"] = {
-					[1] = Unit.Category.AIRPLANE
-				},
-				["loadouts"] = {
-					["AA"] = {
-						["General"] = {
-							["pylons"] =
-							{
-								[1] =
-								{
-									["CLSID"] = "{7B4B122D-C12C-4DB4-834E-4D8BB4D863A8}",
-								},
-								[2] =
-								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
-								},
-								[3] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[7] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[8] =
-								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
-								},
-								[9] =
-								{
-									["CLSID"] = "{7B4B122D-C12C-4DB4-834E-4D8BB4D863A8}",
-								},
-							},
-							["fuel"] = "4864",
+							["fuel"] = "15500",
 							["flare"] = 0,
 							["chaff"] = 0,
-							["gun"] = 0,
-						},
-						["QRA"] = {
-							["pylons"] =
-							{
-								[2] =
-								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
-								},
-								[3] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[7] =
-								{
-									["CLSID"] = "{AIM-7E}",
-								},
-								[8] =
-								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
-								},
-							},
-							["fuel"] = "4864",
-							["flare"] = 0,
-							["chaff"] = 0,
-							["gun"] = 0,
-						}
-					}
-				},
-				["callsigns"] = {
-					"Toophan",
-					"Alvand",
-					"Sahand",
-					"Alborz",
-					"Kaman"
-				}
-			},
-			["72TFS"] = {
-				["name"] = "72nd TFS",
-				["country"] = country.Iran,
-				["type"] = "F-14A-135-GR", -- F-14A-95-GR IRIAF
-				["skill"] = "High",
-				["livery"] = "IRIAF Asia Minor",
-				["allWeatherAA"] = capability.Full,
-				["allWeatherAG"] = capability.None,
-				["highPriority"] = true, -- squadron aircraft will be saved for high priority targets
-				["interceptRadius"] = 350000, -- radius of action around the airbase for interceptors from this squadron in meters
-				["missions"] = {
-					["Intercept"] = true,
-					["QRA"] = true,
-					["HAVCAP"] = true
-				},
-				["targetCategories"] = {
-					[1] = Unit.Category.AIRPLANE
-				},
-				["loadouts"] = {
-					["AA"] = {
-						["General"] = {
-							["pylons"] =
-							{
-								[1] =
-								{
-									["CLSID"] = "{LAU-138 wtip - AIM-9L}",
-								},
-								[2] =
-								{
-									["CLSID"] = "{SHOULDER AIM-7F}",
-								},
-								[4] =
-								{
-									["CLSID"] = "{AIM_54A_Mk47}",
-								},
-								[5] =
-								{
-									["CLSID"] = "<CLEAN>",
-								},
-								[6] =
-								{
-									["CLSID"] = "<CLEAN>",
-								},
-								[7] =
-								{
-									["CLSID"] = "{AIM_54A_Mk47}",
-								},
-								[9] =
-								{
-									["CLSID"] = "{SHOULDER AIM-7F}",
-								},
-								[10] =
-								{
-									["CLSID"] = "{LAU-138 wtip - AIM-9L}",
-								},
-							},
-							["fuel"] = 7348,
-							["flare"] = 60,
-							["ammo_type"] = 1,
-							["chaff"] = 140,
 							["gun"] = 100,
 						}
 					}
 				},
 				["callsigns"] = {
-					"Shahin",
-					"Oghab",
-					"Toophan"
+					"Aurora"
 				}
 			},
-			["73TFS"] = {
-				["name"] = "73rd TFS",
-				["country"] = country.Iran,
-				["type"] = "F-14A-135-GR", -- F-14A-95-GR IRIAF
+			["409APSZ"] = {
+				["name"] = "409 APSZ",
+				["country"] = country.USSR,
+				["type"] = "IL-78M", -- KC-707
 				["skill"] = "High",
-				["livery"] = "IRIAF Asia Minor",
-				["allWeatherAA"] = capability.Full,
-				["allWeatherAG"] = capability.None,
-				["highPriority"] = true, -- squadron aircraft will be saved for high priority targets
-				["interceptRadius"] = 350000, -- radius of action around the airbase for interceptors from this squadron in meters
-				["missions"] = {
-					["Intercept"] = true,
-					["QRA"] = true,
-					["HAVCAP"] = true
-				},
-				["targetCategories"] = {
-					[1] = Unit.Category.AIRPLANE
-				},
-				["loadouts"] = {
-					["AA"] = {
-						["General"] = {
-							["pylons"] =
-							{
-								[1] =
-								{
-									["CLSID"] = "{LAU-138 wtip - AIM-9L}",
-								},
-								[2] =
-								{
-									["CLSID"] = "{SHOULDER AIM-7F}",
-								},
-								[4] =
-								{
-									["CLSID"] = "{AIM_54A_Mk47}",
-								},
-								[5] =
-								{
-									["CLSID"] = "<CLEAN>",
-								},
-								[6] =
-								{
-									["CLSID"] = "<CLEAN>",
-								},
-								[7] =
-								{
-									["CLSID"] = "{AIM_54A_Mk47}",
-								},
-								[9] =
-								{
-									["CLSID"] = "{SHOULDER AIM-7F}",
-								},
-								[10] =
-								{
-									["CLSID"] = "{LAU-138 wtip - AIM-9L}",
-								},
-							},
-							["fuel"] = 7348,
-							["flare"] = 60,
-							["ammo_type"] = 1,
-							["chaff"] = 140,
-							["gun"] = 100,
-						}
-					}
-				},
-				["callsigns"] = {
-					"Shahin",
-					"Oghab",
-					"Shahab"
-				}
-			},
-			["11TS"] = {
-				["name"] = "11th TS",
-				["country"] = country.Iran,
-				["type"] = "KC135MPRS", -- KC-707
-				["skill"] = "High",
-				["livery"] = "IRIAF (2)",
+				["livery"] = "RF Air Force",
 				["missions"] = {
 					["Tanker"] = true
 				},
@@ -648,120 +206,15 @@ local airbases = {
 							["pylons"] =
 							{
 							},
-							["fuel"] = 90700,
-							["flare"] = 0,
-							["chaff"] = 0,
+							["fuel"] = 90000,
+							["flare"] = 96,
+							["chaff"] = 96,
 							["gun"] = 100,
 						}
 					}
 				},
 				["callsigns"] = {
-					"Karoon",
-					"Paykan",
-					"Nahid",
-					"Mahtab"
-				}
-			}
-		}
-	},
-	["Kahnuj FB"] = {
-		name = "Kahnuj FB", -- DCS name
-		takeoffHeading = 0.436, -- in radians
-		Squadrons = {
-			["3CSG"] = {
-				["name"] = "3rd CSG",
-				["country"] = country.Iran,
-				["type"] = "AH-1W", -- AH-1J
-				["skill"] = "Excellent",
-				["livery"] = "I.R.I.A.A",
-				["allWeatherAA"] = capability.None,
-				["allWeatherAG"] = capability.None,
-				["interceptRadius"] = 40000, -- radius of action around the airbase for interceptors from this squadron in meters
-				["missions"] = {
-					["Intercept"] = true,
-					["QRA"] = true,
-					["CAP"] = true
-				},
-				["targetCategories"] = {
-					[1] = Unit.Category.HELICOPTER
-				},
-				["loadouts"] = {
-					["AA"] = {
-						["General"] = {
-							["pylons"] = 
-							{
-								[1] = 
-								{
-									["CLSID"] = "{3EA17AB0-A805-4D9E-8732-4CE00CB00F17}",
-								}, -- end of [1]
-								[4] = 
-								{
-									["CLSID"] = "{3EA17AB0-A805-4D9E-8732-4CE00CB00F17}",
-								}, -- end of [4]
-							}, -- end of ["pylons"]
-							["fuel"] = "1250.0",
-							["flare"] = 30,
-							["chaff"] = 30,
-							["gun"] = 100,
-						}
-					}
-				},
-				["callsigns"] = {
-					"Oghab",
-					"Sahand",
-					"Shahin",
-					"Babr"
-				}
-			}
-		}
-	},
-	["Sirjan FB"] = {
-		name = "Sirjan FB", -- DCS name
-		takeoffHeading = 1.047, -- in radians
-		Squadrons = {
-			["3CSG"] = {
-				["name"] = "3rd CSG",
-				["country"] = country.Iran,
-				["type"] = "AH-1W", -- AH-1J
-				["skill"] = "Excellent",
-				["livery"] = "I.R.I.A.A",
-				["allWeatherAA"] = capability.None,
-				["allWeatherAG"] = capability.None,
-				["interceptRadius"] = 40000, -- radius of action around the airbase for interceptors from this squadron in meters
-				["missions"] = {
-					["Intercept"] = true,
-					["QRA"] = true,
-					["CAP"] = true
-				},
-				["targetCategories"] = {
-					[1] = Unit.Category.HELICOPTER
-				},
-				["loadouts"] = {
-					["AA"] = {
-						["General"] = {
-							["pylons"] = 
-							{
-								[1] = 
-								{
-									["CLSID"] = "{3EA17AB0-A805-4D9E-8732-4CE00CB00F17}",
-								}, -- end of [1]
-								[4] = 
-								{
-									["CLSID"] = "{3EA17AB0-A805-4D9E-8732-4CE00CB00F17}",
-								}, -- end of [4]
-							}, -- end of ["pylons"]
-							["fuel"] = "1250.0",
-							["flare"] = 30,
-							["chaff"] = 30,
-							["gun"] = 100,
-						}
-					}
-				},
-				["callsigns"] = {
-					"Oghab",
-					"Sahand",
-					"Shahin",
-					"Babr"
+					"Atlant"
 				}
 			}
 		}
@@ -1925,8 +1378,8 @@ local function logisticsATO()
 end
 -- math.random(minPackageTime, maxPackageTime)
 initializeAirbases()
-interceptATO()
-timer.scheduleFunction(logisticsATO, nil, timer.getTime() + math.random(minPackageTime))
+--interceptATO()
+timer.scheduleFunction(logisticsATO, nil, timer.getTime() + 10)
 
 ---------------------------------------------------------------------------------------------------------------------------
 -- function handling DCS events
