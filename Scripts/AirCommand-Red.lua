@@ -1147,10 +1147,10 @@ local function allocateAirframes(mission, airbaseID, squadronID, targetID, packa
 	-- determine how many aircraft to launch
 	if mission ~= "Tanker" then
 		local rand = math.random(10)
-		if rand <= 7 then
+		if rand <= 8 then
 			flightSize = 2 -- baseline flight of two
 		end
-		if rand > 7 then
+		if rand > 8 then
 			flightSize = 3
 		end
 		-- reduce flight size for high priority squadrons
