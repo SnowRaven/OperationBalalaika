@@ -2,5 +2,5 @@
 objtype = "CONVOY"
 intel = 3
 cost = 4
-priority = 9
+priority = 4
 exclusion = "MohammadabadMotorized"

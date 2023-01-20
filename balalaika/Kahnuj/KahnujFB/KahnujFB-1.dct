@@ -2,4 +2,4 @@
 objtype = "FACILITY"
 intel = 3
 cost = 4
-priority = 1
+priority = 10

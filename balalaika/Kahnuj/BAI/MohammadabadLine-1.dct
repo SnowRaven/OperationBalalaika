@@ -1,4 +1,4 @@
 objtype = "CHECKPOINT"
 intel = 3
 cost = 4
-priority = 10
+priority = 1

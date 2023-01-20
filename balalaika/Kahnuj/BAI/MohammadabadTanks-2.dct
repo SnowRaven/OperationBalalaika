@@ -1,4 +1,4 @@
 objtype = "CONVOY"
 intel = 2
 cost = 4
-priority = 8
+priority = 6

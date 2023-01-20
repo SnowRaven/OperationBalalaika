@@ -2,4 +2,4 @@
 objtype = "BUNKER"
 intel = 3
 cost = 4
-priority = 2
+priority = 11
