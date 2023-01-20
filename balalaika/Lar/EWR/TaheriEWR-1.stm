@@ -1,0 +1,231 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1401,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -373003.29225621,
+                                            ["x"] = 178110.64451749,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["number"] = 1,
+                                                            ["params"] = 
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "FPS-117 Dome",
+                                        ["unitId"] = 12,
+                                        ["y"] = -373003.29225621,
+                                        ["x"] = 178110.64451749,
+                                        ["name"] = "PRIMARY DESTROYED EWR",
+                                        ["heading"] = 4.2586033748662,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "FPS-117 ECS",
+                                        ["unitId"] = 1,
+                                        ["y"] = -373023.0339275,
+                                        ["x"] = 178116.60572804,
+                                        ["name"] = "EWR-1",
+                                        ["heading"] = 4.2586033748662,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = -373003.29225621,
+                                ["x"] = 178110.64451749,
+                                ["name"] = "EWR",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1438,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -374929.60014963,
+                                            ["x"] = 179296.04852835,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["number"] = 1,
+                                                            ["auto"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "FPS-117",
+                                        ["unitId"] = 8,
+                                        ["y"] = -374929.60014963,
+                                        ["x"] = 179296.04852835,
+                                        ["name"] = "PRIMARY DESTROYED Mobile EWR",
+                                        ["heading"] = 6.1086523819802,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "FPS-117 ECS",
+                                        ["unitId"] = 2,
+                                        ["y"] = -374933.11607431,
+                                        ["x"] = 179292.45418985,
+                                        ["name"] = "Mobile EWR-1",
+                                        ["heading"] = 6.1086523819802,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = -374929.60014963,
+                                ["x"] = 179296.04852835,
+                                ["name"] = "Mobile EWR",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "TaheriEWR-1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Partially completed at the time of the revolution, the early warning radar station at Bandar Taheri has been a critical component of Iran's third air defense sector operations for the last several years, providing early warning of Iraqi strikes on the Kharg terminal and other critical positions along the western coast of Iran. Originally outfitted with an American-provided GPS-11 system, intelligence gained from Iraqi sources indicates that a second transportable radar set was recently installed to help track targets over the Persian Gulf. This station must be eliminated to ensure the safety of our operations over the Lar and Shiraz areas.\
+\
+The station is located at an elevation of approximately 1,400 meters on the ridgeline overlooking Bandar Taheri from the northeast, approximately 525 kilometers at true bearing 238 from Kerman. The southeastern compound houses the original radar, which can be identified by its dome construction. The second radar is located two kilometers northwest of that position and has an exposed antenna. The site is defended by numerous anti-aircraft artillery pieces, and a Rapier surface-to-air missile system has also been installed to deter attack. Further protection is provided by interceptors stationed to the east in Lar and north in Shiraz.\
+\
+Your orders are simple: eliminate the station by destroying both radar systems. All other targets at the site are of secondary importance. Once you have confirmed the destruction of the radars, withdraw to safety as soon as possible.",
+} -- end of staticTemplate

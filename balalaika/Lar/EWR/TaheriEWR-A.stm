@@ -1,0 +1,1526 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1437,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -374927.8344263,
+                                            ["x"] = 179259.94391804,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 21,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 24,
+                                        ["y"] = -374927.8344263,
+                                        ["x"] = 179259.94391804,
+                                        ["name"] = "Mobile EWR AD-2",
+                                        ["heading"] = 3.7699111843078,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 31,
+                                        ["y"] = -374879.26346735,
+                                        ["x"] = 179280.20700738,
+                                        ["name"] = "Mobile EWR AD-5",
+                                        ["heading"] = 1.7278759594744,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 25,
+                                        ["y"] = -374865.22450383,
+                                        ["x"] = 179262.6348817,
+                                        ["name"] = "Mobile EWR AD-3",
+                                        ["heading"] = 1.8675022996339,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 26,
+                                        ["y"] = -374928.56633341,
+                                        ["x"] = 179326.69830316,
+                                        ["name"] = "Mobile EWR AD-4",
+                                        ["heading"] = 4.7647488579445,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 23,
+                                        ["y"] = -374878.96661742,
+                                        ["x"] = 179315.67844031,
+                                        ["name"] = "Mobile EWR AD-1",
+                                        ["heading"] = 0.87266462599716,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                }, -- end of ["units"]
+                                ["y"] = -374927.8344263,
+                                ["x"] = 179259.94391804,
+                                ["name"] = "Mobile EWR AD",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1409,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -373098.06019646,
+                                            ["x"] = 178127.42666399,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 22,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 52,
+                                        ["y"] = -373098.06019646,
+                                        ["x"] = 178127.42666399,
+                                        ["name"] = "EWR AD-4",
+                                        ["heading"] = 5.1138147083434,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "ISR",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 53,
+                                        ["y"] = -373176.04381344,
+                                        ["x"] = 178141.23722185,
+                                        ["name"] = "EWR AD-5",
+                                        ["heading"] = 5.7421332390613,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 51,
+                                        ["y"] = -373103.03162503,
+                                        ["x"] = 178128.79809256,
+                                        ["name"] = "EWR AD-3",
+                                        ["heading"] = 1.4660765716752,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 50,
+                                        ["y"] = -373152.88655728,
+                                        ["x"] = 178051.61904741,
+                                        ["name"] = "EWR AD-2",
+                                        ["heading"] = 2.2863813201126,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 49,
+                                        ["y"] = -373135.49300552,
+                                        ["x"] = 178054.90557721,
+                                        ["name"] = "EWR AD-1",
+                                        ["heading"] = 3.2812189937493,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 27,
+                                        ["y"] = -373114.1102871,
+                                        ["x"] = 178062.58203125,
+                                        ["name"] = "EWR AD-1-1",
+                                        ["heading"] = 3.2812189937493,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 28,
+                                        ["y"] = -373177.97917732,
+                                        ["x"] = 178089.58058444,
+                                        ["name"] = "EWR AD-1-2",
+                                        ["heading"] = 4.2411500823462,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 29,
+                                        ["y"] = -373179.6920039,
+                                        ["x"] = 178136.33802347,
+                                        ["name"] = "EWR AD-1-3",
+                                        ["heading"] = 4.7647488579445,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 32,
+                                        ["y"] = -373125.27657875,
+                                        ["x"] = 178177.55717296,
+                                        ["name"] = "EWR AD-1-5",
+                                        ["heading"] = 6.2133721370998,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 30,
+                                        ["y"] = -373084.87312,
+                                        ["x"] = 178203.34601,
+                                        ["name"] = "EWR AD-1-4",
+                                        ["heading"] = 0.66322511575785,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                }, -- end of ["units"]
+                                ["y"] = -373098.06019646,
+                                ["x"] = 178127.42666399,
+                                ["name"] = "EWR AD",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1401,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -373281.89929838,
+                                            ["x"] = 178399.57640804,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 23,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 38,
+                                        ["y"] = -373281.89929838,
+                                        ["x"] = 178399.57640804,
+                                        ["name"] = "EWR AD-1-6",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 42,
+                                        ["y"] = -373307.58368454,
+                                        ["x"] = 178386.16300064,
+                                        ["name"] = "EWR AD-1-11",
+                                        ["heading"] = 5.4977871437821,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 41,
+                                        ["y"] = -373259.06412811,
+                                        ["x"] = 178385.78492617,
+                                        ["name"] = "EWR AD-1-9",
+                                        ["heading"] = 0.78539816339745,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 43,
+                                        ["y"] = -373276.78976125,
+                                        ["x"] = 178380.30671731,
+                                        ["name"] = "EWR AD-1-12",
+                                        ["heading"] = 2.3561944901923,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 40,
+                                        ["y"] = -373258.56002882,
+                                        ["x"] = 178359.06766393,
+                                        ["name"] = "EWR AD-1-8",
+                                        ["heading"] = 2.3561944901923,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 47,
+                                        ["y"] = -373278.45797031,
+                                        ["x"] = 178377.02415482,
+                                        ["name"] = "EWR AD-1-16",
+                                        ["heading"] = 2.4085543677522,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 46,
+                                        ["y"] = -373276.32117894,
+                                        ["x"] = 178375.80591035,
+                                        ["name"] = "EWR AD-1-15",
+                                        ["heading"] = 4.8694686130642,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 45,
+                                        ["y"] = -373305.1153152,
+                                        ["x"] = 178373.47257292,
+                                        ["name"] = "EWR AD-1-14",
+                                        ["heading"] = 4.8694686130642,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 44,
+                                        ["y"] = -373305.55927575,
+                                        ["x"] = 178377.50598541,
+                                        ["name"] = "EWR AD-1-13",
+                                        ["heading"] = 3.9269908169872,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 39,
+                                        ["y"] = -373306.07138668,
+                                        ["x"] = 178359.19368875,
+                                        ["name"] = "EWR AD-1-7",
+                                        ["heading"] = 3.9269908169872,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 37,
+                                        ["y"] = -373281.64044113,
+                                        ["x"] = 178344.32048123,
+                                        ["name"] = "EWR AD-1-10",
+                                        ["heading"] = 3.1415926535898,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                }, -- end of ["units"]
+                                ["y"] = -373281.89929838,
+                                ["x"] = 178399.57640804,
+                                ["name"] = "EWR AD-1",
+                                ["start_time"] = 0,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1457,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -374051.90540494,
+                                            ["x"] = 178413.1830478,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 25,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_launcher",
+                                        ["unitId"] = 55,
+                                        ["y"] = -374051.90540494,
+                                        ["x"] = 178413.1830478,
+                                        ["name"] = "EWR AD-2-2",
+                                        ["heading"] = 2.3561944901923,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_launcher",
+                                        ["unitId"] = 56,
+                                        ["y"] = -374006.46006088,
+                                        ["x"] = 178411.19564208,
+                                        ["name"] = "EWR AD-2-3",
+                                        ["heading"] = 3.9269908169872,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 57,
+                                        ["y"] = -374021.25832889,
+                                        ["x"] = 178425.45877362,
+                                        ["name"] = "EWR AD-2-4",
+                                        ["heading"] = 1.5707963267949,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_launcher",
+                                        ["unitId"] = 58,
+                                        ["y"] = -374011.75980946,
+                                        ["x"] = 178377.01226376,
+                                        ["name"] = "EWR AD-2-5",
+                                        ["heading"] = 5.4977871437821,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 72,
+                                        ["y"] = -374018.65859213,
+                                        ["x"] = 178402.98940226,
+                                        ["name"] = "EWR AD-2-16",
+                                        ["heading"] = 4.3458698374659,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 71,
+                                        ["y"] = -374020.28716356,
+                                        ["x"] = 178402.70368797,
+                                        ["name"] = "EWR AD-2-15",
+                                        ["heading"] = 0.99483767363677,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 70,
+                                        ["y"] = -374023.11573499,
+                                        ["x"] = 178408.56083083,
+                                        ["name"] = "EWR AD-2-14",
+                                        ["heading"] = 4.9567350756639,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 59,
+                                        ["y"] = -374025.10222688,
+                                        ["x"] = 178423.79639725,
+                                        ["name"] = "EWR AD-2-6",
+                                        ["heading"] = 4.1015237421867,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 60,
+                                        ["y"] = -374019.0165126,
+                                        ["x"] = 178427.59639725,
+                                        ["name"] = "EWR AD-2-7",
+                                        ["heading"] = 0.22689280275926,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 61,
+                                        ["y"] = -374044.10744723,
+                                        ["x"] = 178392.00523789,
+                                        ["name"] = "EWR AD-2-8",
+                                        ["heading"] = 4.2760566673861,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 66,
+                                        ["y"] = -374044.02495133,
+                                        ["x"] = 178367.04575694,
+                                        ["name"] = "EWR AD-2-11",
+                                        ["heading"] = 4.0491638646268,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 65,
+                                        ["y"] = -374072.75621651,
+                                        ["x"] = 178420.37485707,
+                                        ["name"] = "EWR AD-2-1",
+                                        ["heading"] = 4.5727626402251,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 62,
+                                        ["y"] = -374045.65030438,
+                                        ["x"] = 178413.14809504,
+                                        ["name"] = "EWR AD-2-9",
+                                        ["heading"] = 3.9269908169872,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_blindfire_radar",
+                                        ["unitId"] = 68,
+                                        ["y"] = -374017.79625305,
+                                        ["x"] = 178401.01810862,
+                                        ["name"] = "EWR AD-2-13",
+                                        ["heading"] = 1.5707963267949,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_optical_tracker_unit",
+                                        ["unitId"] = 67,
+                                        ["y"] = -374022.56503591,
+                                        ["x"] = 178405.66139719,
+                                        ["name"] = "EWR AD-2-12",
+                                        ["heading"] = 4.7996554429844,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_launcher",
+                                        ["unitId"] = 63,
+                                        ["y"] = -374044.55208797,
+                                        ["x"] = 178388.87542704,
+                                        ["name"] = "EWR AD-2-10",
+                                        ["heading"] = 0.78539816339745,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [16]
+                                }, -- end of ["units"]
+                                ["y"] = -374051.90540494,
+                                ["x"] = 178413.1830478,
+                                ["name"] = "Rapier",
+                                ["start_time"] = 0,
+                            }, -- end of [4]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 34,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 6.1086523819802,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -374906.16778212,
+                                            ["speed"] = 0,
+                                            ["x"] = 179297.96162251,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "aviashtab",
+                                        ["type"] = "Military staff",
+                                        ["unitId"] = 4,
+                                        ["rate"] = 100,
+                                        ["y"] = -374906.16778212,
+                                        ["x"] = 179297.96162251,
+                                        ["name"] = "Static Military staff-1",
+                                        ["heading"] = 6.1086523819802,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -374906.16778212,
+                                ["x"] = 179297.96162251,
+                                ["name"] = "Static Military staff-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 3.2288591161895,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -374881.78384424,
+                                            ["speed"] = 0,
+                                            ["x"] = 179273.44658818,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["type"] = "houseA_arm",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 5,
+                                        ["y"] = -374881.78384424,
+                                        ["x"] = 179273.44658818,
+                                        ["name"] = "Static Building armed-1",
+                                        ["heading"] = 3.2288591161895,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -374881.78384424,
+                                ["x"] = 179273.44658818,
+                                ["name"] = "Static Building armed-1",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 5.9864793343406,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -374894.65448208,
+                                            ["speed"] = 0,
+                                            ["x"] = 179299.0117622,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 6,
+                                        ["rate"] = 5,
+                                        ["y"] = -374894.65448208,
+                                        ["x"] = 179299.0117622,
+                                        ["name"] = "Static Truck Ural-375-1-1",
+                                        ["heading"] = 5.9864793343406,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -374894.65448208,
+                                ["x"] = 179299.0117622,
+                                ["name"] = "Static Truck Ural-375-1",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 6.2133721370998,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -374890.38695006,
+                                            ["speed"] = 0,
+                                            ["x"] = 179299.78131715,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 7,
+                                        ["rate"] = 5,
+                                        ["y"] = -374890.38695006,
+                                        ["x"] = 179299.78131715,
+                                        ["name"] = "Static Truck Ural-375-2-1",
+                                        ["heading"] = 6.2133721370998,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -374890.38695006,
+                                ["x"] = 179299.78131715,
+                                ["name"] = "Static Truck Ural-375-2",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 4.939281783144,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -374887.69578761,
+                                            ["speed"] = 0,
+                                            ["x"] = 179268.1234857,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_109_S3",
+                                        ["unitId"] = 9,
+                                        ["rate"] = 3,
+                                        ["y"] = -374887.69578761,
+                                        ["x"] = 179268.1234857,
+                                        ["name"] = "Static LUV Land Rover 109-1",
+                                        ["heading"] = 4.939281783144,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -374887.69578761,
+                                ["x"] = 179268.1234857,
+                                ["name"] = "Static LUV Land Rover 109-1",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 6.1086523819802,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -374930.50827836,
+                                            ["speed"] = 0,
+                                            ["x"] = 179276.08109694,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 50,
+                                        ["y"] = -374930.50827836,
+                                        ["x"] = 179276.08109694,
+                                        ["name"] = "Static FARP Tent-1",
+                                        ["heading"] = 6.1086523819802,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -374930.50827836,
+                                ["x"] = 179276.08109694,
+                                ["name"] = "Static FARP Tent-1",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 1.3788101090755,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -374881.88450145,
+                                            ["speed"] = 0,
+                                            ["x"] = 179302.22294539,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "SetkaKP",
+                                        ["type"] = "FARP Ammo Dump Coating",
+                                        ["unitId"] = 11,
+                                        ["rate"] = 50,
+                                        ["y"] = -374881.88450145,
+                                        ["x"] = 179302.22294539,
+                                        ["name"] = "Static FARP Ammo Storage-1",
+                                        ["heading"] = 1.3788101090755,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -374881.88450145,
+                                ["x"] = 179302.22294539,
+                                ["name"] = "Static FARP Ammo Storage-1",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 3.2288591161895,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -373018.34441418,
+                                            ["speed"] = 0,
+                                            ["x"] = 178092.05688337,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["type"] = "houseA_arm",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 5,
+                                        ["y"] = -373018.34441418,
+                                        ["x"] = 178092.05688337,
+                                        ["name"] = "Static Building armed-2-1",
+                                        ["heading"] = 3.2288591161895,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -373018.34441418,
+                                ["x"] = 178092.05688337,
+                                ["name"] = "Static Building armed-2",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -373052.26642032,
+                                            ["speed"] = 0,
+                                            ["x"] = 178124.77239013,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["type"] = "houseA_arm",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 5,
+                                        ["y"] = -373052.26642032,
+                                        ["x"] = 178124.77239013,
+                                        ["name"] = "Static Building armed-3-1",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -373052.26642032,
+                                ["x"] = 178124.77239013,
+                                ["name"] = "Static Building armed-3",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 2.9670597283904,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -373146.18339748,
+                                            ["speed"] = 0,
+                                            ["x"] = 178066.01535098,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["type"] = "outpost_road",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 5,
+                                        ["y"] = -373146.18339748,
+                                        ["x"] = 178066.01535098,
+                                        ["name"] = "Static Road outpost-1",
+                                        ["heading"] = 2.9670597283904,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -373146.18339748,
+                                ["x"] = 178066.01535098,
+                                ["name"] = "Static Road outpost-1",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 6.1261056745001,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -373169.01297121,
+                                            ["speed"] = 0,
+                                            ["x"] = 178116.99532408,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "tr_budka",
+                                        ["type"] = "Electric power box",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 100,
+                                        ["y"] = -373169.01297121,
+                                        ["x"] = 178116.99532408,
+                                        ["name"] = "Static Electric power box-1",
+                                        ["heading"] = 6.1261056745001,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -373169.01297121,
+                                ["x"] = 178116.99532408,
+                                ["name"] = "Static Electric power box-1",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 6.2133721370998,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -373107.17515827,
+                                            ["speed"] = 0,
+                                            ["x"] = 178175.13238953,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "angar_a",
+                                        ["type"] = "Hangar A",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 100,
+                                        ["y"] = -373107.17515827,
+                                        ["x"] = 178175.13238953,
+                                        ["name"] = "Static Hangar A-1",
+                                        ["heading"] = 6.2133721370998,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -373107.17515827,
+                                ["x"] = 178175.13238953,
+                                ["name"] = "Static Hangar A-1",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                            [13] = 
+                            {
+                                ["heading"] = 0.20943951023932,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -373093.75182001,
+                                            ["speed"] = 0,
+                                            ["x"] = 178119.93144429,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 18,
+                                        ["rate"] = 5,
+                                        ["y"] = -373093.75182001,
+                                        ["x"] = 178119.93144429,
+                                        ["name"] = "Static Truck Ural-375-3-1",
+                                        ["heading"] = 0.20943951023932,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -373093.75182001,
+                                ["x"] = 178119.93144429,
+                                ["name"] = "Static Truck Ural-375-3",
+                                ["dead"] = false,
+                            }, -- end of [13]
+                            [14] = 
+                            {
+                                ["heading"] = 0.34906585039887,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -373098.73267656,
+                                            ["speed"] = 0,
+                                            ["x"] = 178120.9476298,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 19,
+                                        ["rate"] = 5,
+                                        ["y"] = -373098.73267656,
+                                        ["x"] = 178120.9476298,
+                                        ["name"] = "Static Truck Ural-375-4-1",
+                                        ["heading"] = 0.34906585039887,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -373098.73267656,
+                                ["x"] = 178120.9476298,
+                                ["name"] = "Static Truck Ural-375-4",
+                                ["dead"] = false,
+                            }, -- end of [14]
+                            [15] = 
+                            {
+                                ["heading"] = 6.0562925044203,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -373124.8372702,
+                                            ["speed"] = 0,
+                                            ["x"] = 178168.11203909,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_109_S3",
+                                        ["unitId"] = 20,
+                                        ["rate"] = 3,
+                                        ["y"] = -373124.8372702,
+                                        ["x"] = 178168.11203909,
+                                        ["name"] = "Static LUV Land Rover 109-2-1",
+                                        ["heading"] = 6.0562925044203,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -373124.8372702,
+                                ["x"] = 178168.11203909,
+                                ["name"] = "Static LUV Land Rover 109-2",
+                                ["dead"] = false,
+                            }, -- end of [15]
+                            [16] = 
+                            {
+                                ["heading"] = 1.6580627893946,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -373052.35828093,
+                                            ["speed"] = 0,
+                                            ["x"] = 178136.07368566,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 21,
+                                        ["rate"] = 5,
+                                        ["y"] = -373052.35828093,
+                                        ["x"] = 178136.07368566,
+                                        ["name"] = "Static Truck Ural-375-5-1",
+                                        ["heading"] = 1.6580627893946,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -373052.35828093,
+                                ["x"] = 178136.07368566,
+                                ["name"] = "Static Truck Ural-375-5",
+                                ["dead"] = false,
+                            }, -- end of [16]
+                            [17] = 
+                            {
+                                ["heading"] = 6.1086523819802,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -373172.15756235,
+                                            ["speed"] = 0,
+                                            ["x"] = 178127.23995674,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 20,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["type"] = "houseA_arm",
+                                        ["unitId"] = 22,
+                                        ["rate"] = 5,
+                                        ["y"] = -373172.15756235,
+                                        ["x"] = 178127.23995674,
+                                        ["name"] = "Static Building armed-4-1",
+                                        ["heading"] = 6.1086523819802,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -373172.15756235,
+                                ["x"] = 178127.23995674,
+                                ["name"] = "Static Building armed-4",
+                                ["dead"] = false,
+                            }, -- end of [17]
+                            [18] = 
+                            {
+                                ["heading"] = 5.2534410485029,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -373279.57257138,
+                                            ["speed"] = 0,
+                                            ["x"] = 178374.10434481,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 24,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_109_S3",
+                                        ["unitId"] = 48,
+                                        ["rate"] = 3,
+                                        ["y"] = -373279.57257138,
+                                        ["x"] = 178374.10434481,
+                                        ["name"] = "Static LUV Land Rover 109-3-1",
+                                        ["heading"] = 5.2534410485029,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -373279.57257138,
+                                ["x"] = 178374.10434481,
+                                ["name"] = "Static LUV Land Rover 109-3",
+                                ["dead"] = false,
+                            }, -- end of [18]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "Iran",
+                }, -- end of [2]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "TaheriEWR-A",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "If you are reading this, report to high command immediately.",
+} -- end of staticTemplate
