@@ -1229,10 +1229,12 @@ local function returnToBase(missionData)
 end
 
 local function packageAbort(packageID)
-	for key, flight in pairs(packages[packageID].flights) do
-		returnToBase(flight)
+	if packages[packageID] ~= nil then
+		for key, flight in pairs(packages[packageID].flights) do
+			returnToBase(flight)
+		end
+		packages[packageID] = nil
 	end
-	packages[packageID] = nil
 end
 
 -- control flight to intercept target track
@@ -1413,7 +1415,7 @@ end
 local function assignMission(missionData)
 	local flightID = missionData.flightID
 	local flightCategory = typeCategory[airbases[missionData.airbaseID].Squadrons[missionData.squadronID].type]
-
+	
 	if missionData.mission == "Intercept" or missionData.mission == "QRA" then
 		-- check if whole flight is airborne
 		local flightAirborne = true
@@ -1455,13 +1457,13 @@ local function assignMission(missionData)
 			env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " intercepting " .. tostring(missionData.targetID) .. " still not airborne", 0)
 			timer.scheduleFunction(assignMission, missionData, timer.getTime() + 5)
 		end
+		return
 	end
 
 	if missionData.mission == "Tanker" then
 		local controller = flights[flightID]:getController()
 		-- set up flight options
 		controller:setOption(AI.Option.Air.id.REACTION_ON_THREAT, AI.Option.Air.val.REACTION_ON_THREAT.ALLOW_ABORT_MISSION)
-
 		local tankerAltitude = tankerParameters[airbases[missionData.airbaseID].Squadrons[missionData.squadronID].type].altitude
 		local tankerSpeed =  tankerParameters[airbases[missionData.airbaseID].Squadrons[missionData.squadronID].type].speed
 		local orbitID = missionData.targetID
@@ -1533,9 +1535,14 @@ local function assignMission(missionData)
 			}
 		}
 		controller:setTask(task)
+		return
 	end
 
 	if missionData.mission == "Escort" or missionData.mission == "HAVCAP" then
+		if packages[missionData.packageID] == nil then
+			returnToBase(missionData)
+			return
+		end
 		local controller = flights[flightID]:getController()
 		-- set up flight options
 		controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.RETURN_FIRE)
@@ -1630,6 +1637,7 @@ local function assignMission(missionData)
 			}
 		}
 		controller:setTask(task)
+		return
 	end
 end
 
@@ -1669,7 +1677,7 @@ local function launchSortie(missionData)
 			activeAirbases[missionData.airbaseID].readinessTime = timer.getTime() + preparationTime
 		end
 		-- update package with flight data
-		if missionData.packageID ~= nil then
+		if missionData.packageID ~= nil and packages[missionData.packageID] ~= nil then
 			table.insert(packages[missionData.packageID].flights, updatedMissionData)
 		end
 		-- the script might crash if we do this right away?
@@ -1721,6 +1729,10 @@ local function allocateAirframes(mission, airbaseID, squadronID, targetID, packa
 end
 
 local function assignHAVCAP(packageID)
+	-- check if our package has been disbanded already
+	if packages[packageID] == nil then
+		return
+	end
 	local escortSquadrons = {}
 	-- determine whether it's regular escort or HAVCAP
 	local mission = "Escort"
@@ -1834,6 +1846,7 @@ local function logisticsATO()
 					if flights[flight.flightID]:isExist() == false then
 						packageAbort(packageID)
 						env.info("Blue Air Debug: Tanker package: " .. tostring(packageID) .. " disbanded", 0)
+						break
 					else
 						local flightAirborne = true
 						for key, unit in pairs(flights[flight.flightID]:getUnits()) do
@@ -1844,6 +1857,7 @@ local function logisticsATO()
 						if flightAirborne ~= true then
 							packageAbort(packageID)
 							env.info("Blue Air Debug: Tanker package: " .. tostring(packageID) .. " disbanded", 0)
+							break
 						end
 					end
 				end
