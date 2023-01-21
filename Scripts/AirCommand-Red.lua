@@ -1109,9 +1109,11 @@ local function launchSortie(missionData)
 		-- if handed nil target data, find the main flight in the package and make that the target (for escort purposes)
 		local targetID = missionData.targetID
 		if targetID == nil then
-			for key, packageFlight in pairs(packages[missionData.packageID].flights) do
-				if packageFlight.mission == "Tanker" then
-					targetID = packageFlight.flightID
+			if missionData.packageID ~= nil and packages[missionData.packageID] ~= nil then
+				for key, packageFlight in pairs(packages[missionData.packageID].flights) do
+					if packageFlight.mission == "Tanker" then
+						targetID = packageFlight.flightID
+					end
 				end
 			end
 		end
