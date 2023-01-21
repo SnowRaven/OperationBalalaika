@@ -1030,7 +1030,7 @@ local QRARadius = 60000 -- radius in meters for emergency scramble
 local commitRange = 60000 -- radius in meters around which uncommitted fighters will intercept tracks
 local escortCommitRange = 60000 -- radius in meters around uncommitted escort units at which targets will be intercepted
 
-local tankerChance = 100 -- chance to launch a tanker mission
+local tankerChance = 60 -- chance to launch a tanker mission
 local CAPChance = 30 -- chance to launch a CAP mission
 
 local activeAirbases = {} -- active airbases
