@@ -667,7 +667,7 @@ staticTemplate =
     ["theatre"] = "PersianGulf",
     ["desc"] = "Signals intelligence has learned that an Iranian cargo train running between Shiraz, Marvdasht and the north of Iran has collided with a heavy military vehicle and derailed just inside the city of Shiraz. We believe this train is carrying equipment necessary for the production of tabun gas, and 40th Army HQ has urgently requested that we destroy it. Iranian military units have already arrived to protect the train and keep civilians away, but it remains immobilized for the moment. \
 \
-The crash is located approximately 30km north of Shiraz airbase. We believe the site of the train crash is currently protected by mobile anti-aircraft guns. Further air defenses are positioned around the Shiraz area, including a Hawk surface-to-air missile battery. Interceptor squadrons of F-4s and F-14s are staioned at Shiraz airbase, and will undoubtedly scramble to intercept if you are detected.\
+The train is located approximately 30km north of Shiraz airbase. We believe the site of the train crash is currently protected by mobile anti-aircraft guns. Further air defenses are positioned around the Shiraz area, including a Hawk surface-to-air missile battery. Interceptor squadrons of F-4s and F-14s are staioned at Shiraz airbase, and will undoubtedly scramble to intercept if you are detected.\
 \
 Locate the train and destroy it. It is imperative that as much of the train's cargo is rendered unusable as possible, all other considerations are secondary. Once you have expended your munitions, bug out of the area as quickly as possible.",
 } -- end of staticTemplate
