@@ -476,8 +476,8 @@ timer.scheduleFunction(timeoutTracks, nil, timer.getTime() + trackTimeout)
 ---------------------------------------------------------------------------------------------------------------------------
 local groundStartRadius = 30000 -- radius around an airfield where if a player is present, a flight will ground instead of air start
 local skipResetTime = 60 -- seconds between a failed launch until airfield will be used again
-local minPackageTime = 1800 -- minimum number of seconds before the package ATO reactivates
-local maxPackageTime = 5400 -- maximum number of seconds before the package ATO reactivates
+local minPackageTime = 1300 -- minimum number of seconds before the package ATO reactivates
+local maxPackageTime = 1400 -- maximum number of seconds before the package ATO reactivates
 local preparationTime = 1500 -- time in seconds it takes to prepare the next interceptors from an airbase
 local QRARadius = 60000 -- radius in meters for emergency scramble
 local commitRange = 60000 -- radius in meters around which uncommitted fighters will intercept tracks
