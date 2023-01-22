@@ -1296,7 +1296,7 @@ local function logisticsATO()
 	-- refresh HAVCAP or clean up tanker packages
 	for packageID, package in pairs(packages) do
 		if package.mission == "Tanker" then
-			for key, flight in pairs(package.flights) do
+			for flightKey, flight in pairs(package.flights) do
 				if flight.mission == "Tanker" then
 					if flights[flight.flightID]:isExist() == false then
 						packageAbort(packageID)
@@ -1318,6 +1318,7 @@ local function logisticsATO()
 				end
 				if flight.mission == "HAVCAP" then
 					if flights[flight.flightID]:isExist() == false then
+						packages[packageID].flights[flightKey] = nil
 						timer.scheduleFunction(assignHAVCAP, packageID, timer.getTime() + 60) -- need to delay it otherwise we go into infinite loop
 						env.info("Red Air Debug: Refreshing HAVCAP for package " .. tostring(packageID), 0)
 					else
@@ -1328,6 +1329,7 @@ local function logisticsATO()
 							end
 						end
 						if flightAirborne ~= true then
+							packages[packageID].flights[flightKey] = nil
 							timer.scheduleFunction(assignHAVCAP, packageID, timer.getTime() + 60) -- need to delay it otherwise we go into infinite loop
 							env.info("Red Air Debug: Refreshing HAVCAP for package " .. tostring(packageID), 0)
 						end
