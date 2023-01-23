@@ -1545,7 +1545,7 @@ local function assignMission(missionData)
 		end
 		local controller = flights[flightID]:getController()
 		-- set up flight options
-		controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.OPEN_FIRE_WEAPON_FREE) -- TODO: Intercept logic
+		controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.RETURN_FIRE) -- TODO: Intercept logic
 		controller:setOption(AI.Option.Air.id.REACTION_ON_THREAT, AI.Option.Air.val.REACTION_ON_THREAT.EVADE_FIRE)
 		controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.FOR_SEARCH_IF_REQUIRED)
 		if flightCategory == Group.Category.HELICOPTER then
