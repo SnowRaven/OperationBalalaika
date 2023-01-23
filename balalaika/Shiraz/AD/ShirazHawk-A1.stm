@@ -65,12 +65,12 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "Hawk pcp",
-                                        ["unitId"] = 2,
-                                        ["y"] = -349737.53931439,
-                                        ["x"] = 379385.23507101,
-                                        ["name"] = "Hawk-1",
-                                        ["heading"] = 3.9793506945471,
+                                        ["type"] = "Hawk sr",
+                                        ["unitId"] = 3,
+                                        ["y"] = -349632.39256507,
+                                        ["x"] = 379301.13948913,
+                                        ["name"] = "Hawk-2",
+                                        ["heading"] = 0.71558499331767,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
                                     [2] = 
@@ -80,12 +80,12 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "Hawk sr",
-                                        ["unitId"] = 3,
-                                        ["y"] = -349632.39256507,
-                                        ["x"] = 379301.13948913,
-                                        ["name"] = "Hawk-2",
-                                        ["heading"] = 0.71558499331767,
+                                        ["type"] = "Hawk pcp",
+                                        ["unitId"] = 2,
+                                        ["y"] = -349737.53931439,
+                                        ["x"] = 379385.23507101,
+                                        ["name"] = "Hawk-1",
+                                        ["heading"] = 3.9793506945471,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
                                     [3] = 

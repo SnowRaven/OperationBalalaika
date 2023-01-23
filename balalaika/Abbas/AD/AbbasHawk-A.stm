@@ -442,12 +442,12 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "Hawk pcp",
-                                        ["unitId"] = 13,
-                                        ["y"] = 9578.9529942363,
-                                        ["x"] = 116896.64824295,
-                                        ["name"] = "PRIMARY DESTROYED CP",
-                                        ["heading"] = 3.8222710618676,
+                                        ["type"] = "Hawk sr",
+                                        ["unitId"] = 14,
+                                        ["y"] = 9609.0308819822,
+                                        ["x"] = 116920.85465664,
+                                        ["name"] = "PRIMARY DESTROYED SR",
+                                        ["heading"] = 5.4977871437821,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
                                     [2] = 
@@ -457,12 +457,12 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "Hawk sr",
-                                        ["unitId"] = 14,
-                                        ["y"] = 9609.0308819822,
-                                        ["x"] = 116920.85465664,
-                                        ["name"] = "PRIMARY DESTROYED SR",
-                                        ["heading"] = 5.4977871437821,
+                                        ["type"] = "Hawk pcp",
+                                        ["unitId"] = 13,
+                                        ["y"] = 9578.9529942363,
+                                        ["x"] = 116896.64824295,
+                                        ["name"] = "PRIMARY DESTROYED CP",
+                                        ["heading"] = 3.8222710618676,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
                                     [3] = 

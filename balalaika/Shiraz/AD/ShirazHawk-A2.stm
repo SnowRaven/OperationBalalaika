@@ -457,17 +457,6 @@ staticTemplate =
                                 {
                                     [1] = 
                                     {
-                                        ["type"] = "Hawk pcp",
-                                        ["unitId"] = 2,
-                                        ["skill"] = "Average",
-                                        ["y"] = -337324.83944532,
-                                        ["x"] = 362724.65459799,
-                                        ["name"] = "CP",
-                                        ["heading"] = 3.9793506945471,
-                                        ["playerCanDrive"] = false,
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
                                         ["type"] = "Hawk sr",
                                         ["unitId"] = 3,
                                         ["skill"] = "Average",
@@ -475,6 +464,17 @@ staticTemplate =
                                         ["x"] = 362765.52047962,
                                         ["name"] = "CWAR",
                                         ["heading"] = 5.4977871437821,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "Hawk pcp",
+                                        ["unitId"] = 2,
+                                        ["skill"] = "Average",
+                                        ["y"] = -337324.83944532,
+                                        ["x"] = 362724.65459799,
+                                        ["name"] = "CP",
+                                        ["heading"] = 3.9793506945471,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
                                     [3] = 
