@@ -928,5 +928,5 @@ staticTemplate =
     ["theatre"] = "PersianGulf",
     ["desc"] = "Our operations southeast of Kerman have been harassed by a band of mujahideen using improvised combat vehicles. Their mobility has allowed them to fire on our patrols and retreat to safety before they could be caught. We have been unable to locate their base of operation until now, however questioning the inhabitants of local villages has finally revealed that fighters of Sepha-e-Pasdaran have established an encampment on the peaks of the massif Hazaran, located immediately southeast of Kerman airbase. The mujahideen's ability to climb the mountain with its vehicles betrays a great knowledge of the local terrain, and explains why we have not been able to pin them down.\
 \
-That ends now. Your orders are to scour the mountain. Find the rebel encampment and destroy it. Ensure all vehicles, tents and other structres present are destroyed.",
+That ends now. Your orders are to scour the mountain. Find the rebel encampment and destroy it. Ensure all vehicles, tents and other structures present are destroyed.",
 } -- end of staticTemplate
