@@ -1059,6 +1059,11 @@ local function assignMission(missionData)
 												lastWptIndexFlag = true,
 												lastWptIndex = 10
 											}
+										},
+										[2] = {
+											id = "Refueling",
+											params = {
+											}
 										}
 									}
 								}
