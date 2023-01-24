@@ -1,4 +1,4 @@
-[preset.morning]
+[preset.1]
 time = "3:00"
 weather = ["light_scattered_1", "light_scattered_2",
     "high_scattered_1", "high_scattered_2", "high_scattered_3",
@@ -154,8 +154,8 @@ inherit = ["wind_default"]
 cloud_preset = "Preset9"
 cloud_base_min = 3780 # Min 1680
 cloud_base_max = 3780 # Max 3780
-temp_min = 25
-temp_max = 35
+temp_min = 15
+temp_max = 30
 qnh_min = 755
 qnh_max = 768
 weight = 1
