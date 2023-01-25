@@ -57,6 +57,7 @@ local typeAlias = {
 	["AH-1W"] = "Cobra",
 	["KC-135"] = "KC-707",
 	["KC135MPRS"] = "KC-707",
+	["Su-27"] = "Flanker",
 	["MiG-31"] = "Foxhound",
 	["IL-78M"] = "Midas"
 }
@@ -68,6 +69,7 @@ local typeCategory = {
 	["KC-135"] = Group.Category.AIRPLANE,
 	["KC135MPRS"] = Group.Category.AIRPLANE,
 	["AH-1W"] = Group.Category.HELICOPTER,
+	["Su-27"] = Group.Category.AIRPLANE,
 	["MiG-31"] = Group.Category.AIRPLANE,
 	["IL-78M"] = Group.Category.AIRPLANE
 }
@@ -97,6 +99,7 @@ local tankerParameters = {
 -- table defining preferred tactics for each aircraft type
 -- if not defined, will be determined randomly or according to threat (TODO)
 local preferredTactic = {
+	["Su-27"] = interceptTactic.LeadHigh,
 	["MiG-31"] = interceptTactic.LeadHigh
 }
 
@@ -133,7 +136,7 @@ local airbases = {
 		name = "Kerman", -- DCS name
 		takeoffHeading = 0.314, -- in radians
 		Squadrons = {
-			["763IAP"] = {
+			--[[["763IAP"] = {
 				["name"] = "763 IAP",
 				["country"] = country.USSR,
 				["type"] = "MiG-31",
@@ -183,6 +186,72 @@ local airbases = {
 							["fuel"] = "15500",
 							["flare"] = 0,
 							["chaff"] = 0,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					"Aurora"
+				}
+			},]]
+			["831IAP"] = {
+				["name"] = "831 IAP",
+				["country"] = country.USSR,
+				["type"] = "Su-27",
+				["skill"] = "High",
+				["livery"] = "Air Force Standard Early",
+				["allWeatherAA"] = capability.Full,
+				["allWeatherAG"] = capability.None,
+				["interceptRadius"] = 50000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["missions"] = {
+					["CAP"] = true,
+					["Escort"] = true,
+					["HAVCAP"] = true
+				},
+				["targetCategories"] = {
+					[1] = Unit.Category.AIRPLANE
+				},
+				["loadouts"] = {
+					["AA"] = {
+						["General"] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82F}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{88DAC840-9F75-4531-8689-B46E64E42E53}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+								},
+								[7] =
+								{
+									["CLSID"] = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+								},
+								[8] =
+								{
+									["CLSID"] = "{88DAC840-9F75-4531-8689-B46E64E42E53}",
+								},
+								[9] =
+								{
+									["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+								},
+								[10] =
+								{
+									["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82A}",
+								},
+							},
+							["fuel"] = "9400",
+							["flare"] = 96,
+							["chaff"] = 96,
 							["gun"] = 100,
 						}
 					}

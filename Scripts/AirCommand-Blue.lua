@@ -57,6 +57,7 @@ local typeAlias = {
 	["AH-1W"] = "Cobra",
 	["KC-135"] = "KC-707",
 	["KC135MPRS"] = "KC-707",
+	["Su-27"] = "Flanker",
 	["MiG-31"] = "Foxhound",
 	["IL-78M"] = "Midas"
 }
@@ -68,6 +69,7 @@ local typeCategory = {
 	["KC-135"] = Group.Category.AIRPLANE,
 	["KC135MPRS"] = Group.Category.AIRPLANE,
 	["AH-1W"] = Group.Category.HELICOPTER,
+	["Su-27"] = Group.Category.AIRPLANE,
 	["MiG-31"] = Group.Category.AIRPLANE,
 	["IL-78M"] = Group.Category.AIRPLANE
 }
