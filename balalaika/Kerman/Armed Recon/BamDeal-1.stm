@@ -1,0 +1,400 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0.016449340668482,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 208609.65883892,
+                                            ["speed"] = 0,
+                                            ["x"] = 326312.59666756,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1500,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 18,
+                                        ["rate"] = 100,
+                                        ["y"] = 208609.65883892,
+                                        ["x"] = 326312.59666756,
+                                        ["name"] = "PRIMARY DESTROYED Bam Arms Deal Cargo 2",
+                                        ["heading"] = 0.016449340668482,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 208609.65883892,
+                                ["x"] = 326312.59666756,
+                                ["name"] = "PRIMARY DESTROYED Bam Arms Deal Cargo 2",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0.00028709515444722,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 208607.17312463,
+                                            ["speed"] = 0,
+                                            ["x"] = 326312.45381042,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1500,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = true,
+                                        ["shape_name"] = "ammo_box_cargo",
+                                        ["type"] = "ammo_cargo",
+                                        ["unitId"] = 19,
+                                        ["rate"] = 100,
+                                        ["y"] = 208607.17312463,
+                                        ["x"] = 326312.45381042,
+                                        ["name"] = "PRIMARY DESTROYED Bam Arms Deal Cargo 1",
+                                        ["heading"] = 0.00028709515444722,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 208607.17312463,
+                                ["x"] = 326312.45381042,
+                                ["name"] = "PRIMARY DESTROYED Bam Arms Deal Cargo 1",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1064,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 208610.21367597,
+                                            ["x"] = 326305.53635503,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 11,
+                                        ["y"] = 208610.21367597,
+                                        ["x"] = 326305.53635503,
+                                        ["name"] = "PRIMARY DESTROYED Bam Weapons Trade target group 2",
+                                        ["heading"] = 3.08923277603,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 9,
+                                        ["y"] = 208603.59206481,
+                                        ["x"] = 326312.84296046,
+                                        ["name"] = "PRIMARY DESTROYED Bam Weapons Trade target group 4",
+                                        ["heading"] = 4.8520153205442,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = 208610.21367597,
+                                ["x"] = 326305.53635503,
+                                ["name"] = "Bam Weapons Trade target group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1064,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 208608.20169606,
+                                            ["x"] = 326318.22523899,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 17,
+                                        ["y"] = 208608.20169606,
+                                        ["x"] = 326318.22523899,
+                                        ["name"] = "Bam Weapons Trade Infantry 1",
+                                        ["heading"] = 3.08923277603,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 16,
+                                        ["y"] = 208609.77312463,
+                                        ["x"] = 326311.5395247,
+                                        ["name"] = "Bam Weapons Trade Infantry 2",
+                                        ["heading"] = 5.8293997016611,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 15,
+                                        ["y"] = 208608.65883892,
+                                        ["x"] = 326313.05381042,
+                                        ["name"] = "Bam Weapons Trade Infantry 3",
+                                        ["heading"] = 1.4486232791553,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 14,
+                                        ["y"] = 208606.7445532,
+                                        ["x"] = 326310.82523899,
+                                        ["name"] = "Bam Weapons Trade Infantry 4",
+                                        ["heading"] = 5.9864793343406,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "tt_DSHK",
+                                        ["unitId"] = 23,
+                                        ["y"] = 208679.93335429,
+                                        ["x"] = 326261.43686993,
+                                        ["name"] = "Bam Weapons Trade Infantry-4",
+                                        ["heading"] = 2.2514747350727,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "tt_DSHK",
+                                        ["unitId"] = 22,
+                                        ["y"] = 208592.68960642,
+                                        ["x"] = 326351.1436279,
+                                        ["name"] = "Bam Weapons Trade Infantry-3",
+                                        ["heading"] = 4.2236967898263,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "tt_DSHK",
+                                        ["unitId"] = 21,
+                                        ["y"] = 208681.48037908,
+                                        ["x"] = 326329.32427011,
+                                        ["name"] = "Bam Weapons Trade Infantry-2",
+                                        ["heading"] = 4.2236967898263,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "HL_ZU-23",
+                                        ["unitId"] = 20,
+                                        ["y"] = 208618.44495406,
+                                        ["x"] = 326307.3992932,
+                                        ["name"] = "Bam Weapons Trade Infantry 8",
+                                        ["heading"] = 5.4977871437821,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 13,
+                                        ["y"] = 208610.60169606,
+                                        ["x"] = 326313.05381042,
+                                        ["name"] = "Bam Weapons Trade Infantry 5",
+                                        ["heading"] = 4.2236967898263,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 12,
+                                        ["y"] = 208606.83026749,
+                                        ["x"] = 326313.79666756,
+                                        ["name"] = "Bam Weapons Trade Infantry 6",
+                                        ["heading"] = 3.08923277603,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                }, -- end of ["units"]
+                                ["y"] = 208608.20169606,
+                                ["x"] = 326318.22523899,
+                                ["name"] = "Bam Weapons Trade Infantry",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "bam-arms-deal",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Our informants in the city of Bam have notified us about a trade deal organized by Iranian agents and local mujahideen sympathizers with fighters of the Sepha-e-Pasdaran. The deal includes food supplies and arms vital to mujahideen operations in the area, to be paid for with poppy produce smuggled from Afghanistan. The deal will take place at a large intersection near Bam Citadel, located along radial 118 for 42 kilometers from forward base Vetka.\
+\
+Your orders are to identify the location of the trade deal and destroy all transport vehicles and their cargo. Exercise caution while engaging: excessive collateral damage to the city of Bam or the Citadel is unacceptable.",
+} -- end of staticTemplate
