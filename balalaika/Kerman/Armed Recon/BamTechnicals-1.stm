@@ -1,0 +1,430 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1072,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 207451.52804367,
+                                            ["x"] = 324844.15921554,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "tt_B8M1",
+                                        ["unitId"] = 4,
+                                        ["y"] = 207451.52804367,
+                                        ["x"] = 324844.15921554,
+                                        ["name"] = "PRIMARY DESTROYED Bam Rocket Technical Objective Group 1",
+                                        ["heading"] = 0.75049157835756,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "tt_B8M1",
+                                        ["unitId"] = 3,
+                                        ["y"] = 207443.49380743,
+                                        ["x"] = 324850.98476138,
+                                        ["name"] = "PRIMARY DESTROYED Bam Rocket Technical Objective Group 2",
+                                        ["heading"] = 0.82030474843733,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "tt_B8M1",
+                                        ["unitId"] = 2,
+                                        ["y"] = 207436.95265933,
+                                        ["x"] = 324857.3837106,
+                                        ["name"] = "PRIMARY DESTROYED Bam Rocket Technical Objective Group 3",
+                                        ["heading"] = 0.78539816339745,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["y"] = 207451.52804367,
+                                ["x"] = 324844.15921554,
+                                ["name"] = "Bam Rocket Technical Objective Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = true,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 207479.61232081,
+                                                ["x"] = 324849.42057379,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 207479.61232081,
+                                                ["x"] = 324849.42057379,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1072,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 207475.77295128,
+                                            ["x"] = 324849.06507661,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "tt_DSHK",
+                                        ["unitId"] = 7,
+                                        ["y"] = 207475.77295128,
+                                        ["x"] = 324849.06507661,
+                                        ["name"] = "Bam Rocket Technical Defense Group 1",
+                                        ["heading"] = 4.6774823953448,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 15,
+                                        ["y"] = 207409.14832115,
+                                        ["x"] = 324841.94503758,
+                                        ["name"] = "Bam Rocket Technical Defense Group-8",
+                                        ["heading"] = 4.6774823953448,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 21,
+                                        ["y"] = 207424.28170685,
+                                        ["x"] = 324847.31228587,
+                                        ["name"] = "Bam Rocket Technical Defense Group-14",
+                                        ["heading"] = 5.9515727493007,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 14,
+                                        ["y"] = 207480.52608986,
+                                        ["x"] = 324842.61056999,
+                                        ["name"] = "Bam Rocket Technical Defense Group-7",
+                                        ["heading"] = 4.6774823953448,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 13,
+                                        ["y"] = 207454.14205274,
+                                        ["x"] = 324846.09069331,
+                                        ["name"] = "Bam Rocket Technical Defense Group-6",
+                                        ["heading"] = 4.6774823953448,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 23,
+                                        ["y"] = 207424.93735758,
+                                        ["x"] = 324843.18554307,
+                                        ["name"] = "Bam Rocket Technical Defense Group-16",
+                                        ["heading"] = 0.97738438111682,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 22,
+                                        ["y"] = 207426.98144513,
+                                        ["x"] = 324844.88252142,
+                                        ["name"] = "Bam Rocket Technical Defense Group-15",
+                                        ["heading"] = 4.1189770347066,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 20,
+                                        ["y"] = 207449.02160112,
+                                        ["x"] = 324841.81432344,
+                                        ["name"] = "Bam Rocket Technical Defense Group-13",
+                                        ["heading"] = 0.97738438111682,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 19,
+                                        ["y"] = 207440.97225882,
+                                        ["x"] = 324850.99580711,
+                                        ["name"] = "Bam Rocket Technical Defense Group-12",
+                                        ["heading"] = 2.9146998508305,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 18,
+                                        ["y"] = 207407.87129978,
+                                        ["x"] = 324841.91178362,
+                                        ["name"] = "Bam Rocket Technical Defense Group-11",
+                                        ["heading"] = 1.832595714594,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 17,
+                                        ["y"] = 207443.04881178,
+                                        ["x"] = 324852.34645131,
+                                        ["name"] = "Bam Rocket Technical Defense Group-10",
+                                        ["heading"] = 2.9146998508305,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 16,
+                                        ["y"] = 207437.52077942,
+                                        ["x"] = 324855.71302584,
+                                        ["name"] = "Bam Rocket Technical Defense Group-9",
+                                        ["heading"] = 2.9146998508305,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 12,
+                                        ["y"] = 207453.30992811,
+                                        ["x"] = 324846.86338046,
+                                        ["name"] = "Bam Rocket Technical Defense Group-5",
+                                        ["heading"] = 2.9146998508305,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 11,
+                                        ["y"] = 207478.63029169,
+                                        ["x"] = 324854.82800187,
+                                        ["name"] = "Bam Rocket Technical Defense Group-4",
+                                        ["heading"] = 4.6774823953448,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 10,
+                                        ["y"] = 207438.59879298,
+                                        ["x"] = 324856.28800699,
+                                        ["name"] = "Bam Rocket Technical Defense Group-3",
+                                        ["heading"] = 4.6774823953448,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 9,
+                                        ["y"] = 207439.75921132,
+                                        ["x"] = 324845.8378496,
+                                        ["name"] = "Bam Rocket Technical Defense Group-2",
+                                        ["heading"] = 4.6774823953448,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [16]
+                                    [17] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier RPG",
+                                        ["unitId"] = 8,
+                                        ["y"] = 207402.63903932,
+                                        ["x"] = 324848.59285851,
+                                        ["name"] = "Bam Rocket Technical Defense Group-1",
+                                        ["heading"] = 5.1661745859032,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [17]
+                                    [18] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "tt_DSHK",
+                                        ["unitId"] = 6,
+                                        ["y"] = 207406.16660363,
+                                        ["x"] = 324840.39094544,
+                                        ["name"] = "Bam Rocket Technical Defense Group 2",
+                                        ["heading"] = 4.6774823953448,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [18]
+                                }, -- end of ["units"]
+                                ["y"] = 207475.77295128,
+                                ["x"] = 324849.06507661,
+                                ["name"] = "Bam Rocket Technical Defense Group",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "bam-rocket-technicals",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Our intelligence gathering efforts in Bam have discovered that mujahideen forces in the area are making use of a small industrial yard near the center of Bam to retrofit civilian trucks into combat vehicles. The vehicles have been outfitted with rocket launchers, which appear to have been improvised out of pods spent by our own aircraft. We suspect they'll soon be disguised as cargo trucks before being driven out of the city and delivered to mujahideen fighters in the field. The location is guarded by a large contingent of mujahideen warriors as well as trucks with mounted machine guns. Allowing this group to leave the city will make them almost impossible to catch.\
+\
+Fly to Bam and locate the industrial park; you are to destroy all rocket-armed trucks present. Once the primary objective is complete, inflict any damage you can to warehouses within the compound. Continue engaging any surviving mujahideen forces as long as fuel and munitions allow. Any unnecessary damage to surrounding civilian structures is unacceptable.",
+} -- end of staticTemplate
