@@ -323,7 +323,7 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "PersianGulf",
-    ["desc"] = "Aerial recon has located one of the 51st Tharallah Division's main bases near Mohammadabad. The base contains major logistical and command facilities supporting Iranian ground forces deployed to our front line at Jiroft. Crucially, we have identified it as the 3rd Combat Support Group's forward base in the region, serving the IRIAA's combat and supply helicopter operations throughout the Halil river valley, and its destruction will cripple their ability to threaten our forces. 40th Army HQ has commanded a large-scale strike effort to eliminate this base as quickly as possible.\
+    ["desc"] = "Aerial recon has located one of the 41st Tharallah Division's main bases near Mohammadabad. The base contains major logistical and command facilities supporting Iranian ground forces deployed to our front line at Jiroft. Crucially, we have identified it as the 3rd Combat Support Group's forward base in the region, serving the IRIAA's combat and supply helicopter operations throughout the Halil river valley, and its destruction will cripple their ability to threaten our forces. 40th Army HQ has commanded a large-scale strike effort to eliminate this base as quickly as possible.\
 \
 Photographs of the area suggest heavy air defences. Several anti-aircraft artillery batteries have been identified protecting the target, and missile based defenses are expected as well. The base is located along radial 153 from Jiroft for roughly 34 kilometers.\
 \
