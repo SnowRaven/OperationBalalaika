@@ -1260,7 +1260,7 @@ staticTemplate =
                                 }, -- end of ["units"]
                                 ["y"] = 283034.6738937,
                                 ["x"] = -191033.23281042,
-                                ["name"] = "Saratoga Battle Group",
+                                ["name"] = "Battle Group Foxtrot",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                         }, -- end of ["group"]
@@ -1283,7 +1283,7 @@ staticTemplate =
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "Saratoga Battle Group",
+    ["name"] = "Battle Group Foxtrot",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]
