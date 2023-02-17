@@ -1,3 +1,4 @@
 objtype = "EWR"
 intel = 3
 cost = 4
+nocull = true

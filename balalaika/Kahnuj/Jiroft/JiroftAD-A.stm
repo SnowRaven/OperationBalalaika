@@ -1,0 +1,323 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 68,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 800,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 139943.71691594,
+                                            ["x"] = 282635.635892,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Kub 1S91 str",
+                                        ["unitId"] = 1,
+                                        ["y"] = 139943.71691594,
+                                        ["x"] = 282635.635892,
+                                        ["name"] = "Jiroft Air Defences SA-6 STR",
+                                        ["heading"] = 3.1415926535898,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Kub 2P25 ln",
+                                        ["unitId"] = 2,
+                                        ["y"] = 139974.01051681,
+                                        ["x"] = 282605.96690146,
+                                        ["name"] = "Jiroft Air Defences SA-6 TEL 1",
+                                        ["heading"] = 3.1415926535898,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Kub 2P25 ln",
+                                        ["unitId"] = 3,
+                                        ["y"] = 139903.94886706,
+                                        ["x"] = 282685.73559116,
+                                        ["name"] = "Jiroft Air Defences SA-6 TEL 2",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Kub 2P25 ln",
+                                        ["unitId"] = 4,
+                                        ["y"] = 139906.55260148,
+                                        ["x"] = 282606.59151179,
+                                        ["name"] = "Jiroft Air Defences SA-6 TEL 3",
+                                        ["heading"] = 3.1415926535898,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Kub 2P25 ln",
+                                        ["unitId"] = 5,
+                                        ["y"] = 139979.31970459,
+                                        ["x"] = 282684.35549752,
+                                        ["name"] = "Jiroft Air Defences SA-6 TEL 4",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "2S6 Tunguska",
+                                        ["unitId"] = 6,
+                                        ["y"] = 140052.20012186,
+                                        ["x"] = 282571.87275163,
+                                        ["name"] = "Jiroft Air Defences SA-19",
+                                        ["heading"] = 2.8274333882308,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 7,
+                                        ["y"] = 140017.65148265,
+                                        ["x"] = 282550.18367139,
+                                        ["name"] = "Jiroft Air Defences Shilka 1",
+                                        ["heading"] = 3.08923277603,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 8,
+                                        ["y"] = 140036.13236366,
+                                        ["x"] = 282561.99112545,
+                                        ["name"] = "Jiroft Air Defences Kamaz 1",
+                                        ["heading"] = 2.6354471705114,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 9,
+                                        ["y"] = 139931.33145582,
+                                        ["x"] = 282635.38004287,
+                                        ["name"] = "Jiroft Air Defences Kamaz 2",
+                                        ["heading"] = 3.08923277603,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 10,
+                                        ["y"] = 140314.6248647,
+                                        ["x"] = 283603.58578539,
+                                        ["name"] = "Jiroft Air Defences Shilka 2",
+                                        ["heading"] = 5.3756140961425,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Strela-10M3",
+                                        ["unitId"] = 11,
+                                        ["y"] = 140423.13057045,
+                                        ["x"] = 283734.70806504,
+                                        ["name"] = "Jiroft Air Defences Gopher 1",
+                                        ["heading"] = 5.3756140961425,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Strela-10M3",
+                                        ["unitId"] = 12,
+                                        ["y"] = 143038.38190365,
+                                        ["x"] = 281626.85925714,
+                                        ["name"] = "Jiroft Air Defences Gopher 2",
+                                        ["heading"] = 2.3038346126325,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Strela-1 9P31",
+                                        ["unitId"] = 18,
+                                        ["y"] = 141533.31769651,
+                                        ["x"] = 282993.4648525,
+                                        ["name"] = "Jiroft Air Defences Gaskin 1",
+                                        ["heading"] = 3.08923277603,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Osa 9A33 ln",
+                                        ["unitId"] = 15,
+                                        ["y"] = 141423.13398791,
+                                        ["x"] = 283062.32967038,
+                                        ["name"] = "Jiroft Air Defences Gecko 1",
+                                        ["heading"] = 3.08923277603,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 13,
+                                        ["y"] = 142956.26491677,
+                                        ["x"] = 281531.19935162,
+                                        ["name"] = "Jiroft Air Defences Shilka 3",
+                                        ["heading"] = 2.0769418098733,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZIL-135",
+                                        ["unitId"] = 14,
+                                        ["y"] = 141505.96417234,
+                                        ["x"] = 283072.88809156,
+                                        ["name"] = "Jiroft Air Defences ZIL 135 1",
+                                        ["heading"] = 2.3212879051525,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [16]
+                                    [17] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 17,
+                                        ["y"] = 142961.92999899,
+                                        ["x"] = 281691.33234255,
+                                        ["name"] = "Jiroft Air Defences GAZ 66 1",
+                                        ["heading"] = 5.3756140961425,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [17]
+                                    [18] = 
+                                    {
+                                        ["skill"] = "Excellent",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 16,
+                                        ["y"] = 140416.34849501,
+                                        ["x"] = 283701.65019626,
+                                        ["name"] = "Jiroft Air Defences GAZ 66 2",
+                                        ["heading"] = 5.3756140961425,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [18]
+                                }, -- end of ["units"]
+                                ["y"] = 139943.71691594,
+                                ["x"] = 282635.635892,
+                                ["name"] = "2/2nd Anti-Aircraft Missile",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "USSR",
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "2/2nd Anti-Aircraft Missile",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "",
+} -- end of staticTemplate
