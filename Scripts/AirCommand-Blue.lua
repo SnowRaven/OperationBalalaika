@@ -914,17 +914,6 @@ local function getAircraftType(flight)
 	end
 end
 
--- get average flight distance from point
-local function getFlightDistance(flight, x, y)
-	local flightElements = 0
-	local distanceTotal = 0
-	for key, unit in pairs(flight:getUnits()) do
-		flightElements = flightElements + 1
-		distanceTotal = distanceTotal + getDistance(unit:getPoint().x, unit:getPoint().z, x, y)
-	end
-	return (distanceTotal / flightElements)
-end
-
 -- get average flight position
 local function getFlightPosition(flight)
 	local flightElements = 0
@@ -940,6 +929,41 @@ local function getFlightPosition(flight)
 		["y"] = totalY / flightElements
 	}
 	return position
+end
+
+-- get average flight distance from point
+local function getFlightDistance(flight, x, y)
+	local flightElements = 0
+	local distanceTotal = 0
+	for key, unit in pairs(flight:getUnits()) do
+		flightElements = flightElements + 1
+		distanceTotal = distanceTotal + getDistance(unit:getPoint().x, unit:getPoint().z, x, y)
+	end
+	return (distanceTotal / flightElements)
+end
+
+-- get distance from closest element in a flight
+local function getClosestFlightDistance(flight, x, y)
+	local closestDistance
+	for key, unit in pairs(flight:getUnits()) do
+		local unitDistance = getDistance(unit:getPoint().x, unit:getPoint().z, x, y)
+		if closestDistance == nil or unitDistance < closestDistance then
+			closestDistance = unitDistance
+		end
+	end
+	return closestDistance
+end
+
+-- get closest distance from any flight in package
+local function getPackageDistance(package, x, y)
+	local closestDistance
+	for key, flight in pairs(package.flights) do
+		local flightDistance = getClosestFlightDistance(flight.flightGroup, x, y)
+		if closestDistance == nil or flightDistance < closestDistance then
+			closestDistance = flightDistance
+		end
+	end
+	return closestDistance
 end
 
 -- get altitude of lowest element in flight
@@ -1183,19 +1207,18 @@ local takeoffCleanupTime = 1800 -- seconds after a flight is spawned when it wil
 local landingCleanupTime = 1200 -- seconds after a flight has landed when it will be cleaned up
 local minPackageTime = 3600 -- minimum number of seconds before the package ATO reactivates
 local maxPackageTime = 7200 -- maximum number of seconds before the package ATO reactivates
-local preparationTime = 1500 -- time in seconds it takes to prepare the next interceptors from an airbase
+local preparationTime = 1800 -- time in seconds it takes to prepare the next interceptors from an airbase
 local tankerChance = 20 -- chance to launch a tanker mission
-local CAPChance = 40 -- chance to launch a CAP mission
+local CAPChance = 80 -- chance to launch a CAP mission
 local AMBUSHChance = 60 -- chance for a CAP tasking to be an AMBUSHCAP
 
 local QRARadius = 60000 -- radius in meters for emergency scramble
 local CAPTrackLength = 30000 -- length of CAP racetracks in meters
 local commitRange = 180000 -- radius in meters around which uncommitted fighters will intercept tracks
 local escortCommitRange = 60000 -- radius in meters around uncommitted escort units at which targets will be intercepted
-local ambushCommitRange = 60000 -- radius in meters around uncommitted escort units at which targets will be intercepted
-local retargetRange = 60000 -- radius in meters around which interceptors will target new tracks
+local ambushCommitRange = 90000 -- radius in meters around uncommitted escort units at which targets will be intercepted
 local emergencyCommitRange = 30000 -- radius in meters around a flight to emergency intercept a track regardless of whether it's targeted by others
-local bingoLevel = 0.3 -- fuel level (in fraction from full internal) for a flight to RTB
+local bingoLevel = 0.25 -- fuel level (in fraction from full internal) for a flight to RTB
 
 local nextPackageID = 1000 -- next package ID
 local packages = {} -- currently active packages
@@ -2100,12 +2123,11 @@ local function interceptATO()
 				end
 			end
 		end
-		-- TODO: Add emergency intercept logic
 		-- find any available escort or CAP flight for intercept before scrambling
-		if excluded ~= true and engaged ~= true then
+		if excluded ~= true then
 			for packageID, package in pairs(packages) do
 				for flightID, flightData in pairs(package.flights) do
-					if flightData.flightGroup:isExist() ~= false then
+					if flightData.interceptTarget == nil and flightData.flightGroup:isExist() ~= false then
 						local flightAirborne = true
 						for key, unit in pairs(flightData.flightGroup:getUnits()) do
 							if unit:inAir() == false then
@@ -2113,16 +2135,32 @@ local function interceptATO()
 							end
 						end
 						if flightAirborne and allowedTargetCategrory(airbases[flightData.airbaseID].Squadrons[flightData.squadronID], tracks[trackID].category) then
-							local interceptRange
+							local targetRange
+							local targetInRange = false
 							if flightData.mission == "Escort" or flightData.mission == "HAVCAP" then
-								interceptRange = escortCommitRange
+								targetRange = getPackageDistance(package, track.x, track.y)
+								if targetRange < escortCommitRange then
+									targetInRange = true
+								end
 							elseif flightData.mission == "CAP" then
-								interceptRange = commitRange
+								targetRange = getClosestFlightDistance(flightData.flightGroup, track.x, track.y)
+								if targetRange < commitRange then
+									targetInRange = true
+								end
 							elseif flightData.mission == "AMBUSHCAP" then
-								interceptRange = ambushCommitRange
+								targetRange = getClosestFlightDistance(flightData.flightGroup, track.x, track.y)
+								if targetRange < ambushCommitRange then
+									targetInRange = true
+								end
 							end
-							if interceptRange ~= nil and getFlightDistance(flightData.flightGroup, track.x, track.y) < interceptRange then
+							if engaged ~= true and targetInRange then
 								env.info("Blue Air Debug: CAP/Escort flight " .. tostring(flightData.flightGroup:getID()) .. " intercepting " .. tostring(trackID), 0)
+								packages[packageID].flights[flightID].interceptTarget = trackID
+								assignInterceptTask(packages[packageID].flights[flightID])
+								engaged = true
+							-- if target is extremely close, intercept regardless of whether it's engaged already
+							elseif targetRange ~= nil and targetRange < emergencyCommitRange then
+								env.info("Blue Air Debug: Flight " .. tostring(flightData.flightGroup:getID()) .. " emergency intercept " .. tostring(trackID), 0)
 								packages[packageID].flights[flightID].interceptTarget = trackID
 								assignInterceptTask(packages[packageID].flights[flightID])
 								engaged = true
