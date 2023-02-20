@@ -450,9 +450,11 @@ end
 local function getPackageDistance(package, x, y)
 	local closestDistance
 	for key, flight in pairs(package.flights) do
-		local flightDistance = getClosestFlightDistance(flight.flightGroup, x, y)
-		if closestDistance == nil or flightDistance < closestDistance then
-			closestDistance = flightDistance
+		if flight.flightGroup:isExist() ~= false then
+			local flightDistance = getClosestFlightDistance(flight.flightGroup, x, y)
+			if closestDistance == nil or flightDistance < closestDistance then
+				closestDistance = flightDistance
+			end
 		end
 	end
 	return closestDistance
