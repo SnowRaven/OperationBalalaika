@@ -1227,7 +1227,7 @@ local commitRange = 180000 -- radius in meters around which uncommitted fighters
 local escortCommitRange = 60000 -- radius in meters around uncommitted escort units at which targets will be intercepted
 local ambushCommitRange = 90000 -- radius in meters around uncommitted escort units at which targets will be intercepted
 local emergencyCommitRange = 30000 -- radius in meters around a flight to emergency intercept a track regardless of whether it's targeted by others
-local bingoLevel = 0.25 -- fuel level (in fraction from full internal) for a flight to RTB
+local bingoLevel = 0.3 -- fuel level (in fraction from full internal) for a flight to RTB
 
 local nextPackageID = 1000 -- next package ID
 local packages = {} -- currently active packages
