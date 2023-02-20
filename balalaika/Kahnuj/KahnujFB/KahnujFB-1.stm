@@ -75,7 +75,7 @@ staticTemplate =
                                         ["unitId"] = 9,
                                         ["y"] = 156899.73285483,
                                         ["x"] = 252122.98067899,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 1",
                                         ["heading"] = 1.4660765716752,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [1]
@@ -87,7 +87,7 @@ staticTemplate =
                                         ["unitId"] = 12,
                                         ["y"] = 156878.41289591,
                                         ["x"] = 252139.98588432,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 2",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 2",
                                         ["heading"] = 0.38397243543875,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
@@ -99,7 +99,7 @@ staticTemplate =
                                         ["unitId"] = 11,
                                         ["y"] = 156866.23006224,
                                         ["x"] = 252144.30063791,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 3",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 3",
                                         ["heading"] = 0.38397243543875,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]
@@ -111,7 +111,7 @@ staticTemplate =
                                         ["unitId"] = 10,
                                         ["y"] = 156854.3010376,
                                         ["x"] = 252147.8539644,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 4",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 4",
                                         ["heading"] = 0.48869219055841,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -123,7 +123,7 @@ staticTemplate =
                                         ["unitId"] = 8,
                                         ["y"] = 156846.43295752,
                                         ["x"] = 252129.32590486,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 5",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 5",
                                         ["heading"] = 2.5307274153918,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
@@ -136,7 +136,7 @@ staticTemplate =
                                         ["unitId"] = 16,
                                         ["y"] = 156888.62857918,
                                         ["x"] = 252136.16064324,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-3",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 1-3",
                                         ["heading"] = 0.59341194567807,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [6]
@@ -149,7 +149,7 @@ staticTemplate =
                                         ["unitId"] = 15,
                                         ["y"] = 156873.48738642,
                                         ["x"] = 252178.27208559,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-2",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 1-2",
                                         ["heading"] = 0.59341194567807,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [7]
@@ -162,7 +162,7 @@ staticTemplate =
                                         ["unitId"] = 14,
                                         ["y"] = 156844.15132546,
                                         ["x"] = 252152.95790395,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-1",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 1-1",
                                         ["heading"] = 0.59341194567807,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [8]
@@ -175,7 +175,7 @@ staticTemplate =
                                         ["unitId"] = 7,
                                         ["y"] = 156892.62620186,
                                         ["x"] = 252148.61539151,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 6",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 6",
                                         ["heading"] = 0.59341194567807,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [9]
@@ -187,7 +187,7 @@ staticTemplate =
                                         ["unitId"] = 19,
                                         ["y"] = 156817.89081927,
                                         ["x"] = 252142.78491507,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-6",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 1-6",
                                         ["heading"] = 0.99483767363677,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [10]
@@ -199,7 +199,7 @@ staticTemplate =
                                         ["unitId"] = 18,
                                         ["y"] = 156870.41183164,
                                         ["x"] = 252122.91209958,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-5",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 1-5",
                                         ["heading"] = 0.99483767363677,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [11]
@@ -211,7 +211,7 @@ staticTemplate =
                                         ["unitId"] = 6,
                                         ["y"] = 156881.71241336,
                                         ["x"] = 252154.96061738,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 7",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 7",
                                         ["heading"] = 0.45378560551853,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [12]
@@ -223,7 +223,7 @@ staticTemplate =
                                         ["unitId"] = 17,
                                         ["y"] = 156884.13353758,
                                         ["x"] = 252174.25020626,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-4",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 1-4",
                                         ["heading"] = 0.50614548307836,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [13]
@@ -235,7 +235,7 @@ staticTemplate =
                                         ["unitId"] = 5,
                                         ["y"] = 156872.57528811,
                                         ["x"] = 252161.05203421,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 8",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 8",
                                         ["heading"] = 0.50614548307836,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [14]
@@ -247,7 +247,7 @@ staticTemplate =
                                         ["unitId"] = 4,
                                         ["y"] = 156861.91530865,
                                         ["x"] = 252164.35155166,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 9",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 9",
                                         ["heading"] = 0.47123889803847,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [15]
@@ -259,7 +259,7 @@ staticTemplate =
                                         ["unitId"] = 21,
                                         ["y"] = 156895.48943214,
                                         ["x"] = 252165.4967042,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-8",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 1-8",
                                         ["heading"] = 0.5235987755983,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [16]
@@ -271,7 +271,7 @@ staticTemplate =
                                         ["unitId"] = 20,
                                         ["y"] = 156862.84123526,
                                         ["x"] = 252182.05738378,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 1-7",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 1-7",
                                         ["heading"] = 0.5235987755983,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [17]
@@ -283,14 +283,14 @@ staticTemplate =
                                         ["unitId"] = 3,
                                         ["y"] = 156851.24875956,
                                         ["x"] = 252169.75516466,
-                                        ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park unit group 10",
+                                        ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 10",
                                         ["heading"] = 0.5235987755983,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [18]
                                 }, -- end of ["units"]
                                 ["y"] = 156899.73285483,
                                 ["x"] = 252122.98067899,
-                                ["name"] = "Jiroft Heli Military Base Vehicle Park unit group 1",
+                                ["name"] = "PRIMARY INCAPACITATED Jiroft Heli Military Base Vehicle Park",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                         }, -- end of ["group"]
