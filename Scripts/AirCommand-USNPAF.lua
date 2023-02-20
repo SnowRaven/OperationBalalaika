@@ -1979,7 +1979,7 @@ local function cleanupFlights()
 end
 
 initializeAirbases()
-timer.scheduleFunction(patrolATO, nil, timer.getTime() + 1)
+timer.scheduleFunction(patrolATO, nil, timer.getTime() + math.random(minPackageTime))
 --timer.scheduleFunction(logisticsATO, nil, timer.getTime() + math.random(minPackageTime))
 timer.scheduleFunction(interceptATO, nil, timer.getTime() + 5)
 timer.scheduleFunction(controlFlights, nil, timer.getTime() + 10)
