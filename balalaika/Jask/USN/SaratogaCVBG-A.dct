@@ -1,5 +1,0 @@
-objtype = "SEA"
-intel = 1
-cost = 4
-ignore = true
-nocull = true
