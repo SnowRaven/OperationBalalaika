@@ -56,8 +56,10 @@ local missionClass = {
 -- names for unit types
 local typeAlias = {
 	["F-14A-135-GR"] = "Tomcat",
+	["F-14B"] = "Tomcat",
 	["F-4E"] = "Phantom",
 	["F-5E-3"] = "Tiger",
+	["F-16C_50"] = "Falcon",
 	["AH-1W"] = "Cobra",
 	["KC-135"] = "KC-707",
 	["KC135MPRS"] = "KC-707",
@@ -68,8 +70,10 @@ local typeAlias = {
 -- DCS categories for unit types
 local typeCategory = {
 	["F-14A-135-GR"] = Group.Category.AIRPLANE,
+	["F-14B"] = Group.Category.AIRPLANE,
 	["F-4E"] = Group.Category.AIRPLANE,
 	["F-5E-3"] = Group.Category.AIRPLANE,
+	["F-16C_50"] = Group.Category.AIRPLANE,
 	["KC-135"] = Group.Category.AIRPLANE,
 	["KC135MPRS"] = Group.Category.AIRPLANE,
 	["AH-1W"] = Group.Category.HELICOPTER,
@@ -146,14 +150,20 @@ local ADZExclusion = {
 		["x"] = 4605,
 		["y"] = 248026,
 		["radius"] = 150000
+	},
+	-- USN operational area
+	[3] = {
+		["x"] = -226960,
+		["y"] = 67881,
+		["radius"] = 250000
 	}
 }
 
 local CAPZones = {
 	[1] = {
 		["origin"] = {
-			["x"] = 364339,
-			["y"] = -69741
+			["x"] = 330907,
+			["y"] = -74878
 		},
 		["radius"] = 80000,
 		["reference"] = {
@@ -163,8 +173,8 @@ local CAPZones = {
 	},
 	[2] = {
 		["origin"] = {
-			["x"] = 195567,
-			["y"] = 76150
+			["x"] = 195156,
+			["y"] = 60845
 		},
 		["radius"] = 80000,
 		["reference"] = {
@@ -252,7 +262,7 @@ local airbases = {
 									["CLSID"] = "{7B4B122D-C12C-4DB4-834E-4D8BB4D863A8}",
 								},
 							},
-							["fuel"] = "4864",
+							["fuel"] = 4864,
 							["flare"] = 30,
 							["chaff"] = 60,
 							["gun"] = 100,
@@ -277,7 +287,7 @@ local airbases = {
 									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
 								},
 							},
-							["fuel"] = "4864",
+							["fuel"] = 4864,
 							["flare"] = 30,
 							["chaff"] = 60,
 							["gun"] = 100,
@@ -492,7 +502,7 @@ local airbases = {
 									["CLSID"] = "{7B4B122D-C12C-4DB4-834E-4D8BB4D863A8}",
 								},
 							},
-							["fuel"] = "4864",
+							["fuel"] = 4864,
 							["flare"] = 0,
 							["chaff"] = 0,
 							["gun"] = 0,
@@ -517,7 +527,7 @@ local airbases = {
 									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
 								},
 							},
-							["fuel"] = "4864",
+							["fuel"] = 4864,
 							["flare"] = 0,
 							["chaff"] = 0,
 							["gun"] = 0,
@@ -732,13 +742,13 @@ local airbases = {
 								[1] =
 								{
 									["CLSID"] = "{3EA17AB0-A805-4D9E-8732-4CE00CB00F17}",
-								}, -- end of [1]
+								},
 								[4] =
 								{
 									["CLSID"] = "{3EA17AB0-A805-4D9E-8732-4CE00CB00F17}",
-								}, -- end of [4]
-							}, -- end of ["pylons"]
-							["fuel"] = "1250.0",
+								},
+							},
+							["fuel"] = 1250,
 							["flare"] = 30,
 							["chaff"] = 30,
 							["gun"] = 100,
@@ -783,13 +793,13 @@ local airbases = {
 								[1] =
 								{
 									["CLSID"] = "{3EA17AB0-A805-4D9E-8732-4CE00CB00F17}",
-								}, -- end of [1]
+								},
 								[4] =
 								{
 									["CLSID"] = "{3EA17AB0-A805-4D9E-8732-4CE00CB00F17}",
-								}, -- end of [4]
-							}, -- end of ["pylons"]
-							["fuel"] = "1250.0",
+								},
+							},
+							["fuel"] = 1250,
 							["flare"] = 30,
 							["chaff"] = 30,
 							["gun"] = 100,
@@ -834,9 +844,6 @@ end
 -- get two points perpendicular to a line at a certain distance from point a
 local function getPerpendicularPoints(a, b, distance)
 	local angle = math.atan2(b.x - a.x, b.y - a.y)
-	env.info("Blue Air Debug: Angle:  " .. tostring(angle), 0)
-	env.info("Blue Air Debug: Angle + : " .. tostring(angle + (math.pi / 2)), 0)
-	env.info("Blue Air Debug: Angle - : " .. tostring(angle - (math.pi / 2)), 0)
 	local p1 = {
 		["x"] = a.x + (math.sin(angle + (math.pi / 2)) * distance),
 		["y"] = a.y + (math.cos(angle + (math.pi / 2)) * distance)
@@ -850,8 +857,8 @@ end
 
 -- get a random point inside a radius from a given point
 local function getRandomPoint(origin, radius)
-	local distance = math.random(0, radius)
-	local angle = math.sqrt(math.random()) * (2 * math.pi)
+	local distance = math.sqrt(math.random()) * radius
+	local angle = math.random() * (2 * math.pi)
 	local x = origin.x + (math.sin(angle) * distance)
 	local y = origin.y + (math.cos(angle) * distance)
 	local point = {
@@ -2431,9 +2438,11 @@ local function controlFlights()
 					assignMission(missionData)
 				end
 				local fuelState = getFuelState(flightData.flightGroup)
-				if flightData.mission ~= "RTB" and fuelState < bingoLevel then
-					env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " fuel state " .. tostring(fuelState), 0)
-					flightAbort(packageID, flightID)
+				if fuelState ~= nil then
+					if flightData.mission ~= "RTB" and fuelState < bingoLevel then
+						env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " fuel state " .. tostring(fuelState), 0)
+						flightAbort(packageID, flightID)
+					end
 				end
 			else
 				packages[packageID].flights[flightID] = nil

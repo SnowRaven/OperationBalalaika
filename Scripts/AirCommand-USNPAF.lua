@@ -89,79 +89,101 @@ local weaponTypes = {
 
 ---------------------------------------------------------------------------------------------------------------------------
 -- faction, squadron and air defense logic data
-local side = coalition.side.RED
+local side = coalition.side.BLUE
 
 -- general cruise speed and altitude unless defined otherwise
-local standardAltitude = 7500
-local returnAltitude = 9000
-local ambushAltitude = 180
+local standardAltitude = 7620
+local returnAltitude = 9144
+local ambushAltitude = 183
 local standardSpeed = 250
 local ambushSpeed = 200
 
 -- altitude and speeds used for tanker operations
 local tankerParameters = {
-	["IL-78M"] = {
-		altitude = 8000,
-		speed = 233.6
+	["KC-135"] = {
+		altitude = 6096.1,
+		speed = 211.1
+	},
+	["KC135MPRS"] = {
+		altitude = 6096.1,
+		speed = 211.1
 	}
 }
 
 -- table defining preferred tactics for each aircraft type
 -- if not defined, will be determined randomly or according to threat (TODO)
 local preferredTactic = {
-	["Su-27"] = interceptTactic.LeadHigh,
-	["MiG-31"] = interceptTactic.LeadHigh
 }
 
 -- table defining which types constitute high priority threats
 local highThreatType = {
-	["F-14A-135-GR"] = true
+	["Su-27"] = true,
+	["Su-33"] = true,
+	["MiG-29A"] = true,
+	["MiG-29S"] = true,
+	["MiG-25PD"] = true,
+	["MiG-25RBT"] = true,
+	["MiG-31"] = true,
+	["Su-24M"] = true,
+	["Su-24MR"] = true
 }
 
 -- range to intercept target in meters at which point the interceptors will activate their radar
 -- if range is not defined radar SOP is assumed to be always on
 local radarRange = {
+	["F-16C_50"] = 60000
 }
 
 -- any zones where interception will not be launched even if in range of a squadron
 local ADZExclusion = {
+	-- West
+	[1] = {
+		["x"] = 293508,
+		["y"] = -238231,
+		["radius"] = 400000
+	},
+	-- North
+	[2] = {
+		["x"] = 540790,
+		["y"] = 256629,
+		["radius"] = 400000
+	}
 }
 
 local CAPZones = {
-}
-
-local tankerOrbits = {
-	["Kerman"] = {
-		[1] = {
-			["x"] = 363580,
-			["y"] = 102662
+	[1] = {
+		["origin"] = {
+			["x"] = 23240,
+			["y"] = 212561
 		},
-		[2] = {
-			["x"] = 305627,
-			["y"] = 173034
+		["radius"] = 120000,
+		["reference"] = {
+			["x"] = 282753,
+			["y"] = 141520
 		}
 	}
 }
 
+local tankerOrbits = {
+}
+
 -- airbases and squadrons
 local airbases = {
-	["Kerman"] = {
-		name = "Kerman", -- DCS name
-		takeoffHeading = 0.314, -- in radians
+	["Jask"] = {
+		name = "Bandar-e-Jask", -- DCS name
+		takeoffHeading = 1.082, -- in radians
 		Squadrons = {
-			["763IAP"] = {
-				["name"] = "763 IAP",
-				["country"] = country.USSR,
-				["type"] = "MiG-31",
+			["5PAF"] = {
+				["name"] = "No. 5 Squadron",
+				["country"] = country.Pakistan,
+				["type"] = "F-16C_50",
 				["skill"] = "High",
-				["livery"] = "af standard",
+				["livery"] = "PAF_No.5_Falcons",
 				["allWeatherAA"] = capability.Full,
 				["allWeatherAG"] = capability.None,
-				["interceptRadius"] = 50000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["interceptRadius"] = 100000, -- radius of action around the airbase for interceptors from this squadron in meters
 				["missions"] = {
-					["CAP"] = true,
-					["Escort"] = true,
-					["HAVCAP"] = true
+					["CAP"] = true
 				},
 				["targetCategories"] = {
 					[1] = Unit.Category.AIRPLANE
@@ -173,53 +195,71 @@ local airbases = {
 							{
 								[1] =
 								{
-									["CLSID"] = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}",
+									["CLSID"] = "{AIM-9L}",
 								},
 								[2] =
 								{
-									["CLSID"] = "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}",
+									["CLSID"] = "{AIM-9L}",
 								},
 								[3] =
 								{
-									["CLSID"] = "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}",
+									["CLSID"] = "<CLEAN>",
 								},
 								[4] =
 								{
-									["CLSID"] = "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}",
+									["CLSID"] = "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}",
 								},
 								[5] =
 								{
-									["CLSID"] = "{F1243568-8EF0-49D4-9CB5-4DA90D92BC1D}",
+									["CLSID"] = "<CLEAN>",
 								},
 								[6] =
 								{
-									["CLSID"] = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}",
+									["CLSID"] = "{F376DBEE-4CAE-41BA-ADD9-B2910AC95DEC}",
+								},
+								[7] =
+								{
+									["CLSID"] = "<CLEAN>",
+								},
+								[8] =
+								{
+									["CLSID"] = "{AIM-9L}",
+								},
+								[9] =
+								{
+									["CLSID"] = "{AIM-9L}",
 								},
 							},
-							["fuel"] = 15500,
-							["flare"] = 0,
-							["chaff"] = 0,
+							["fuel"] = 3249,
+							["flare"] = 60,
+							["chaff"] = 60,
 							["gun"] = 100,
+							["ammo_type"] = 5,
 						}
 					}
 				},
 				["callsigns"] = {
-					"Aurora"
+					"Falcon"
 				}
-			},
-			["831IAP"] = {
-				["name"] = "831 IAP",
-				["country"] = country.USSR,
-				["type"] = "Su-27",
+			}
+		}
+	},
+	["Saratoga"] = {
+		name = "USS Saratoga (CV-60)", -- DCS name
+		takeoffHeading = 0, -- in radians
+		Squadrons = {
+			["VF74"] = {
+				["name"] = "VF-74",
+				["country"] = country.USA,
+				["type"] = "F-14B",
 				["skill"] = "High",
-				["livery"] = "Air Force Standard Early",
+				["livery"] = "vf-74 bedevilers 1991",
 				["allWeatherAA"] = capability.Full,
 				["allWeatherAG"] = capability.None,
-				["interceptRadius"] = 50000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["interceptRadius"] = 80000, -- radius of action around the airbase for interceptors from this squadron in meters
 				["missions"] = {
-					["CAP"] = true,
-					["Escort"] = true,
-					["HAVCAP"] = true
+					["Intercept"] = true,
+					["QRA"] = true
 				},
 				["targetCategories"] = {
 					[1] = Unit.Category.AIRPLANE
@@ -231,72 +271,51 @@ local airbases = {
 							{
 								[1] =
 								{
-									["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82F}",
+									["CLSID"] = "{LAU-138 wtip - AIM-9M}",
 								},
 								[2] =
 								{
-									["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+									["CLSID"] = "{SHOULDER AIM-7M}",
 								},
 								[3] =
 								{
-									["CLSID"] = "{88DAC840-9F75-4531-8689-B46E64E42E53}",
+									["CLSID"] = "{F14-300gal}",
 								},
 								[4] =
 								{
-									["CLSID"] = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+									["CLSID"] = "{AIM_54A_Mk60}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{BELLY AIM-7M}",
 								},
 								[7] =
 								{
-									["CLSID"] = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+									["CLSID"] = "{AIM_54A_Mk60}",
 								},
 								[8] =
 								{
-									["CLSID"] = "{88DAC840-9F75-4531-8689-B46E64E42E53}",
+									["CLSID"] = "{F14-300gal}",
 								},
 								[9] =
 								{
-									["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+									["CLSID"] = "{SHOULDER AIM-7M}",
 								},
 								[10] =
 								{
-									["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82A}",
+									["CLSID"] = "{LAU-138 wtip - AIM-9M}",
 								},
 							},
-							["fuel"] = 9400,
-							["flare"] = 96,
-							["chaff"] = 96,
+							["fuel"] = 7348,
+							["flare"] = 60,
+							["chaff"] = 140,
 							["gun"] = 100,
+							["ammo_type"] = 1,
 						}
 					}
 				},
 				["callsigns"] = {
-					"Aurora"
-				}
-			},
-			["409APSZ"] = {
-				["name"] = "409 APSZ",
-				["country"] = country.USSR,
-				["type"] = "IL-78M", -- KC-707
-				["skill"] = "High",
-				["livery"] = "RF Air Force",
-				["missions"] = {
-					["Tanker"] = true
-				},
-				["loadouts"] = {
-					["Logistics"] = {
-						["General"] = {
-							["pylons"] =
-							{
-							},
-							["fuel"] = 90000,
-							["flare"] = 96,
-							["chaff"] = 96,
-							["gun"] = 100,
-						}
-					}
-				},
-				["callsigns"] = {
-					"Atlant"
+					"Devil"
 				}
 			}
 		}
@@ -393,7 +412,7 @@ local function getSkill(baseline)
 		return "Excellent"
 	end
 	-- I dunno what's going on if we get here
-	env.info("Red Air Debug: Unit skill assignment broke", 0)
+	env.info("USN/PAF Debug: Unit skill assignment broke", 0)
 	return "High"
 end
 
@@ -525,7 +544,7 @@ local function addTracker(unit)
 	-- don't add units that are in ADZ exclusion zones
 	for zoneKey, zone in pairs(ADZExclusion) do
 		if getDistance(unit:getPoint().x, unit:getPoint().z, zone.x, zone.y) < zone.radius then
-			env.info("Red Air Debug: Unit " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " excluded from ADZ", 0)
+			env.info("USN/PAF Debug: Unit " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " excluded from ADZ", 0)
 			return
 		end
 	end
@@ -539,7 +558,7 @@ local function addTracker(unit)
 	end
 	if primaryTrackerAttribute then
 		primaryTrackers[unit:getID()] = unit
-		env.info("Red Air Debug: Added " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " to primary trackers", 0)
+		env.info("USN/PAF Debug: Added " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " to primary trackers", 0)
 	else
 		-- if not, check if unit can be a secondary tracker
 		local secondaryTrackerAttribute = false
@@ -551,7 +570,7 @@ local function addTracker(unit)
 		end
 		if secondaryTrackerAttribute then
 			secondaryTrackers[unit:getID()] = unit
-			env.info("Red Air Debug: Added " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " to secondary trackers", 0)
+			env.info("USN/PAF Debug: Added " .. " " .. unit:getTypeName() .. " " .. tostring(unit:getID()) .. " to secondary trackers", 0)
 		end
 	end
 end
@@ -587,10 +606,10 @@ local function createTrack(target)
 	tracks[nextTrackNumber] = {}
 	tracks[nextTrackNumber].category = target.object:getDesc().category
 	updateTrack(nextTrackNumber, target)
-	env.info("Red Air Debug: Created new track ID " ..
+	env.info("USN/PAF Debug: Created new track ID " ..
 	tostring(nextTrackNumber) .. ". Category: " .. tracks[nextTrackNumber].category)
 	env.info(
-		"Red Air Debug: Updated track ID " ..
+		"USN/PAF Debug: Updated track ID " ..
 		tostring(nextTrackNumber) ..
 		" with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
 	nextTrackNumber = nextTrackNumber + 1
@@ -617,7 +636,7 @@ local function detectTargets()
 	for key, tracker in pairs(primaryTrackers) do
 		if (tracker:isExist()) then -- check if our tracker still exists
 			local targets = tracker:getController():getDetectedTargets(Controller.Detection.RADAR) -- get all targets currently detected by this tracker
-			--env.info("Red Air Debug: " .. tracker:getTypeName() .. " " .. tostring(tracker:getID()) .. " tracking " .. getTableSize(targets) .. " targets", 0)
+			--env.info("USN/PAF Debug: " .. tracker:getTypeName() .. " " .. tostring(tracker:getID()) .. " tracking " .. getTableSize(targets) .. " targets", 0)
 			for key, target in pairs(targets) do
 				if (target.object ~= nil) and (target.object:getCategory() == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
 					local targetCorrelated = false
@@ -626,7 +645,7 @@ local function detectTargets()
 						if correlateTrack(key, target) then
 							updateTrack(key, target)
 							targetCorrelated = true
-							--env.info("Red Air Debug: Updated track ID " .. tostring(key) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
+							--env.info("USN/PAF Debug: Updated track ID " .. tostring(key) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
 						end
 					end
 					-- if target can't be correlated to any track, create a new track
@@ -637,7 +656,7 @@ local function detectTargets()
 			end
 		else -- if tracker doesn't exist then remove it from the list
 			primaryTrackers[key] = nil
-			env.info("Red Air Debug: Removed " .. " " .. tostring(key) .. " from primary trackers", 0)
+			env.info("USN/PAF Debug: Removed " .. " " .. tostring(key) .. " from primary trackers", 0)
 		end
 	end
 	-- same for secondary trackers
@@ -645,7 +664,7 @@ local function detectTargets()
 		if (tracker:isExist()) then -- check if our tracker still exists
 			local targets = tracker:getController():getDetectedTargets(Controller.Detection.RADAR,
 				Controller.Detection.VISUAL, Controller.Detection.OPTIC, Controller.Detection.IRST) -- get all targets currently detected by this tracker
-			-- env.info("Red Air Debug: " .. tracker:getTypeName() .. " " .. tostring(tracker:getID()) .. " tracking " .. getTableSize(targets) .. " targets", 0)
+			-- env.info("USN/PAF Debug: " .. tracker:getTypeName() .. " " .. tostring(tracker:getID()) .. " tracking " .. getTableSize(targets) .. " targets", 0)
 			for key, target in pairs(targets) do
 				if (target.object ~= nil) and (target.object:getCategory() == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
 					local targetCorrelated = false
@@ -654,7 +673,7 @@ local function detectTargets()
 						if correlateTrack(key, target) then
 							updateTrack(key, target)
 							targetCorrelated = true
-							--env.info("Red Air Debug: Secondary tracker updated track ID " .. tostring(key) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
+							--env.info("USN/PAF Debug: Secondary tracker updated track ID " .. tostring(key) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
 						end
 					end
 					-- if target can't be correlated to any track, create a new track
@@ -665,14 +684,14 @@ local function detectTargets()
 			end
 		else -- if tracker doesn't exist then remove it from the list
 			secondaryTrackers[key] = nil
-			env.info("Red Air Debug: Removed " .. " " .. tostring(key) .. " from primary trackers", 0)
+			env.info("USN/PAF Debug: Removed " .. " " .. tostring(key) .. " from primary trackers", 0)
 		end
 	end
 	-- extrapolate all old tracks
 	for key, track in pairs(tracks) do
 		if (track.lastUpdate < timer.getTime() - 5) then
 			extrapolateTrack(key)
-			env.info("Red Air Debug: Extrapolating lost track ID " .. tostring(key), 0)
+			env.info("USN/PAF Debug: Extrapolating lost track ID " .. tostring(key), 0)
 		end
 	end
 	timer.scheduleFunction(detectTargets, nil, timer.getTime() + 5)
@@ -684,7 +703,7 @@ local function timeoutTracks()
 		if (track.lastUpdate < timer.getTime() - trackTimeout) then
 			tracks[key] = nil
 			env.info(
-				"Red Air Debug: Timed out lost track ID " ..
+				"USN/PAF Debug: Timed out lost track ID " ..
 				tostring(key) .. " after " .. tostring(timer.getTime() - track.lastUpdate) .. " seconds", 0)
 		end
 	end
@@ -700,17 +719,17 @@ local groundStartRadius = 30000 -- radius around an airfield where if a player i
 local skipResetTime = 60 -- seconds between a failed launch until airfield will be used again
 local takeoffCleanupTime = 1800 -- seconds after a flight is spawned when it will be cleaned up if not in the air
 local landingCleanupTime = 1200 -- seconds after a flight has landed when it will be cleaned up
-local minPackageTime = 300 -- minimum number of seconds before the package ATO reactivates
-local maxPackageTime = 600 -- maximum number of seconds before the package ATO reactivates
+local minPackageTime = 3600 -- minimum number of seconds before the package ATO reactivates
+local maxPackageTime = 7200 -- maximum number of seconds before the package ATO reactivates
 local preparationTime = 1800 -- time in seconds it takes to prepare the next interceptors from an airbase
-local tankerChance = 100 -- chance to launch a tanker mission
+local tankerChance = 20 -- chance to launch a tanker mission
 local CAPChance = 80 -- chance to launch a CAP mission
-local AMBUSHChance = 60 -- chance for a CAP tasking to be an AMBUSHCAP
+local AMBUSHChance = 30 -- chance for a CAP tasking to be an AMBUSHCAP
 
 local QRARadius = 60000 -- radius in meters for emergency scramble
 local CAPTrackLength = 30000 -- length of CAP racetracks in meters
-local commitRange = 180000 -- radius in meters around which uncommitted fighters will intercept tracks
-local escortCommitRange = 90000 -- radius in meters around uncommitted escort units at which targets will be intercepted
+local commitRange = 120000 -- radius in meters around which uncommitted fighters will intercept tracks
+local escortCommitRange = 60000 -- radius in meters around uncommitted escort units at which targets will be intercepted
 local ambushCommitRange = 90000 -- radius in meters around uncommitted escort units at which targets will be intercepted
 local emergencyCommitRange = 30000 -- radius in meters around a flight to emergency intercept a track regardless of whether it's targeted by others
 local bingoLevel = 0.25 -- fuel level (in fraction from full internal) for a flight to RTB
@@ -728,7 +747,7 @@ local function initializeAirbases()
 			["skip"] = false, -- flag for whether the airbase should be skipped in the next round of air tasking
 			["readinessTime"] = timer.getTime(), -- time until next aircraft are ready to launch
 		}
-		env.info("Red Air Debug: Airbase " .. airbaseID .. " initialized", 0)
+		env.info("USN/PAF Debug: Airbase " .. airbaseID .. " initialized", 0)
 	end
 end
 
@@ -1287,23 +1306,23 @@ local function assignMission(missionData)
 	if flightData.mission == "Intercept" or flightData.mission == "QRA" then
 		assignInterceptTask(flightData)
 		if flightData.mission == "QRA" then
-			env.info("Red Air Debug: QRA flight " .. tostring(missionData.flightID) .. " assigned", 0)
+			env.info("USN/PAF Debug: QRA flight " .. tostring(missionData.flightID) .. " assigned", 0)
 		else
-			env.info("Red Air Debug: Intercept flight " .. tostring(missionData.flightID) .. " assigned", 0)
+			env.info("USN/PAF Debug: Intercept flight " .. tostring(missionData.flightID) .. " assigned", 0)
 		end
-		env.info("Red Air Debug: Target track: " .. tostring(flightData.interceptTarget), 0)
+		env.info("USN/PAF Debug: Target track: " .. tostring(flightData.interceptTarget), 0)
 		return
 	end
 
 	if flightData.mission == "Tanker" then
 		assignTankerTask(flightData)
-		env.info("Red Air Debug: Tanker flight " .. tostring(missionData.flightID) .. " assigned", 0)
+		env.info("USN/PAF Debug: Tanker flight " .. tostring(missionData.flightID) .. " assigned", 0)
 		env.info(
-			"Red Air Debug: Point 1: " ..
+			"USN/PAF Debug: Point 1: " ..
 			tostring(tankerOrbits[flightData.tankerOrbit][1].x) ..
 			" " .. tostring(tankerOrbits[flightData.tankerOrbit][1].y), 0)
 		env.info(
-			"Red Air Debug: Point 2: " ..
+			"USN/PAF Debug: Point 2: " ..
 			tostring(tankerOrbits[flightData.tankerOrbit][2].x) ..
 			" " .. tostring(tankerOrbits[flightData.tankerOrbit][2].y), 0)
 		return
@@ -1311,23 +1330,23 @@ local function assignMission(missionData)
 
 	if flightData.mission == "Escort" or flightData.mission == "HAVCAP" then
 		assignEscortTask(flightData)
-		env.info("Red Air Debug: Escort flight " .. tostring(missionData.flightID) .. " assigned", 0)
-		env.info("Red Air Debug: Escorting flight: " .. tostring(flightData.escortTarget), 0)
+		env.info("USN/PAF Debug: Escort flight " .. tostring(missionData.flightID) .. " assigned", 0)
+		env.info("USN/PAF Debug: Escorting flight: " .. tostring(flightData.escortTarget), 0)
 		return
 	end
 
 	if flightData.mission == "CAP" or flightData.mission == "AMBUSHCAP" then
 		assignCAPTask(flightData)
 		if flightData.mission == "AMBUSHCAP" then
-			env.info("Red Air Debug: AMBUSHCAP flight " .. tostring(missionData.flightID) .. " assigned", 0)
+			env.info("USN/PAF Debug: AMBUSHCAP flight " .. tostring(missionData.flightID) .. " assigned", 0)
 		else
-			env.info("Red Air Debug: CAP flight " .. tostring(missionData.flightID) .. " assigned", 0)
+			env.info("USN/PAF Debug: CAP flight " .. tostring(missionData.flightID) .. " assigned", 0)
 		end
 		env.info(
-			"Red Air Debug: CAP point 1: " ..
+			"USN/PAF Debug: CAP point 1: " ..
 			tostring(flightData.patrolArea[1].x) .. " " .. tostring(flightData.patrolArea[1].y), 0)
 		env.info(
-			"Red Air Debug: CAP point 2: " ..
+			"USN/PAF Debug: CAP point 2: " ..
 			tostring(flightData.patrolArea[2].x) .. " " .. tostring(flightData.patrolArea[2].y), 0)
 		return
 	end
@@ -1649,13 +1668,13 @@ local function interceptATO()
 								end
 							end
 							if engaged ~= true and targetInRange then
-								env.info("Red Air Debug: CAP/Escort flight " .. tostring(flightData.flightGroup:getID()) .. " intercepting " .. tostring(trackID), 0)
+								env.info("USN/PAF Debug: CAP/Escort flight " .. tostring(flightData.flightGroup:getID()) .. " intercepting " .. tostring(trackID), 0)
 								packages[packageID].flights[flightID].interceptTarget = trackID
 								assignInterceptTask(packages[packageID].flights[flightID])
 								engaged = true
 							-- if target is extremely close, intercept regardless of whether it's engaged already
 							elseif targetRange ~= nil and targetRange < emergencyCommitRange then
-								env.info("Red Air Debug: Flight " .. tostring(flightData.flightGroup:getID()) .. " emergency intercept " .. tostring(trackID), 0)
+								env.info("USN/PAF Debug: Flight " .. tostring(flightData.flightGroup:getID()) .. " emergency intercept " .. tostring(trackID), 0)
 								packages[packageID].flights[flightID].interceptTarget = trackID
 								assignInterceptTask(packages[packageID].flights[flightID])
 								engaged = true
@@ -1693,10 +1712,10 @@ local function controlIntercept(flightData)
 	end
 	if targetInSearchRange then
 		controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.FOR_CONTINUOUS_SEARCH)
-		env.info("Red Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " radar active", 0)
+		env.info("USN/PAF Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " radar active", 0)
 	else
 		controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.NEVER)
-		env.info("Red Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " radar off", 0)
+		env.info("USN/PAF Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " radar off", 0)
 	end
 	-- check if target is detected by onboard sensors before giving permission to engage
 	-- we're doing this to prevent magic datalink intercepts
@@ -1706,7 +1725,7 @@ local function controlIntercept(flightData)
 	for key, target in pairs(targets) do
 		if target.object ~= nil and target.object:getCategory() == Object.Category.UNIT and target.object:getCoalition() ~= side then
 			if correlateTrack(interceptTarget, target) then
-				env.info("Red Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " target detected", 0)
+				env.info("USN/PAF Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " target detected", 0)
 				targetDetected = true
 				updateTrack(interceptTarget, target)
 			end
@@ -1716,13 +1735,13 @@ local function controlIntercept(flightData)
 	for key, unit in pairs(flightGroup:getUnits()) do
 		if unit:getTypeName() == "F-4E" and targetInSearchRange and tracks[interceptTarget].alt > 3000 then
 			targetDetected = true
-			env.info("Red Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " target detected by F-4 exception", 0)
+			env.info("USN/PAF Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " target detected by F-4 exception", 0)
 		end
 		break
 	end
 	-- if target detected then engage
 	if targetDetected then
-		env.info("Red Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " free to engage", 0)
+		env.info("USN/PAF Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " free to engage", 0)
 		-- just in case
 		if flightCategory == Group.Category.HELICOPTER then
 			controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.WEAPON_FREE)
@@ -1749,7 +1768,7 @@ local function controlIntercept(flightData)
 			}
 		}
 	else
-		env.info("Red Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " holding engagement", 0)
+		env.info("USN/PAF Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " holding engagement", 0)
 		controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.RETURN_FIRE)
 		interceptTask = {
 			id = "ComboTask",
@@ -1795,7 +1814,7 @@ end
 
 local function flightAbort(packageID, flightID)
 	local flightData = packages[packageID].flights[flightID]
-	env.info("Red Air Debug: Flight " .. tostring(flightID) .. " RTB", 0)
+	env.info("USN/PAF Debug: Flight " .. tostring(flightID) .. " RTB", 0)
 	local updatedFlightData = {
 		["flightGroup"] = flightData.flightGroup,
 		["mission"] = "RTB",
@@ -1870,7 +1889,7 @@ local function handlePackages()
 				if flight.mission == "Tanker" then
 					if flight.flightGroup:isExist() == false then
 						packageAbort(packageID)
-						env.info("Red Air Debug: Tanker package: " .. tostring(packageID) .. " disbanded", 0)
+						env.info("USN/PAF Debug: Tanker package: " .. tostring(packageID) .. " disbanded", 0)
 						break
 					else
 						tanker = true
@@ -1884,11 +1903,11 @@ local function handlePackages()
 			-- if there's no tanker, abort package
 			if tanker ~= true then
 				packageAbort(packageID)
-				env.info("Red Air Debug: Tanker package: " .. tostring(packageID) .. " disbanded", 0)
+				env.info("USN/PAF Debug: Tanker package: " .. tostring(packageID) .. " disbanded", 0)
 			-- if there's no HAVCAP, launch HAVCAP
 			elseif HAVCAP ~= true then
 				launchEscort(packageID)
-				env.info("Red Air Debug: Refreshing HAVCAP for package " .. tostring(packageID), 0)
+				env.info("USN/PAF Debug: Refreshing HAVCAP for package " .. tostring(packageID), 0)
 			end
 		end
 	end
@@ -1916,7 +1935,7 @@ local function controlFlights()
 					end
 				end
 				if reset then
-					env.info("Red Air Debug: Flight " .. tostring(flightID) .. " resetting", 0)
+					env.info("USN/PAF Debug: Flight " .. tostring(flightID) .. " resetting", 0)
 					local missionData = {
 						["packageID"] = packageID,
 						["flightID"] = flightID
@@ -1926,7 +1945,7 @@ local function controlFlights()
 				local fuelState = getFuelState(flightData.flightGroup)
 				if fuelState ~= nil then
 					if flightData.mission ~= "RTB" and fuelState < bingoLevel then
-						env.info("Red Air Debug: Flight " .. tostring(flightID) .. " fuel state " .. tostring(fuelState), 0)
+						env.info("USN/PAF Debug: Flight " .. tostring(flightID) .. " fuel state " .. tostring(fuelState), 0)
 						flightAbort(packageID, flightID)
 					end
 				end
@@ -1960,8 +1979,8 @@ local function cleanupFlights()
 end
 
 initializeAirbases()
---timer.scheduleFunction(patrolATO, nil, timer.getTime() + math.random(maxPackageTime))
-timer.scheduleFunction(logisticsATO, nil, timer.getTime() + 1)
+timer.scheduleFunction(patrolATO, nil, timer.getTime() + 1)
+--timer.scheduleFunction(logisticsATO, nil, timer.getTime() + math.random(minPackageTime))
 timer.scheduleFunction(interceptATO, nil, timer.getTime() + 5)
 timer.scheduleFunction(controlFlights, nil, timer.getTime() + 10)
 timer.scheduleFunction(handlePackages, nil, timer.getTime() + 60)
