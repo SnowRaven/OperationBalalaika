@@ -153,10 +153,10 @@ local ADZExclusion = {
 local CAPZones = {
 	[1] = {
 		["origin"] = {
-			["x"] = 23240,
-			["y"] = 212561
+			["x"] = 21265,
+			["y"] = 188788
 		},
-		["radius"] = 120000,
+		["radius"] = 90000,
 		["reference"] = {
 			["x"] = 282753,
 			["y"] = 141520
