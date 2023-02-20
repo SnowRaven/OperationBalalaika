@@ -1,0 +1,5 @@
+objtype = "EWR"
+intel = 1
+cost = 4
+regenerate = true
+nocull = true

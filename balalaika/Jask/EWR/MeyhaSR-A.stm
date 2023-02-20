@@ -1,0 +1,422 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 245451.44901387,
+                                            ["speed"] = 0,
+                                            ["x"] = 17948.811661752,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "GeneratorF",
+                                        ["type"] = "GeneratorF",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 100,
+                                        ["y"] = 245451.44901387,
+                                        ["x"] = 17948.811661752,
+                                        ["name"] = "Pakistan EWR Generator",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 245451.44901387,
+                                ["x"] = 17948.811661752,
+                                ["name"] = "Pakistan EWR Generator",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 245482.05605471,
+                                            ["speed"] = 0,
+                                            ["x"] = 17968.347987374,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 50,
+                                        ["y"] = 245482.05605471,
+                                        ["x"] = 17968.347987374,
+                                        ["name"] = "Pakistan EWR Tent 1",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 245482.05605471,
+                                ["x"] = 17968.347987374,
+                                ["name"] = "Pakistan EWR Tent 1",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 245464.78352227,
+                                            ["speed"] = 0,
+                                            ["x"] = 17968.347987374,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 50,
+                                        ["y"] = 245464.78352227,
+                                        ["x"] = 17968.347987374,
+                                        ["name"] = "Pakistan EWR Tent 2",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 245464.78352227,
+                                ["x"] = 17968.347987374,
+                                ["name"] = "Pakistan EWR Tent 2",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1694,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 245474.88883957,
+                                            ["x"] = 17929.258520277,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "ISR",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 22,
+                                        ["y"] = 245474.88883957,
+                                        ["x"] = 17929.258520277,
+                                        ["name"] = "Pakistan Hawk EWR Guard Units-1",
+                                        ["heading"] = 6.1959188445799,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M48 Chaparral",
+                                        ["unitId"] = 12,
+                                        ["y"] = 245400.9750347,
+                                        ["x"] = 17961.958578001,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-10",
+                                        ["heading"] = 1.4137166941154,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 11,
+                                        ["y"] = 245470.56624296,
+                                        ["x"] = 17923.482295234,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-9",
+                                        ["heading"] = 2.2340214425527,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 10,
+                                        ["y"] = 245423.84967705,
+                                        ["x"] = 17917.690065894,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-8",
+                                        ["heading"] = 3.7699111843078,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 9,
+                                        ["y"] = 245459.08681978,
+                                        ["x"] = 17948.378969239,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-7",
+                                        ["heading"] = 3.6128315516283,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 13,
+                                        ["y"] = 245485.24286881,
+                                        ["x"] = 17960.890842371,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-2",
+                                        ["heading"] = 1.5707963267949,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "bofors40",
+                                        ["unitId"] = 8,
+                                        ["y"] = 245424.94949455,
+                                        ["x"] = 17915.462830998,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-6",
+                                        ["heading"] = 0.73303828583762,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "bofors40",
+                                        ["unitId"] = 20,
+                                        ["y"] = 245506.7793132,
+                                        ["x"] = 17950.458862264,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-14",
+                                        ["heading"] = 4.7822021504645,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "bofors40",
+                                        ["unitId"] = 7,
+                                        ["y"] = 245472.27895512,
+                                        ["x"] = 17926.7774318,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-5",
+                                        ["heading"] = 5.9515727493007,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 6,
+                                        ["y"] = 245487.60111125,
+                                        ["x"] = 17958.341391089,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-4",
+                                        ["heading"] = 1.6580627893946,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 19,
+                                        ["y"] = 245475.91571691,
+                                        ["x"] = 17926.921129801,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-13",
+                                        ["heading"] = 1.6406094968747,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 18,
+                                        ["y"] = 245458.54396264,
+                                        ["x"] = 17946.893254953,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-12",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 5,
+                                        ["y"] = 245498.23340459,
+                                        ["x"] = 17981.874819845,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-3",
+                                        ["heading"] = 5.846852994181,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 17,
+                                        ["y"] = 245503.42078343,
+                                        ["x"] = 17980.710080304,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-11",
+                                        ["heading"] = 0.55850536063819,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 3,
+                                        ["y"] = 245439.7377888,
+                                        ["x"] = 17980.707676788,
+                                        ["name"] = "Pakistan Hawk EWR-2 Guard Units-1",
+                                        ["heading"] = 6.0562925044203,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                }, -- end of ["units"]
+                                ["y"] = 245474.88883957,
+                                ["x"] = 17929.258520277,
+                                ["name"] = "Pakistan Hawk EWR Guard Units",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "MeyhaSR-A",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "If you are reading this, report to high command immediately.",
+} -- end of staticTemplate
