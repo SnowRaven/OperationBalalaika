@@ -1,0 +1,612 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "Insurgents",
+                    ["id"] = 17,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 1.535889741755,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 164061.9757404,
+                                            ["speed"] = 0,
+                                            ["x"] = 1209.8938243649,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 50,
+                                        ["y"] = 164061.9757404,
+                                        ["x"] = 1209.8938243649,
+                                        ["name"] = "Mujahideen Jask Area Camp Tent 1",
+                                        ["heading"] = 1.535889741755,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 164061.9757404,
+                                ["x"] = 1209.8938243649,
+                                ["name"] = "Mujahideen Jask Area Camp Tent 1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 1.553343034275,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 164078.60442916,
+                                            ["speed"] = 0,
+                                            ["x"] = 1180.6128724315,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 6,
+                                        ["rate"] = 50,
+                                        ["y"] = 164078.60442916,
+                                        ["x"] = 1180.6128724315,
+                                        ["name"] = "Mujahideen Jask Area Camp Tent 3",
+                                        ["heading"] = 1.553343034275,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 164078.60442916,
+                                ["x"] = 1180.6128724315,
+                                ["name"] = "Mujahideen Jask Area Camp Tent 3",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 1.6057029118348,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 164026.93290927,
+                                            ["speed"] = 0,
+                                            ["x"] = 1184.7080177814,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 7,
+                                        ["rate"] = 50,
+                                        ["y"] = 164026.93290927,
+                                        ["x"] = 1184.7080177814,
+                                        ["name"] = "Mujahideen Jask Area Camp Tent 2",
+                                        ["heading"] = 1.6057029118348,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 164026.93290927,
+                                ["x"] = 1184.7080177814,
+                                ["name"] = "Mujahideen Jask Area Camp Tent 2",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 164049.02966896,
+                                            ["speed"] = 0,
+                                            ["x"] = 1153.2745990609,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 8,
+                                        ["rate"] = 50,
+                                        ["y"] = 164049.02966896,
+                                        ["x"] = 1153.2745990609,
+                                        ["name"] = "Mujahideen Jask Area Camp Tent 4",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 164049.02966896,
+                                ["x"] = 1153.2745990609,
+                                ["name"] = "Mujahideen Jask Area Camp Tent 4",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 0.027110950361017,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 164054.44662118,
+                                            ["speed"] = 0,
+                                            ["x"] = 1182.6920861794,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["hidden"] = true,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["effectPreset"] = 1,
+                                        ["category"] = "Effects",
+                                        ["type"] = "big_smoke",
+                                        ["unitId"] = 21,
+                                        ["y"] = 164054.44662118,
+                                        ["x"] = 1182.6920861794,
+                                        ["name"] = "Static Big smoke-1-1",
+                                        ["effectTransparency"] = 0.8,
+                                        ["heading"] = 0.027110950361017,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 164054.44662118,
+                                ["x"] = 1182.6920861794,
+                                ["name"] = "Static Big smoke-1",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 1.5882496193148,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 164055.20580747,
+                                            ["speed"] = 0,
+                                            ["x"] = 1125.2957973524,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 22,
+                                        ["rate"] = 50,
+                                        ["y"] = 164055.20580747,
+                                        ["x"] = 1125.2957973524,
+                                        ["name"] = "Mujahideen Jask Area Camp Tent 5",
+                                        ["heading"] = 1.5882496193148,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 164055.20580747,
+                                ["x"] = 1125.2957973524,
+                                ["name"] = "Mujahideen Jask Area Camp Tent 5",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 352,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 164039.30708688,
+                                            ["x"] = 1207.4163260635,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 4,
+                                        ["y"] = 164039.30708688,
+                                        ["x"] = 1207.4163260635,
+                                        ["name"] = "PRIMARY DESTROYED Mujahideen Jask Area Camp Target Group 1",
+                                        ["heading"] = 5.6199601914217,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 3,
+                                        ["y"] = 164033.56351849,
+                                        ["x"] = 1201.5578863092,
+                                        ["name"] = "PRIMARY DESTROYED Mujahideen Jask Area Camp Target Group 2",
+                                        ["heading"] = 5.3058009260628,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 2,
+                                        ["y"] = 164031.90131831,
+                                        ["x"] = 1161.3854851233,
+                                        ["name"] = "PRIMARY DESTROYED Mujahideen Jask Area Camp Target Group 3",
+                                        ["heading"] = 4.3458698374659,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 1,
+                                        ["y"] = 164028.53765492,
+                                        ["x"] = 1168.4491782421,
+                                        ["name"] = "PRIMARY DESTROYED Mujahideen Jask Area Camp Target Group 4",
+                                        ["heading"] = 4.4156830075457,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["y"] = 164039.30708688,
+                                ["x"] = 1207.4163260635,
+                                ["name"] = "Mujahideen Jask Area Camp Target Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 364,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 163980.97229275,
+                                            ["x"] = 1139.6827925653,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "HL_ZU-23",
+                                        ["unitId"] = 13,
+                                        ["y"] = 163980.97229275,
+                                        ["x"] = 1139.6827925653,
+                                        ["name"] = "Mujahideen Jask Area Camp Defences 1",
+                                        ["heading"] = 3.6651914291881,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 12,
+                                        ["y"] = 163280.48921905,
+                                        ["x"] = 575.62611552672,
+                                        ["name"] = "Mujahideen Jask Area Camp Defences 2",
+                                        ["heading"] = 5.2708943410229,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 15,
+                                        ["y"] = 163284.23913209,
+                                        ["x"] = 573.54519754324,
+                                        ["name"] = "Mujahideen Jask Area Camp Defences 3",
+                                        ["heading"] = 5.3232542185827,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 14,
+                                        ["y"] = 163291.93839442,
+                                        ["x"] = 571.35960049578,
+                                        ["name"] = "Mujahideen Jask Area Camp Defences 4",
+                                        ["heading"] = 0.13962634015955,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 11,
+                                        ["y"] = 163292.96589017,
+                                        ["x"] = 570.89686201467,
+                                        ["name"] = "Mujahideen Jask Area Camp Defences 5",
+                                        ["heading"] = 0.13962634015955,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 20,
+                                        ["y"] = 164030.43102743,
+                                        ["x"] = 1166.7567682205,
+                                        ["name"] = "Mujahideen Jask Area Camp Defences 6",
+                                        ["heading"] = 5.9690260418206,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 19,
+                                        ["y"] = 164002.208837,
+                                        ["x"] = 1234.799309521,
+                                        ["name"] = "Mujahideen Jask Area Camp Defences 7",
+                                        ["heading"] = 5.3407075111026,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 18,
+                                        ["y"] = 164054.92912635,
+                                        ["x"] = 1181.1320516377,
+                                        ["name"] = "Mujahideen Jask Area Camp Defences 8",
+                                        ["heading"] = 5.9690260418206,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 17,
+                                        ["y"] = 164053.79902259,
+                                        ["x"] = 1184.227553248,
+                                        ["name"] = "Mujahideen Jask Area Camp Defences 9",
+                                        ["heading"] = 2.6529004630314,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 16,
+                                        ["y"] = 164041.44927986,
+                                        ["x"] = 1204.8373950279,
+                                        ["name"] = "Mujahideen Jask Area Camp Defences 10",
+                                        ["heading"] = 5.9690260418206,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "tt_DSHK",
+                                        ["unitId"] = 24,
+                                        ["y"] = 164045.85580198,
+                                        ["x"] = 1135.4400634988,
+                                        ["name"] = "Mujahideen Jask Area Camp Defences 11",
+                                        ["heading"] = 4.7996554429844,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "tt_ZU-23",
+                                        ["unitId"] = 10,
+                                        ["y"] = 164000.27581026,
+                                        ["x"] = 1235.3792175434,
+                                        ["name"] = "Mujahideen Jask Area Camp Defences 12",
+                                        ["heading"] = 5.9690260418206,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [12]
+                                }, -- end of ["units"]
+                                ["y"] = 163980.97229275,
+                                ["x"] = 1139.6827925653,
+                                ["name"] = "Mujahideen Jask Area Camp Defences",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "JeginCamp-1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "An informant has handed over information indicating that a mujahideen caravan stopped to rest at a seasonal body of water along the Jegin river. Their camp is located on the western side of the lake, approximately 60km north of Bandar-e-Jask. According to the information we have received, the caravan is carrying anti-aircraft guns and surface-to-air missiles, so expect the camp to be well guarded. Additionally, Pakistani fighters operate in the area and may attempt to intercept you.\
+\
+You are to destroy any cargo vehicles parked in the camp. You may continue engaging remaining mujahideen forces as long as fuel and munitions allow.",
+} -- end of staticTemplate
