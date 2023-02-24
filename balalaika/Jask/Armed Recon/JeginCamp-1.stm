@@ -2,13 +2,6 @@ staticTemplate =
 {
     ["coalition"] = 
     {
-        ["neutrals"] = 
-        {
-            ["name"] = "neutrals",
-            ["country"] = 
-            {
-            }, -- end of ["country"]
-        }, -- end of ["neutrals"]
         ["blue"] = 
         {
             ["name"] = "blue",
@@ -188,48 +181,6 @@ staticTemplate =
                             }, -- end of [4]
                             [5] = 
                             {
-                                ["heading"] = 0.027110950361017,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 164054.44662118,
-                                            ["speed"] = 0,
-                                            ["x"] = 1182.6920861794,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 8,
-                                ["hidden"] = true,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["effectPreset"] = 1,
-                                        ["category"] = "Effects",
-                                        ["type"] = "big_smoke",
-                                        ["unitId"] = 21,
-                                        ["y"] = 164054.44662118,
-                                        ["x"] = 1182.6920861794,
-                                        ["name"] = "Static Big smoke-1-1",
-                                        ["effectTransparency"] = 0.8,
-                                        ["heading"] = 0.027110950361017,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 164054.44662118,
-                                ["x"] = 1182.6920861794,
-                                ["name"] = "Static Big smoke-1",
-                                ["dead"] = false,
-                            }, -- end of [5]
-                            [6] = 
-                            {
                                 ["heading"] = 1.5882496193148,
                                 ["route"] = 
                                 {
@@ -268,7 +219,7 @@ staticTemplate =
                                 ["x"] = 1125.2957973524,
                                 ["name"] = "Mujahideen Jask Area Camp Tent 5",
                                 ["dead"] = false,
-                            }, -- end of [6]
+                            }, -- end of [5]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] = 
@@ -582,6 +533,13 @@ staticTemplate =
                 }, -- end of [1]
             }, -- end of ["country"]
         }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
         ["red"] = 
         {
             ["name"] = "red",
