@@ -37,11 +37,12 @@ local rotaryFormation = {
 }
 -- enum for intercept tactics
 local interceptTactic = {
-	["Lead"] = 1,
-	["LeadLow"] = 2,
-	["LeadHigh"] = 3,
-	["BeamLow"] = 4,
-	["SternLow"] = 5
+	["Pure"] = 1,
+	["Lead"] = 2,
+	["LeadLow"] = 3,
+	["LeadHigh"] = 4,
+	["Beam"] = 5,
+	["Stern"] = 6
 }
 -- basic category for each mission type
 local missionClass = {
@@ -92,6 +93,7 @@ local weaponTypes = {
 local side = coalition.side.BLUE
 
 -- general cruise speed and altitude unless defined otherwise
+local maxAltitude = 9144
 local standardAltitude = 7620
 local returnAltitude = 9144
 local ambushAltitude = 183
@@ -111,9 +113,9 @@ local tankerParameters = {
 }
 
 -- table defining preferred tactics for each aircraft type
--- if not defined, will be determined randomly or according to threat (TODO)
 local preferredTactic = {
-	["F-5E-3"] = interceptTactic.SternLow,
+	["F-5E-3"] = interceptTactic.Stern,
+	["F-4E"] = interceptTactic.Beam,
 	["F-14A-135-GR"] = interceptTactic.LeadHigh
 }
 
@@ -386,7 +388,7 @@ local airbases = {
 				["livery"] = "ir iriaf 43rd tfs",
 				["allWeatherAA"] = capability.Limited,
 				["allWeatherAG"] = capability.None,
-				["interceptRadius"] = 150000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["interceptRadius"] = 60000, -- radius of action around the airbase for interceptors from this squadron in meters
 				["missions"] = {
 					["Intercept"] = true,
 					["QRA"] = true,
@@ -819,9 +821,9 @@ local airbases = {
 
 ---------------------------------------------------------------------------------------------------------------------------
 -- helpful functions
--- get magnitude from a vector
-local function getMagnitude(vector)
-	return math.sqrt((vector.x ^ 2 + vector.y ^ 2 + vector.z ^ 2))
+-- get 2D magnitude from a velocity vector
+local function getVelocityMagnitude(vector)
+	return math.sqrt((vector.x^2) + (vector.z^2))
 end
 
 -- get distance between two points using the power of Pythagoras
@@ -843,16 +845,51 @@ end
 
 -- get two points perpendicular to a line at a certain distance from point a
 local function getPerpendicularPoints(a, b, distance)
-	local angle = math.atan2(b.x - a.x, b.y - a.y)
+	local angle = math.atan2(b.y - a.y, b.x - a.x)
 	local p1 = {
-		["x"] = a.x + (math.sin(angle + (math.pi / 2)) * distance),
-		["y"] = a.y + (math.cos(angle + (math.pi / 2)) * distance)
+		["x"] = a.x + (math.cos(angle + (math.pi / 2)) * distance),
+		["y"] = a.y + (math.sin(angle + (math.pi / 2)) * distance)
 	}
 	local p2 = {
-		["x"] = a.x + (math.sin(angle - (math.pi / 2)) * distance),
-		["y"] = a.y + (math.cos(angle - (math.pi / 2)) * distance)
+		["x"] = a.x + (math.cos(angle - (math.pi / 2)) * distance),
+		["y"] = a.y + (math.sin(angle - (math.pi / 2)) * distance)
 	}
-	return { p1, p2 }
+	return {p1, p2}
+end
+
+
+-- get two points a certain distance abeam an object with a given heading
+local function getBeamPoints(position, heading, distance)
+	local p1 = {
+		["x"] = position.x + (math.cos(heading + (math.pi / 2)) * distance),
+		["y"] = position.y + (math.sin(heading + (math.pi / 2)) * distance)
+	}
+	local p2 = {
+		["x"] = position.x + (math.cos(heading - (math.pi / 2)) * distance),
+		["y"] = position.y + (math.sin(heading - (math.pi / 2)) * distance)
+	}
+	return {p1, p2}
+end
+
+-- get a point directly behind an object at a given distance
+local function getSternPoint(position, heading, distance)
+	local point = {
+		["x"] = position.x + (math.cos(-heading) * distance),
+		["y"] = position.y + (math.sin(-heading) * distance)
+	}
+	return point
+end
+
+-- get absolute angle from a position and heading to a point
+local function getAbsoluteAngle(position, point)
+	local angle = math.atan2(point.y - position.y, point.x - position.x)
+	return angle
+end
+
+-- get aspect angle from a position and heading to a point
+local function getAspectAngle(heading, position, point)
+	local angle = math.atan2(point.y - position.y, point.x - position.x)
+	return (angle - heading)
 end
 
 -- get a random point inside a radius from a given point
@@ -929,7 +966,7 @@ local function getFlightPosition(flight)
 	for key, unit in pairs(flight:getUnits()) do
 		flightElements = flightElements + 1
 		totalX = totalX + unit:getPoint().x
-		totalY = totalX + unit:getPoint().z
+		totalY = totalY + unit:getPoint().z
 	end
 	local position = {
 		["x"] = totalX / flightElements,
@@ -973,6 +1010,18 @@ local function getPackageDistance(package, x, y)
 		end
 	end
 	return closestDistance
+end
+
+-- get speed of the fastest member of a flight
+local function getFlightSpeed(flight)
+	local highestSpeed
+	for key, unit in pairs(flight:getUnits()) do
+		local unitSpeed = getVelocityMagnitude(unit:getVelocity())
+		if highestSpeed == nil or unitSpeed < highestSpeed then
+			highestSpeed = unitSpeed
+		end
+	end
+	return highestSpeed
 end
 
 -- get altitude of lowest element in flight
@@ -1081,44 +1130,59 @@ end
 
 -- update track with new data
 local function updateTrack(trackID, target)
+	if tracks[trackID].lastUpdate == nil or timer.getTime() > tracks[trackID].lastUpdate + 1 then
+		if tracks[trackID].x == nil or tracks[trackID].y == nil then
+			-- if a track was just created we don't know velocity and heading
+			tracks[trackID].velocity = 0
+			tracks[trackID].heading = 0
+		else
+			-- calculate track velocity based on previous position data
+			local distance = getDistance(tracks[trackID].x, tracks[trackID].y, target.object:getPoint().x, target.object:getPoint().z)
+			tracks[trackID].velocity = distance / (timer.getTime() - tracks[trackID].lastUpdate)
+			tracks[trackID].heading = math.atan2(target.object:getPoint().z - tracks[trackID].y, target.object:getPoint().x - tracks[trackID].x)
+			env.info("Blue Air Debug: Track ID " .. tostring(trackID) .. " heading: " .. tracks[trackID].heading)
+			env.info("Blue Air Debug: Track ID " .. tostring(trackID) .. " velocity: " .. tracks[trackID].velocity .. "m/s")
+		end
+	end
 	tracks[trackID].x = target.object:getPoint().x
 	tracks[trackID].y = target.object:getPoint().z
 	tracks[trackID].alt = target.object:getPoint().y
-	tracks[trackID].extrapolated = false
 	if highThreatType[target.object:getTypeName()] == true then
 		tracks[trackID].highThreat = true
 	end
 	tracks[trackID].lastUpdate = timer.getTime()
 end
 
--- update track with new data
-local function extrapolateTrack(trackID)
-	tracks[trackID].extrapolated = true
-end
 
 -- create new track and initialize data
 local function createTrack(target)
 	tracks[nextTrackNumber] = {}
 	tracks[nextTrackNumber].category = target.object:getDesc().category
 	updateTrack(nextTrackNumber, target)
-	env.info("Blue Air Debug: Created new track ID " ..
-	tostring(nextTrackNumber) .. ". Category: " .. tracks[nextTrackNumber].category)
-	env.info(
-		"Blue Air Debug: Updated track ID " ..
-		tostring(nextTrackNumber) ..
-		" with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
+	env.info("Blue Air Debug: Created new track ID " .. tostring(nextTrackNumber) .. ". Category: " .. tracks[nextTrackNumber].category)
+	env.info("Blue Air Debug: Updated track ID " .. tostring(nextTrackNumber) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
 	nextTrackNumber = nextTrackNumber + 1
 end
 
 -- correlate target to existing track
 -- currently this should have the effect of merging multiple close contacts which should be desirable for our purposes
--- TODO: Handle very fast targets with heading and speed discrimination
 local function correlateTrack(trackID, target)
 	if tracks[trackID].category ~= target.object:getDesc().category then
 		return false
 	end
-	if getDistance(tracks[trackID].x, tracks[trackID].y, target.object:getPoint().x, target.object:getPoint().z) < trackCorrelationDistance then
+	local distance = getDistance(tracks[trackID].x, tracks[trackID].y, target.object:getPoint().x, target.object:getPoint().z)
+	if distance < trackCorrelationDistance then
 		if math.abs(target.object:getPoint().y - tracks[trackID].alt) < trackCorrelationAltitude then
+			return true
+		end
+	end
+	local targetPoint = {
+		["x"] = target.object:getPoint().x,
+		["y"] = target.object:getPoint().z
+	}
+	if math.abs(getAspectAngle(tracks[trackID].heading, tracks[trackID], targetPoint)) < 0.785398 then
+		local trackMotionPotential = (tracks[trackID].velocity * (timer.getTime() - tracks[trackID].lastUpdate)) * 1.5
+		if distance < trackMotionPotential and math.abs(target.object:getPoint().y - tracks[trackID].alt) < trackCorrelationAltitude then
 			return true
 		end
 	end
@@ -1129,9 +1193,10 @@ end
 local function detectTargets()
 	-- go through list of detected targets by primary tracking units and create or update existing tracks
 	for key, tracker in pairs(primaryTrackers) do
-		if (tracker:isExist()) then -- check if our tracker still exists
-			local targets = tracker:getController():getDetectedTargets(Controller.Detection.RADAR) -- get all targets currently detected by this tracker
-			--env.info("Blue Air Debug: " .. tracker:getTypeName() .. " " .. tostring(tracker:getID()) .. " tracking " .. getTableSize(targets) .. " targets", 0)
+		-- check if our tracker still exists
+		if (tracker:isExist()) then
+			-- get all targets currently detected by this tracker
+			local targets = tracker:getController():getDetectedTargets(Controller.Detection.RADAR)
 			for key, target in pairs(targets) do
 				if (target.object ~= nil) and (target.object:getCategory() == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
 					local targetCorrelated = false
@@ -1140,7 +1205,6 @@ local function detectTargets()
 						if correlateTrack(key, target) then
 							updateTrack(key, target)
 							targetCorrelated = true
-							--env.info("Blue Air Debug: Updated track ID " .. tostring(key) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
 						end
 					end
 					-- if target can't be correlated to any track, create a new track
@@ -1149,17 +1213,18 @@ local function detectTargets()
 					end
 				end
 			end
-		else -- if tracker doesn't exist then remove it from the list
+		else
+			-- if tracker doesn't exist then remove it from the list
 			primaryTrackers[key] = nil
 			env.info("Blue Air Debug: Removed " .. " " .. tostring(key) .. " from primary trackers", 0)
 		end
 	end
 	-- same for secondary trackers
 	for key, tracker in pairs(secondaryTrackers) do
-		if (tracker:isExist()) then -- check if our tracker still exists
-			local targets = tracker:getController():getDetectedTargets(Controller.Detection.RADAR,
-				Controller.Detection.VISUAL, Controller.Detection.OPTIC, Controller.Detection.IRST) -- get all targets currently detected by this tracker
-			-- env.info("Blue Air Debug: " .. tracker:getTypeName() .. " " .. tostring(tracker:getID()) .. " tracking " .. getTableSize(targets) .. " targets", 0)
+		-- check if our tracker still exists
+		if (tracker:isExist()) then
+			-- get all targets currently detected by this tracker
+			local targets = tracker:getController():getDetectedTargets(Controller.Detection.RADAR, Controller.Detection.VISUAL, Controller.Detection.OPTIC, Controller.Detection.IRST)
 			for key, target in pairs(targets) do
 				if (target.object ~= nil) and (target.object:getCategory() == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
 					local targetCorrelated = false
@@ -1168,7 +1233,6 @@ local function detectTargets()
 						if correlateTrack(key, target) then
 							updateTrack(key, target)
 							targetCorrelated = true
-							--env.info("Blue Air Debug: Secondary tracker updated track ID " .. tostring(key) .. " with target " .. target.object:getTypeName() .. " " .. tostring(target.object:getID()), 0)
 						end
 					end
 					-- if target can't be correlated to any track, create a new track
@@ -1177,32 +1241,62 @@ local function detectTargets()
 					end
 				end
 			end
-		else -- if tracker doesn't exist then remove it from the list
+		else
+			-- if tracker doesn't exist then remove it from the list
 			secondaryTrackers[key] = nil
 			env.info("Blue Air Debug: Removed " .. " " .. tostring(key) .. " from primary trackers", 0)
 		end
 	end
-	-- extrapolate all old tracks
-	for key, track in pairs(tracks) do
-		if (track.lastUpdate < timer.getTime() - 5) then
-			extrapolateTrack(key)
-			env.info("Blue Air Debug: Extrapolating lost track ID " .. tostring(key), 0)
-		end
-	end
+
 	timer.scheduleFunction(detectTargets, nil, timer.getTime() + 5)
 end
 
 -- delete old tracks that have not been updated
 local function timeoutTracks()
-	for key, track in pairs(tracks) do
-		if (track.lastUpdate < timer.getTime() - trackTimeout) then
-			tracks[key] = nil
-			env.info(
-				"Blue Air Debug: Timed out lost track ID " ..
-				tostring(key) .. " after " .. tostring(timer.getTime() - track.lastUpdate) .. " seconds", 0)
+	for trackID, track in pairs(tracks) do
+		if track.lastUpdate < (timer.getTime() - trackTimeout) then
+			tracks[trackID] = nil
+			env.info("Blue Air Debug: Timed out lost track ID " .. tostring(trackID) .. " after " .. tostring(timer.getTime() - track.lastUpdate) .. " seconds", 0)
 		end
 	end
 	timer.scheduleFunction(timeoutTracks, nil, timer.getTime() + 10)
+end
+
+-- get current or future extrapolated track position
+local function getTrackPosition(trackID, time)
+	local distance
+	if time == nil then
+		distance = (timer.getTime() - tracks[trackID].lastUpdate) * tracks[trackID].velocity
+	else
+		distance = (timer.getTime() - tracks[trackID].lastUpdate + time) * tracks[trackID].velocity
+	end
+	local position = {
+		["x"] = tracks[trackID].x + (math.cos(tracks[trackID].heading) * distance),
+		["y"] = tracks[trackID].y + (math.sin(tracks[trackID].heading) * distance)
+	}
+	return position
+end
+
+-- returns the position for a lead intercept vector
+local function getInterceptVector(trackID, interceptorGroup)
+	local interceptPoint
+	local interceptorPosition = getFlightPosition(interceptorGroup)
+	local distance = getDistance(interceptorPosition.x, interceptorPosition.y, tracks[trackID].x, tracks[trackID].y)
+	local angle = getAbsoluteAngle(tracks[trackID], interceptorPosition)
+	local relativeVelocityVector = {
+		["x"] = tracks[trackID].velocity * math.cos(angle),
+		["z"] = tracks[trackID].velocity * math.sin(angle) -- actually Y but this is easier
+	}
+	local relativeVelocity = getVelocityMagnitude(relativeVelocityVector) + getFlightSpeed(interceptorGroup)
+	-- iterate to find a good approximation of the intercept point
+	local time
+	for i = 1, 2 do
+		time = distance / relativeVelocity
+		interceptPoint = getTrackPosition(trackID, time)
+		distance = getDistance(interceptorPosition.x, interceptorPosition.y, interceptPoint.x, interceptPoint.y)
+	end
+	interceptPoint = getTrackPosition(trackID, time)
+	return interceptPoint
 end
 
 initializeTrackers()
@@ -1227,7 +1321,7 @@ local commitRange = 180000 -- radius in meters around which uncommitted fighters
 local escortCommitRange = 60000 -- radius in meters around uncommitted escort units at which targets will be intercepted
 local ambushCommitRange = 90000 -- radius in meters around uncommitted escort units at which targets will be intercepted
 local emergencyCommitRange = 30000 -- radius in meters around a flight to emergency intercept a track regardless of whether it's targeted by others
-local bingoLevel = 0.3 -- fuel level (in fraction from full internal) for a flight to RTB
+local bingoLevel = 0.25 -- fuel level (in fraction from full internal) for a flight to RTB
 
 local nextPackageID = 1000 -- next package ID
 local packages = {} -- currently active packages
@@ -1283,8 +1377,14 @@ local function launchFlight(airbase, squadron, mission, flightSize, groundStart)
 	-- assign callsign
 	local callsign = squadron.callsigns[math.random(getTableSize(squadron.callsigns))]
 	local flightNumber = math.random(9)
+	local flightName = callsign .. " " .. tostring(flightNumber)
+	-- need to check if our callsign is in use so we don't delete another flight
+	while Group.getByName(flightName) ~= nil and Group.getByName(flightName):isExist() == true do
+		flightNumber = flightNumber + 1
+		flightName = callsign .. " " .. tostring(flightNumber)
+	end
 	flightData = {
-		["name"] = callsign .. " " .. tostring(flightNumber)
+		["name"] = flightName
 	}
 	-- see if mission specific loadout option exists and, if so, select it
 	if (squadron.loadouts[missionClass[mission]][mission] ~= nil) then
@@ -1413,7 +1513,6 @@ local function returnToBase(flightData)
 					[1] = {
 						type = "Turning Point",
 						action = "Fly Over Point",
-						airdromeId = Airbase.getByName(airbases[flightData.airbaseID].name):getID(),
 						x = descentPoint.x,
 						y = descentPoint.y,
 						alt = returnAltitude,
@@ -1943,6 +2042,7 @@ end
 
 -- launch interceptor flight
 local function launchIntercept(trackID)
+	local trackPosition = getTrackPosition(trackID)
 	-- sort airbases by distance to target
 	local availableAirbases = {}
 	for airbaseID, airbase in pairs(activeAirbases) do
@@ -1950,7 +2050,7 @@ local function launchIntercept(trackID)
 			local baseLocation = Airbase.getByName(airbases[airbaseID].name):getPoint()
 			local airbaseData = {
 				["airbaseID"] = airbaseID,
-				["range"] = getDistance(tracks[trackID].x, tracks[trackID].y, baseLocation.x, baseLocation.z)
+				["range"] = getDistance(trackPosition.x, trackPosition.y, baseLocation.x, baseLocation.z)
 			}
 			table.insert(availableAirbases, airbaseData)
 		end
@@ -1965,7 +2065,7 @@ local function launchIntercept(trackID)
 		-- add up all the squadrons in the airbase and select a random one
 		for key, squadron in pairs(airbases[airbaseData.airbaseID].Squadrons) do
 			if squadron.missions["Intercept"] == true and allowedTargetCategrory(squadron, tracks[trackID].category) then
-				if getDistance(tracks[trackID].x, tracks[trackID].y, baseLocation.x, baseLocation.z) < squadron.interceptRadius then
+				if getDistance(trackPosition.x, trackPosition.y, baseLocation.x, baseLocation.z) < squadron.interceptRadius then
 					-- use high priority squadrons only for high threat tracks
 					if tracks[trackID].highThreat == true then
 						table.insert(interceptSquadrons, key)
@@ -1988,7 +2088,7 @@ local function launchIntercept(trackID)
 		-- check if target is close enough for QRA intercept
 		local mission
 		local baseLocation = Airbase.getByName(airbases[airbaseID].name):getPoint()
-		if getDistance(tracks[trackID].x, tracks[trackID].y, baseLocation.x, baseLocation.z) < QRARadius then
+		if getDistance(trackPosition.x, trackPosition.y, baseLocation.x, baseLocation.z) < QRARadius then
 			mission = "QRA"
 		else
 			mission = "Intercept"
@@ -2193,19 +2293,25 @@ local function controlIntercept(flightData)
 	local interceptTarget = flightData.interceptTarget
 	local flightCategory = typeCategory[airbases[flightData.airbaseID].Squadrons[flightData.squadronID].type]
 	local controller = flightGroup:getController()
-
+	local trackPosition = getTrackPosition(interceptTarget)
+	local distance = getClosestFlightDistance(flightGroup, trackPosition.x, trackPosition.y)
+	-- check if we're trying to stern or beam convert or engage
+	local convert = false
+	if flightData.tactic == interceptTactic.Stern or flightData.tactic == interceptTactic.Beam then
+		env.info("Blue Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " attempting conversion", 0)
+		convert = true
+	end
+	local engaging = false
 	-- check if expected target position is close enough to activate radar
 	local targetInSearchRange = false
 	if radarRange[getAircraftType(flightGroup)] ~= nil then
-		for key, unit in pairs(flightGroup:getUnits()) do
-			if getDistance(unit:getPoint().x, unit:getPoint().z, tracks[interceptTarget].x, tracks[interceptTarget].y) < radarRange[unit:getTypeName()] then
-				targetInSearchRange = true
-			end
+		if distance < radarRange[getAircraftType(flightGroup)] then
+			targetInSearchRange = true
 		end
 	else
 		targetInSearchRange = true
 	end
-	if targetInSearchRange then
+	if targetInSearchRange and convert ~= true then
 		controller:setOption(AI.Option.Air.id.RADAR_USING, AI.Option.Air.val.RADAR_USING.FOR_CONTINUOUS_SEARCH)
 		env.info("Blue Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " radar active", 0)
 	else
@@ -2227,22 +2333,20 @@ local function controlIntercept(flightData)
 		end
 	end
 	-- special F-4 exception, since they apparently can't detect targets to save their life
-	for key, unit in pairs(flightGroup:getUnits()) do
-		if unit:getTypeName() == "F-4E" and targetInSearchRange and tracks[interceptTarget].alt > 3000 then
+	-- also special general excepction in case the interceptors are really close but blind because of altitude difference and can't climb
+	if convert ~= true then
+		if getAircraftType(flightGroup) == "F-4E" and targetInSearchRange and tracks[interceptTarget].alt > 3000 then
 			targetDetected = true
 			env.info("Blue Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " target detected by F-4 exception", 0)
+		elseif distance < 5000 and math.abs(tracks[interceptTarget].alt - getLowestFlightAltitude(flightGroup)) > 5000 then
+			targetDetected = true
+			env.info("Blue Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " target detected by altitude exception", 0)
 		end
-		break
 	end
-	-- if target detected then engage
-	if targetDetected then
+	-- if target detected and we're not beam or stern converting then engage
+	if targetDetected and convert ~= true then
 		env.info("Blue Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " free to engage", 0)
-		-- just in case
-		if flightCategory == Group.Category.HELICOPTER then
-			controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.WEAPON_FREE)
-		else
-			controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.OPEN_FIRE_WEAPON_FREE)
-		end
+		controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.OPEN_FIRE_WEAPON_FREE)
 		interceptTask = {
 			id = "ComboTask",
 			params = {
@@ -2251,10 +2355,10 @@ local function controlIntercept(flightData)
 						id = 'EngageTargetsInZone',
 						params = {
 							point = {
-								tracks[interceptTarget].x,
-								tracks[interceptTarget].y
+								trackPosition.x,
+								trackPosition.y
 							},
-							zoneRadius = 10000,
+							zoneRadius = trackCorrelationDistance,
 							targetTypes = { "Air" },
 							priority = 0
 						}
@@ -2262,6 +2366,7 @@ local function controlIntercept(flightData)
 				}
 			}
 		}
+		engaging = true
 	else
 		env.info("Blue Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " holding engagement", 0)
 		controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.RETURN_FIRE)
@@ -2275,15 +2380,59 @@ local function controlIntercept(flightData)
 	end
 	-- update current intercept path
 	local interceptSpeed = 2000
-	if tracks[interceptTarget].alt > 3000 then
-		for key, unit in pairs(flightGroup:getUnits()) do
-			if unit:getPoint().y < 3000 then
-				interceptSpeed = 250
+	local path = getInterceptVector(interceptTarget, flightGroup)
+	local altType = "BARO"
+	path.alt = tracks[interceptTarget].alt
+	local aspectAngle = getAspectAngle(tracks[interceptTarget].heading, trackPosition, getFlightPosition(flightGroup))
+	-- decide intercept vector based on tactic in use
+	if convert then
+		-- if we're far enough away lead for beam points directly
+		if distance > 60000 or (flightCategory == Group.Category.HELICOPTER and distance > 10000) then
+			local beamDistance = 50000
+			if flightCategory == Group.Category.HELICOPTER then
+				beamDistance = 5000
 			end
-			if unit:getPoint().y < (tracks[interceptTarget].alt - 500) then
-				interceptSpeed = 350
+			local beamPoints = getBeamPoints(path, tracks[interceptTarget].heading, 50000)
+			if getFlightDistance(flightGroup, beamPoints[1].x, beamPoints[1].y) < getFlightDistance(flightGroup, beamPoints[2].x, beamPoints[2].y) then
+				path = beamPoints[1]
+			else
+				path = beamPoints[2]
 			end
+			path.alt = tracks[interceptTarget].alt * 0.6
+		-- once we're close to the beam drive to stern conversion if needed
+		elseif flightData.tactic == interceptTactic.Stern and math.abs(aspectAngle) > 0.698132 then
+			path = getSternPoint(getTrackPosition(interceptTarget), tracks[interceptTarget].heading, 2500)
+			path.alt = tracks[interceptTarget].alt * 0.6
+		-- if we're close and they're facing us notch to the beam or stern
+		else
+			local conversionPoints = getPerpendicularPoints(getFlightPosition(flightGroup), path, 30000)
+			if getFlightDistance(flightGroup, conversionPoints[1].x, conversionPoints[1].y) < getFlightDistance(flightGroup, conversionPoints[2].x, conversionPoints[2].y) then
+				path = conversionPoints[1]
+			else
+				path = conversionPoints[2]
+			end
+			path.alt = tracks[interceptTarget].alt * 0.6
 		end
+	else
+		if flightData.tactic == interceptTactic.LeadHigh then
+			if flightCategory ~= Group.Category.HELICOPTER and maxAltitude > tracks[interceptTarget].alt then
+				path.alt = maxAltitude
+			end
+		elseif flightData.tactic == interceptTactic.LeadLow then
+			path.alt = tracks[interceptTarget].alt * 0.6
+		end
+	end
+	-- if we're far away go high
+	if flightData.mission == "AMBUSHCAP" and distance > 20000 then
+		path.alt = ambushAltitude
+	elseif distance > 120000 then
+		if flightCategory ~= Group.Category.HELICOPTER then
+			path.alt = maxAltitude
+		end
+	end
+	local flightAltitude = getLowestFlightAltitude(flightGroup)
+	if flightAltitude < (path.alt - 2000) and engaging ~= true and getTableSize(flightGroup:getUnits()) > 1 then
+		interceptSpeed = 320
 	end
 	local task = {
 		id = 'Mission',
@@ -2294,9 +2443,10 @@ local function controlIntercept(flightData)
 					[1] = {
 						type = "Turning Point",
 						action = "Fly Over Point",
-						x = tracks[interceptTarget].x,
-						y = tracks[interceptTarget].y,
-						alt = tracks[interceptTarget].alt,
+						x = path.x,
+						y = path.y,
+						alt = path.alt,
+						alt_type = altType,
 						speed = interceptSpeed,
 						task = interceptTask
 					}
@@ -2409,6 +2559,61 @@ local function handlePackages()
 	timer.scheduleFunction(handlePackages, nil, timer.getTime() + 60)
 end
 
+-- decide which intercept target to employ
+local function decideTactic(flightData)
+	local trackPosition = getTrackPosition(flightData.interceptTarget)
+	local distance = getFlightDistance(flightData.flightGroup, trackPosition.x, trackPosition.y)
+	local aspectAngle = getAspectAngle(tracks[flightData.interceptTarget].heading, tracks[flightData.interceptTarget], getFlightPosition(flightData.flightGroup))
+	local flightCategory = typeCategory[airbases[flightData.airbaseID].Squadrons[flightData.squadronID].type]
+	local typeTactic = preferredTactic[getAircraftType(flightData.flightGroup)]
+	-- if we're really close just focus on engaging
+	if distance < 10000 or (flightCategory == Group.Category.HELICOPTER and distance < 5000) then
+		return interceptTactic.Lead
+	-- decide which tactic to use
+	elseif flightData.tactic == nil then
+		if typeTactic ~= nil then
+			if math.random(10) < 8 then
+				return typeTactic
+			else
+				if typeTactic == interceptTactic.Beam then
+					if math.random(10) < 6 then
+						return interceptTactic.LeadLow
+					else
+						return interceptTactic.Stern
+					end
+				elseif typeTactic == interceptTactic.Stern then
+					if math.random(10) < 6 then
+						return interceptTactic.LeadLow
+					else
+						return interceptTactic.Beam
+					end
+				else
+					return interceptTactic[math.random(getTableSize(interceptTactic))]
+				end
+			end
+		else
+			return interceptTactic[math.random(getTableSize(interceptTactic))]
+		end
+		-- stern converting on escort takes too long
+		if flightData.mission == "Escort" or flightData.mission == "HAVCAP" then
+			if flightData.tactic == interceptTactic.Stern then
+				return interceptTactic.Beam
+			end
+		-- stay low as AMBUSHCAP
+		elseif flightData.mission == "AMBUSHCAP" then
+			if flightData.tactic == interceptTactic.Lead or flightData.tactic == interceptTactic.LeadHigh then
+				return interceptTactic.LeadLow
+			end
+		end
+	elseif flightData.tactic == interceptTactic.Beam and math.abs(aspectAngle) > 0.785398 and distance < 60000 then
+		return interceptTactic.Lead
+	elseif flightData.tactic == interceptTactic.Stern and math.abs(aspectAngle) > 2.79253 and distance < 60000 then
+		return interceptTactic.Lead
+	end
+	-- continue with what we're doing if nothing changed
+	return flightData.tactic
+end
+
 -- main loop for controlling flight behaviour
 local function controlFlights()
 	for packageID, package in pairs(packages) do
@@ -2420,13 +2625,16 @@ local function controlFlights()
 					-- check if the target track is valid, if not reset the tasking
 					if tracks[flightData.interceptTarget] == nil then
 						packages[packageID].flights[flightID].interceptTarget = nil
+						packages[packageID].flights[flightID].tactic = nil
 						if flightData.mission == "Intercept" or flightData.mission == "QRA" then
 							retaskInterceptors(packageID, flightID)
 						end
 						reset = true
 					else
 						-- hand off to intercept controller
-						controlIntercept(flightData)
+						packages[packageID].flights[flightID].tactic = decideTactic(flightData)
+						env.info("Blue Air Debug: Flight " .. tostring(flightID) .. " tactic: " .. tostring(packages[packageID].flights[flightID].tactic), 0)
+						controlIntercept(packages[packageID].flights[flightID])
 					end
 				end
 				if reset then
