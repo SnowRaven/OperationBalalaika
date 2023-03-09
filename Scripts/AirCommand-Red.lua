@@ -1831,7 +1831,7 @@ local function controlIntercept(flightData)
 	-- if target detected and we're not beam or stern converting then engage
 	if targetDetected and convert ~= true then
 		env.info("Red Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " free to engage", 0)
-		controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.OPEN_FIRE_WEAPON_FREE)
+		controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.OPEN_FIRE)
 		interceptTask = {
 			id = "ComboTask",
 			params = {
