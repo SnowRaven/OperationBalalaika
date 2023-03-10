@@ -335,6 +335,10 @@ local airbases = {
 								{
 									["CLSID"] = "{SHOULDER AIM-7F}",
 								},
+								[3] =
+								{
+									["CLSID"] = "<CLEAN>",
+								},
 								[4] =
 								{
 									["CLSID"] = "{AIM_54A_Mk47}",
@@ -350,6 +354,10 @@ local airbases = {
 								[7] =
 								{
 									["CLSID"] = "{AIM_54A_Mk47}",
+								},
+								[8] =
+								{
+									["CLSID"] = "<CLEAN>",
 								},
 								[9] =
 								{
@@ -575,6 +583,10 @@ local airbases = {
 								{
 									["CLSID"] = "{SHOULDER AIM-7F}",
 								},
+								[3] =
+								{
+									["CLSID"] = "<CLEAN>",
+								},
 								[4] =
 								{
 									["CLSID"] = "{AIM_54A_Mk47}",
@@ -590,6 +602,10 @@ local airbases = {
 								[7] =
 								{
 									["CLSID"] = "{AIM_54A_Mk47}",
+								},
+								[8] =
+								{
+									["CLSID"] = "<CLEAN>",
 								},
 								[9] =
 								{
@@ -645,6 +661,10 @@ local airbases = {
 								{
 									["CLSID"] = "{SHOULDER AIM-7F}",
 								},
+								[3] =
+								{
+									["CLSID"] = "<CLEAN>",
+								},
 								[4] =
 								{
 									["CLSID"] = "{AIM_54A_Mk47}",
@@ -660,6 +680,10 @@ local airbases = {
 								[7] =
 								{
 									["CLSID"] = "{AIM_54A_Mk47}",
+								},
+								[8] =
+								{
+									["CLSID"] = "<CLEAN>",
 								},
 								[9] =
 								{
