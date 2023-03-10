@@ -995,7 +995,11 @@ local function getClosestFlightDistance(flight, x, y)
 			closestDistance = unitDistance
 		end
 	end
-	return closestDistance
+	if closestDistance ~= nil then
+		return closestDistance
+	else
+		return 0
+	end
 end
 
 -- get closest distance from any flight in package
@@ -1009,7 +1013,11 @@ local function getPackageDistance(package, x, y)
 			end
 		end
 	end
-	return closestDistance
+	if closestDistance ~= nil then
+		return closestDistance
+	else
+		return 0
+	end
 end
 
 -- get speed of the fastest member of a flight
@@ -1021,18 +1029,26 @@ local function getFlightSpeed(flight)
 			highestSpeed = unitSpeed
 		end
 	end
-	return highestSpeed
+	if highestSpeed ~= nil then
+		return highestSpeed
+	else
+		return 0
+	end
 end
 
 -- get altitude of lowest element in flight
 local function getLowestFlightAltitude(flight)
-	local lowestAltitude = nil
+	local lowestAltitude
 	for key, unit in pairs(flight:getUnits()) do
 		if lowestAltitude == nil or unit:getPoint().y < lowestAltitude then
 			lowestAltitude = unit:getPoint().y
 		end
 	end
-	return lowestAltitude
+	if lowestAltitude ~= nil then
+		return lowestAltitude
+	else
+		return 0
+	end
 end
 
 -- get lowest fuel state in flight
@@ -1043,7 +1059,11 @@ local function getFuelState(flight)
 			fuelState = unit:getFuel()
 		end
 	end
-	return fuelState
+	if fuelState ~= nil then
+		return fuelState
+	else
+		return 0
+	end
 end
 
 -- see if any player is within a certain distance in meters to a point
