@@ -2517,7 +2517,9 @@ end
 local function packageAbort(packageID)
 	packages[packageID].mission = "RTB"
 	for flightID, flightData in pairs(packages[packageID].flights) do
-		flightAbort(packageID, flightID)
+		if flightData.flightGroup:isExist() then
+			flightAbort(packageID, flightID)
+		end
 	end
 end
 
