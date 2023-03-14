@@ -1,0 +1,1488 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 2.4783675378319,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335187.90450778,
+                                            ["speed"] = 0,
+                                            ["x"] = 417987.03032659,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "kombinat",
+                                        ["type"] = "Tech combine",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 100,
+                                        ["y"] = -335187.90450778,
+                                        ["x"] = 417987.03032659,
+                                        ["name"] = "PRIMARY DESTROYED Main Chemical weapon factory 1",
+                                        ["heading"] = 2.4783675378319,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335187.90450778,
+                                ["x"] = 417987.03032659,
+                                ["name"] = "PRIMARY DESTROYED Main Chemical weapon factory 1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 5.6374134839417,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335296.65048685,
+                                            ["speed"] = 0,
+                                            ["x"] = 418092.76736568,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "tec_a",
+                                        ["type"] = "Workshop A",
+                                        ["unitId"] = 3,
+                                        ["rate"] = 100,
+                                        ["y"] = -335296.65048685,
+                                        ["x"] = 418092.76736568,
+                                        ["name"] = "PRIMARY DESTROYED Main Chemical Weapon Factory 2",
+                                        ["heading"] = 5.6374134839417,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335296.65048685,
+                                ["x"] = 418092.76736568,
+                                ["name"] = "PRIMARY DESTROYED Main Chemical Weapon Factory 2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 0.89011791851711,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335175.66556026,
+                                            ["speed"] = 0,
+                                            ["x"] = 418185.71919113,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "kotelnaya_a",
+                                        ["type"] = "Boiler-house A",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 100,
+                                        ["y"] = -335175.66556026,
+                                        ["x"] = 418185.71919113,
+                                        ["name"] = "Chemical Weapons Factory Small Processing 1",
+                                        ["heading"] = 0.89011791851711,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335175.66556026,
+                                ["x"] = 418185.71919113,
+                                ["name"] = "Chemical Weapons Factory Small Processing 1",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 0.043255673609713,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335215.69557133,
+                                            ["speed"] = 0,
+                                            ["x"] = 418060.2016357,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["shape_name"] = "airbase_tbilisi_tank_01",
+                                        ["type"] = "Tank 2",
+                                        ["unitId"] = 6,
+                                        ["rate"] = 100,
+                                        ["y"] = -335215.69557133,
+                                        ["x"] = 418060.2016357,
+                                        ["name"] = "Chemical Weapons Factory Storage 9",
+                                        ["heading"] = 0.043255673609713,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335215.69557133,
+                                ["x"] = 418060.2016357,
+                                ["name"] = "Chemical Weapons Factory Storage 9",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 0.00075495392465751,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335210.27091885,
+                                            ["speed"] = 0,
+                                            ["x"] = 418039.21712168,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["shape_name"] = "airbase_tbilisi_tank_01",
+                                        ["type"] = "Tank 2",
+                                        ["unitId"] = 7,
+                                        ["rate"] = 100,
+                                        ["y"] = -335210.27091885,
+                                        ["x"] = 418039.21712168,
+                                        ["name"] = "Chemical Weapons Factory Storage 7",
+                                        ["heading"] = 0.00075495392465751,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335210.27091885,
+                                ["x"] = 418039.21712168,
+                                ["name"] = "Chemical Weapons Factory Storage 7",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 0.00075495392465751,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335233.48170793,
+                                            ["speed"] = 0,
+                                            ["x"] = 418046.10696141,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["shape_name"] = "airbase_tbilisi_tank_01",
+                                        ["type"] = "Tank 2",
+                                        ["unitId"] = 8,
+                                        ["rate"] = 100,
+                                        ["y"] = -335233.48170793,
+                                        ["x"] = 418046.10696141,
+                                        ["name"] = "Chemical Weapons Factory Storage 8",
+                                        ["heading"] = 0.00075495392465751,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335233.48170793,
+                                ["x"] = 418046.10696141,
+                                ["name"] = "Chemical Weapons Factory Storage 8",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 0.00075495392465751,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335038.23446018,
+                                            ["speed"] = 0,
+                                            ["x"] = 418027.38510904,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "him_bak_a",
+                                        ["type"] = "Chemical tank A",
+                                        ["unitId"] = 9,
+                                        ["rate"] = 100,
+                                        ["y"] = -335038.23446018,
+                                        ["x"] = 418027.38510904,
+                                        ["name"] = "Chemical Weapons Factory Storage 3",
+                                        ["heading"] = 0.00075495392465751,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335038.23446018,
+                                ["x"] = 418027.38510904,
+                                ["name"] = "Chemical Weapons Factory Storage 3",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 0.00075495392465751,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335064.14589342,
+                                            ["speed"] = 0,
+                                            ["x"] = 418006.53536527,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "him_bak_a",
+                                        ["type"] = "Chemical tank A",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 100,
+                                        ["y"] = -335064.14589342,
+                                        ["x"] = 418006.53536527,
+                                        ["name"] = "Chemical Weapons Factory Storage 2",
+                                        ["heading"] = 0.00075495392465751,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335064.14589342,
+                                ["x"] = 418006.53536527,
+                                ["name"] = "Chemical Weapons Factory Storage 2",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 0.00075495392465751,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335089.85026522,
+                                            ["speed"] = 0,
+                                            ["x"] = 417987.71473938,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "him_bak_a",
+                                        ["type"] = "Chemical tank A",
+                                        ["unitId"] = 11,
+                                        ["rate"] = 100,
+                                        ["y"] = -335089.85026522,
+                                        ["x"] = 417987.71473938,
+                                        ["name"] = "Chemical Weapons Factory Storage 1",
+                                        ["heading"] = 0.00075495392465751,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335089.85026522,
+                                ["x"] = 417987.71473938,
+                                ["name"] = "Chemical Weapons Factory Storage 1",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 1.3176431686127e-05,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335162.93155973,
+                                            ["speed"] = 0,
+                                            ["x"] = 418186.43998361,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "wodokachka_a",
+                                        ["type"] = "Water tower A",
+                                        ["unitId"] = 12,
+                                        ["rate"] = 100,
+                                        ["y"] = -335162.93155973,
+                                        ["x"] = 418186.43998361,
+                                        ["name"] = "Chemical Weapons Factory Water Tower 1",
+                                        ["heading"] = 1.3176431686127e-05,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335162.93155973,
+                                ["x"] = 418186.43998361,
+                                ["name"] = "Chemical Weapons Factory Water Tower 1",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 3.5604716740684,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335296.65048685,
+                                            ["speed"] = 0,
+                                            ["x"] = 418142.21828757,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "TowerCrane_01",
+                                        ["type"] = "Tower Crane",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 3,
+                                        ["y"] = -335296.65048685,
+                                        ["x"] = 418142.21828757,
+                                        ["name"] = "Chemical Weapons Factory Decorative Vehicle 8",
+                                        ["heading"] = 3.5604716740684,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335296.65048685,
+                                ["x"] = 418142.21828757,
+                                ["name"] = "Chemical Weapons Factory Decorative Vehicle 8",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 0.87266462599716,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335082.09494311,
+                                            ["speed"] = 0,
+                                            ["x"] = 418170.96972489,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "ceh_ang_a",
+                                        ["type"] = "Tech hangar A",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 100,
+                                        ["y"] = -335082.09494311,
+                                        ["x"] = 418170.96972489,
+                                        ["name"] = "Chemical Weapons Factory Refinement 1",
+                                        ["heading"] = 0.87266462599716,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335082.09494311,
+                                ["x"] = 418170.96972489,
+                                ["name"] = "Chemical Weapons Factory Refinement 1",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                            [13] = 
+                            {
+                                ["heading"] = 0.87266462599716,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335049.76485508,
+                                            ["speed"] = 0,
+                                            ["x"] = 418133.09733606,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "ceh_ang_a",
+                                        ["type"] = "Tech hangar A",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 100,
+                                        ["y"] = -335049.76485508,
+                                        ["x"] = 418133.09733606,
+                                        ["name"] = "Chemical Weapons Factory Refinement 2",
+                                        ["heading"] = 0.87266462599716,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335049.76485508,
+                                ["x"] = 418133.09733606,
+                                ["name"] = "Chemical Weapons Factory Refinement 2",
+                                ["dead"] = false,
+                            }, -- end of [13]
+                            [14] = 
+                            {
+                                ["heading"] = 0.85521133347722,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335016.13015737,
+                                            ["speed"] = 0,
+                                            ["x"] = 418093.45775331,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "ceh_ang_a",
+                                        ["type"] = "Tech hangar A",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 100,
+                                        ["y"] = -335016.13015737,
+                                        ["x"] = 418093.45775331,
+                                        ["name"] = "Chemical Weapons Factory Refinement 3",
+                                        ["heading"] = 0.85521133347722,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335016.13015737,
+                                ["x"] = 418093.45775331,
+                                ["name"] = "Chemical Weapons Factory Refinement 3",
+                                ["dead"] = false,
+                            }, -- end of [14]
+                            [15] = 
+                            {
+                                ["heading"] = 0.87266462599716,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335271.58967725,
+                                            ["speed"] = 0,
+                                            ["x"] = 418010.45259058,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["type"] = "house1arm",
+                                        ["unitId"] = 18,
+                                        ["rate"] = 5,
+                                        ["y"] = -335271.58967725,
+                                        ["x"] = 418010.45259058,
+                                        ["name"] = "Chemical Weapons Factoy Office Building 1",
+                                        ["heading"] = 0.87266462599716,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335271.58967725,
+                                ["x"] = 418010.45259058,
+                                ["name"] = "Chemical Weapons Factoy Office Building 1",
+                                ["dead"] = false,
+                            }, -- end of [15]
+                            [16] = 
+                            {
+                                ["heading"] = 0.87266462599716,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335268.48760226,
+                                            ["speed"] = 0,
+                                            ["x"] = 417988.66630844,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "VAZ Car",
+                                        ["unitId"] = 19,
+                                        ["rate"] = 3,
+                                        ["y"] = -335268.48760226,
+                                        ["x"] = 417988.66630844,
+                                        ["name"] = "Chemical Weapons Factory Decorative Vehicle 1",
+                                        ["heading"] = 0.87266462599716,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335268.48760226,
+                                ["x"] = 417988.66630844,
+                                ["name"] = "Chemical Weapons Factory Decorative Vehicle 1",
+                                ["dead"] = false,
+                            }, -- end of [16]
+                            [17] = 
+                            {
+                                ["heading"] = 0.87266462599716,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335270.73030336,
+                                            ["speed"] = 0,
+                                            ["x"] = 417991.17813367,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 20,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_101_FC",
+                                        ["unitId"] = 20,
+                                        ["rate"] = 3,
+                                        ["y"] = -335270.73030336,
+                                        ["x"] = 417991.17813367,
+                                        ["name"] = "Chemical Weapons Factory Decorative Vehicle 2",
+                                        ["heading"] = 0.87266462599716,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335270.73030336,
+                                ["x"] = 417991.17813367,
+                                ["name"] = "Chemical Weapons Factory Decorative Vehicle 2",
+                                ["dead"] = false,
+                            }, -- end of [17]
+                            [18] = 
+                            {
+                                ["heading"] = 0.87266462599716,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335273.15242054,
+                                            ["speed"] = 0,
+                                            ["x"] = 417993.95908303,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 21,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "VAZ Car",
+                                        ["unitId"] = 21,
+                                        ["rate"] = 3,
+                                        ["y"] = -335273.15242054,
+                                        ["x"] = 417993.95908303,
+                                        ["name"] = "Chemical Weapons Factory Decorative Vehicle 3",
+                                        ["heading"] = 0.87266462599716,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335273.15242054,
+                                ["x"] = 417993.95908303,
+                                ["name"] = "Chemical Weapons Factory Decorative Vehicle 3",
+                                ["dead"] = false,
+                            }, -- end of [18]
+                            [19] = 
+                            {
+                                ["heading"] = 0.87266462599716,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335275.66424577,
+                                            ["speed"] = 0,
+                                            ["x"] = 417996.47090826,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 22,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "VAZ Car",
+                                        ["unitId"] = 22,
+                                        ["rate"] = 3,
+                                        ["y"] = -335275.66424577,
+                                        ["x"] = 417996.47090826,
+                                        ["name"] = "Chemical Weapons Factory Decorative Vehicle 4",
+                                        ["heading"] = 0.87266462599716,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335275.66424577,
+                                ["x"] = 417996.47090826,
+                                ["name"] = "Chemical Weapons Factory Decorative Vehicle 4",
+                                ["dead"] = false,
+                            }, -- end of [19]
+                            [20] = 
+                            {
+                                ["heading"] = 0.87266462599716,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335286.04694105,
+                                            ["speed"] = 0,
+                                            ["x"] = 418009.28842985,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 23,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "UAZ-469",
+                                        ["unitId"] = 23,
+                                        ["rate"] = 3,
+                                        ["y"] = -335286.04694105,
+                                        ["x"] = 418009.28842985,
+                                        ["name"] = "Chemical Weapons Factory Decorative Vehicle 5",
+                                        ["heading"] = 0.87266462599716,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335286.04694105,
+                                ["x"] = 418009.28842985,
+                                ["name"] = "Chemical Weapons Factory Decorative Vehicle 5",
+                                ["dead"] = false,
+                            }, -- end of [20]
+                            [21] = 
+                            {
+                                ["heading"] = 0.87266462599716,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335289.6430016,
+                                            ["speed"] = 0,
+                                            ["x"] = 418013.05573138,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 24,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 24,
+                                        ["rate"] = 10,
+                                        ["y"] = -335289.6430016,
+                                        ["x"] = 418013.05573138,
+                                        ["name"] = "Chemical Weapons Factory Decorative Vehicle 6",
+                                        ["heading"] = 0.87266462599716,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335289.6430016,
+                                ["x"] = 418013.05573138,
+                                ["name"] = "Chemical Weapons Factory Decorative Vehicle 6",
+                                ["dead"] = false,
+                            }, -- end of [21]
+                            [22] = 
+                            {
+                                ["heading"] = 5.6723200689816,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335287.36689265,
+                                            ["speed"] = 0,
+                                            ["x"] = 418132.78415734,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 26,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4350,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "pipes_small_cargo",
+                                        ["type"] = "pipes_small_cargo",
+                                        ["unitId"] = 26,
+                                        ["rate"] = 100,
+                                        ["y"] = -335287.36689265,
+                                        ["x"] = 418132.78415734,
+                                        ["name"] = "Chemical Weapons Factory Decorative Pipes 2",
+                                        ["heading"] = 5.6723200689816,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335287.36689265,
+                                ["x"] = 418132.78415734,
+                                ["name"] = "Chemical Weapons Factory Decorative Pipes 2",
+                                ["dead"] = false,
+                            }, -- end of [22]
+                            [23] = 
+                            {
+                                ["heading"] = 5.7072266540215,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335284.61844221,
+                                            ["speed"] = 0,
+                                            ["x"] = 418134.36904692,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 27,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4350,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "pipes_small_cargo",
+                                        ["type"] = "pipes_small_cargo",
+                                        ["unitId"] = 27,
+                                        ["rate"] = 100,
+                                        ["y"] = -335284.61844221,
+                                        ["x"] = 418134.36904692,
+                                        ["name"] = "Chemical Weapons Factory Decorative Pipes 3",
+                                        ["heading"] = 5.7072266540215,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335284.61844221,
+                                ["x"] = 418134.36904692,
+                                ["name"] = "Chemical Weapons Factory Decorative Pipes 3",
+                                ["dead"] = false,
+                            }, -- end of [23]
+                            [24] = 
+                            {
+                                ["heading"] = 5.6897733615015,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335281.32691509,
+                                            ["speed"] = 0,
+                                            ["x"] = 418136.01281501,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 28,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4350,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "pipes_small_cargo",
+                                        ["type"] = "pipes_small_cargo",
+                                        ["unitId"] = 28,
+                                        ["rate"] = 100,
+                                        ["y"] = -335281.32691509,
+                                        ["x"] = 418136.01281501,
+                                        ["name"] = "Chemical Weapons Factory Decorative Pipes 4",
+                                        ["heading"] = 5.6897733615015,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335281.32691509,
+                                ["x"] = 418136.01281501,
+                                ["name"] = "Chemical Weapons Factory Decorative Pipes 4",
+                                ["dead"] = false,
+                            }, -- end of [24]
+                            [25] = 
+                            {
+                                ["heading"] = 0.89011791851711,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335278.2199689,
+                                            ["speed"] = 0,
+                                            ["x"] = 418126.82367745,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 29,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 4815,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "pipes_big_cargo",
+                                        ["type"] = "pipes_big_cargo",
+                                        ["unitId"] = 29,
+                                        ["rate"] = 100,
+                                        ["y"] = -335278.2199689,
+                                        ["x"] = 418126.82367745,
+                                        ["name"] = "Chemical Weapons Factory Decorative Pipes 1",
+                                        ["heading"] = 0.89011791851711,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335278.2199689,
+                                ["x"] = 418126.82367745,
+                                ["name"] = "Chemical Weapons Factory Decorative Pipes 1",
+                                ["dead"] = false,
+                            }, -- end of [25]
+                            [26] = 
+                            {
+                                ["heading"] = 4.3633231299858,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335201.46304751,
+                                            ["speed"] = 0,
+                                            ["x"] = 418061.52741061,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 30,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "cat_345l",
+                                        ["type"] = "345 Excavator",
+                                        ["unitId"] = 30,
+                                        ["rate"] = 3,
+                                        ["y"] = -335201.46304751,
+                                        ["x"] = 418061.52741061,
+                                        ["name"] = "Chemical Weapons Factory Decorative Vehicle 7",
+                                        ["heading"] = 4.3633231299858,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335201.46304751,
+                                ["x"] = 418061.52741061,
+                                ["name"] = "Chemical Weapons Factory Decorative Vehicle 7",
+                                ["dead"] = false,
+                            }, -- end of [26]
+                            [27] = 
+                            {
+                                ["heading"] = 0.015535488409122,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335184.33020881,
+                                            ["speed"] = 0,
+                                            ["x"] = 418110.1665596,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 31,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["shape_name"] = "bak",
+                                        ["type"] = "Tank",
+                                        ["unitId"] = 40,
+                                        ["rate"] = 100,
+                                        ["y"] = -335184.33020881,
+                                        ["x"] = 418110.1665596,
+                                        ["name"] = "Chemical Weapons Factory Storage 4",
+                                        ["heading"] = 0.015535488409122,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335184.33020881,
+                                ["x"] = 418110.1665596,
+                                ["name"] = "Chemical Weapons Factory Storage 4",
+                                ["dead"] = false,
+                            }, -- end of [27]
+                            [28] = 
+                            {
+                                ["heading"] = 0.0002711454236446,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335159.55938895,
+                                            ["speed"] = 0,
+                                            ["x"] = 418130.06790205,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 32,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["shape_name"] = "bak",
+                                        ["type"] = "Tank",
+                                        ["unitId"] = 41,
+                                        ["rate"] = 100,
+                                        ["y"] = -335159.55938895,
+                                        ["x"] = 418130.06790205,
+                                        ["name"] = "Chemical Weapons Factory Storage 5",
+                                        ["heading"] = 0.0002711454236446,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335159.55938895,
+                                ["x"] = 418130.06790205,
+                                ["name"] = "Chemical Weapons Factory Storage 5",
+                                ["dead"] = false,
+                            }, -- end of [28]
+                            [29] = 
+                            {
+                                ["heading"] = 4.7323803943131e-06,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335133.30655423,
+                                            ["speed"] = 0,
+                                            ["x"] = 418149.7575281,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 33,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["shape_name"] = "bak",
+                                        ["type"] = "Tank",
+                                        ["unitId"] = 42,
+                                        ["rate"] = 100,
+                                        ["y"] = -335133.30655423,
+                                        ["x"] = 418149.7575281,
+                                        ["name"] = "Chemical Weapons Factory Storage 6",
+                                        ["heading"] = 4.7323803943131e-06,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335133.30655423,
+                                ["x"] = 418149.7575281,
+                                ["name"] = "Chemical Weapons Factory Storage 6",
+                                ["dead"] = false,
+                            }, -- end of [29]
+                            [30] = 
+                            {
+                                ["heading"] = 0.89011791851711,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -335108.53573437,
+                                            ["speed"] = 0,
+                                            ["x"] = 418076.08021774,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 34,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "ferma_a",
+                                        ["type"] = "Farm A",
+                                        ["unitId"] = 43,
+                                        ["rate"] = 100,
+                                        ["y"] = -335108.53573437,
+                                        ["x"] = 418076.08021774,
+                                        ["name"] = "Chemical Weapons Factory Warehouse 1",
+                                        ["heading"] = 0.89011791851711,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -335108.53573437,
+                                ["x"] = 418076.08021774,
+                                ["name"] = "Chemical Weapons Factory Warehouse 1",
+                                ["dead"] = false,
+                            }, -- end of [30]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1594,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -335133.74417062,
+                                            ["x"] = 418248.35851093,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 33,
+                                        ["y"] = -335133.74417062,
+                                        ["x"] = 418248.35851093,
+                                        ["name"] = "Chemical Weapons Factory Defence Group 1",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 39,
+                                        ["y"] = -335293.55996594,
+                                        ["x"] = 418016.71329814,
+                                        ["name"] = "Chemical Weapons Factory Defence Group 2",
+                                        ["heading"] = 0.89011791851711,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 38,
+                                        ["y"] = -335312.62061386,
+                                        ["x"] = 418008.66546902,
+                                        ["name"] = "Chemical Weapons Factory Defence Group 3",
+                                        ["heading"] = 4.310963252426,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 37,
+                                        ["y"] = -335283.92860748,
+                                        ["x"] = 417977.71932656,
+                                        ["name"] = "Chemical Weapons Factory Defence Group 4",
+                                        ["heading"] = 3.4208453339089,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 36,
+                                        ["y"] = -335066.57194921,
+                                        ["x"] = 418120.35107014,
+                                        ["name"] = "Chemical Weapons Factory Defence Group 5",
+                                        ["heading"] = 2.7925268031909,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 44,
+                                        ["y"] = -335300.27028442,
+                                        ["x"] = 417991.76845161,
+                                        ["name"] = "Chemical Weapons Factory Defence Group 6",
+                                        ["heading"] = 4.014257279587,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 35,
+                                        ["y"] = -334939.83190883,
+                                        ["x"] = 418217.30720104,
+                                        ["name"] = "Chemical Weapons Factory Defence Group 7",
+                                        ["heading"] = 0.71558499331767,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 32,
+                                        ["y"] = -334959.78089873,
+                                        ["x"] = 418049.41115212,
+                                        ["name"] = "Chemical Weapons Factory Defence Group 8",
+                                        ["heading"] = 1.9024088846738,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 31,
+                                        ["y"] = -335188.33902722,
+                                        ["x"] = 417888.40259196,
+                                        ["name"] = "Chemical Weapons Factory Defence Group 9",
+                                        ["heading"] = 3.4208453339089,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M48 Chaparral",
+                                        ["unitId"] = 34,
+                                        ["y"] = -334923.61529149,
+                                        ["x"] = 418195.71340416,
+                                        ["name"] = "Chemical Weapons Factory Defence Group 10",
+                                        ["heading"] = 1.1344640137963,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 14,
+                                        ["y"] = -335367.20543284,
+                                        ["x"] = 418145.6510882,
+                                        ["name"] = "Chemical Weapons Factory Defence Group 11",
+                                        ["heading"] = 5.1836278784232,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                }, -- end of ["units"]
+                                ["y"] = -335133.74417062,
+                                ["x"] = 418248.35851093,
+                                ["name"] = "Chemical Weapons Factory Defence Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "MarvdashtChemicalFactory-1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Intelligence gained from Iraqi sources has given us information about the Iranian chemical weapon production center located at the city of Marvdasht. This facility became operational three years ago and is capable of producing tabun, phosgene and mustard gas, which were first used in combat against Iraqi forces last year. 40th Army HQ has ordered us to destroy this factory without delay; it is imperative that we deprive the Iranian regime of its supply of chemical weapons and prevent their use against our forces.\
+\
+Satellite photography indicates the factory is defended by anti-aircraft artillery and surface-to-air missiles, augmented by air defences deployed to protect the city of Marvdasht itself, which include a Rapier system. Iranian interceptors are based out of the nearby Shiraz airbase and will likely scramble to intercept you. The factory is located 6km west of the center of Marvdasht.\
+\
+You are to strike the factory and destroy the two large chemical production buildings. Once the primary objective is complete, withdraw towards friendly lines immediately.",
+} -- end of staticTemplate
