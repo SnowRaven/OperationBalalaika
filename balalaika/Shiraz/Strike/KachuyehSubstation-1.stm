@@ -1,0 +1,449 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0.85521133347722,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -255455.79910548,
+                                            ["speed"] = 0,
+                                            ["x"] = 332144.18213287,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "garage_a",
+                                        ["type"] = "Garage A",
+                                        ["unitId"] = 1,
+                                        ["rate"] = 100,
+                                        ["y"] = -255455.79910548,
+                                        ["x"] = 332144.18213287,
+                                        ["name"] = "PRIMARY DESTROYED Shiraz Power Grid Operations Building",
+                                        ["heading"] = 0.85521133347722,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -255455.79910548,
+                                ["x"] = 332144.18213287,
+                                ["name"] = "PRIMARY DESTROYED Shiraz Power Grid Operations Building",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 3.9793506945471,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -255471.69712809,
+                                            ["speed"] = 0,
+                                            ["x"] = 332107.78906908,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "tr_budka",
+                                        ["type"] = "Electric power box",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 100,
+                                        ["y"] = -255471.69712809,
+                                        ["x"] = 332107.78906908,
+                                        ["name"] = "Shiraz Power Gride Misc Building 2",
+                                        ["heading"] = 3.9793506945471,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -255471.69712809,
+                                ["x"] = 332107.78906908,
+                                ["name"] = "Shiraz Power Gride Misc Building 2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 5.5676003138619,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -255436.83640382,
+                                            ["speed"] = 0,
+                                            ["x"] = 332121.58012483,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "magazin",
+                                        ["type"] = "Shop",
+                                        ["unitId"] = 3,
+                                        ["rate"] = 100,
+                                        ["y"] = -255436.83640382,
+                                        ["x"] = 332121.58012483,
+                                        ["name"] = "Shiraz Power Gride Misc Building 1",
+                                        ["heading"] = 5.5676003138619,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -255436.83640382,
+                                ["x"] = 332121.58012483,
+                                ["name"] = "Shiraz Power Gride Misc Building 1",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 5.5152404363021,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -255513.26183779,
+                                            ["speed"] = 0,
+                                            ["x"] = 332174.63738099,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "s1",
+                                        ["type"] = "Small werehouse 1",
+                                        ["unitId"] = 4,
+                                        ["rate"] = 100,
+                                        ["y"] = -255513.26183779,
+                                        ["x"] = 332174.63738099,
+                                        ["name"] = "Shiraz Power Gride Misc Building 4",
+                                        ["heading"] = 5.5152404363021,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -255513.26183779,
+                                ["x"] = 332174.63738099,
+                                ["name"] = "Shiraz Power Gride Misc Building 4",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 5.4803338512622,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -255511.53795582,
+                                            ["speed"] = 0,
+                                            ["x"] = 332163.14483453,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "saray-c",
+                                        ["type"] = "Subsidiary structure C",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 100,
+                                        ["y"] = -255511.53795582,
+                                        ["x"] = 332163.14483453,
+                                        ["name"] = "Shiraz Power Gride Misc Building 3",
+                                        ["heading"] = 5.4803338512622,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -255511.53795582,
+                                ["x"] = 332163.14483453,
+                                ["name"] = "Shiraz Power Gride Misc Building 3",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 5.550147021342,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -255527.05289354,
+                                            ["speed"] = 0,
+                                            ["x"] = 332173.67966878,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_red3",
+                                        ["type"] = "Container red 3",
+                                        ["unitId"] = 6,
+                                        ["rate"] = 100,
+                                        ["y"] = -255527.05289354,
+                                        ["x"] = 332173.67966878,
+                                        ["name"] = "Shiraz Power Gride Misc Building 5",
+                                        ["heading"] = 5.550147021342,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -255527.05289354,
+                                ["x"] = 332173.67966878,
+                                ["name"] = "Shiraz Power Gride Misc Building 5",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -255456.05696063,
+                                                ["x"] = 332190.34826513,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -255456.05696063,
+                                                ["x"] = 332190.34826513,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1551,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -255454.93717454,
+                                            ["x"] = 332189.60174107,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 11,
+                                        ["y"] = -255454.93717454,
+                                        ["x"] = 332189.60174107,
+                                        ["name"] = "Shiraz Power Grid Defence Group 1",
+                                        ["heading"] = 0.7679448708775,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Closed Insurgent",
+                                        ["unitId"] = 10,
+                                        ["y"] = -255502.79314268,
+                                        ["x"] = 332228.65070658,
+                                        ["name"] = "Shiraz Power Grid Defence Group 2",
+                                        ["heading"] = 4.1015237421867,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 12,
+                                        ["y"] = -255441.18910786,
+                                        ["x"] = 332185.78559661,
+                                        ["name"] = "Shiraz Power Grid Defence Group 3",
+                                        ["heading"] = 0.89011791851711,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Closed Insurgent",
+                                        ["unitId"] = 9,
+                                        ["y"] = -255382.45197607,
+                                        ["x"] = 332073.28683722,
+                                        ["name"] = "Shiraz Power Grid Defence Group 4",
+                                        ["heading"] = 3.8571776469075,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Closed Insurgent",
+                                        ["unitId"] = 8,
+                                        ["y"] = -255268.67942148,
+                                        ["x"] = 332110.47019068,
+                                        ["name"] = "Shiraz Power Grid Defence Group 5",
+                                        ["heading"] = 0.7679448708775,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Closed Insurgent",
+                                        ["unitId"] = 7,
+                                        ["y"] = -255322.47187287,
+                                        ["x"] = 332312.78542938,
+                                        ["name"] = "Shiraz Power Grid Defence Group 6",
+                                        ["heading"] = 0.7679448708775,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = -255454.93717454,
+                                ["x"] = 332189.60174107,
+                                ["name"] = "Shiraz Power Grid Defence Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "KachuyehSubstation-1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "According to captured documents belonging to Iran's Ministry of Energy, there is a large electrical substation located at Kachuyeh, roughly 23 kilometers north of Fasa, responsible for supplying power to several nearby industrial and mining facilities. Aerial photography over the site has confirmed its position, and analysis has determined that the substation is protected by a small contingent of the Iranian army, armed with several emplaced light anti-aircraft artillery pieces. A surface-to-air missile threat in the form of MANPADS might also be present at the site. \
+\
+Command believes the destruction of this substation will put additional strain on Iran's electrical grid in the Shiraz region, further degrading their military industrial capacity, as well as pressure the Iranian military to draw manpower and equipment away from our front line.\
+\
+Your objective is to destroy the large, white roofed building containing the primary transformers and control equipment. Inflict as much additional damage to the substation as fuel and munitions allow.",
+} -- end of staticTemplate
