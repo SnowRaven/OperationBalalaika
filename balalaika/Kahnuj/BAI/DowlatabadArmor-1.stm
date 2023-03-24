@@ -1,0 +1,397 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1715,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 89825.991831682,
+                                            ["x"] = 281450.79524709,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "T-55",
+                                        ["unitId"] = 5,
+                                        ["y"] = 89825.991831682,
+                                        ["x"] = 281450.79524709,
+                                        ["name"] = "PRIMARY DESTROYED Dowlatabad Flanking Group Targets 1",
+                                        ["heading"] = 0.85521133347722,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 4,
+                                        ["y"] = 89892.215028673,
+                                        ["x"] = 281552.09135677,
+                                        ["name"] = "PRIMARY DESTROYED Dowlatabad Flanking Group Targets 2",
+                                        ["heading"] = 0.95993108859688,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 3,
+                                        ["y"] = 89873.796139889,
+                                        ["x"] = 281562.49425437,
+                                        ["name"] = "PRIMARY DESTROYED Dowlatabad Flanking Group Targets 3",
+                                        ["heading"] = 0.34906585039887,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 11,
+                                        ["y"] = 89818.40313193,
+                                        ["x"] = 281443.78270589,
+                                        ["name"] = "PRIMARY DESTROYED Dowlatabad Flanking Group Targets 4",
+                                        ["heading"] = 0.82030474843733,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 2,
+                                        ["y"] = 89919.211941732,
+                                        ["x"] = 281460.2557038,
+                                        ["name"] = "PRIMARY DESTROYED Dowlatabad Flanking Group Targets 5",
+                                        ["heading"] = 1.535889741755,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "T-55",
+                                        ["unitId"] = 12,
+                                        ["y"] = 89908.191190589,
+                                        ["x"] = 281519.29817521,
+                                        ["name"] = "PRIMARY DESTROYED Dowlatabad Flanking Group Targets 6",
+                                        ["heading"] = 1.2566370614359,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 1,
+                                        ["y"] = 89918.288970345,
+                                        ["x"] = 281446.8726187,
+                                        ["name"] = "PRIMARY DESTROYED Dowlatabad Flanking Group Targets 7",
+                                        ["heading"] = 1.832595714594,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                }, -- end of ["units"]
+                                ["y"] = 89825.991831682,
+                                ["x"] = 281450.79524709,
+                                ["name"] = "Dowlatabad Flanking Group Targets 1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 89840.78882548,
+                                                ["x"] = 281460.75859218,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 89833.576587444,
+                                                ["x"] = 281446.61694897,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1715,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 89822.558735151,
+                                            ["x"] = 281455.6137514,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 7,
+                                        ["y"] = 89822.558735151,
+                                        ["x"] = 281455.6137514,
+                                        ["name"] = "Dowlatabad Flanking Group Defences 1",
+                                        ["heading"] = 5.5850536063819,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 9,
+                                        ["y"] = 89828.051516026,
+                                        ["x"] = 281585.85900636,
+                                        ["name"] = "Dowlatabad Flanking Group Defences 2",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375 ZU-23 Insurgent",
+                                        ["unitId"] = 8,
+                                        ["y"] = 89702.775151566,
+                                        ["x"] = 281486.09890263,
+                                        ["name"] = "Dowlatabad Flanking Group Defences 3",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 18,
+                                        ["y"] = 89893.586925436,
+                                        ["x"] = 281549.75775613,
+                                        ["name"] = "Dowlatabad Flanking Group Defences 4",
+                                        ["heading"] = 0.87266462599716,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 17,
+                                        ["y"] = 89817.278146305,
+                                        ["x"] = 281446.28067134,
+                                        ["name"] = "Dowlatabad Flanking Group Defences 5",
+                                        ["heading"] = 3.385938748869,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 16,
+                                        ["y"] = 89814.578141738,
+                                        ["x"] = 281443.37297411,
+                                        ["name"] = "Dowlatabad Flanking Group Defences 6",
+                                        ["heading"] = 0.85521133347722,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 15,
+                                        ["y"] = 89823.273176669,
+                                        ["x"] = 281451.87376589,
+                                        ["name"] = "Dowlatabad Flanking Group Defences 7",
+                                        ["heading"] = 1.5882496193148,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 14,
+                                        ["y"] = 89828.99201227,
+                                        ["x"] = 281450.26837039,
+                                        ["name"] = "Dowlatabad Flanking Group Defences 8",
+                                        ["heading"] = 5.4803338512622,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 13,
+                                        ["y"] = 89918.419490619,
+                                        ["x"] = 281463.28721977,
+                                        ["name"] = "Dowlatabad Flanking Group Defences 9",
+                                        ["heading"] = 1.5707963267949,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["livery_id"] = "INS",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 10,
+                                        ["y"] = 89818.62518174,
+                                        ["x"] = 281476.34990735,
+                                        ["name"] = "Dowlatabad Flanking Group Defences 10",
+                                        ["heading"] = 5.4803338512622,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 6,
+                                        ["y"] = 89812.948225627,
+                                        ["x"] = 281447.70824161,
+                                        ["name"] = "Dowlatabad Flanking Group Defences 11",
+                                        ["heading"] = 5.5850536063819,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                }, -- end of ["units"]
+                                ["y"] = 89822.558735151,
+                                ["x"] = 281455.6137514,
+                                ["name"] = "Dowlatabad Flanking Group Defences",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "Dowlatabad-Flanking-Group",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "A long range patrol in the area west of Jiroft have located a small force of the 41st Tharallah Division taking up positions near the flank of our front line at Jiroft. The unit appears to be made up of several wheeled APCs along with a pair of MBTs providing extra firepower. They are protected by several truck mounted ZU-23 anti-aircraft guns, and a MANPADS threat may also be present. Our recon forces have tracked this unit to a resupply stop in a farmland near the city of Dowlatabad, located approximately 50 kilometers west of Jiroft.\
+\
+You are to locate this enemy force and destroy it. Eliminate all armored fighting vehicles, then inflict as much additional damage to remaining IRGC forces as possible.",
+} -- end of staticTemplate

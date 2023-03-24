@@ -1,0 +1,4 @@
+-- the other Dowlatabad
+objtype = "CONVOY"
+intel = 2
+cost = 4
