@@ -544,11 +544,10 @@ local function getFuelState(flight)
 			fuelState = unit:getFuel()
 		end
 	end
-	if fuelState ~= nil then
-		return fuelState
-	else
-		return 0
+	if fuelState == nil then
+		env.info("Blue Air Debug: Fuel state error", 0)
 	end
+	return fuelState
 end
 
 -- see if any player is within a certain distance in meters to a point
