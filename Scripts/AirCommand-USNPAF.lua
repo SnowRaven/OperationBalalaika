@@ -2095,6 +2095,11 @@ local function decideTactic(flightData)
 	-- if we're really close just focus on engaging
 	if distance < 10000 or (flightCategory == Group.Category.HELICOPTER and distance < 5000) then
 		return interceptTactic.Lead
+	-- turn in from beam or stern intercept
+	elseif flightData.tactic == interceptTactic.Beam and math.abs(aspectAngle) > 0.785398 and distance < 60000 then
+		return interceptTactic.Lead
+	elseif flightData.tactic == interceptTactic.Stern and math.abs(aspectAngle) > 2.79253 and distance < 60000 then
+		return interceptTactic.Lead
 	-- decide which tactic to use
 	elseif flightData.tactic == nil then
 		if typeTactic ~= nil then
@@ -2120,21 +2125,17 @@ local function decideTactic(flightData)
 		else
 			return interceptTactic[math.random(getTableSize(interceptTactic))]
 		end
-		-- stern converting on escort takes too long
-		if flightData.mission == "Escort" or flightData.mission == "HAVCAP" then
-			if flightData.tactic == interceptTactic.Stern then
-				return interceptTactic.Beam
-			end
-		-- stay low as AMBUSHCAP
-		elseif flightData.mission == "AMBUSHCAP" then
-			if flightData.tactic == interceptTactic.Lead or flightData.tactic == interceptTactic.LeadHigh then
-				return interceptTactic.LeadLow
-			end
+	end
+	-- stern converting on escort takes too long
+	if flightData.mission == "Escort" or flightData.mission == "HAVCAP" then
+		if flightData.tactic == interceptTactic.Stern then
+			return interceptTactic.Beam
 		end
-	elseif flightData.tactic == interceptTactic.Beam and math.abs(aspectAngle) > 0.785398 and distance < 60000 then
-		return interceptTactic.Lead
-	elseif flightData.tactic == interceptTactic.Stern and math.abs(aspectAngle) > 2.79253 and distance < 60000 then
-		return interceptTactic.Lead
+	-- stay low as AMBUSHCAP
+	elseif flightData.mission == "AMBUSHCAP" then
+		if flightData.tactic == interceptTactic.Lead or flightData.tactic == interceptTactic.LeadHigh then
+			return interceptTactic.LeadLow
+		end
 	end
 	-- continue with what we're doing if nothing changed
 	return flightData.tactic
