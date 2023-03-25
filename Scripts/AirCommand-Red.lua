@@ -2100,11 +2100,11 @@ local function decideTactic(flightData)
 						return interceptTactic.Beam
 					end
 				else
-					return interceptTactic[math.random(getTableSize(interceptTactic))]
+					return math.random(getTableSize(interceptTactic))
 				end
 			end
 		else
-			return interceptTactic[math.random(getTableSize(interceptTactic))]
+			return math.random(getTableSize(interceptTactic))
 		end
 	end
 	-- stern converting on escort takes too long
