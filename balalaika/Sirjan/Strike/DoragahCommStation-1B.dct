@@ -1,0 +1,5 @@
+--high intel variant
+objtype = "C2"
+intel = 3
+cost = 4
+exclusion = "DoragahCommStation"

@@ -1,0 +1,824 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "Iran",
+                    ["id"] = 34,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 5.9341194567807,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -46863.382108933,
+                                            ["speed"] = 0,
+                                            ["x"] = 243382.49789323,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "tele_bash",
+                                        ["type"] = "TV tower",
+                                        ["unitId"] = 1,
+                                        ["rate"] = 100,
+                                        ["y"] = -46863.382108933,
+                                        ["x"] = 243382.49789323,
+                                        ["name"] = "PRIMARY DESTROYED Tower",
+                                        ["heading"] = 5.9341194567807,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -46863.382108933,
+                                ["x"] = 243382.49789323,
+                                ["name"] = "PRIMARY DESTROYED Tower",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 4.3458698374659,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -46870.166295221,
+                                            ["speed"] = 0,
+                                            ["x"] = 243443.76853382,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["type"] = "UH-1H",
+                                        ["unitId"] = 5,
+                                        ["rate"] = "20",
+                                        ["y"] = -46870.166295221,
+                                        ["x"] = 243443.76853382,
+                                        ["name"] = "Huey",
+                                        ["heading"] = 4.3458698374659,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -46870.166295221,
+                                ["x"] = 243443.76853382,
+                                ["name"] = "Huey",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 4.3633231299858,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -47043.620712675,
+                                            ["speed"] = 0,
+                                            ["x"] = 243572.89756858,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 6,
+                                        ["rate"] = 50,
+                                        ["y"] = -47043.620712675,
+                                        ["x"] = 243572.89756858,
+                                        ["name"] = "Tent-2",
+                                        ["heading"] = 4.3633231299858,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -47043.620712675,
+                                ["x"] = 243572.89756858,
+                                ["name"] = "Tent-2",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 4.3633231299858,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -47025.642200313,
+                                            ["speed"] = 0,
+                                            ["x"] = 243579.50850138,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 7,
+                                        ["rate"] = 50,
+                                        ["y"] = -47025.642200313,
+                                        ["x"] = 243579.50850138,
+                                        ["name"] = "Tent-1",
+                                        ["heading"] = 4.3633231299858,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -47025.642200313,
+                                ["x"] = 243579.50850138,
+                                ["name"] = "Tent-1",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 4.3633231299858,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -47061.335156636,
+                                            ["speed"] = 0,
+                                            ["x"] = 243566.3443454,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 8,
+                                        ["rate"] = 50,
+                                        ["y"] = -47061.335156636,
+                                        ["x"] = 243566.3443454,
+                                        ["name"] = "Tent-3",
+                                        ["heading"] = 4.3633231299858,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -47061.335156636,
+                                ["x"] = 243566.3443454,
+                                ["name"] = "Tent-3",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 5.9341194567807,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -47069.1850843,
+                                            ["speed"] = 0,
+                                            ["x"] = 243536.32991609,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 9,
+                                        ["rate"] = 50,
+                                        ["y"] = -47069.1850843,
+                                        ["x"] = 243536.32991609,
+                                        ["name"] = "Tent-4",
+                                        ["heading"] = 5.9341194567807,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -47069.1850843,
+                                ["x"] = 243536.32991609,
+                                ["name"] = "Tent-4",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 5.9341194567807,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -47062.617420895,
+                                            ["speed"] = 0,
+                                            ["x"] = 243519.06876355,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 50,
+                                        ["y"] = -47062.617420895,
+                                        ["x"] = 243519.06876355,
+                                        ["name"] = "Tent-5",
+                                        ["heading"] = 5.9341194567807,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -47062.617420895,
+                                ["x"] = 243519.06876355,
+                                ["name"] = "Tent-5",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 5.9341194567807,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -47052.905279885,
+                                            ["speed"] = 0,
+                                            ["x"] = 243515.63603369,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_109_S3",
+                                        ["unitId"] = 12,
+                                        ["rate"] = 3,
+                                        ["y"] = -47052.905279885,
+                                        ["x"] = 243515.63603369,
+                                        ["name"] = "Land Rover",
+                                        ["heading"] = 5.9341194567807,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -47052.905279885,
+                                ["x"] = 243515.63603369,
+                                ["name"] = "Land Rover",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 5.9341194567807,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -46870.320719665,
+                                            ["speed"] = 0,
+                                            ["x"] = 243443.50067821,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Heliports",
+                                        ["shape_name"] = "FARP_SINGLE_01",
+                                        ["type"] = "FARP_SINGLE_01",
+                                        ["unitId"] = 26,
+                                        ["heliport_callsign_id"] = 1,
+                                        ["heliport_modulation"] = 0,
+                                        ["rate"] = 100,
+                                        ["y"] = -46870.320719665,
+                                        ["x"] = 243443.50067821,
+                                        ["name"] = "Helipad",
+                                        ["heliport_frequency"] = 127.5,
+                                        ["heading"] = 5.9341194567807,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -46870.320719665,
+                                ["x"] = 243443.50067821,
+                                ["name"] = "Helipad",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1993,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -47072.289918831,
+                                            ["x"] = 243548.874288,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KrAZ6322",
+                                        ["unitId"] = 11,
+                                        ["y"] = -47072.289918831,
+                                        ["x"] = 243548.874288,
+                                        ["name"] = "Truck-1",
+                                        ["heading"] = 1.2566370614359,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KrAZ6322",
+                                        ["unitId"] = 27,
+                                        ["y"] = -46898.234963469,
+                                        ["x"] = 243417.52992259,
+                                        ["name"] = "Truck-2",
+                                        ["heading"] = 1.2566370614359,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = -47072.289918831,
+                                ["x"] = 243548.874288,
+                                ["name"] = "Trucks",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -47085.825236066,
+                                                ["x"] = 243495.76638263,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -47081.181978495,
+                                                ["x"] = 243496.32827255,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1995,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -47031.558813302,
+                                            ["x"] = 243542.71906629,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 21,
+                                        ["y"] = -47031.558813302,
+                                        ["x"] = 243542.71906629,
+                                        ["name"] = "Infantry-1",
+                                        ["heading"] = 1.4503698797479,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 23,
+                                        ["y"] = -47126.52090909,
+                                        ["x"] = 243487.54409013,
+                                        ["name"] = "Infantry-3",
+                                        ["heading"] = 4.2062434973063,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 22,
+                                        ["y"] = -47029.51197917,
+                                        ["x"] = 243542.67140823,
+                                        ["name"] = "Infantry-2",
+                                        ["heading"] = 4.607669225265,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 24,
+                                        ["y"] = -46903.287038891,
+                                        ["x"] = 243411.33144414,
+                                        ["name"] = "Infantry-4",
+                                        ["heading"] = 2.4958208303519,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 25,
+                                        ["y"] = -46902.757248474,
+                                        ["x"] = 243409.75081577,
+                                        ["name"] = "Infantry-5",
+                                        ["heading"] = 5.6025068989018,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                }, -- end of ["units"]
+                                ["y"] = -47031.558813302,
+                                ["x"] = 243542.71906629,
+                                ["name"] = "Infantry",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -47029.235484703,
+                                            ["speed"] = 0,
+                                            ["x"] = 243545.61204367,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375 PBU",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 5,
+                                        ["y"] = -47029.235484703,
+                                        ["x"] = 243545.61204367,
+                                        ["name"] = "C2 Van",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -47029.235484703,
+                                ["x"] = 243545.61204367,
+                                ["name"] = "C2 Van",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1996,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -46817.02882233,
+                                            ["x"] = 243567.88588692,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 15,
+                                        ["y"] = -46817.02882233,
+                                        ["x"] = 243567.88588692,
+                                        ["name"] = "AD-1",
+                                        ["heading"] = 0.92502450355699,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 16,
+                                        ["y"] = -46772.611458759,
+                                        ["x"] = 243534.99933126,
+                                        ["name"] = "AD-2",
+                                        ["heading"] = 0.92502450355699,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 18,
+                                        ["y"] = -47124.95967014,
+                                        ["x"] = 243482.33301321,
+                                        ["name"] = "AD-4",
+                                        ["heading"] = 4.607669225265,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 17,
+                                        ["y"] = -46726.105519049,
+                                        ["x"] = 243504.90267796,
+                                        ["name"] = "AD-3",
+                                        ["heading"] = 0.92502450355699,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 19,
+                                        ["y"] = -47153.038779102,
+                                        ["x"] = 243557.23617082,
+                                        ["name"] = "AD-5",
+                                        ["heading"] = 5.2708943410229,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 20,
+                                        ["y"] = -47073.205880472,
+                                        ["x"] = 243630.19157825,
+                                        ["name"] = "AD-6",
+                                        ["heading"] = 5.8643062867009,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = -46817.02882233,
+                                ["x"] = 243567.88588692,
+                                ["name"] = "AD",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [2]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "DoragahCommStation-1A",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Signals intelligence efforts in Malek Siah Kuh have been continuing to follow the transmission of enemy military communications in the south of Iran. We believe an Iranian communications relay station is operating approximately half-way between Bandar Abbas and Sirjan. Correlated analysis from our electronic intelligence flights has narrowed down the location of the relay to the vicinity of the town of Hajiabad, however we were unable to confirm its precise location. Any defenses currently present at the site are also unknown.\
+\
+Your orders are to search the vicinity of Hajiabad, locate the relay station and eliminate its primary antenna. The location of Hajiabad has been marked on your map; be aware that the target may be as far as 20km away from the town.",
+} -- end of staticTemplate
