@@ -411,10 +411,554 @@ staticTemplate =
             ["name"] = "red",
             ["country"] = 
             {
+                [1] = 
+                {
+                    ["id"] = 68,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38529.926567216,
+                                            ["speed"] = 0,
+                                            ["x"] = 466648.91490301,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 31,
+                                        ["rate"] = 1,
+                                        ["y"] = -38529.926567216,
+                                        ["x"] = 466648.91490301,
+                                        ["name"] = "Soviet Ambush Landmine 9",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38529.926567216,
+                                ["x"] = 466648.91490301,
+                                ["name"] = "Soviet Ambush Landmine 9",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38529.253603512,
+                                            ["speed"] = 0,
+                                            ["x"] = 466664.98191143,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 32,
+                                        ["rate"] = 1,
+                                        ["y"] = -38529.253603512,
+                                        ["x"] = 466664.98191143,
+                                        ["name"] = "Soviet Ambush Landmine 11",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38529.253603512,
+                                ["x"] = 466664.98191143,
+                                ["name"] = "Soviet Ambush Landmine 11",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38522.715808246,
+                                            ["speed"] = 0,
+                                            ["x"] = 466641.8668023,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 33,
+                                        ["rate"] = 1,
+                                        ["y"] = -38522.715808246,
+                                        ["x"] = 466641.8668023,
+                                        ["name"] = "Soviet Ambush Landmine 8",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38522.715808246,
+                                ["x"] = 466641.8668023,
+                                ["name"] = "Soviet Ambush Landmine 8",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38525.5267329,
+                                            ["speed"] = 0,
+                                            ["x"] = 466636.46117797,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 34,
+                                        ["rate"] = 1,
+                                        ["y"] = -38525.5267329,
+                                        ["x"] = 466636.46117797,
+                                        ["name"] = "Soviet Ambush Landmine 6",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38525.5267329,
+                                ["x"] = 466636.46117797,
+                                ["name"] = "Soviet Ambush Landmine 6",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38521.310345919,
+                                            ["speed"] = 0,
+                                            ["x"] = 466638.19097775,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 35,
+                                        ["rate"] = 1,
+                                        ["y"] = -38521.310345919,
+                                        ["x"] = 466638.19097775,
+                                        ["name"] = "Soviet Ambush Landmine 7",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38521.310345919,
+                                ["x"] = 466638.19097775,
+                                ["name"] = "Soviet Ambush Landmine 7",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38535.364969191,
+                                            ["speed"] = 0,
+                                            ["x"] = 466634.5151532,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 36,
+                                        ["rate"] = 1,
+                                        ["y"] = -38535.364969191,
+                                        ["x"] = 466634.5151532,
+                                        ["name"] = "Soviet Ambush Landmine 5",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38535.364969191,
+                                ["x"] = 466634.5151532,
+                                ["name"] = "Soviet Ambush Landmine 5",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38547.591864431,
+                                            ["speed"] = 0,
+                                            ["x"] = 466621.15515024,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 37,
+                                        ["rate"] = 1,
+                                        ["y"] = -38547.591864431,
+                                        ["x"] = 466621.15515024,
+                                        ["name"] = "Soviet Ambush Landmine 4",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38547.591864431,
+                                ["x"] = 466621.15515024,
+                                ["name"] = "Soviet Ambush Landmine 4",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38552.554971744,
+                                            ["speed"] = 0,
+                                            ["x"] = 466639.07280885,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 38,
+                                        ["rate"] = 1,
+                                        ["y"] = -38552.554971744,
+                                        ["x"] = 466639.07280885,
+                                        ["name"] = "Soviet Ambush Landmine 3",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38552.554971744,
+                                ["x"] = 466639.07280885,
+                                ["name"] = "Soviet Ambush Landmine 3",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38571.734437291,
+                                            ["speed"] = 0,
+                                            ["x"] = 466631.41784672,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 39,
+                                        ["rate"] = 1,
+                                        ["y"] = -38571.734437291,
+                                        ["x"] = 466631.41784672,
+                                        ["name"] = "Soviet Ambush Landmine 2",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38571.734437291,
+                                ["x"] = 466631.41784672,
+                                ["name"] = "Soviet Ambush Landmine 2",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38545.909455172,
+                                            ["speed"] = 0,
+                                            ["x"] = 466656.90634699,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 40,
+                                        ["rate"] = 1,
+                                        ["y"] = -38545.909455172,
+                                        ["x"] = 466656.90634699,
+                                        ["name"] = "Soviet Ambush Landmine 10",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38545.909455172,
+                                ["x"] = 466656.90634699,
+                                ["name"] = "Soviet Ambush Landmine 10",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38550.367839707,
+                                            ["speed"] = 0,
+                                            ["x"] = 466673.56219865,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 41,
+                                        ["rate"] = 1,
+                                        ["y"] = -38550.367839707,
+                                        ["x"] = 466673.56219865,
+                                        ["name"] = "Soviet Ambush Landmine 12",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38550.367839707,
+                                ["x"] = 466673.56219865,
+                                ["name"] = "Soviet Ambush Landmine 12",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38566.350727664,
+                                            ["speed"] = 0,
+                                            ["x"] = 466666.74844115,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 20,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 42,
+                                        ["rate"] = 1,
+                                        ["y"] = -38566.350727664,
+                                        ["x"] = 466666.74844115,
+                                        ["name"] = "Soviet Ambush Landmine 13",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38566.350727664,
+                                ["x"] = 466666.74844115,
+                                ["name"] = "Soviet Ambush Landmine 13",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                            [13] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -38574.168857857,
+                                            ["speed"] = 0,
+                                            ["x"] = 466651.45023837,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 21,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "landmine",
+                                        ["type"] = "Landmine",
+                                        ["unitId"] = 43,
+                                        ["rate"] = 1,
+                                        ["y"] = -38574.168857857,
+                                        ["x"] = 466651.45023837,
+                                        ["name"] = "Soviet Ambush Landmine 1",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -38574.168857857,
+                                ["x"] = 466651.45023837,
+                                ["name"] = "Soviet Ambush Landmine 1",
+                                ["dead"] = false,
+                            }, -- end of [13]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "USSR",
+                }, -- end of [1]
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "updated-mined-convoy-ambush",
+    ["name"] = "RafsanjanConvoy-1",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]
