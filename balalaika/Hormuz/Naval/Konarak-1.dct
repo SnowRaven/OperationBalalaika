@@ -1,0 +1,22 @@
+objtype = "SEA"
+intel = 3
+cost = 4
+nocull = true
+
+location = {
+	x = 105712,
+	z = -3064
+}
+
+extramarks = {
+	{
+		label = "Tor'eh ye Khuran",
+		x = 85515,
+		z = -58108
+	}
+	{
+		label = "Bandar-e Tahuneh",
+		x = 61507,
+		z = -202541
+	}
+}
