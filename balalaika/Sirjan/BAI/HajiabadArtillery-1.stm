@@ -1,0 +1,1066 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31774.722915161,
+                                            ["speed"] = 0,
+                                            ["x"] = 237863.16709223,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1260,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "L118",
+                                        ["type"] = "L118",
+                                        ["unitId"] = 1,
+                                        ["rate"] = 100,
+                                        ["y"] = -31774.722915161,
+                                        ["x"] = 237863.16709223,
+                                        ["name"] = "PRIMARY DESTROYED Haijabad Traveling Artillery Group 1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31774.722915161,
+                                ["x"] = 237863.16709223,
+                                ["name"] = "PRIMARY DESTROYED Haijabad Traveling Artillery Group 1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31774.372531666,
+                                            ["speed"] = 0,
+                                            ["x"] = 237850.5532864,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1260,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "L118",
+                                        ["type"] = "L118",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 100,
+                                        ["y"] = -31774.372531666,
+                                        ["x"] = 237850.5532864,
+                                        ["name"] = "PRIMARY DESTROYED Haijabad Traveling Artillery Group 2",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31774.372531666,
+                                ["x"] = 237850.5532864,
+                                ["name"] = "PRIMARY DESTROYED Haijabad Traveling Artillery Group 2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31774.606120663,
+                                            ["speed"] = 0,
+                                            ["x"] = 237836.53794659,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1260,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "L118",
+                                        ["type"] = "L118",
+                                        ["unitId"] = 3,
+                                        ["rate"] = 100,
+                                        ["y"] = -31774.606120663,
+                                        ["x"] = 237836.53794659,
+                                        ["name"] = "PRIMARY DESTROYED Haijabad Traveling Artillery Group 3",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31774.606120663,
+                                ["x"] = 237836.53794659,
+                                ["name"] = "PRIMARY DESTROYED Haijabad Traveling Artillery Group 3",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31809.294086698,
+                                            ["speed"] = 0,
+                                            ["x"] = 237863.51747573,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1260,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "L118",
+                                        ["type"] = "L118",
+                                        ["unitId"] = 4,
+                                        ["rate"] = 100,
+                                        ["y"] = -31809.294086698,
+                                        ["x"] = 237863.51747573,
+                                        ["name"] = "PRIMARY DESTROYED Haijabad Traveling Artillery Group 4",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31809.294086698,
+                                ["x"] = 237863.51747573,
+                                ["name"] = "PRIMARY DESTROYED Haijabad Traveling Artillery Group 4",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31808.943703203,
+                                            ["speed"] = 0,
+                                            ["x"] = 237850.6700809,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1260,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "L118",
+                                        ["type"] = "L118",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 100,
+                                        ["y"] = -31808.943703203,
+                                        ["x"] = 237850.6700809,
+                                        ["name"] = "PRIMARY DESTROYED Haijabad Traveling Artillery Group 5",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31808.943703203,
+                                ["x"] = 237850.6700809,
+                                ["name"] = "PRIMARY DESTROYED Haijabad Traveling Artillery Group 5",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31809.294086698,
+                                            ["speed"] = 0,
+                                            ["x"] = 237836.18756309,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["mass"] = 1260,
+                                        ["category"] = "Cargos",
+                                        ["canCargo"] = false,
+                                        ["shape_name"] = "L118",
+                                        ["type"] = "L118",
+                                        ["unitId"] = 6,
+                                        ["rate"] = 100,
+                                        ["y"] = -31809.294086698,
+                                        ["x"] = 237836.18756309,
+                                        ["name"] = "PRIMARY DESTROYED Haijabad Traveling Artillery Group 6",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31809.294086698,
+                                ["x"] = 237836.18756309,
+                                ["name"] = "PRIMARY DESTROYED Haijabad Traveling Artillery Group 6",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31802.3046671,
+                                            ["speed"] = 0,
+                                            ["x"] = 237863.45946857,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 7,
+                                        ["rate"] = 5,
+                                        ["y"] = -31802.3046671,
+                                        ["x"] = 237863.45946857,
+                                        ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 1",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31802.3046671,
+                                ["x"] = 237863.45946857,
+                                ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 1",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31802.09776915,
+                                            ["speed"] = 0,
+                                            ["x"] = 237850.56282968,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 8,
+                                        ["rate"] = 5,
+                                        ["y"] = -31802.09776915,
+                                        ["x"] = 237850.56282968,
+                                        ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 2",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31802.09776915,
+                                ["x"] = 237850.56282968,
+                                ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 2",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31802.235701117,
+                                            ["speed"] = 0,
+                                            ["x"] = 237836.07997317,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 9,
+                                        ["rate"] = 5,
+                                        ["y"] = -31802.235701117,
+                                        ["x"] = 237836.07997317,
+                                        ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 3",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31802.235701117,
+                                ["x"] = 237836.07997317,
+                                ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 3",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31767.82167541,
+                                            ["speed"] = 0,
+                                            ["x"] = 237863.04567267,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 5,
+                                        ["y"] = -31767.82167541,
+                                        ["x"] = 237863.04567267,
+                                        ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 4",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31767.82167541,
+                                ["x"] = 237863.04567267,
+                                ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 4",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31767.407879509,
+                                            ["speed"] = 0,
+                                            ["x"] = 237850.42489771,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 11,
+                                        ["rate"] = 5,
+                                        ["y"] = -31767.407879509,
+                                        ["x"] = 237850.42489771,
+                                        ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 5",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31767.407879509,
+                                ["x"] = 237850.42489771,
+                                ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 5",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31767.683743443,
+                                            ["speed"] = 0,
+                                            ["x"] = 237836.56273505,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 12,
+                                        ["rate"] = 5,
+                                        ["y"] = -31767.683743443,
+                                        ["x"] = 237836.56273505,
+                                        ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 6",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31767.683743443,
+                                ["x"] = 237836.56273505,
+                                ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 6",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                            [13] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31805.924398229,
+                                            ["speed"] = 0,
+                                            ["x"] = 237807.32581437,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 18,
+                                        ["rate"] = 50,
+                                        ["y"] = -31805.924398229,
+                                        ["x"] = 237807.32581437,
+                                        ["name"] = "Haijabad Artillery Tent 1",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31805.924398229,
+                                ["x"] = 237807.32581437,
+                                ["name"] = "Haijabad Artillery Tent 1",
+                                ["dead"] = false,
+                            }, -- end of [13]
+                            [14] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31791.814340986,
+                                            ["speed"] = 0,
+                                            ["x"] = 237807.47918456,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 19,
+                                        ["rate"] = 50,
+                                        ["y"] = -31791.814340986,
+                                        ["x"] = 237807.47918456,
+                                        ["name"] = "Haijabad Artillery Tent 2",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31791.814340986,
+                                ["x"] = 237807.47918456,
+                                ["name"] = "Haijabad Artillery Tent 2",
+                                ["dead"] = false,
+                            }, -- end of [14]
+                            [15] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31778.47113468,
+                                            ["speed"] = 0,
+                                            ["x"] = 237807.17244418,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 20,
+                                        ["rate"] = 50,
+                                        ["y"] = -31778.47113468,
+                                        ["x"] = 237807.17244418,
+                                        ["name"] = "Haijabad Artillery Tent 3",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31778.47113468,
+                                ["x"] = 237807.17244418,
+                                ["name"] = "Haijabad Artillery Tent 3",
+                                ["dead"] = false,
+                            }, -- end of [15]
+                            [16] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31820.085364647,
+                                            ["speed"] = 0,
+                                            ["x"] = 237816.32725692,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 32,
+                                        ["rate"] = 5,
+                                        ["y"] = -31820.085364647,
+                                        ["x"] = 237816.32725692,
+                                        ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 7",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31820.085364647,
+                                ["x"] = 237816.32725692,
+                                ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 7",
+                                ["dead"] = false,
+                            }, -- end of [16]
+                            [17] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31820.286214144,
+                                            ["speed"] = 0,
+                                            ["x"] = 237807.79115332,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 33,
+                                        ["rate"] = 5,
+                                        ["y"] = -31820.286214144,
+                                        ["x"] = 237807.79115332,
+                                        ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 9",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31820.286214144,
+                                ["x"] = 237807.79115332,
+                                ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 9",
+                                ["dead"] = false,
+                            }, -- end of [17]
+                            [18] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31820.286214144,
+                                            ["speed"] = 0,
+                                            ["x"] = 237811.908568,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 34,
+                                        ["rate"] = 5,
+                                        ["y"] = -31820.286214144,
+                                        ["x"] = 237811.908568,
+                                        ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 8",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31820.286214144,
+                                ["x"] = 237811.908568,
+                                ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 8",
+                                ["dead"] = false,
+                            }, -- end of [18]
+                            [19] = 
+                            {
+                                ["heading"] = 1.5707963267949,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -31820.185789396,
+                                            ["speed"] = 0,
+                                            ["x"] = 237803.57331389,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 21,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 36,
+                                        ["rate"] = 5,
+                                        ["y"] = -31820.185789396,
+                                        ["x"] = 237803.57331389,
+                                        ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 10",
+                                        ["heading"] = 1.5707963267949,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -31820.185789396,
+                                ["x"] = 237803.57331389,
+                                ["name"] = "Haijabad Traveling Artillery Group Tow Trucks 10",
+                                ["dead"] = false,
+                            }, -- end of [19]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -31805.353374302,
+                                                ["x"] = 237880.20077876,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -31805.353374302,
+                                                ["x"] = 237880.20077876,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 928,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -31812.892784863,
+                                            ["x"] = 237888.4535891,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 17,
+                                        ["y"] = -31812.892784863,
+                                        ["x"] = 237888.4535891,
+                                        ["name"] = "Haijabad Artillery Defence Group 1",
+                                        ["heading"] = 1.1170107212764,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 16,
+                                        ["y"] = -31746.400942527,
+                                        ["x"] = 237797.5467734,
+                                        ["name"] = "Haijabad Artillery Defence Group 2",
+                                        ["heading"] = 1.5009831567151,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 15,
+                                        ["y"] = -31737.829728476,
+                                        ["x"] = 237843.77938253,
+                                        ["name"] = "Haijabad Artillery Defence Group 3",
+                                        ["heading"] = 1.4835298641952,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 21,
+                                        ["y"] = -31780.981129819,
+                                        ["x"] = 237822.82644843,
+                                        ["name"] = "Haijabad Artillery Defence Group 6",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 14,
+                                        ["y"] = -31771.416106058,
+                                        ["x"] = 237818.06172749,
+                                        ["name"] = "Haijabad Artillery Defence Group 4",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 25,
+                                        ["y"] = -31834.851932157,
+                                        ["x"] = 237767.97438728,
+                                        ["name"] = "Haijabad Artillery Defence Group 12",
+                                        ["heading"] = 1.5707963267949,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "SON_9",
+                                        ["unitId"] = 26,
+                                        ["y"] = -31856.131978653,
+                                        ["x"] = 237770.29130631,
+                                        ["name"] = "Haijabad Artillery Defence Group 11",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 24,
+                                        ["y"] = -31876.68235002,
+                                        ["x"] = 237769.20334547,
+                                        ["name"] = "Haijabad Artillery Defence Group 10",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 30,
+                                        ["y"] = -31820.386638892,
+                                        ["x"] = 237798.95377547,
+                                        ["name"] = "Haijabad Artillery Defence Group 9",
+                                        ["heading"] = 1.5707963267949,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 23,
+                                        ["y"] = -31856.615516802,
+                                        ["x"] = 237748.89474318,
+                                        ["name"] = "Haijabad Artillery Defence Group 8",
+                                        ["heading"] = 3.1415926535898,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 22,
+                                        ["y"] = -31856.011094115,
+                                        ["x"] = 237791.92963851,
+                                        ["name"] = "Haijabad Artillery Defence Group 7",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 13,
+                                        ["y"] = -31855.381667383,
+                                        ["x"] = 237838.42870589,
+                                        ["name"] = "Haijabad Artillery Defence Group 5",
+                                        ["heading"] = 4.7822021504645,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [12]
+                                }, -- end of ["units"]
+                                ["y"] = -31812.892784863,
+                                ["x"] = 237888.4535891,
+                                ["name"] = "Haijabad Artillery Defence Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "HajiabadArtillery-1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Intercepted communications have revealed the location of an Iranian field artillery battery belonging to the 92nd Armored Division. The battery has stopped inside Hajiabad, a city located at radial 205 for 240 kilometers from Kerman, in order to take on fuel and supplies. The target is likely protected by anti-aircraft artillery and surface-to-air missiles, so be careful when executing your attack.\
+\
+You are to find the battery and destroy the field guns before they can be transported out of the city.",
+} -- end of staticTemplate
