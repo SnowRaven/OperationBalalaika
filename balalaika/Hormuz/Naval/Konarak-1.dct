@@ -10,12 +10,12 @@ location = {
 
 extramarks = {
 	{
-		label = "Tor'eh ye Khuran",
-		x = 85515,
-		z = -58108
-	}
+		label = "%TARGET%: TOR'EH YE KHURAN",
+		x = 83119,
+		z = -59737
+	},
 	{
-		label = "Bandar-e Tahuneh",
+		label = "%TARGET%: BANDAR-E TAHUNEH",
 		x = 61507,
 		z = -202541
 	}

@@ -9,7 +9,7 @@ location = {
 
 extramarks = {
 	{
-		label = "%TARGET%: End Patrol",
+		label = "%TARGET%: END PATROL",
 		x = 311231,
 		z = 249515
 	}
