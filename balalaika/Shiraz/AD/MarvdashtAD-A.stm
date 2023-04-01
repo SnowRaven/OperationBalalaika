@@ -1,0 +1,766 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -327774.59266863,
+                                                ["x"] = 417791.22601972,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -327900.08759104,
+                                                ["x"] = 417875.85179926,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1601,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -327230.47067553,
+                                            ["x"] = 417256.33683372,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "SON_9",
+                                        ["unitId"] = 17,
+                                        ["y"] = -327230.47067553,
+                                        ["x"] = 417256.33683372,
+                                        ["name"] = "Marvdasht S60 Battery and M48 1",
+                                        ["heading"] = 5.3056825398491,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M48 Chaparral",
+                                        ["unitId"] = 24,
+                                        ["y"] = -327113.35341454,
+                                        ["x"] = 417490.39781773,
+                                        ["name"] = "Marvdasht S60 Battery and M48 2",
+                                        ["heading"] = 5.3056825398491,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 23,
+                                        ["y"] = -327194.20753398,
+                                        ["x"] = 417394.78421146,
+                                        ["name"] = "Marvdasht S60 Battery and M48 3",
+                                        ["heading"] = 4.1189770347066,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "default",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 22,
+                                        ["y"] = -327250.76639722,
+                                        ["x"] = 417291.84951519,
+                                        ["name"] = "Marvdasht S60 Battery and M48 4",
+                                        ["heading"] = 5.3056825398491,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "default",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 16,
+                                        ["y"] = -327234.18432187,
+                                        ["x"] = 417280.66762013,
+                                        ["name"] = "Marvdasht S60 Battery and M48 5",
+                                        ["heading"] = 5.3056825398491,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "default",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 15,
+                                        ["y"] = -327226.62897241,
+                                        ["x"] = 417232.9024447,
+                                        ["name"] = "Marvdasht S60 Battery and M48 6",
+                                        ["heading"] = 5.3056825398491,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["livery_id"] = "default",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 14,
+                                        ["y"] = -327210.49381931,
+                                        ["x"] = 417257.36128788,
+                                        ["name"] = "Marvdasht S60 Battery and M48 7",
+                                        ["heading"] = 5.3056825398491,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["livery_id"] = "default",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 2,
+                                        ["y"] = -327252.24032653,
+                                        ["x"] = 417251.98290352,
+                                        ["name"] = "Marvdasht S60 Battery and M48 8",
+                                        ["heading"] = 5.3056825398491,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                }, -- end of ["units"]
+                                ["y"] = -327230.47067553,
+                                ["x"] = 417256.33683372,
+                                ["name"] = "Marvdasht S60 Battery and M48",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1591,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -331216.43078088,
+                                            ["x"] = 415990.16098396,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "SON_9",
+                                        ["unitId"] = 21,
+                                        ["y"] = -331216.43078088,
+                                        ["x"] = 415990.16098396,
+                                        ["name"] = "Marvdasht KS19 Battery 1",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 25,
+                                        ["y"] = -331199.79331593,
+                                        ["x"] = 416008.09706019,
+                                        ["name"] = "Marvdasht KS19 Battery 2",
+                                        ["heading"] = 2.4783675378319,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 20,
+                                        ["y"] = -331197.68318394,
+                                        ["x"] = 415989.30528451,
+                                        ["name"] = "Marvdasht KS19 Battery 3",
+                                        ["heading"] = 1.6057029118348,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 19,
+                                        ["y"] = -331215.57508144,
+                                        ["x"] = 415971.10222357,
+                                        ["name"] = "Marvdasht KS19 Battery 4",
+                                        ["heading"] = 3.1241393610699,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 18,
+                                        ["y"] = -331237.0275848,
+                                        ["x"] = 415988.61828232,
+                                        ["name"] = "Marvdasht KS19 Battery 5",
+                                        ["heading"] = 4.6425758103049,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 3,
+                                        ["y"] = -331215.98004821,
+                                        ["x"] = 416015.40605616,
+                                        ["name"] = "Marvdasht KS19 Battery 6",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = -331216.43078088,
+                                ["x"] = 415990.16098396,
+                                ["name"] = "Marvdasht KS19 Battery",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1591,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -330863.50693748,
+                                            ["x"] = 413754.77329917,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 34,
+                                        ["y"] = -330863.50693748,
+                                        ["x"] = 413754.77329917,
+                                        ["name"] = "AAA-2",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 48,
+                                        ["y"] = -327648.52458532,
+                                        ["x"] = 418419.80969248,
+                                        ["name"] = "AAA-7",
+                                        ["heading"] = 3.8571776469075,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 47,
+                                        ["y"] = -327637.07937958,
+                                        ["x"] = 418405.18742557,
+                                        ["name"] = "AAA-6",
+                                        ["heading"] = 3.2288591161895,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 46,
+                                        ["y"] = -327731.60386998,
+                                        ["x"] = 418484.71920272,
+                                        ["name"] = "AAA-5",
+                                        ["heading"] = 4.4854961776254,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 45,
+                                        ["y"] = -327607.55161941,
+                                        ["x"] = 418444.62659249,
+                                        ["name"] = "AAA-4",
+                                        ["heading"] = 1.3788101090755,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 44,
+                                        ["y"] = -330831.56958384,
+                                        ["x"] = 413702.67089639,
+                                        ["name"] = "AAA-1",
+                                        ["heading"] = 1.9198621771938,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 35,
+                                        ["y"] = -330915.6463115,
+                                        ["x"] = 413713.56805526,
+                                        ["name"] = "AAA-3",
+                                        ["heading"] = 4.5902159327451,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                }, -- end of ["units"]
+                                ["y"] = -330863.50693748,
+                                ["x"] = 413754.77329917,
+                                ["name"] = "AAA",
+                                ["start_time"] = 0,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1601,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -328703.66760776,
+                                            ["x"] = 419238.69142474,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "SON_9",
+                                        ["unitId"] = 37,
+                                        ["y"] = -328703.66760776,
+                                        ["x"] = 419238.69142474,
+                                        ["name"] = "Marvdasht KS19 Battery-1-1",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 38,
+                                        ["y"] = -328672.02186413,
+                                        ["x"] = 419297.9959271,
+                                        ["name"] = "Marvdasht KS19 Battery-1-2",
+                                        ["heading"] = 1.8675022996339,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 39,
+                                        ["y"] = -328684.92001081,
+                                        ["x"] = 419237.83572529,
+                                        ["name"] = "Marvdasht KS19 Battery-1-3",
+                                        ["heading"] = 1.6057029118348,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 40,
+                                        ["y"] = -328702.81190832,
+                                        ["x"] = 419219.63266435,
+                                        ["name"] = "Marvdasht KS19 Battery-1-4",
+                                        ["heading"] = 3.1241393610699,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 41,
+                                        ["y"] = -328724.26441167,
+                                        ["x"] = 419237.1487231,
+                                        ["name"] = "Marvdasht KS19 Battery-1-5",
+                                        ["heading"] = 4.6425758103049,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 42,
+                                        ["y"] = -328703.21687508,
+                                        ["x"] = 419263.93649694,
+                                        ["name"] = "Marvdasht KS19 Battery-1-6",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = -328703.66760776,
+                                ["x"] = 419238.69142474,
+                                ["name"] = "Marvdasht KS19 Battery-1",
+                                ["start_time"] = 0,
+                            }, -- end of [4]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 34,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1592,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -330869.97487576,
+                                            ["x"] = 413717.48213046,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_blindfire_radar",
+                                        ["unitId"] = 7,
+                                        ["y"] = -330869.97487576,
+                                        ["x"] = 413717.48213046,
+                                        ["name"] = "Marvdasht Rapier 1",
+                                        ["heading"] = 4.6425758103049,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_optical_tracker_unit",
+                                        ["unitId"] = 5,
+                                        ["y"] = -330871.27194053,
+                                        ["x"] = 413708.43228702,
+                                        ["name"] = "Marvdasht Rapier 2",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_launcher",
+                                        ["unitId"] = 6,
+                                        ["y"] = -330858.17738393,
+                                        ["x"] = 413704.44698718,
+                                        ["name"] = "Marvdasht Rapier 3",
+                                        ["heading"] = 5.532693728822,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "High",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_launcher",
+                                        ["unitId"] = 8,
+                                        ["y"] = -330870.91698001,
+                                        ["x"] = 413735.53507352,
+                                        ["name"] = "Marvdasht Rapier 4",
+                                        ["heading"] = 3.2114058236696,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 9,
+                                        ["y"] = -330848.49963446,
+                                        ["x"] = 413720.94341951,
+                                        ["name"] = "Marvdasht Rapier 5",
+                                        ["heading"] = 0.85521133347722,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Good",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "rapier_fsa_launcher",
+                                        ["unitId"] = 26,
+                                        ["y"] = -330886.00227166,
+                                        ["x"] = 413703.48934547,
+                                        ["name"] = "Marvdasht Rapier-1",
+                                        ["heading"] = 0.78539816339745,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = -330869.97487576,
+                                ["x"] = 413717.48213046,
+                                ["name"] = "Marvdasht Rapier",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "Iran",
+                }, -- end of [2]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "MarvdashtAD-A",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "If you are reading this, report to high command immediately.",
+} -- end of staticTemplate
