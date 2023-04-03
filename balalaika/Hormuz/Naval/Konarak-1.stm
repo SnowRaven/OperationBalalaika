@@ -1046,7 +1046,7 @@ staticTemplate =
                                     [2] = 
                                     {
                                         ["modulation"] = 0,
-                                        ["livery_id"] = "IRN_227_Shamshir",
+                                        ["livery_id"] = "irn_217",
                                         ["skill"] = "High",
                                         ["type"] = "La_Combattante_II",
                                         ["unitId"] = 2,
