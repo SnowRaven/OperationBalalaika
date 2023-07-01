@@ -1,0 +1,367 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 41254.639116089,
+                                            ["speed"] = 0,
+                                            ["x"] = 269406.05003149,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "russia worn black",
+                                        ["category"] = "Helicopters",
+                                        ["type"] = "Ka-50",
+                                        ["unitId"] = 3,
+                                        ["rate"] = "50",
+                                        ["y"] = 41254.639116089,
+                                        ["x"] = 269406.05003149,
+                                        ["name"] = "PRIMARY DESTROYED Downed Kamov",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 41254.639116089,
+                                ["x"] = 269406.05003149,
+                                ["name"] = "PRIMARY DESTROYED Downed Kamov",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 41270.677198946,
+                                                ["x"] = 269421.5084246,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 41270.677198946,
+                                                ["x"] = 269421.5084246,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1579,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 41261.947207215,
+                                            ["x"] = 269416.58841359,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 13,
+                                        ["y"] = 41261.947207215,
+                                        ["x"] = 269416.58841359,
+                                        ["name"] = "Downed Kamov Decorative Group 1",
+                                        ["heading"] = 0.48869219055841,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BRDM-2",
+                                        ["unitId"] = 12,
+                                        ["y"] = 41338.589824127,
+                                        ["x"] = 269436.59688438,
+                                        ["name"] = "Downed Kamov Decorative Group 2",
+                                        ["heading"] = 5.7595865315813,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 11,
+                                        ["y"] = 41178.861184457,
+                                        ["x"] = 269424.04919931,
+                                        ["name"] = "Downed Kamov Decorative Group 3",
+                                        ["heading"] = 4.7996554429844,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 10,
+                                        ["y"] = 41287.042577354,
+                                        ["x"] = 269332.31544765,
+                                        ["name"] = "Downed Kamov Decorative Group 4",
+                                        ["heading"] = 2.0769418098733,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 9,
+                                        ["y"] = 41277.578958404,
+                                        ["x"] = 269407.2698339,
+                                        ["name"] = "Downed Kamov Decorative Group 5",
+                                        ["heading"] = 1.1693705988362,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 8,
+                                        ["y"] = 41261.436285156,
+                                        ["x"] = 269407.91183915,
+                                        ["name"] = "Downed Kamov Decorative Group 6",
+                                        ["heading"] = 5.0090949532237,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 7,
+                                        ["y"] = 41265.007713728,
+                                        ["x"] = 269417.94041058,
+                                        ["name"] = "Downed Kamov Decorative Group 7",
+                                        ["heading"] = 3.2986722862693,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 18,
+                                        ["y"] = 41286.385266974,
+                                        ["x"] = 269472.77439712,
+                                        ["name"] = "Downed Kamov Decorative Group 8",
+                                        ["heading"] = 0.1221730476396,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 17,
+                                        ["y"] = 41255.581192925,
+                                        ["x"] = 269446.86607017,
+                                        ["name"] = "Downed Kamov Decorative Group 9",
+                                        ["heading"] = 1.0297442586767,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 16,
+                                        ["y"] = 41259.879250563,
+                                        ["x"] = 269412.25400728,
+                                        ["name"] = "Downed Kamov Decorative Group 10",
+                                        ["heading"] = 6.2308254296198,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 15,
+                                        ["y"] = 41252.692947169,
+                                        ["x"] = 269409.14814067,
+                                        ["name"] = "Downed Kamov Decorative Group 11",
+                                        ["heading"] = 1.5009831567151,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "UAZ-469",
+                                        ["unitId"] = 14,
+                                        ["y"] = 41252.336033905,
+                                        ["x"] = 269444.72091335,
+                                        ["name"] = "Downed Kamov Decorative Group 12",
+                                        ["heading"] = 5.3058009260628,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 19,
+                                        ["y"] = 41251.231383117,
+                                        ["x"] = 269473.52305081,
+                                        ["name"] = "Downed Kamov Decorative Group 13",
+                                        ["heading"] = 0.71558499331767,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 6,
+                                        ["y"] = 41274.950570871,
+                                        ["x"] = 269406.02612487,
+                                        ["name"] = "Downed Kamov Decorative Group 14",
+                                        ["heading"] = 4.3458698374659,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["livery_id"] = "INS",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 5,
+                                        ["y"] = 41252.879441491,
+                                        ["x"] = 269448.02375102,
+                                        ["name"] = "Downed Kamov Decorative Group 15",
+                                        ["heading"] = 0.48869219055841,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 4,
+                                        ["y"] = 41274.036285156,
+                                        ["x"] = 269407.4546963,
+                                        ["name"] = "Downed Kamov Decorative Group 16",
+                                        ["heading"] = 0.48869219055841,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [16]
+                                }, -- end of ["units"]
+                                ["y"] = 41261.947207215,
+                                ["x"] = 269416.58841359,
+                                ["name"] = "Downed Kamov Decorative Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "KalyanKamov-1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "One of the new Ka-50 helicopters of 344 TsBPPAA suffered an in-flight failure during a combat evaluation sortie in the mountains south of Baft. The helicopter made an emergency landing near Kalyan, at approximate bearing 265° for 100km from Jiroft. Due to the approach of Iranian army units, the pilot was forced to abandon the helicopter before it could be destroyed and denied to the enemy. Allowing Iran to capture this prototype is unacceptable.\
+\
+Your primary objective is to locate the downed Ka-50 and destroy it by any means necessary. After you have confirmed the destruction of the helicopter, you may continue engaging any Iranian units present in the area or return to base.",
+} -- end of staticTemplate
