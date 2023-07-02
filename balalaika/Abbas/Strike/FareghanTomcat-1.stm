@@ -1,0 +1,402 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 4.7647488579445,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -8778.6375432242,
+                                            ["speed"] = 0,
+                                            ["x"] = 219055.38846484,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "IRIAF Asia Minor",
+                                        ["category"] = "Planes",
+                                        ["type"] = "F-14A-135-GR",
+                                        ["unitId"] = 2,
+                                        ["rate"] = "50",
+                                        ["y"] = -8778.6375432242,
+                                        ["x"] = 219055.38846484,
+                                        ["name"] = "PRIMARY DESTROYED Downed Iranian F14",
+                                        ["heading"] = 4.7647488579445,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -8778.6375432242,
+                                ["x"] = 219055.38846484,
+                                ["name"] = "PRIMARY DESTROYED Downed Iranian F14",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -29519.895633876,
+                                                ["x"] = 219612.04888547,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -29519.895633876,
+                                                ["x"] = 219612.04888547,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 862,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -8792.5367981606,
+                                            ["x"] = 219052.00184435,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 3,
+                                        ["y"] = -8792.5367981606,
+                                        ["x"] = 219052.00184435,
+                                        ["name"] = "Downed F14 Defence Group 1",
+                                        ["heading"] = 4.310963252426,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["livery_id"] = "INS",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 21,
+                                        ["y"] = -8751.4389113549,
+                                        ["x"] = 219019.32745614,
+                                        ["name"] = "Downed F14 Defence Group-1",
+                                        ["heading"] = 0.1221730476396,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 20,
+                                        ["y"] = -8751.4307099025,
+                                        ["x"] = 219059.32479004,
+                                        ["name"] = "Downed F14 Defence Group 2",
+                                        ["heading"] = 2.6878070480713,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 19,
+                                        ["y"] = -8786.2135418692,
+                                        ["x"] = 219004.45356434,
+                                        ["name"] = "Downed F14 Defence Group 3",
+                                        ["heading"] = 2.6878070480713,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 18,
+                                        ["y"] = -8755.0108723957,
+                                        ["x"] = 219163.98431246,
+                                        ["name"] = "Downed F14 Defence Group 4",
+                                        ["heading"] = 0.26179938779915,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 17,
+                                        ["y"] = -8695.9720459944,
+                                        ["x"] = 219042.3603622,
+                                        ["name"] = "Downed F14 Defence Group 5",
+                                        ["heading"] = 1.850049007114,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 16,
+                                        ["y"] = -8830.6818519079,
+                                        ["x"] = 219058.94421318,
+                                        ["name"] = "Downed F14 Defence Group 6",
+                                        ["heading"] = 4.5727626402251,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 15,
+                                        ["y"] = -8795.9091732267,
+                                        ["x"] = 219053.01244062,
+                                        ["name"] = "Downed F14 Defence Group 7",
+                                        ["heading"] = 2.6878070480713,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 14,
+                                        ["y"] = -8781.7293305687,
+                                        ["x"] = 219050.14271056,
+                                        ["name"] = "Downed F14 Defence Group 8",
+                                        ["heading"] = 0.17453292519943,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 13,
+                                        ["y"] = -8783.864496414,
+                                        ["x"] = 219058.60030709,
+                                        ["name"] = "Downed F14 Defence Group 9",
+                                        ["heading"] = 2.6878070480713,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Infantry AK Ins",
+                                        ["unitId"] = 12,
+                                        ["y"] = -8774.1232807554,
+                                        ["x"] = 219060.07374278,
+                                        ["name"] = "Downed F14 Defence Group 10",
+                                        ["heading"] = 4.0840704496667,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 10,
+                                        ["y"] = -8782.7876497231,
+                                        ["x"] = 218999.77157045,
+                                        ["name"] = "Downed F14 Defence Group 11",
+                                        ["heading"] = 2.6878070480713,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 9,
+                                        ["y"] = -8695.5236995435,
+                                        ["x"] = 219039.8173558,
+                                        ["name"] = "Downed F14 Defence Group 12",
+                                        ["heading"] = 1.6231562043547,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 8,
+                                        ["y"] = -8830.5331907171,
+                                        ["x"] = 219061.75187722,
+                                        ["name"] = "Downed F14 Defence Group 13",
+                                        ["heading"] = 4.7822021504645,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 7,
+                                        ["y"] = -8770.5152581295,
+                                        ["x"] = 219044.42573526,
+                                        ["name"] = "Downed F14 Defence Group 14",
+                                        ["heading"] = 4.2760566673861,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 6,
+                                        ["y"] = -8755.1758081828,
+                                        ["x"] = 219062.96529385,
+                                        ["name"] = "Downed F14 Defence Group 15",
+                                        ["heading"] = 5.3930673886625,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [16]
+                                    [17] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 5,
+                                        ["y"] = -8640.1208530226,
+                                        ["x"] = 219123.69159934,
+                                        ["name"] = "Downed F14 Defence Group 16",
+                                        ["heading"] = 3.1764992386297,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [17]
+                                    [18] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 4,
+                                        ["y"] = -8847.8629583433,
+                                        ["x"] = 219131.94491942,
+                                        ["name"] = "Downed F14 Defence Group 17",
+                                        ["heading"] = 3.1764992386297,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [18]
+                                    [19] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M48 Chaparral",
+                                        ["unitId"] = 1,
+                                        ["y"] = -8750.7839031208,
+                                        ["x"] = 219163.98203629,
+                                        ["name"] = "Downed F14 Defence Group 18",
+                                        ["heading"] = 3.1764992386297,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [19]
+                                }, -- end of ["units"]
+                                ["y"] = -8792.5367981606,
+                                ["x"] = 219052.00184435,
+                                ["name"] = "Downed F14 Defence Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "FareghanTomcat-1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "A recent attempt by a pair of Iranian F-14 Tomcats to engage our airborne supply convoys was intercepted by MiG-31s from 763 IAP. After an exchange of missiles the Tomcats turned away, but EWR 988 recorded a rapid loss of altitude by one of the aircraft north of Bandar Abbas. Communication intercepts captured from the area confirm that the aircraft made an emergency landing near Fareghan. An armored cavalry unit was dispatched to recover the aircraft, likely supported by self-propelled anti-aircraft artillery and missile defenses. Enemy interceptors are located at the nearby airbases in Bandar Abbas and Lar.\
+\
+Iran has precious few F-14s, so we cannot pass up an opportunity to deny them an airframe. You are to find the crashed aircraft and destroy it before it can be recovered. Once you have completed the mission, withdraw from the area before you can be intercepted.",
+} -- end of staticTemplate
