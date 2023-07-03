@@ -1,0 +1,711 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 2.4783675378319,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -192533.04371395,
+                                            ["speed"] = 0,
+                                            ["x"] = 318556.1353272,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "ferma_a",
+                                        ["type"] = "Farm A",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 100,
+                                        ["y"] = -192533.04371395,
+                                        ["x"] = 318556.1353272,
+                                        ["name"] = "PRIMARY DESTROYED Ij Ration Production Warehouse 1",
+                                        ["heading"] = 2.4783675378319,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -192533.04371395,
+                                ["x"] = 318556.1353272,
+                                ["name"] = "PRIMARY DESTROYED Ij Ration Production Warehouse 1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 2.4783675378319,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -192550.2125858,
+                                            ["speed"] = 0,
+                                            ["x"] = 318577.48041112,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "ferma_a",
+                                        ["type"] = "Farm A",
+                                        ["unitId"] = 3,
+                                        ["rate"] = 100,
+                                        ["y"] = -192550.2125858,
+                                        ["x"] = 318577.48041112,
+                                        ["name"] = "PRIMARY DESTROYED Ij Ration Production Warehouse 2",
+                                        ["heading"] = 2.4783675378319,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -192550.2125858,
+                                ["x"] = 318577.48041112,
+                                ["name"] = "PRIMARY DESTROYED Ij Ration Production Warehouse 2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 0.87266462599716,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -192568.93103477,
+                                            ["speed"] = 0,
+                                            ["x"] = 318595.13808444,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_brown",
+                                        ["type"] = "Container brown",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 100,
+                                        ["y"] = -192568.93103477,
+                                        ["x"] = 318595.13808444,
+                                        ["name"] = "Ij Warehouse Decorative Container 1",
+                                        ["heading"] = 0.87266462599716,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -192568.93103477,
+                                ["x"] = 318595.13808444,
+                                ["name"] = "Ij Warehouse Decorative Container 1",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 0.89011791851711,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -192573.20568555,
+                                            ["speed"] = 0,
+                                            ["x"] = 318591.93209635,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_brown",
+                                        ["type"] = "Container brown",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 100,
+                                        ["y"] = -192573.20568555,
+                                        ["x"] = 318591.93209635,
+                                        ["name"] = "Ij Warehouse Decorative Container 2",
+                                        ["heading"] = 0.89011791851711,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -192573.20568555,
+                                ["x"] = 318591.93209635,
+                                ["name"] = "Ij Warehouse Decorative Container 2",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 5.6199601914217,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -192583.46484741,
+                                            ["speed"] = 0,
+                                            ["x"] = 318604.86291496,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "container_40ft",
+                                        ["type"] = "container_40ft",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 1,
+                                        ["y"] = -192583.46484741,
+                                        ["x"] = 318604.86291496,
+                                        ["name"] = "Ij Warehouse Decorative Red Container 1",
+                                        ["heading"] = 5.6199601914217,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -192583.46484741,
+                                ["x"] = 318604.86291496,
+                                ["name"] = "Ij Warehouse Decorative Red Container 1",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 5.6199601914217,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -192579.24362977,
+                                            ["speed"] = 0,
+                                            ["x"] = 318599.78676716,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "container_40ft",
+                                        ["type"] = "container_40ft",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 1,
+                                        ["y"] = -192579.24362977,
+                                        ["x"] = 318599.78676716,
+                                        ["name"] = "Ij Warehouse Decorative Red Container 2",
+                                        ["heading"] = 5.6199601914217,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -192579.24362977,
+                                ["x"] = 318599.78676716,
+                                ["name"] = "Ij Warehouse Decorative Red Container 2",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 5.6025068989018,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -192595.54073586,
+                                            ["speed"] = 0,
+                                            ["x"] = 318595.51211638,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "container_40ft",
+                                        ["type"] = "container_40ft",
+                                        ["unitId"] = 18,
+                                        ["rate"] = 1,
+                                        ["y"] = -192595.54073586,
+                                        ["x"] = 318595.51211638,
+                                        ["name"] = "Ij Warehouse Decorative Red Container 3",
+                                        ["heading"] = 5.6025068989018,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -192595.54073586,
+                                ["x"] = 318595.51211638,
+                                ["name"] = "Ij Warehouse Decorative Red Container 3",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 5.6199601914217,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -192590.6783206,
+                                            ["speed"] = 0,
+                                            ["x"] = 318590.91686679,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "container_40ft",
+                                        ["type"] = "container_40ft",
+                                        ["unitId"] = 19,
+                                        ["rate"] = 1,
+                                        ["y"] = -192590.6783206,
+                                        ["x"] = 318590.91686679,
+                                        ["name"] = "Ij Warehouse Decorative Red Container 4",
+                                        ["heading"] = 5.6199601914217,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -192590.6783206,
+                                ["x"] = 318590.91686679,
+                                ["name"] = "Ij Warehouse Decorative Red Container 4",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 0.85521133347722,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -192577.747502,
+                                            ["speed"] = 0,
+                                            ["x"] = 318588.03147752,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_brown",
+                                        ["type"] = "Container brown",
+                                        ["unitId"] = 20,
+                                        ["rate"] = 100,
+                                        ["y"] = -192577.747502,
+                                        ["x"] = 318588.03147752,
+                                        ["name"] = "Ij Warehouse Decorative Container 3",
+                                        ["heading"] = 0.85521133347722,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -192577.747502,
+                                ["x"] = 318588.03147752,
+                                ["name"] = "Ij Warehouse Decorative Container 3",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 0.89011791851711,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -192582.18245218,
+                                            ["speed"] = 0,
+                                            ["x"] = 318584.34459122,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_brown",
+                                        ["type"] = "Container brown",
+                                        ["unitId"] = 21,
+                                        ["rate"] = 100,
+                                        ["y"] = -192582.18245218,
+                                        ["x"] = 318584.34459122,
+                                        ["name"] = "Ij Warehouse Decorative Container 4",
+                                        ["heading"] = 0.89011791851711,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -192582.18245218,
+                                ["x"] = 318584.34459122,
+                                ["name"] = "Ij Warehouse Decorative Container 4",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 0.90757121103705,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -192586.88456803,
+                                            ["speed"] = 0,
+                                            ["x"] = 318580.44397238,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "konteiner_brown",
+                                        ["type"] = "Container brown",
+                                        ["unitId"] = 22,
+                                        ["rate"] = 100,
+                                        ["y"] = -192586.88456803,
+                                        ["x"] = 318580.44397238,
+                                        ["name"] = "Ij Warehouse Decorative Container 5",
+                                        ["heading"] = 0.90757121103705,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -192586.88456803,
+                                ["x"] = 318580.44397238,
+                                ["name"] = "Ij Warehouse Decorative Container 5",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -157160.54351253,
+                                                ["x"] = 431347.7535074,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -157160.54351253,
+                                                ["x"] = 431347.7535074,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 1486,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -192624.31311505,
+                                            ["x"] = 318876.88691433,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 6,
+                                        ["y"] = -192624.31311505,
+                                        ["x"] = 318876.88691433,
+                                        ["name"] = "Ij Warehouses Defence Group 1",
+                                        ["heading"] = -0.9944525342522,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 5,
+                                        ["y"] = -192662.15114446,
+                                        ["x"] = 318703.01216012,
+                                        ["name"] = "Ij Warehouses Defence Group 2",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 4,
+                                        ["y"] = -192603.65961853,
+                                        ["x"] = 318598.88773275,
+                                        ["name"] = "Ij Warehouses Defence Group 3",
+                                        ["heading"] = 4.014257279587,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 12,
+                                        ["y"] = -192563.14856256,
+                                        ["x"] = 318615.31003384,
+                                        ["name"] = "Ij Warehouses Defence Group 4",
+                                        ["heading"] = 5.550147021342,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 13,
+                                        ["y"] = -192563.55073804,
+                                        ["x"] = 318602.03824302,
+                                        ["name"] = "Ij Warehouses Defence Group 5",
+                                        ["heading"] = 5.5676003138619,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 11,
+                                        ["y"] = -192556.81429876,
+                                        ["x"] = 318607.66869973,
+                                        ["name"] = "Ij Warehouses Defence Group 6",
+                                        ["heading"] = 5.5676003138619,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 10,
+                                        ["y"] = -192549.675684,
+                                        ["x"] = 318612.89698096,
+                                        ["name"] = "Ij Warehouses Defence Group 7",
+                                        ["heading"] = 5.532693728822,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 9,
+                                        ["y"] = -192556.81429876,
+                                        ["x"] = 318620.53831507,
+                                        ["name"] = "Ij Warehouses Defence Group 8",
+                                        ["heading"] = 5.5676003138619,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 8,
+                                        ["y"] = -192415.30304782,
+                                        ["x"] = 318855.26518323,
+                                        ["name"] = "Ij Warehouses Defence Group 9",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Insurgent",
+                                        ["unitId"] = 7,
+                                        ["y"] = -192454.94288816,
+                                        ["x"] = 318381.38891012,
+                                        ["name"] = "Ij Warehouses Defence Group 10",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 1,
+                                        ["y"] = -192570.89044054,
+                                        ["x"] = 318609.98120873,
+                                        ["name"] = "Ij Warehouses Defence Group 11",
+                                        ["heading"] = 5.550147021342,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                }, -- end of ["units"]
+                                ["y"] = -192624.31311505,
+                                ["x"] = 318876.88691433,
+                                ["name"] = "Ij Warehouses Defence Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "IjFoodProcessing-1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Intelligence has uncovered the location of an Iranian military food processing facility at the city of Ij. The facility consists of two large warehouses where local produce is collected and refrigerated for distribution to Iranian army units in the field. Knocking out this facility will disrupt Iran's ability to supply its troops on our front line. The target is lightly defended by anti-aircraft guns and a small contingent of infantry, however interceptors based in Shiraz and Lar may attempt to engage you.\
+\
+The facility is located in a compound at the northwestern side of the city. Your objective is to destroy the two brown warehouses near the road leading out of the city. You may engage any transport vehicles and containers located in the immediate vicinity of the warehouses as a secondary target. Avoid any collateral damage to civilian property in the city.",
+} -- end of staticTemplate
