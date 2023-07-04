@@ -1,0 +1,405 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Blue",
+                    ["id"] = 80,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 2.1991148575129,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -251360.53096329,
+                                            ["speed"] = 0,
+                                            ["x"] = 253018.50731386,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "tele_bash",
+                                        ["type"] = "TV tower",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 100,
+                                        ["y"] = -251360.53096329,
+                                        ["x"] = 253018.50731386,
+                                        ["name"] = "PRIMARY DESTOYED Jahrom Relay Tower",
+                                        ["heading"] = 2.1991148575129,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -251360.53096329,
+                                ["x"] = 253018.50731386,
+                                ["name"] = "PRIMARY DESTOYED Jahrom Relay Tower",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0.71558499331767,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -251473.84859753,
+                                            ["speed"] = 0,
+                                            ["x"] = 253103.75411151,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 8,
+                                        ["rate"] = 50,
+                                        ["y"] = -251473.84859753,
+                                        ["x"] = 253103.75411151,
+                                        ["name"] = "Jahrom Relay Tower  Tent 4",
+                                        ["heading"] = 0.71558499331767,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -251473.84859753,
+                                ["x"] = 253103.75411151,
+                                ["name"] = "Jahrom Relay Tower  Tent 4",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 0.68067840827779,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -251427.24744797,
+                                            ["speed"] = 0,
+                                            ["x"] = 253067.97949164,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 11,
+                                        ["rate"] = 50,
+                                        ["y"] = -251427.24744797,
+                                        ["x"] = 253067.97949164,
+                                        ["name"] = "Jahrom Relay Tower  Tent 1",
+                                        ["heading"] = 0.68067840827779,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -251427.24744797,
+                                ["x"] = 253067.97949164,
+                                ["name"] = "Jahrom Relay Tower  Tent 1",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 0.71558499331767,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -251443.25188317,
+                                            ["speed"] = 0,
+                                            ["x"] = 253079.51209936,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 50,
+                                        ["y"] = -251443.25188317,
+                                        ["x"] = 253079.51209936,
+                                        ["name"] = "Jahrom Relay Tower  Tent 2",
+                                        ["heading"] = 0.71558499331767,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -251443.25188317,
+                                ["x"] = 253079.51209936,
+                                ["name"] = "Jahrom Relay Tower  Tent 2",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 0.6457718232379,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -251458.31488101,
+                                            ["speed"] = 0,
+                                            ["x"] = 253092.22150379,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 9,
+                                        ["rate"] = 50,
+                                        ["y"] = -251458.31488101,
+                                        ["x"] = 253092.22150379,
+                                        ["name"] = "Jahrom Relay Tower  Tent 3",
+                                        ["heading"] = 0.6457718232379,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -251458.31488101,
+                                ["x"] = 253092.22150379,
+                                ["name"] = "Jahrom Relay Tower  Tent 3",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2497,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -250637.08477625,
+                                            ["x"] = 252487.58927815,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "summer",
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "SON_9",
+                                        ["unitId"] = 3,
+                                        ["y"] = -250637.08477625,
+                                        ["x"] = 252487.58927815,
+                                        ["name"] = "Jahrom Relay Tower Defence Group 1",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 6,
+                                        ["y"] = -250500.80494064,
+                                        ["x"] = 252489.00885977,
+                                        ["name"] = "Jahrom Relay Tower Defence Group 2",
+                                        ["heading"] = 1.5882496193148,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 5,
+                                        ["y"] = -250765.55691296,
+                                        ["x"] = 252485.45990571,
+                                        ["name"] = "Jahrom Relay Tower Defence Group 3",
+                                        ["heading"] = 4.6949356878647,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 4,
+                                        ["y"] = -250634.95540382,
+                                        ["x"] = 252397.44584521,
+                                        ["name"] = "Jahrom Relay Tower Defence Group 4",
+                                        ["heading"] = 3.0019663134302,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 12,
+                                        ["y"] = -251406.53582595,
+                                        ["x"] = 253101.63587743,
+                                        ["name"] = "Jahrom Relay Tower Defence Group 5",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 7,
+                                        ["y"] = -251441.83972713,
+                                        ["x"] = 253129.40827969,
+                                        ["name"] = "Jahrom Relay Tower Defence Group 6",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 1,
+                                        ["y"] = -250632.11624058,
+                                        ["x"] = 252599.7362262,
+                                        ["name"] = "Jahrom Relay Tower Defence Group 7",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                }, -- end of ["units"]
+                                ["y"] = -250637.08477625,
+                                ["x"] = 252487.58927815,
+                                ["name"] = "Jahrom Relay Tower Defence Group",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "JahromRadioTower-1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "ELINT efforts have discovered that Iranian army units have commandeered a civilian radio tower near the city of Jahrom in order to relay short range communications through the mountainous terrain in the south west of Iran. Aerial recon of the area shows that the Iranian army has set up an anti-aircraft artillery battery to defend the size. Destroying this tower will disrupt Iranian command and control in the area and interfere with their efforts to bring more troops and supplies to our front line. Mobile anti-aircraft vehicles and missile defences in may also be deployed to the site. IRIAF interceptors are based at Shiraz and Lar and may attempt to engage you. The tower is located along radial 237 for 380 kilometers from Kerman Airbase.\
+\
+Your primary objective is to destroy the main radio tower. You may engage other Iranian forces in the area if the opportunity presents itself.",
+} -- end of staticTemplate
