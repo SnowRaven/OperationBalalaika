@@ -184,7 +184,8 @@ local heavyChance = 30 -- chance for a convoy to include heavy units
 -- minimum and maximum speed of a convoy in m/s
 local minSpeed = 10
 local maxSpeed = 16
-local tickets = 2 -- DCT ticket value of a convoy
+local ticketLoss = 2 -- DCT ticket loss for a convoy being destroying
+local ticketGain = 1 -- DCT ticket gain for destroying a convoy
 
 local nextConvoyID = 1
 local convoys = {}
@@ -352,11 +353,11 @@ end
 local function handleTickets(country)
     if dct ~= nil and dct.theater ~= nil then
         local convoyCoalition = coalition.getCountryCoalition(country)
-        dct.theater:getTickets():loss(convoyCoalition, tickets)
+        dct.theater:getTickets():loss(convoyCoalition, ticketLoss)
         if convoyCoalition == coalition.side.BLUE then
-            dct.theater:getTickets():reward(coalition.side.RED, tickets)
+            dct.theater:getTickets():reward(coalition.side.RED, ticketGain)
         elseif convoyCoalition == coalition.side.RED then
-            dct.theater:getTickets():reward(coalition.side.BLUE, tickets)
+            dct.theater:getTickets():reward(coalition.side.BLUE, ticketGain)
         end
     end
 end
@@ -391,7 +392,7 @@ local function handleConvoys()
             local y = totalY / groupSize
             -- check how many transports and misc vehicles are currently alive
             -- check if convoy meets destruction criteria
-            if currentTransportStrength < (convoy.transportStrength * destructionThreshold) then
+            if convoy.destroyed ~= true and currentTransportStrength < (convoy.transportStrength * destructionThreshold) then
                 convoy.destroyed = true
                 handleTickets(convoy.country) -- handle DCT tickets
                 env.info("Convoy Manager Debug: Convoy " .. tostring(convoyID) .. " destroyed", 0)
