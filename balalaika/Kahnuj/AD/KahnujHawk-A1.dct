@@ -1,5 +1,5 @@
 objtype = "SAM"
 intel = 1
-cost = 4
+cost = 0
 ignore = true
 exclusion = "KahnujHawk"

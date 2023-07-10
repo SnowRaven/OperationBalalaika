@@ -1,5 +1,5 @@
 -- Vehicle park objective
 objtype = "FACILITY"
 intel = 3
-cost = 4
+cost = 10
 priority = 10

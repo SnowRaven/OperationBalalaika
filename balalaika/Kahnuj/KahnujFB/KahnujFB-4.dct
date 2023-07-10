@@ -1,5 +1,5 @@
 -- Hangar objective
 objtype = "OCA"
 intel = 3
-cost = 4
+cost = 10
 priority = 13

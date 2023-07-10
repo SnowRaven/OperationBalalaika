@@ -2,15 +2,19 @@ time = 0 -- infinite
 
 red = {
 	flag		= 60,
-	tickets 	= 9999,
-	difficulty	= "realistic",
+	tickets 	= 100,
+	player_cost     = 1,
+	modifier_reward = 0.1,
+	modifier_loss   = 1,
 }
 
 
 blue = {
 	flag		= 45,
-	tickets		= 9999,
-	difficulty	= "realistic",
+	tickets		= 1000,
+	player_cost     = 1,
+	modifier_reward = 0.1,
+	modifier_loss   = 1,
 }
 
 neutral = {

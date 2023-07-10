@@ -1,5 +1,5 @@
 -- Bunker objective
 objtype = "BUNKER"
 intel = 3
-cost = 4
+cost = 10
 priority = 11

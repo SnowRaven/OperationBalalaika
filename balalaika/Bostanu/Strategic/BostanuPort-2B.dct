@@ -1,6 +1,6 @@
 -- Red-decked ship
-objtype = "PORT"
+objtype = "STRATEGIC"
 intel = 3
-cost = 4
+cost = 75
 priority = 2
 exclusion = "BostanuShips"

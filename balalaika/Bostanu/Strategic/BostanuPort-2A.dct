@@ -1,0 +1,6 @@
+-- Grey-decked ships
+objtype = "STRATEGIC"
+intel = 3
+cost = 75
+priority = 2
+exclusion = "BostanuShips"

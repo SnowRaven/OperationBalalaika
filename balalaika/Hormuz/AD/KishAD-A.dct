@@ -1,4 +1,4 @@
 objtype = "SHORAD"
 intel = 3
-cost = 4
+cost = 0
 ignore = true

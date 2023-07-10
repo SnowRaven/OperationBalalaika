@@ -1,6 +1,6 @@
 objtype = "SEA"
 intel = 3
-cost = 4
+cost = 8
 nocull = true
 
 location = {
