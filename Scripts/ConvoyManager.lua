@@ -1,7 +1,5 @@
 -- OKB-17 convoy manager script by Arctic Fox --
 
-assert(dct and dct.theater, "DCT not found")
-
 -- enum and stuff
 -- DCS country IDs
 local countries = {
@@ -78,6 +76,7 @@ local function initRoutes()
                         table.insert(routes[country.id], route)
                         -- add the reverse route
                         table.insert(routes[country.id], reverseRoute(route))
+                        env.info("Convoy Manager Debug: Route " .. group.name:sub(3) .. " created", 0)
                     end
                 end
             end
