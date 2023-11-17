@@ -702,7 +702,7 @@ local function detectTargets()
 			-- get all targets currently detected by this tracker
 			local targets = tracker:getController():getDetectedTargets(Controller.Detection.RADAR)
 			for key, target in pairs(targets) do
-				if (target.object ~= nil) and (target.object:getCategory() == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
+				if (target.object ~= nil) and (Object.getCategory(target.object) == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
 					local targetCorrelated = false
 					-- check if target can be correlated to any existing tracks
 					for key, track in pairs(tracks) do
@@ -730,7 +730,7 @@ local function detectTargets()
 			-- get all targets currently detected by this tracker
 			local targets = tracker:getController():getDetectedTargets(Controller.Detection.RADAR, Controller.Detection.VISUAL, Controller.Detection.OPTIC, Controller.Detection.IRST)
 			for key, target in pairs(targets) do
-				if (target.object ~= nil) and (target.object:getCategory() == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
+				if (target.object ~= nil) and (Object.getCategory(target.object) == Object.Category.UNIT) and (target.object:getCoalition() ~= side) then
 					local targetCorrelated = false
 					-- check if target can be correlated to any existing tracks
 					for key, track in pairs(tracks) do
@@ -858,7 +858,7 @@ local function resetAirbaseSkip(airbaseID)
 	activeAirbases[airbaseID].skip = false
 end
 
-local function allowedTargetCategrory(squadron, targetCategory)
+local function allowedTargetCategory(squadron, targetCategory)
 	if squadron.targetCategories ~= nil then
 		for key, category in pairs(squadron.targetCategories) do
 			if category == targetCategory then
@@ -1568,7 +1568,7 @@ local function launchIntercept(trackID)
 		local interceptSquadrons = {}
 		-- add up all the squadrons in the airbase and select a random one
 		for key, squadron in pairs(airbases[airbaseData.airbaseID].Squadrons) do
-			if squadron.missions["Intercept"] == true and allowedTargetCategrory(squadron, tracks[trackID].category) then
+			if squadron.missions["Intercept"] == true and allowedTargetCategory(squadron, tracks[trackID].category) then
 				if getDistance(trackPosition.x, trackPosition.y, baseLocation.x, baseLocation.z) < squadron.interceptRadius then
 					-- use high priority squadrons only for high threat tracks
 					if tracks[trackID].highThreat == true then
@@ -1747,7 +1747,7 @@ local function interceptATO()
 								flightAirborne = false
 							end
 						end
-						if flightAirborne and allowedTargetCategrory(airbases[flightData.airbaseID].Squadrons[flightData.squadronID], tracks[trackID].category) then
+						if flightAirborne and allowedTargetCategory(airbases[flightData.airbaseID].Squadrons[flightData.squadronID], tracks[trackID].category) then
 							local targetRange
 							local targetInRange = false
 							if flightData.mission == "Escort" or flightData.mission == "HAVCAP" then
@@ -1828,7 +1828,7 @@ local function controlIntercept(flightData)
 	local targetDetected = false
 	local interceptTask
 	for key, target in pairs(targets) do
-		if target.object ~= nil and target.object:getCategory() == Object.Category.UNIT and target.object:getCoalition() ~= side then
+		if target.object ~= nil and Object.getCategory(target.object) == Object.Category.UNIT and target.object:getCoalition() ~= side then
 			if correlateTrack(interceptTarget, target) then
 				env.info("Red Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " target detected", 0)
 				targetDetected = true
@@ -2201,7 +2201,7 @@ timer.scheduleFunction(cleanupFlights, nil, timer.getTime() + 120)
 function handler:onEvent(event)
 	-- add air defence tracking units when spawned
 	if event.id == world.event.S_EVENT_BIRTH then
-		if event.initiator:getCategory() == Object.Category.UNIT then
+		if Object.getCategory(event.initiator) == Object.Category.UNIT then
 			if event.initiator:getGroup():getCoalition() == side then
 				addTracker(event.initiator)
 			end
