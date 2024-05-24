@@ -58,7 +58,7 @@ local missionClass = {
 local typeAlias = {
 	["F-14A-135-GR"] = "Tomcat",
 	["F-14B"] = "Tomcat",
-	["F-4E"] = "Phantom",
+	["F-4E-45MC"] = "Phantom",
 	["F-5E-3"] = "Tiger",
 	["F-16C_50"] = "Falcon",
 	["AH-1W"] = "Cobra",
@@ -72,7 +72,7 @@ local typeAlias = {
 local typeCategory = {
 	["F-14A-135-GR"] = Group.Category.AIRPLANE,
 	["F-14B"] = Group.Category.AIRPLANE,
-	["F-4E"] = Group.Category.AIRPLANE,
+	["F-4E-45MC"] = Group.Category.AIRPLANE,
 	["F-5E-3"] = Group.Category.AIRPLANE,
 	["F-16C_50"] = Group.Category.AIRPLANE,
 	["KC-135"] = Group.Category.AIRPLANE,
@@ -1839,7 +1839,7 @@ local function controlIntercept(flightData)
 	-- special F-4 exception, since they apparently can't detect targets to save their life
 	-- also special general excepction in case the interceptors are really close but blind because of altitude difference and can't climb
 	if convert ~= true then
-		if getAircraftType(flightGroup) == "F-4E" and targetInSearchRange and tracks[interceptTarget].alt > 3000 then
+		if getAircraftType(flightGroup) == "F-4E-45MC" and targetInSearchRange and tracks[interceptTarget].alt > 3000 then
 			targetDetected = true
 			env.info("Red Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " target detected by F-4 exception", 0)
 		elseif distance < 5000 and math.abs(tracks[interceptTarget].alt - getLowestFlightAltitude(flightGroup)) > 5000 then

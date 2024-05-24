@@ -58,7 +58,7 @@ local missionClass = {
 local typeAlias = {
 	["F-14A-135-GR"] = "Tomcat",
 	["F-14B"] = "Tomcat",
-	["F-4E"] = "Phantom",
+	["F-4E-45MC"] = "Phantom",
 	["F-5E-3"] = "Tiger",
 	["F-16C_50"] = "Falcon",
 	["AH-1W"] = "Cobra",
@@ -72,7 +72,7 @@ local typeAlias = {
 local typeCategory = {
 	["F-14A-135-GR"] = Group.Category.AIRPLANE,
 	["F-14B"] = Group.Category.AIRPLANE,
-	["F-4E"] = Group.Category.AIRPLANE,
+	["F-4E-45MC"] = Group.Category.AIRPLANE,
 	["F-5E-3"] = Group.Category.AIRPLANE,
 	["F-16C_50"] = Group.Category.AIRPLANE,
 	["KC-135"] = Group.Category.AIRPLANE,
@@ -115,7 +115,7 @@ local tankerParameters = {
 -- table defining preferred tactics for each aircraft type
 local preferredTactic = {
 	["F-5E-3"] = interceptTactic.Stern,
-	["F-4E"] = interceptTactic.Beam,
+	["F-4E-45MC"] = interceptTactic.Beam,
 	["F-14A-135-GR"] = interceptTactic.LeadHigh
 }
 
@@ -136,7 +136,7 @@ local highThreatType = {
 -- if range is not defined radar SOP is assumed to be always on
 local radarRange = {
 	["F-5E3"] = 12000,
-	["F-4E"] = 60000
+	["F-4E-45MC"] = 60000
 }
 
 -- any zones where interception will not be launched even if in range of a squadron
@@ -218,9 +218,9 @@ local airbases = {
 			["91TFS"] = {
 				["name"] = "91st TFS",
 				["country"] = country.Iran,
-				["type"] = "F-4E",
+				["type"] = "F-4E-45MC",
 				["skill"] = "High",
-				["livery"] = "IRIAF Asia Minor",
+				["livery"] = "iriaf-3-6673",
 				["allWeatherAA"] = capability.Full,
 				["allWeatherAG"] = capability.None,
 				["interceptRadius"] = 220000, -- radius of action around the airbase for interceptors from this squadron in meters
@@ -241,57 +241,91 @@ local airbases = {
 							{
 								[1] =
 								{
-									["CLSID"] = "{7B4B122D-C12C-4DB4-834E-4D8BB4D863A8}",
+									["CLSID"] = "{F4_SARGENT_TANK_370_GAL}",
 								},
 								[2] =
 								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
+									["CLSID"] = "{AIM-9J}",
 								},
-								[3] =
+								[4] =
 								{
-									["CLSID"] = "{AIM-7E}",
+									["CLSID"] = "{AIM-9J}",
 								},
-								[7] =
+								[6] =
 								{
-									["CLSID"] = "{AIM-7E}",
+									["CLSID"] = "{HB_F4E_AIM-7E-2}",
 								},
 								[8] =
 								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
+									["CLSID"] = "{HB_F4E_AIM-7E-2}",
 								},
-								[9] =
+								[14] =
 								{
-									["CLSID"] = "{7B4B122D-C12C-4DB4-834E-4D8BB4D863A8}",
+									["CLSID"] = "{HB_ALE_40_30_60}",
+								},
+								[10] =
+								{
+									["CLSID"] = "{AIM-9J}",
+								},
+								[12] =
+								{
+									["CLSID"] = "{AIM-9J}",
+								},
+								[13] =
+								{
+									["CLSID"] = "{F4_SARGENT_TANK_370_GAL_R}",
 								},
 							},
-							["fuel"] = 4864,
+							["fuel"] = 5510.5,
 							["flare"] = 30,
-							["chaff"] = 60,
+							["chaff"] = 120,
+							["ammo_type"] = 1,
 							["gun"] = 100,
 						},
 						["QRA"] = {
 							["pylons"] =
 							{
+								[1] =
+								{
+									["CLSID"] = "<CLEAN>",
+								},
 								[2] =
 								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
+									["CLSID"] = "{AIM-9J}",
 								},
-								[3] =
+								[4] =
 								{
-									["CLSID"] = "{AIM-7E}",
+									["CLSID"] = "{AIM-9J}",
 								},
-								[7] =
+								[6] =
 								{
-									["CLSID"] = "{AIM-7E}",
+									["CLSID"] = "{HB_F4E_AIM-7E-2}",
 								},
 								[8] =
 								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
+									["CLSID"] = "{HB_F4E_AIM-7E-2}",
+								},
+								[14] =
+								{
+									["CLSID"] = "{HB_ALE_40_30_60}",
+								},
+								[10] =
+								{
+									["CLSID"] = "{AIM-9J}",
+								},
+								[12] =
+								{
+									["CLSID"] = "{AIM-9J}",
+								},
+								[13] =
+								{
+									["CLSID"] = "<CLEAN>",
 								},
 							},
-							["fuel"] = 4864,
+							["fuel"] = 5510.5,
 							["flare"] = 30,
-							["chaff"] = 60,
+							["chaff"] = 120,
+							["ammo_type"] = 1,
 							["gun"] = 100,
 						}
 					}
@@ -370,8 +404,8 @@ local airbases = {
 							},
 							["fuel"] = 7348,
 							["flare"] = 60,
-							["ammo_type"] = 1,
 							["chaff"] = 140,
+							["ammo_type"] = 1,
 							["gun"] = 100,
 						}
 					}
@@ -427,8 +461,8 @@ local airbases = {
 							},
 							["fuel"] = 2046,
 							["flare"] = 15,
-							["ammo_type"] = 2,
 							["chaff"] = 30,
+							["ammo_type"] = 2,
 							["gun"] = 100,
 						},
 						["QRA"] = {
@@ -466,9 +500,9 @@ local airbases = {
 			["71TFS"] = {
 				["name"] = "71st TFS",
 				["country"] = country.Iran,
-				["type"] = "F-4E", -- F-4D
+				["type"] = "F-4E-45MC", -- F-4D
 				["skill"] = "High",
-				["livery"] = "IRIAF Asia Minor",
+				["livery"] = "iriaf-3-6643",
 				["allWeatherAA"] = capability.Full,
 				["allWeatherAG"] = capability.None,
 				["interceptRadius"] = 350000, -- radius of action around the airbase for interceptors from this squadron in meters
@@ -489,58 +523,84 @@ local airbases = {
 							{
 								[1] =
 								{
-									["CLSID"] = "{7B4B122D-C12C-4DB4-834E-4D8BB4D863A8}",
+									["CLSID"] = "{F4_SARGENT_TANK_370_GAL}",
 								},
 								[2] =
 								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
+									["CLSID"] = "{AIM-9J}",
 								},
-								[3] =
+								[4] =
 								{
-									["CLSID"] = "{AIM-7E}",
+									["CLSID"] = "{AIM-9J}",
 								},
-								[7] =
+								[6] =
 								{
-									["CLSID"] = "{AIM-7E}",
+									["CLSID"] = "{HB_F4E_AIM-7E-2}",
 								},
 								[8] =
 								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
+									["CLSID"] = "{HB_F4E_AIM-7E-2}",
 								},
-								[9] =
+								[10] =
 								{
-									["CLSID"] = "{7B4B122D-C12C-4DB4-834E-4D8BB4D863A8}",
+									["CLSID"] = "{AIM-9J}",
+								},
+								[12] =
+								{
+									["CLSID"] = "{AIM-9J}",
+								},
+								[13] =
+								{
+									["CLSID"] = "{F4_SARGENT_TANK_370_GAL_R}",
 								},
 							},
-							["fuel"] = 4864,
+							["fuel"] = 5510.5,
 							["flare"] = 0,
 							["chaff"] = 0,
-							["gun"] = 0,
+							["ammo_type"] = 1,
+							["gun"] = 100,
 						},
 						["QRA"] = {
 							["pylons"] =
 							{
+								[1] =
+								{
+									["CLSID"] = "<CLEAN>",
+								},
 								[2] =
 								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
+									["CLSID"] = "{AIM-9J}",
 								},
-								[3] =
+								[4] =
 								{
-									["CLSID"] = "{AIM-7E}",
+									["CLSID"] = "{AIM-9J}",
 								},
-								[7] =
+								[6] =
 								{
-									["CLSID"] = "{AIM-7E}",
+									["CLSID"] = "{HB_F4E_AIM-7E-2}",
 								},
 								[8] =
 								{
-									["CLSID"] = "{773675AB-7C29-422f-AFD8-32844A7B7F17}",
+									["CLSID"] = "{HB_F4E_AIM-7E-2}",
+								},
+								[10] =
+								{
+									["CLSID"] = "{AIM-9J}",
+								},
+								[12] =
+								{
+									["CLSID"] = "{AIM-9J}",
+								},
+								[13] =
+								{
+									["CLSID"] = "<CLEAN>",
 								},
 							},
-							["fuel"] = 4864,
+							["fuel"] = 5510.5,
 							["flare"] = 0,
 							["chaff"] = 0,
-							["gun"] = 0,
+							["ammo_type"] = 1,
+							["gun"] = 100,
 						}
 					}
 				},
@@ -618,8 +678,8 @@ local airbases = {
 							},
 							["fuel"] = 7348,
 							["flare"] = 60,
-							["ammo_type"] = 1,
 							["chaff"] = 140,
+							["ammo_type"] = 1,
 							["gun"] = 100,
 						}
 					}
@@ -696,8 +756,8 @@ local airbases = {
 							},
 							["fuel"] = 7348,
 							["flare"] = 60,
-							["ammo_type"] = 1,
 							["chaff"] = 140,
+							["ammo_type"] = 1,
 							["gun"] = 100,
 						}
 					}
@@ -2378,7 +2438,7 @@ local function controlIntercept(flightData)
 	-- special F-4 exception, since they apparently can't detect targets to save their life
 	-- also special general excepction in case the interceptors are really close but blind because of altitude difference and can't climb
 	if convert ~= true then
-		if getAircraftType(flightGroup) == "F-4E" and targetInSearchRange and tracks[interceptTarget].alt > 3000 then
+		if getAircraftType(flightGroup) == "F-4E-45MC" and targetInSearchRange and tracks[interceptTarget].alt > 3000 then
 			targetDetected = true
 			env.info("Blue Air Debug: Flight " .. tostring(flightGroup:getID()) .. " intercepting " .. tostring(interceptTarget) .. " target detected by F-4 exception", 0)
 		elseif distance < 5000 and math.abs(tracks[interceptTarget].alt - getLowestFlightAltitude(flightGroup)) > 5000 then
