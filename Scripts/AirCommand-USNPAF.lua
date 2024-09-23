@@ -16,16 +16,18 @@ local parameters = {
 
 -- parameters for aircraft
 local aircraftParameters = {
-	["commitRange"] = 120000,
-	["maxAltitude"] = 9144,
-	["standardAltitude"] = 7620,
-	["returnAltitude"] = 9144,
-	["ambushAltitude"] = 183,
-	["standardSpeed"] = 250,
-	["ambushSpeed"] = 200,
-	["F-16C_50"] = {
-		["radarRange"] = 60000
-	},
+	[Unit.Category.AIRPLANE] = {
+		["commitRange"] = 120000,
+		["maxAltitude"] = 9144,
+		["standardAltitude"] = 7620,
+		["returnAltitude"] = 9144,
+		["ambushAltitude"] = 183,
+		["standardSpeed"] = 250,
+		["ambushSpeed"] = 200,
+		["F-16C_50"] = {
+			["radarRange"] = 60000
+		}
+	}
 }
 
 -- table defining aircraft threat types, any not defined is assumed to be standard

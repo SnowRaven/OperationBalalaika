@@ -8,38 +8,40 @@ local defs = require("Defs")
 local parameters = {
 	["minPackageTime"] = 2400,
 	["maxPackageTime"] = 4800,
-	["tankerChance"] = 20,
+	["tankerChance"] = 15,
 	["CAPChance"] = 80,
  	["AMBUSHChance"] = 60
 }
 
 -- parameters for aircraft
 local aircraftParameters = {
-	["maxAltitude"] = 9144,
-	["standardAltitude"] = 7620,
-	["returnAltitude"] = 9144,
-	["ambushAltitude"] = 183,
-	["standardSpeed"] = 250,
-	["ambushSpeed"] = 200,
-	["KC-135"] = {
-		["standardAltitude"] = 6096.1,
-		["standardSpeed"] = 211.1
-	},
-	["KC135MPRS"] = {
-		["standardAltitude"] = 6096.1,
-		["standardSpeed"] = 211.1
-	},
-	["F-5E-3"] = {
-		["preferredTactic"] = defs.interceptTactic.Stern,
-		["radarRange"] = 12000
-	},
-	["F-4E-45MC"] = {
-		["preferredTactic"] = defs.interceptTactic.Beam,
-		["radarRange"] = 60000
-	},
-	["F-14A-135-GR"] = {
-		["preferredTactic"] = defs.interceptTactic.LeadHigh
-	},
+	[Unit.Category.AIRPLANE] = {
+		["maxAltitude"] = 9144,
+		["standardAltitude"] = 7620,
+		["returnAltitude"] = 9144,
+		["ambushAltitude"] = 183,
+		["standardSpeed"] = 250,
+		["ambushSpeed"] = 200,
+		["KC-135"] = {
+			["standardAltitude"] = 6096.1,
+			["standardSpeed"] = 211.1
+		},
+		["KC135MPRS"] = {
+			["standardAltitude"] = 6096.1,
+			["standardSpeed"] = 211.1
+		},
+		["F-5E-3"] = {
+			["preferredTactic"] = defs.interceptTactic.Stern,
+			["radarRange"] = 12000
+		},
+		["F-4E-45MC"] = {
+			["preferredTactic"] = defs.interceptTactic.Beam,
+			["radarRange"] = 60000
+		},
+		["F-14A-135-GR"] = {
+			["preferredTactic"] = defs.interceptTactic.LeadHigh
+		}
+	}
 }
 
 -- table defining aircraft threat types, any not defined is assumed to be standard

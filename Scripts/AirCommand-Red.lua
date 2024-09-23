@@ -15,22 +15,24 @@ local parameters = {
 
 -- parameters for aircraft
 local aircraftParameters = {
-	["escortCommitRange"] = 90000,
-	["maxAltitude"] = 10000,
-	["standardAltitude"] = 7500,
-	["returnAltitude"] = 9000,
-	["ambushAltitude"] = 180,
-	["standardSpeed"] = 250,
-	["ambushSpeed"] = 200,
-	["IL-78M"] = {
-		["standardAltitude"] = 8000,
-		["standardSpeed"] = 233.6
-	},
-	["Su-27"] = {
-		["preferredTactic"] = defs.interceptTactic.LeadHigh
-	},
-	["MiG-31"] = {
-		["preferredTactic"] = defs.interceptTactic.LeadHigh
+	[Unit.Category.AIRPLANE] = {
+		["escortCommitRange"] = 90000,
+		["maxAltitude"] = 10000,
+		["standardAltitude"] = 7500,
+		["returnAltitude"] = 9000,
+		["ambushAltitude"] = 180,
+		["standardSpeed"] = 250,
+		["ambushSpeed"] = 200,
+		["IL-78M"] = {
+			["standardAltitude"] = 8000,
+			["standardSpeed"] = 233.6
+		},
+		["Su-27"] = {
+			["preferredTactic"] = defs.interceptTactic.LeadHigh
+		},
+		["MiG-31"] = {
+			["preferredTactic"] = defs.interceptTactic.LeadHigh
+		}
 	}
 }
 
