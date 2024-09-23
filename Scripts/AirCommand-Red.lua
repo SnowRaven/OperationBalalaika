@@ -9,6 +9,7 @@ local parameters = {
 	["minPackageTime"] = 300,
 	["maxPackageTime"] = 600,
 	["tankerChance"] = 100,
+	["AEWChance"] = 100,
 	["CAPChance"] = 5,
  	["AMBUSHChance"] = 0
 }
