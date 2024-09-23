@@ -9,7 +9,7 @@ local parameters = {
 	["minPackageTime"] = 300,
 	["maxPackageTime"] = 600,
 	["tankerChance"] = 100,
-	["CAPChance"] = 2,
+	["CAPChance"] = 5,
  	["AMBUSHChance"] = 0
 }
 
@@ -26,6 +26,9 @@ local aircraftParameters = {
 		["IL-78M"] = {
 			["standardAltitude"] = 8000,
 			["standardSpeed"] = 233.6
+		},
+		["A-50"] = {
+			["standardAltitude"] = 11000,
 		},
 		["Su-27"] = {
 			["preferredTactic"] = defs.interceptTactic.LeadHigh
@@ -54,6 +57,19 @@ local orbits = {
 		},
 		["airframes"] = {
 			["IL-78M"] = true
+		}
+	},
+	["AEW"] = {
+		[1] = {
+			["x"] = 508989,
+			["y"] = 67226
+		},
+		[2] = {
+			["x"] = 452151,
+			["y"] = 115753
+		},
+		["airframes"] = {
+			["A-50"] = true
 		}
 	}
 }
@@ -369,6 +385,35 @@ local OOB = {
 				},
 				["callsigns"] = {
 					["Atlant"] = 0
+				}
+			},
+			["144OAPDRLO"] = {
+				["name"] = "144 OAPDRLO",
+				["country"] = country.USSR,
+				["type"] = "A-50",
+				["skill"] = "High",
+				["livery"] = "RF Air Force",
+				["baseFlightSize"] = 1,
+				["missions"] = {
+					[defs.missionType.AEW] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.Support] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+							},
+							["fuel"] = 70000,
+							["flare"] = 192,
+							["chaff"] = 192,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Jupiter"] = 0,
+					["Saturn"] = 0,
+					["Mercury"] = 0
 				}
 			}
 		}
