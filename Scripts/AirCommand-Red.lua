@@ -71,6 +71,10 @@ local orbits = {
 		},
 		["airframes"] = {
 			["A-50"] = true
+		},
+		["comm"] = {
+			["frequency"] = 139.3,
+			["modulation"] = 0
 		}
 	}
 }
