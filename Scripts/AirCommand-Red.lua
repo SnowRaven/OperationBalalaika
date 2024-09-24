@@ -73,7 +73,7 @@ local orbits = {
 			["A-50"] = true
 		},
 		["comm"] = {
-			["frequency"] = 139.3,
+			["frequency"] = 139300000,
 			["modulation"] = 0
 		}
 	}
