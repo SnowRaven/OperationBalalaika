@@ -57,7 +57,8 @@ local orbits = {
 		},
 		["airframes"] = {
 			["E-2C"] = true
-		}
+		},
+		["HAVCAP"] = true
 	}
 }
 

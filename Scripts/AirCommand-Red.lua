@@ -58,7 +58,8 @@ local orbits = {
 		},
 		["airframes"] = {
 			["IL-78M"] = true
-		}
+		},
+		["HAVCAP"] = true
 	},
 	["AEW"] = {
 		[1] = {
@@ -75,7 +76,8 @@ local orbits = {
 		["comm"] = {
 			["frequency"] = 139300000,
 			["modulation"] = 0
-		}
+		},
+		["HAVCAP"] = true
 	}
 }
 
